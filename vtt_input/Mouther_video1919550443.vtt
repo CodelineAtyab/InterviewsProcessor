@@ -1,0 +1,1569 @@
+WEBVTT
+
+
+00:00:02.214 --> 00:00:11.214
+The recording is in progress? Okay, uh, Mudar, this is going to be a hopefully quick interview, 20 minutes, right? We are just going to cover a few things, uh…
+
+00:00:02.260 --> 00:00:08.260
+hopefully quick in terms of 20 minutes, right?
+
+00:00:09.217 --> 00:00:11.217
+Just need to cover a few things, uh…
+
+00:00:11.210 --> 00:00:16.210
+Uh, so, uh, we are going to just start with Python Basics, right?
+
+00:00:11.753 --> 00:00:15.753
+Uh, so, uh, we're going to just start by the basics.
+
+00:00:15.714 --> 00:00:17.714
+Right? So…
+
+00:00:16.186 --> 00:00:18.186
+So,
+
+00:00:19.412 --> 00:00:21.412
+For some people…
+
+00:00:19.747 --> 00:00:21.747
+For some people, I might skip the basics.
+
+00:00:22.073 --> 00:00:29.073
+Okay. Does it mean… like, for example, if you're able to answer some advanced things, automatically basics are fulfilled, right? That will save time.
+
+00:00:22.888 --> 00:00:28.888
+Okay, so it doesn't mean… like, for example, if you're able to ask yourself some advanced things, it automatically basics are in there.
+
+00:00:29.720 --> 00:00:31.720
+Uh, let's say…
+
+00:00:29.964 --> 00:00:31.964
+Uh, let's see…
+
+00:00:31.905 --> 00:00:33.905
+You are…
+
+00:00:32.373 --> 00:00:34.373
+You are?
+
+00:00:34.862 --> 00:00:37.862
+developing a contact book application. Contact books, right?
+
+00:00:35.265 --> 00:00:38.265
+development, a contact book application.
+
+00:00:38.087 --> 00:00:42.087
+In which I can add the contacts, I can remove the contacts. Yeah.
+
+00:00:39.139 --> 00:00:42.139
+In which I can add the contacts, and remove the contacts. Yeah.
+
+00:00:42.420 --> 00:00:44.420
+I can view the contacts, right?
+
+00:00:42.725 --> 00:00:44.725
+I can view the contacts right now.
+
+00:00:46.146 --> 00:00:48.146
+And I can view specific contexts also.
+
+00:00:46.307 --> 00:00:48.307
+And I can view a specific context.
+
+00:00:49.146 --> 00:00:51.146
+And…
+
+00:00:52.157 --> 00:00:54.157
+Let's say you can use…
+
+00:00:52.374 --> 00:00:54.374
+That's it. You can use…
+
+00:00:54.556 --> 00:00:56.556
+dictionary, either, to store.
+
+00:00:56.666 --> 00:00:58.666
+The contracts, or you can use a list.
+
+00:00:56.977 --> 00:00:58.977
+That's only the industry.
+
+00:00:58.924 --> 00:01:01.924
+So, what would you…
+
+00:00:59.589 --> 00:01:01.589
+destroy the context, right? So what would you…
+
+00:01:01.805 --> 00:01:03.805
+So, I'll probably start to…
+
+00:01:02.971 --> 00:01:07.971
+I'll probably start in a dictionary, because you'll have a key and the values inside of it, so…
+
+00:01:04.111 --> 00:01:07.111
+Eric, because you have a key and a value.
+
+00:01:08.004 --> 00:01:10.004
+Maybe you'll save the key as…
+
+00:01:08.187 --> 00:01:10.187
+Maybe, you know, you save the key as…
+
+00:01:10.488 --> 00:01:18.488
+the name of the person, the first name, and the last name, and then the key is for their phone number, their address, or whatever other things you want in the notation.
+
+00:01:11.007 --> 00:01:13.007
+the name of the person, the first name and the last name.
+
+00:01:13.928 --> 00:01:16.928
+And then the key is for their phone number, their address, or whatever.
+
+00:01:17.024 --> 00:01:19.024
+other things you want to consider.
+
+00:01:19.479 --> 00:01:21.479
+Okay, nice. So…
+
+00:01:20.131 --> 00:01:22.131
+Nice.
+
+00:01:23.780 --> 00:01:25.780
+what, let's say, uh…
+
+00:01:23.810 --> 00:01:27.810
+what, let's say, uh, if I use a list, let's say,
+
+00:01:25.982 --> 00:01:27.982
+If I'm using this. Yeah.
+
+00:01:27.923 --> 00:01:34.923
+to just keep on adding contacts. Uh, what is the problem using a list here? For the list, it won't be…
+
+00:01:28.586 --> 00:01:32.586
+What is the problem using this channel?
+
+00:01:33.151 --> 00:01:35.151
+For the rest, it won't be…
+
+00:01:35.542 --> 00:01:37.542
+organized, and…
+
+00:01:35.733 --> 00:01:37.733
+organized, and…
+
+00:01:39.352 --> 00:01:42.352
+The value is…
+
+00:01:39.529 --> 00:01:42.529
+you… the link… the value is between the name and
+
+00:01:42.562 --> 00:01:47.562
+Whatever it's. Inside, I have…
+
+00:01:43.008 --> 00:01:52.008
+whatever it's… Okay, I have a list of tuples, right? So, I have a list of tuples. So, inside, I have, uh, contact number, common name, right? Then another item would be contact number, common name.
+
+00:01:48.039 --> 00:01:52.039
+Okay, then another item in the contact number.
+
+00:01:52.332 --> 00:01:54.332
+Right, so what is the disadvantage of…
+
+00:01:52.619 --> 00:01:54.619
+What is the disadvantage of…
+
+00:01:54.840 --> 00:01:56.840
+using the list, yeah.
+
+00:01:54.894 --> 00:01:56.894
+They're using the list.
+
+00:01:57.279 --> 00:02:02.279
+I think it's slower than the dictionary in Python. In terms of what, like, searching, it's inside of it.
+
+00:01:57.343 --> 00:02:02.343
+I think it's slower than the dictionary in both instances. In terms of what, like, searching, it's inside of the…
+
+00:02:02.242 --> 00:02:04.242
+Okay, such nice, right?
+
+00:02:05.117 --> 00:02:07.117
+Okay, so…
+
+00:02:05.400 --> 00:02:07.400
+Okay, so…
+
+00:02:07.332 --> 00:02:09.332
+If I ask you now that
+
+00:02:07.750 --> 00:02:09.750
+If I ask you now, then…
+
+00:02:10.453 --> 00:02:13.453
+If I tell you there's a benefit of using a list, right?
+
+00:02:10.625 --> 00:02:13.625
+If I tell you there's a benefit of using a list, right?
+
+00:02:13.597 --> 00:02:17.597
+Just like you figured out a disadvantage of Illustrate, there is a disadvantage of
+
+00:02:13.876 --> 00:02:17.876
+Just like you figure out what to decide not to joking up straight. There's a disadvantage of…
+
+00:02:18.648 --> 00:02:21.648
+dictionary also, right? Now, I will give you, um…
+
+00:02:18.989 --> 00:02:21.989
+Now, I will give you, uh…
+
+00:02:22.516 --> 00:02:27.516
+I just want you to tell me that, for example, if I use a dictionary, for example, and
+
+00:02:23.421 --> 00:02:27.421
+I just want you to tell me that, for example, if I look into a dictionary,
+
+00:02:27.509 --> 00:02:29.509
+I want to store…
+
+00:02:27.912 --> 00:02:29.912
+I got this tool.
+
+00:02:29.723 --> 00:02:31.723
+a million records. Yeah.
+
+00:02:29.906 --> 00:02:31.906
+A million networks. Yes.
+
+00:02:32.155 --> 00:02:35.155
+Maybe, let's say I'm reading from a file storing a million records.
+
+00:02:32.340 --> 00:02:35.340
+Maybe that's meeting from 5 to 20 million records.
+
+00:02:36.157 --> 00:02:38.157
+I have two programs. One is using a…
+
+00:02:36.418 --> 00:02:38.418
+I have two programs, one of these in the…
+
+00:02:38.483 --> 00:02:43.483
+Technology one is using a list, and I have to add a million records. Which program
+
+00:02:38.568 --> 00:02:40.568
+Actually, when you're using a list.
+
+00:02:41.002 --> 00:02:44.002
+And I have to… I mean, the first pitch.
+
+00:02:44.560 --> 00:02:46.560
+Do you think will work better in this scenario?
+
+00:02:44.756 --> 00:02:46.756
+I understand you.
+
+00:02:47.046 --> 00:02:49.046
+The list one, or the dictionary one?
+
+00:02:47.211 --> 00:02:49.211
+This one, or the picture?
+
+00:02:49.546 --> 00:02:51.546
+I think if you're copying, I think…
+
+00:02:49.965 --> 00:02:52.965
+I think if you're copying, I think it would be faster for the list.
+
+00:02:51.774 --> 00:02:56.774
+Uh, if you're just talking, okay. Yeah, that's okay. What is the reason for that?
+
+00:02:53.974 --> 00:02:56.974
+if you're just talking about… Yeah, we're just copying.
+
+00:02:57.283 --> 00:03:00.283
+Because then it's not that good.
+
+00:02:57.507 --> 00:03:03.507
+Uh… because it's not, like, two different values for industries, so it just…
+
+00:03:00.468 --> 00:03:03.468
+values, or… so it just…
+
+00:03:03.924 --> 00:03:08.924
+it will automatically… everything in the top of it. Okay, okay, like… But for the initial…
+
+00:03:04.298 --> 00:03:09.298
+it will automatically just puts everything in a topic, everything in a topic. But for the dictionary…
+
+00:03:09.101 --> 00:03:15.101
+First of the key, and then the valid key, and then the value. Okay, yeah, I got the idea, nice.
+
+00:03:10.139 --> 00:03:15.139
+First, the key, and then the valid key, and then the value. Okay, yeah.
+
+00:03:15.306 --> 00:03:28.306
+Okay, let's move to… you have been, like, working on many Python scripts, right? You might have seen this, uh, if underscore underscore name equal to equal to underscore underscore name, right? Uh, what do you think is the benefit of adding this?
+
+00:03:16.405 --> 00:03:21.405
+Okay, let's move to, uh… you have been, like, working on many Python scripts, right? You might have seen this, uh…
+
+00:03:21.783 --> 00:03:24.783
+Right.
+
+00:03:24.778 --> 00:03:26.778
+Uh, the painting is still…
+
+00:03:26.753 --> 00:03:28.753
+benefit of having this, uh…
+
+00:03:29.120 --> 00:03:31.120
+let's say I have a mean.py file. Yeah.
+
+00:03:29.475 --> 00:03:31.475
+you have filed. Yeah.
+
+00:03:31.500 --> 00:03:34.500
+And then I have secondary.py file.
+
+00:03:32.708 --> 00:03:34.708
+And then I have secondary work for fun.
+
+00:03:35.147 --> 00:03:37.147
+And both of these files have this…
+
+00:03:35.465 --> 00:03:37.465
+And both of these file apples.
+
+00:03:38.005 --> 00:03:40.005
+underscore mean.
+
+00:03:41.209 --> 00:03:48.209
+And then, let's say I'm doing something like printing, or, like, testing something. So what is the reason for having this?
+
+00:03:41.213 --> 00:03:46.213
+I'm testing something.
+
+00:03:46.537 --> 00:03:48.537
+So what does the reason for having this?
+
+00:03:50.780 --> 00:03:52.780
+It just makes sure that…
+
+00:03:51.011 --> 00:03:56.011
+It just makes sure… makes sure that it's using the same name as the file itself that you're…
+
+00:03:53.574 --> 00:03:56.574
+using the same name as the point itself that you're working on it.
+
+00:03:56.039 --> 00:03:58.039
+working on. That's a different one.
+
+00:03:57.324 --> 00:03:59.324
+With a different type. Uh…
+
+00:03:58.667 --> 00:04:03.667
+You have to provide speed on UI.
+
+00:04:00.602 --> 00:04:03.602
+If, let's say, you have two files, a.py,
+
+00:04:04.122 --> 00:04:06.122
+And B dot PY, right?
+
+00:04:04.445 --> 00:04:06.445
+B dot P1, right? Yeah.
+
+00:04:08.567 --> 00:04:10.567
+And, uh, for example,
+
+00:04:08.754 --> 00:04:10.754
+And, uh, for example,
+
+00:04:11.486 --> 00:04:13.486
+Both of them have this check.
+
+00:04:11.972 --> 00:04:13.972
+Both of them have this check.
+
+00:04:17.086 --> 00:04:19.086
+And under this check,
+
+00:04:17.343 --> 00:04:19.343
+And under this track,
+
+00:04:23.205 --> 00:04:25.205
+you know, under this check, let's say I have
+
+00:04:23.602 --> 00:04:25.602
+you know, under this check, let's say I have…
+
+00:04:26.232 --> 00:04:30.232
+Uh, I have, let's say, something called ID equal to defined.
+
+00:04:28.551 --> 00:04:30.551
+ID.
+
+00:04:31.113 --> 00:04:33.113
+1, 2, 3, right?
+
+00:04:34.141 --> 00:04:36.141
+Now, if I import…
+
+00:04:34.425 --> 00:04:36.425
+Now, if I import…
+
+00:04:37.447 --> 00:04:39.447
+we don't pure.
+
+00:04:37.726 --> 00:04:39.726
+We don't be worth.
+
+00:04:41.125 --> 00:04:45.125
+If I import B2.py, and if I let try to print…
+
+00:04:41.288 --> 00:04:45.288
+If I import B root BY, and if I, let's say, try to print,
+
+00:04:45.667 --> 00:04:47.667
+the…
+
+00:04:45.946 --> 00:04:47.946
+the…
+
+00:04:47.638 --> 00:04:49.638
+Like, v.it.
+
+00:04:47.927 --> 00:04:49.927
+We don't… I need.
+
+00:04:50.516 --> 00:04:52.516
+Uh, should it work, or should it not work?
+
+00:04:52.727 --> 00:04:54.727
+Uh, what are your thoughts on this?
+
+00:04:59.544 --> 00:05:01.544
+For this one, I don't think it will work, because…
+
+00:05:01.628 --> 00:05:06.628
+the name ticked, the name of the file, let's a B file, not the A file.
+
+00:05:01.802 --> 00:05:06.802
+the name takes… the name of the file itself, the B file, not the A file.
+
+00:05:07.228 --> 00:05:09.228
+So when it comes to this function…
+
+00:05:07.508 --> 00:05:09.508
+So when it runs this function…
+
+00:05:09.560 --> 00:05:11.560
+What will happen when I import? So, when I import…
+
+00:05:09.847 --> 00:05:11.847
+So, when I import?
+
+00:05:11.910 --> 00:05:13.910
+So… What are you in…
+
+00:05:12.715 --> 00:05:16.715
+So, when you import, you just take the functions themselves.
+
+00:05:14.504 --> 00:05:16.504
+take the function… I'm sorry. Okay.
+
+00:05:16.902 --> 00:05:18.902
+Uh, but why not this?
+
+00:05:17.153 --> 00:05:19.153
+Uh, but I don't just…
+
+00:05:19.815 --> 00:05:21.815
+Actually, so name is… Name is linked.
+
+00:05:20.356 --> 00:05:24.356
+So, name is… Name is linked to the file name. Okay, nice.
+
+00:05:22.126 --> 00:05:24.126
+Pardon me. Okay, nice.
+
+00:05:26.465 --> 00:05:34.465
+Okay, let's talk about, like, I mean, you have seen that we are using VE and Virtual Environment, right, for a lot of projects. What do you think is the benefit of just
+
+00:05:26.775 --> 00:05:28.775
+Okay, let's talk about, like, honey.
+
+00:05:29.875 --> 00:05:34.875
+And what it is the benefit of just
+
+00:05:35.564 --> 00:05:37.564
+Like, because it's simple to just install Python,
+
+00:05:35.994 --> 00:05:41.994
+Like, was it simple to just install Python in your CDER? But why do we…
+
+00:05:37.662 --> 00:05:42.662
+Uh, in your C drive, and start using it. So why do we always…
+
+00:05:42.725 --> 00:05:44.725
+go for a virtual environment first.
+
+00:05:42.779 --> 00:05:44.779
+like this, hope for a virtual environment first.
+
+00:05:44.820 --> 00:05:46.820
+Before we start, Bridget.
+
+00:05:45.196 --> 00:05:47.196
+should we start a project?
+
+00:05:46.805 --> 00:05:48.805
+What do you think is the minimum?
+
+00:05:47.816 --> 00:05:51.816
+For our case, or for the normal cases, for the environment, because…
+
+00:05:48.930 --> 00:05:55.930
+Generally speaking, let's say generally speaking. Like, if there were security, you can do it for testing
+
+00:05:52.329 --> 00:05:56.329
+Like, let's say in cybersecurity, you can do it for testing.
+
+00:05:56.331 --> 00:06:05.331
+Okay. Okay, you can just open any link you want to, you can open any… Oh, sorry, I'm sorry. Maybe my mistake. Uh, I'm talking about the Python virtual environment.
+
+00:05:57.142 --> 00:06:01.142
+you can just open any link you want, you know, you can open any apps.
+
+00:06:01.008 --> 00:06:03.008
+In the virtual events today.
+
+00:06:03.580 --> 00:06:05.580
+Uh, I'm talking about the pipes in which…
+
+00:06:05.506 --> 00:06:08.506
+On , yeah.
+
+00:06:05.787 --> 00:06:08.787
+Oh, you mean the book? Okay, so that's, uh…
+
+00:06:08.770 --> 00:06:14.770
+What's the code? Maybe one, uh, one project runs in 3.2.
+
+00:06:09.013 --> 00:06:15.013
+what's it called? Deliveries don't overlap with each other. Maybe one project runs in 3 points…
+
+00:06:15.223 --> 00:06:17.223
+tool, and the other one is 2.4.
+
+00:06:15.480 --> 00:06:17.480
+two, and the other runs in 3.4.
+
+00:06:17.833 --> 00:06:19.833
+Some files won't work. Nice, nice.
+
+00:06:18.287 --> 00:06:20.287
+some files won't work.
+
+00:06:20.460 --> 00:06:23.460
+Nice, okay. Uh, I'll quickly jump now. Next.
+
+00:06:20.923 --> 00:06:23.923
+Okay, uh, I'll quickly jump up. Next.
+
+00:06:24.232 --> 00:06:28.232
+Uh, let's talk about API regional. So, uh…
+
+00:06:24.523 --> 00:06:28.523
+Uh, let's talk about API inventory, okay? So, uh…
+
+00:06:30.070 --> 00:06:34.070
+I mean, what is the difference between server application and…
+
+00:06:30.335 --> 00:06:34.335
+I mean, what is the difference between a server application and…
+
+00:06:34.358 --> 00:06:36.358
+an API.
+
+00:06:37.120 --> 00:06:39.120
+endpoint.
+
+00:06:37.495 --> 00:06:39.495
+Endpoint.
+
+00:06:41.220 --> 00:06:44.220
+Or how do they relate, actually? Difference, in a sense, like, how do they relate?
+
+00:06:45.203 --> 00:06:50.203
+How do they relate? Yeah. Like, the API is an endpoint open for the public to be used.
+
+00:06:45.418 --> 00:06:50.418
+How do they relate? Like, the API is an endpoint open for the public to be used.
+
+00:06:50.514 --> 00:06:53.514
+to use certain functions in the output set.
+
+00:06:50.853 --> 00:06:53.853
+to use certain functions in the output set.
+
+00:06:54.283 --> 00:06:56.283
+Okay, okay. And…
+
+00:06:54.513 --> 00:06:56.513
+And…
+
+00:06:57.248 --> 00:06:59.248
+If I say there are two, let's say,
+
+00:06:57.483 --> 00:06:59.483
+I see there are two, let's say,
+
+00:06:59.770 --> 00:07:06.770
+the application can either be a client application or server application. Yeah. So, can you have API endpoints in the client application, or…
+
+00:07:00.569 --> 00:07:03.569
+technician can evaluate my application or cell application, yeah.
+
+00:07:04.214 --> 00:07:07.214
+So, can you actually come from the point of tuition power?
+
+00:07:07.492 --> 00:07:09.492
+Can you just have API endpoints in the server application?
+
+00:07:07.676 --> 00:07:09.676
+Can you just have BPA opt in the certification?
+
+00:07:09.675 --> 00:07:14.675
+Why not… why not blind?
+
+00:07:10.031 --> 00:07:13.031
+It's only in the server location.
+
+00:07:13.043 --> 00:07:15.043
+Right now, blank, blank.
+
+00:07:16.065 --> 00:07:20.065
+Because the client is the one that's asking for the inputs. He's not the one providing them.
+
+00:07:16.279 --> 00:07:18.279
+Because the, like, the one that…
+
+00:07:18.611 --> 00:07:23.611
+He's not gonna provide it. Nice, nice. So I'm just trying to intentionally confuse you, right? So…
+
+00:07:21.158 --> 00:07:24.158
+But just trying to achieve the superintendent.
+
+00:07:24.423 --> 00:07:26.423
+Just to make sure you don't memorize the concept strain, right?
+
+00:07:27.140 --> 00:07:30.140
+Virtual machines, we've already told a lot about it, right?
+
+00:07:33.403 --> 00:07:35.403
+So,
+
+00:07:33.729 --> 00:07:35.729
+So,
+
+00:07:36.551 --> 00:07:38.551
+If you want to create a virtual machine,
+
+00:07:36.968 --> 00:07:38.968
+If you want to create a virtual machine,
+
+00:07:39.086 --> 00:07:41.086
+There's something called hypervisor, right? Yeah.
+
+00:07:39.335 --> 00:07:41.335
+There's something called hypervisor. Yeah.
+
+00:07:41.910 --> 00:07:45.910
+So, do you remember anything about Type 1 versus type 2 hypervisors?
+
+00:07:42.061 --> 00:07:46.061
+So, do you remember anything about type 1 versus type 1 micrometers?
+
+00:07:47.329 --> 00:07:50.329
+How you don't really. Okay, so how… okay.
+
+00:07:47.610 --> 00:07:50.610
+I don't really know. Okay, so how… okay.
+
+00:07:51.182 --> 00:07:56.182
+So, type 2 microphones is actually the… for our conversion purposes, right?
+
+00:07:51.330 --> 00:07:56.330
+So, type 2 hypervisors is actually the Oracle Virtual Books, it's type 2 hypervisor.
+
+00:07:56.945 --> 00:07:59.945
+So, how can you use Oracle Version books to create a virtual machine?
+
+00:07:57.673 --> 00:07:59.673
+So how can you use local coaching books with the need to make sure?
+
+00:08:00.480 --> 00:08:02.480
+And, uh,
+
+00:08:00.871 --> 00:08:02.871
+And, uh,
+
+00:08:03.048 --> 00:08:05.048
+let's say I want to run Ubuntu, so…
+
+00:08:03.230 --> 00:08:05.230
+let's say I want to run Ubuntu, so…
+
+00:08:05.417 --> 00:08:07.417
+What are the logical steps in your mind?
+
+00:08:05.532 --> 00:08:07.532
+What are the logical steps?
+
+00:08:07.887 --> 00:08:12.887
+Okay. And then, uh…
+
+00:08:08.382 --> 00:08:11.382
+The logical steps is to firstly download the Oracle virtual machine.
+
+00:08:12.273 --> 00:08:15.273
+And then, uh, download the ISO file.
+
+00:08:12.909 --> 00:08:14.909
+download the ISO file, that's it.
+
+00:08:15.634 --> 00:08:19.634
+Can it not just
+
+00:08:16.019 --> 00:08:20.019
+of the operating system that you want, like Ubunto for this case? And it's not just…
+
+00:08:19.930 --> 00:08:24.930
+Why do you need the ISO file? Can you not create a virtual machine without the ISO file?
+
+00:08:26.066 --> 00:08:28.066
+Because it won't be running on any operating…
+
+00:08:27.154 --> 00:08:30.154
+But since we're running on any operating system, it's really running…
+
+00:08:28.923 --> 00:08:30.923
+Nice, that's good. Good, okay.
+
+00:08:30.886 --> 00:08:32.886
+uh, bashesive scripting, right?
+
+00:08:31.178 --> 00:08:33.178
+Um, this is good.
+
+00:08:32.864 --> 00:08:34.864
+Yeah, Linux, so…
+
+00:08:33.182 --> 00:08:35.182
+Yep, let's slow.
+
+00:08:35.993 --> 00:08:39.993
+Uh, on Ubuntu, I can install Python, I can run a Python script, right?
+
+00:08:37.378 --> 00:08:40.378
+I can install Python, I can run up Python P.
+
+00:08:40.392 --> 00:08:45.392
+But usually, you will see many people there using BashaScript, right? So, do you think there's a reason for that?
+
+00:08:41.550 --> 00:08:43.550
+But usually you will see many people there using measure speed.
+
+00:08:43.722 --> 00:08:45.722
+Do you think there's a reason for that?
+
+00:08:46.625 --> 00:08:48.625
+Yeah, Bush, you don't…
+
+00:08:47.165 --> 00:08:50.165
+Yeah, bash talks you directly to the… what's it called?
+
+00:08:49.457 --> 00:08:54.457
+To the core of you. Like, or maybe Tesh is already available?
+
+00:08:50.539 --> 00:08:52.539
+to the core of the CPU.
+
+00:08:52.861 --> 00:08:54.861
+Or maybe Bash has already available?
+
+00:08:55.238 --> 00:09:02.238
+On Linux, right? Once you download the versions, and download the operating system for Linux, Bash is already installed.
+
+00:08:56.362 --> 00:09:02.362
+And that's also, yeah, once you download the brushes, uh, download the operating system for Linux, but it's already installed.
+
+00:09:02.923 --> 00:09:04.923
+Okay. And, uh…
+
+00:09:04.675 --> 00:09:08.675
+So, Mount Eichen is also true, by the way, please don't…
+
+00:09:05.519 --> 00:09:08.519
+Okay, so now Python is also, by the way, pre-installed.
+
+00:09:08.826 --> 00:09:13.826
+Ubuntu, when you download Ubuntu Desktop,
+
+00:09:09.733 --> 00:09:13.733
+Sometimes, uh, Ubuntu, when you download to my desktop?
+
+00:09:13.956 --> 00:09:18.956
+So, you will see Python will be already installed, so then by Nedbesh screen.
+
+00:09:15.089 --> 00:09:18.089
+So you keep up to interview.
+
+00:09:21.098 --> 00:09:23.098
+Because the argument was,
+
+00:09:21.145 --> 00:09:28.145
+Yeah, but those are the best scripts, you can access the files easily.
+
+00:09:23.515 --> 00:09:26.515
+What is the best…
+
+00:09:26.625 --> 00:09:31.625
+Even easy to access the file from Python also. But for the Python…
+
+00:09:28.988 --> 00:09:34.988
+But for the first thing you need to import some libraries sometimes.
+
+00:09:32.455 --> 00:09:37.455
+Oh, I mean, if you want to just open the fu- yes, okay, let's say…
+
+00:09:35.818 --> 00:09:37.818
+If you want to just…
+
+00:09:38.343 --> 00:09:41.343
+We want to make it more simple, you can import something called Globe or other libraries, right?
+
+00:09:38.598 --> 00:09:41.598
+Right.
+
+00:09:41.788 --> 00:09:43.788
+But anyways, then…
+
+00:09:43.760 --> 00:09:46.760
+still, everyone knows Python.
+
+00:09:45.058 --> 00:09:47.058
+Still key. Everyone goes by, right? Yeah.
+
+00:09:47.210 --> 00:09:52.210
+Only a few people, they have hands-on experience in Bachelor scripting. Still, they do use Basher scripting.
+
+00:09:47.350 --> 00:09:50.350
+Only a few people…
+
+00:09:50.497 --> 00:09:52.497
+still didn't do special something.
+
+00:09:52.717 --> 00:09:54.717
+they intentionally avoid Python.
+
+00:09:52.990 --> 00:09:54.990
+they can see a white collection.
+
+00:09:54.886 --> 00:09:57.886
+Do you see any other reason besides…
+
+00:09:55.976 --> 00:09:59.976
+is faster, as I think.
+
+00:09:59.073 --> 00:10:01.073
+It's supposed to…
+
+00:10:00.349 --> 00:10:04.349
+Especially on both and running the bash script itself.
+
+00:10:02.020 --> 00:10:04.020
+running the, uh, the bus script.
+
+00:10:04.588 --> 00:10:06.588
+What if I tell you that, uh…
+
+00:10:04.868 --> 00:10:06.868
+What if I tell you that, uh…
+
+00:10:08.006 --> 00:10:11.006
+Python script, if it's a very… if it's doing something very simple.
+
+00:10:08.174 --> 00:10:11.174
+you're pressuring something, but it's…
+
+00:10:11.671 --> 00:10:17.671
+Orbacious Script is also doing something very simple, right? We are not talking about complex applications. Performance is negligible when we talk about
+
+00:10:11.855 --> 00:10:15.855
+We're not talking about objects and things.
+
+00:10:16.054 --> 00:10:18.054
+When we talk about…
+
+00:10:18.054 --> 00:10:20.054
+Yeah, propagation, right?
+
+00:10:18.262 --> 00:10:23.262
+Simple applications, right? So, anything else coming into your mind? Like, why would people go for…
+
+00:10:20.633 --> 00:10:22.633
+So, anything else coming to mind? Goodbye.
+
+00:10:23.664 --> 00:10:26.664
+In terms of deployment goes…
+
+00:10:24.474 --> 00:10:26.474
+In terms of deployment, okay, let's say because
+
+00:10:26.482 --> 00:10:31.482
+People are using, uh, Ubuntu to actually their applications, and…
+
+00:10:26.890 --> 00:10:31.890
+Because in their applications anyway.
+
+00:10:32.484 --> 00:10:34.484
+I mean, uh…
+
+00:10:32.683 --> 00:10:34.683
+I mean, uh…
+
+00:10:34.847 --> 00:10:38.847
+based on that information, uh, of course, believe…
+
+00:10:35.273 --> 00:10:39.273
+based on that information. Of course, the new
+
+00:10:38.986 --> 00:10:42.986
+Ubuntu or something, uh, still, is there a reason?
+
+00:10:40.158 --> 00:10:43.158
+Ubuntu OS comes with Python, but still is there a reason.
+
+00:10:43.863 --> 00:10:50.863
+To avoid Python, for startups and certain tasks, and just measured scripting, is there a benefit in terms of, like, deployment, or…
+
+00:10:44.245 --> 00:10:51.245
+Because a white person is startups, and by specific is that they are a benefit in terms of, like, deployment or…
+
+00:10:51.854 --> 00:10:53.854
+When you're trying to learn about Linux?
+
+00:10:53.908 --> 00:10:55.908
+I don't have to deploy anything.
+
+00:10:54.209 --> 00:10:56.209
+I'm trying to deploy anything.
+
+00:10:57.137 --> 00:11:00.137
+you probably won't use a virtual machine, sometimes you'll use, like, the WSL.
+
+00:11:00.045 --> 00:11:03.045
+So, let's say something else.
+
+00:11:00.528 --> 00:11:03.528
+So in the WSL, you'll use the same scripting as the bush scripting.
+
+00:11:04.013 --> 00:11:07.013
+Okay, maybe I will try to explain one more time again, right? For example,
+
+00:11:04.169 --> 00:11:07.169
+Okay. For example,
+
+00:11:09.238 --> 00:11:13.238
+So, if I am using Bash's scriptkin, for example, for something,
+
+00:11:09.666 --> 00:11:13.666
+So, if… Here's something…
+
+00:11:15.615 --> 00:11:17.615
+Can this measure script run on any…
+
+00:11:15.740 --> 00:11:17.740
+get dismissed the bloody.
+
+00:11:17.948 --> 00:11:22.948
+version of Ubuntu. Yeah, because it's all the same. So, uh, Python…
+
+00:11:18.280 --> 00:11:23.280
+Yeah, because it's all the same, you know, PyCon?
+
+00:11:23.882 --> 00:11:25.882
+these structuring Python and Ubuntu Desktop.
+
+00:11:24.066 --> 00:11:26.066
+Do you start shipping Python over to desktop?
+
+00:11:26.626 --> 00:11:29.626
+Yeah.
+
+00:11:26.904 --> 00:11:32.904
+Yeah, not that long time ago, right? Recently, right? So, now, do you see the benefit of… This is a budget for, like,
+
+00:11:29.907 --> 00:11:33.907
+So, now, do you see any benefit of a… So the best one, like, bushes…
+
+00:11:34.150 --> 00:11:39.150
+coding is supported by the conceivable. Yes, right? So, for example, so…
+
+00:11:34.596 --> 00:11:39.596
+Cody is supported by different versions, even older ones. Yes, right? So, for example…
+
+00:11:39.154 --> 00:11:44.154
+So you can use Bishop… can you use, then, bashes called Python? Like, if it's not available or not?
+
+00:11:39.598 --> 00:11:44.598
+So you can use special… can you use the special script to install Python? Like, that's not available or not?
+
+00:11:46.329 --> 00:11:49.329
+If Bash isn't available? Yeah, go for it.
+
+00:11:46.480 --> 00:11:52.480
+if most isn't… let's say Besh is available, of course, right? Can you use a Bash script to install Python if Python is not available?
+
+00:11:50.168 --> 00:11:54.168
+Can you use a bench script installed Pythonif, Python is front of it. Yeah, you can do that.
+
+00:11:53.153 --> 00:11:59.153
+You can do it, right? And if Python is available, just skip and move on to the next step. This is what people do, actually.
+
+00:11:55.476 --> 00:11:59.476
+And if I just quickly skip and move on to the next step, this is what people do, actually. Yeah.
+
+00:11:59.703 --> 00:12:03.703
+Yeah, right away, nice. But nice, I was not able to explain the question very well.
+
+00:12:00.290 --> 00:12:03.290
+Very nice.
+
+00:12:05.055 --> 00:12:12.055
+Uh, simple thing, right? Let's move to Git. Uh, what is the difference between, like, a staging area…
+
+00:12:05.287 --> 00:12:08.287
+Uh, simple thing, right? Let's move to Git.
+
+00:12:08.907 --> 00:12:11.907
+Uh, what is the difference between, like, a staging area,
+
+00:12:12.322 --> 00:12:15.322
+branch, staging area,
+
+00:12:13.516 --> 00:12:15.516
+of the trash?
+
+00:12:15.652 --> 00:12:18.652
+and commit. How are these things related?
+
+00:12:15.873 --> 00:12:18.873
+How are these things related?
+
+00:12:19.015 --> 00:12:22.015
+So, the circle… uh…
+
+00:12:19.336 --> 00:12:21.336
+So, at the start, when you create a branch,
+
+00:12:23.456 --> 00:12:28.456
+Git will not follow the files. It will know that there will be… there have been changes, but it won't save them.
+
+00:12:23.596 --> 00:12:28.596
+it will not follow the plates. It will know that there will be… there have been changes, but it won't seal them. Yeah.
+
+00:12:28.924 --> 00:12:34.924
+So once you add them to the staging area, it will know what have been changed, and it will follow the changes.
+
+00:12:29.584 --> 00:12:34.584
+So once you add them to the staging area, it will know what have you changed, and it will follow the changes.
+
+00:12:35.099 --> 00:12:40.099
+Okay, nice. And once you commit to the changes, you just… it's… commit is like the same checkpoint.
+
+00:12:35.454 --> 00:12:39.454
+And once you commit the changes, you just… it's… commit is, like, safe.
+
+00:12:39.760 --> 00:12:45.760
+The checkpoint. India, like, you're…
+
+00:12:40.429 --> 00:12:45.429
+Where does the commit go in the staging area, in the branch, in your, like, your…
+
+00:12:46.048 --> 00:12:51.048
+Google Drive SSD, and we're… this is the commit is stored, actually? It's a network, and…
+
+00:12:46.481 --> 00:12:51.481
+local product system. It's a neutrical…
+
+00:12:51.534 --> 00:12:53.534
+Not branch-free.
+
+00:12:51.575 --> 00:12:53.575
+fights.
+
+00:12:54.371 --> 00:12:56.371
+No. Okay. So, uh…
+
+00:12:54.523 --> 00:12:56.523
+No. So, uh…
+
+00:12:56.873 --> 00:13:02.873
+Let's say GitHub, right? Yeah. Let's say you want to… like, why would you use GitHub?
+
+00:12:57.150 --> 00:13:03.150
+Unless you, like… let's say you want to do… like, why would you use guitar?
+
+00:13:03.569 --> 00:13:06.569
+Can you… can you track all of your files and…
+
+00:13:03.890 --> 00:13:06.890
+Can you… can you try all of your files and…
+
+00:13:06.757 --> 00:13:08.757
+Can you just…
+
+00:13:07.112 --> 00:13:09.112
+Uh, can you just…
+
+00:13:09.434 --> 00:13:13.434
+perform commits, create new launches without GitHub? Yeah, you can do that. Then why GitHub.
+
+00:13:09.519 --> 00:13:15.519
+perform coverage without crypto? Yeah, you can do that. It's to be possible.
+
+00:13:13.382 --> 00:13:15.382
+It's be important.
+
+00:13:16.223 --> 00:13:21.223
+You can use it in different devices if you want, and you can share it with your colleagues or your friends.
+
+00:13:16.466 --> 00:13:23.466
+You can use it, but if you want, you can share it with your colleagues or friends for multiple conversations.
+
+00:13:21.909 --> 00:13:23.909
+or multiple people to work on the same projects.
+
+00:13:24.583 --> 00:13:26.583
+Okay, nice. So…
+
+00:13:26.493 --> 00:13:28.493
+So, yep, so…
+
+00:13:27.073 --> 00:13:29.073
+Yep, so… okay. Anyways…
+
+00:13:28.559 --> 00:13:30.559
+News.
+
+00:13:32.155 --> 00:13:36.155
+let's go forward. Let's talk about some Docker basics, right?
+
+00:13:32.413 --> 00:13:36.413
+Let's move forward. The Starbucks and docket V6, right?
+
+00:13:36.994 --> 00:13:38.994
+Just like I asked you about
+
+00:13:37.147 --> 00:13:39.147
+Just like I asked you about…
+
+00:13:39.612 --> 00:13:41.612
+the staging area commit and branch.
+
+00:13:39.952 --> 00:13:41.952
+the staging area committed and branded.
+
+00:13:42.363 --> 00:13:44.363
+Let's talk about Dockerfile image versus container.
+
+00:13:42.514 --> 00:13:44.514
+But some of our broker file image was sentient.
+
+00:13:44.973 --> 00:13:48.973
+So, how are they related? How is Dockerfile related to image and Docker container?
+
+00:13:45.112 --> 00:13:49.112
+So, how are they supposed to offer foreign privilege to image in the document?
+
+00:13:49.366 --> 00:13:51.366
+So, once you hover up.
+
+00:13:50.013 --> 00:13:52.013
+So, once you have your app finished…
+
+00:13:52.319 --> 00:13:57.319
+it'll directly look quite closely. We make a Docker image, the Docker image is, like, a snapshot of the…
+
+00:13:52.445 --> 00:13:57.445
+to make a Docker image. The Docker image is, like, a snapshot of the…
+
+00:13:57.688 --> 00:13:59.688
+If the app, it says, and…
+
+00:13:57.804 --> 00:13:59.804
+for the app itself, and…
+
+00:14:00.041 --> 00:14:03.041
+And it's a step-by-step on how the app would work.
+
+00:14:00.279 --> 00:14:03.279
+And it's a step-by-step on how the app will work.
+
+00:14:04.564 --> 00:14:08.564
+And to run the Docker image itself, you have to put it inside a container.
+
+00:14:04.908 --> 00:14:08.908
+And to run the Docker image itself, you have to put it inside a container.
+
+00:14:08.872 --> 00:14:14.872
+then, like, run it or pause it whenever… Can I done… can I run more than one container using the same image?
+
+00:14:09.017 --> 00:14:14.017
+You can, like, run it or pause it whenever… can I run more than one container?
+
+00:14:15.109 --> 00:14:17.109
+Yeah, you can do that. At the same time.
+
+00:14:15.448 --> 00:14:17.448
+Yeah, you can do that. At the same time. Yes.
+
+00:14:17.924 --> 00:14:20.924
+Okay, nice. So let's do…
+
+00:14:22.264 --> 00:14:24.264
+Let's go to… okay, you also know about, like,
+
+00:14:22.449 --> 00:14:24.449
+You also know about, like,
+
+00:14:24.747 --> 00:14:26.747
+Recently, we were discussing about volumes, right?
+
+00:14:27.061 --> 00:14:31.061
+Like, uh, what do you think about… let's forget volumes first. Docker Compose.
+
+00:14:28.449 --> 00:14:31.449
+Talk to Compose.
+
+00:14:32.923 --> 00:14:37.923
+uh, like, why would we want to use Docker Compose when you can do everything without Docker Compose?
+
+00:14:33.127 --> 00:14:35.127
+Uh, like, why don't use Stoker.
+
+00:14:39.523 --> 00:14:44.523
+It's for it to be able to be built in different operating systems, so it can work in both.
+
+00:14:39.891 --> 00:14:41.891
+It's hard to be rebuilt.
+
+00:14:42.286 --> 00:14:44.286
+different, different than working.
+
+00:14:44.862 --> 00:14:47.862
+clinics, vendors, prior… Do you think we can just…
+
+00:14:45.193 --> 00:14:48.193
+Linux, Windows, or IOST. Do you think we can just…
+
+00:14:48.051 --> 00:14:51.051
+not just use Docker? Sometimes…
+
+00:14:48.859 --> 00:14:51.859
+Sometimes it won't work, you know.
+
+00:14:53.072 --> 00:14:57.072
+Okay. I will not tell you, the later I will tell you the normal. Okay.
+
+00:14:53.194 --> 00:15:01.194
+Okay, yeah. I will not tell you… later I will tell you the wrong right and whatever or not, right? So I'll just skip, and there's a miscondri.
+
+00:14:57.609 --> 00:15:00.609
+Right? So I'm just skip it.
+
+00:15:04.734 --> 00:15:07.734
+manual deployment, right? Let's talk about deployment. So…
+
+00:15:04.889 --> 00:15:07.889
+So, diploma, so…
+
+00:15:09.495 --> 00:15:16.495
+When we say this word deployment, what comes in your mind? Like, you have your application running here, right? And if I tell you, Mutar, can you please deploy it?
+
+00:15:09.677 --> 00:15:16.677
+What comes in your mind? Like, you have your application running here, right? And if I tell bother, can you please deploy the Zoom?
+
+00:15:17.098 --> 00:15:19.098
+what comes in your mind? It's either…
+
+00:15:17.352 --> 00:15:19.352
+It's either…
+
+00:15:19.487 --> 00:15:22.487
+it has to be hosted. It will be running…
+
+00:15:20.073 --> 00:15:24.073
+it has to be hosted somewhere else that will be running 24-7.
+
+00:15:23.605 --> 00:15:27.605
+Of course, and publicly accessories, mostly, like, maybe not…
+
+00:15:25.005 --> 00:15:28.005
+Or whatever…
+
+00:15:27.825 --> 00:15:29.825
+Definitely want to apologize.
+
+00:15:28.190 --> 00:15:30.190
+People really want to have to have access.
+
+00:15:29.800 --> 00:15:31.800
+So, uh…
+
+00:15:30.193 --> 00:15:32.193
+So, uh…
+
+00:15:32.005 --> 00:15:34.005
+Then, what is the benefit of CICD?
+
+00:15:32.325 --> 00:15:34.325
+What is the benefit of CIE be?
+
+00:15:35.121 --> 00:15:37.121
+like, for example, uh…
+
+00:15:35.520 --> 00:15:37.520
+like, for example, uh…
+
+00:15:37.851 --> 00:15:39.851
+Okay, uh…
+
+00:15:38.153 --> 00:15:40.153
+Okay, alright.
+
+00:15:40.048 --> 00:15:44.048
+How… how would you manually deploy your first DPA application first?
+
+00:15:41.266 --> 00:15:44.266
+How… how do you manually deploy your first API engineers?
+
+00:15:45.464 --> 00:15:47.464
+let's say, do we…
+
+00:15:45.583 --> 00:15:47.583
+let's say… do we…
+
+00:15:48.148 --> 00:15:50.148
+is… is using Docker a must?
+
+00:15:48.451 --> 00:15:51.451
+is using Docker a must, but can you also…
+
+00:15:51.079 --> 00:15:54.079
+Or can you also deploy the application without using Docker? You can deploy Docker.
+
+00:15:52.493 --> 00:15:55.493
+Whether we keep buildings in court. You can deploy it without using Docker, but it…
+
+00:15:54.389 --> 00:15:59.389
+You know, having a Docker image, it's easier and dock. Okay, nice.
+
+00:15:56.245 --> 00:15:59.245
+having a Docker image, it makes it easier and faster.
+
+00:15:59.464 --> 00:16:08.464
+So, then, okay, let's move forward, and we automate this deployment, right? So, what is the benefit of automating the deployments using CICD?
+
+00:15:59.994 --> 00:16:04.994
+So, then, okay, let's move forward, and we automate this deployment, right?
+
+00:16:05.798 --> 00:16:08.798
+So, what is the benefit of automating the deployments in Scales?
+
+00:16:08.907 --> 00:16:12.907
+So that whenever you make any changes or have any updates or any versions…
+
+00:16:11.058 --> 00:16:13.058
+May I have 20%?
+
+00:16:13.247 --> 00:16:19.247
+you just upload it to the, let's say it's in GitHub. Once it's uploaded in GitHub, CDCD pipeline.
+
+00:16:13.589 --> 00:16:19.589
+you just upload it to, let's say, from GitHub. Once you upload it in GitHub, the CDCD pipeline.
+
+00:16:19.507 --> 00:16:23.507
+will automatically take the latest version, make it, like, to the current image.
+
+00:16:20.385 --> 00:16:26.385
+will automatically take the updated version, make it like a Docker image to the container, and updates it.
+
+00:16:24.197 --> 00:16:26.197
+to the container and updates it.
+
+00:16:26.265 --> 00:16:29.265
+Well, that's separate, uh, running back to me.
+
+00:16:26.439 --> 00:16:29.439
+Well, the app itself is, uh, running, and…
+
+00:16:29.927 --> 00:16:33.927
+it won't stop from people losing.
+
+00:16:30.012 --> 00:16:36.012
+won't stop… So, kind of saving your time is the benefit of that. Okay, nice. One last thing.
+
+00:16:34.414 --> 00:16:36.414
+And I swear one last thing.
+
+00:16:37.658 --> 00:16:39.658
+Uh, let's say you have, uh, 6…
+
+00:16:37.880 --> 00:16:39.880
+let's say you have, uh, suits…
+
+00:16:40.122 --> 00:16:43.122
+3… maybe 2, 1…
+
+00:16:43.609 --> 00:16:45.609
+7, 8, right?
+
+00:16:44.586 --> 00:16:46.586
+7, 8, right? Yeah.
+
+00:16:47.744 --> 00:16:49.744
+I want to…
+
+00:16:50.682 --> 00:16:55.682
+I want to write an algorithm which can actually shift all of the even numbers on the left-hand side and odd numbers on the right-hand side.
+
+00:16:56.359 --> 00:16:58.359
+Uh, just your logic, right? No need to…
+
+00:16:56.619 --> 00:17:01.619
+If you want, you can.
+
+00:16:58.835 --> 00:17:05.835
+Yeah, you don't need to even write the code. If you want, you can, but there's no need. What would be your approach? My approach?
+
+00:17:02.593 --> 00:17:08.593
+It will… my approach will be to iterate over each of the numbers.
+
+00:17:06.440 --> 00:17:08.440
+23 for each number. Okay.
+
+00:17:08.698 --> 00:17:10.698
+divide each number by 2.
+
+00:17:09.231 --> 00:17:11.231
+divide each 12 by 2. Okay.
+
+00:17:11.155 --> 00:17:21.155
+like, using in person, I think you can use Modulus, which will give you the remainder. It won't give you the final… You're not even…
+
+00:17:11.866 --> 00:17:16.866
+Yeah. Which will… gives you the remainder…
+
+00:17:16.840 --> 00:17:21.840
+So, you know even, right, let's say you know the event, then what? Okay, so if…
+
+00:17:21.288 --> 00:17:23.288
+Okay, so if the…
+
+00:17:21.980 --> 00:17:26.980
+the… the values here. Let's say this is the even number. What will you do with this now?
+
+00:17:24.269 --> 00:17:27.269
+If the value is zero.
+
+00:17:27.256 --> 00:17:29.256
+You'll save…
+
+00:17:27.505 --> 00:17:29.505
+You'll save it in its place.
+
+00:17:29.233 --> 00:17:31.233
+Okay. Then?
+
+00:17:30.632 --> 00:17:35.632
+Then, we move forward to the next number, divided itself.
+
+00:17:32.245 --> 00:17:42.245
+Then, before we move forward to the next member, etc. Now, this is… this is odd, let's say, right? Yeah. Yeah, so this is odd. What would you do with this? You would probably save it to the…
+
+00:17:36.417 --> 00:17:42.417
+So this is… you will probably save it to the…
+
+00:17:42.823 --> 00:17:45.823
+plus no. So you'll… Yes, yes.
+
+00:17:43.092 --> 00:17:46.092
+plus number. So you'll… Yes, you click it.
+
+00:17:46.389 --> 00:17:48.389
+Okay, so… but there's already 8.
+
+00:17:46.596 --> 00:17:48.596
+Okay, so there's other…
+
+00:17:49.620 --> 00:17:54.620
+Uh, in the last… You mean in the last… because this is a list, right? So you're using indexes? Like, would you append or…
+
+00:17:50.675 --> 00:17:56.675
+I will append it.
+
+00:17:54.509 --> 00:17:56.509
+reuse index? Oh, not index.
+
+00:17:56.979 --> 00:18:01.979
+Now, there are two. And delete the number.
+
+00:17:57.137 --> 00:18:01.137
+If you append, there… now there are two…
+
+00:18:02.310 --> 00:18:09.310
+Deleted straight. Yeah, delete, and then add it. If I tell you a deletion is not allowed, and by the way, not a good practice, right? Then how will you do it?
+
+00:18:02.555 --> 00:18:08.555
+Yeah, delete it, and then add it to the…
+
+00:18:14.279 --> 00:18:16.279
+Okay, how can you swap these two numbers?
+
+00:18:14.676 --> 00:18:16.676
+Okay, how can you strike these two numbers?
+
+00:18:18.420 --> 00:18:22.420
+We can say, like, you can make a temporary variable.
+
+00:18:18.537 --> 00:18:23.537
+You can see, like, you can make it temporary table, and save the last name.
+
+00:18:22.572 --> 00:18:28.572
+Let's see if the last number… and then, uh, like, swap between the two.
+
+00:18:23.873 --> 00:18:28.873
+Okay, nice. And then, uh, like, swap… You got the idea, right? Yeah. Alright, nice.
+
+00:18:29.690 --> 00:18:32.690
+Okay, that's it, thank you, Mother. Uh, who's next?
+
+00:18:29.904 --> 00:18:32.904
+Okay, that's it, thank you, Walter. Uh, who's the name?
+
+00:18:33.400 --> 00:18:35.400
+I don't remember.
+
+00:18:33.446 --> 00:18:35.446
+Let me check.
+
+00:18:36.179 --> 00:18:39.179
+I'll just, uh, stop the recording.
+
+00:18:37.503 --> 00:18:39.503
+Just, uh, spoke to the portal.
+

@@ -1,0 +1,2649 @@
+WEBVTT
+
+
+00:00:02.753 --> 00:00:04.753
+Okay, so Maria…
+
+00:00:05.811 --> 00:00:07.811
+you already know, right? Yeah.
+
+00:00:08.806 --> 00:00:15.806
+We'll let you know basics, uh, Python, Git, Docker deployment, networking, Linux, right?
+
+00:00:16.423 --> 00:00:18.423
+You already know what type of search questions.
+
+00:00:18.649 --> 00:00:20.649
+You're doing great.
+
+00:00:21.049 --> 00:00:24.049
+I don't want to change it, although I wanted to change it, but anyways, right?
+
+00:00:25.210 --> 00:00:29.210
+So, uh, see, don't worry about the syntax, don't…
+
+00:00:29.943 --> 00:00:33.943
+I just want to see your logic and your concepts, that's right.
+
+00:00:34.327 --> 00:00:36.327
+So…
+
+00:00:36.794 --> 00:00:38.794
+But say, uh, this is a string.
+
+00:00:41.119 --> 00:00:43.119
+Mm-hmm.
+
+00:00:43.756 --> 00:00:46.756
+You have characters, like a…
+
+00:00:47.397 --> 00:00:49.397
+B, A…
+
+00:00:50.038 --> 00:00:52.038
+C would be…
+
+00:00:52.538 --> 00:00:54.538
+let's see… D…
+
+00:00:59.173 --> 00:01:01.173
+D, Y, Z.
+
+00:01:03.563 --> 00:01:05.563
+Right? Mm-hmm. So, um…
+
+00:01:06.441 --> 00:01:08.441
+What you have to do is…
+
+00:01:10.404 --> 00:01:12.404
+You have to come up with the logic.
+
+00:01:12.425 --> 00:01:15.425
+Mm-hmm. Order algorithm that actually…
+
+00:01:16.009 --> 00:01:18.009
+Figures out how many characters,
+
+00:01:18.718 --> 00:01:23.718
+are present. Like, number of unique characters first, and how many times each character is present.
+
+00:01:23.807 --> 00:01:25.807
+Okay. Right? Like, for example…
+
+00:01:27.928 --> 00:01:30.928
+For example, A is here 3 times, right? Okay.
+
+00:01:33.291 --> 00:01:38.291
+And B is here 3 times, I mean? Yeah, 3 times. 1, 2, 3, right?
+
+00:01:38.232 --> 00:01:40.232
+Yeah.
+
+00:01:40.779 --> 00:01:45.779
+3 times, and so let's… T1 time. Yeah, C is one time.
+
+00:01:46.487 --> 00:01:48.487
+Do you want the tool twice?
+
+00:01:48.717 --> 00:01:50.717
+Tuesday, let's say…
+
+00:01:51.571 --> 00:01:54.571
+Access long… Why is that this one?
+
+00:01:55.242 --> 00:01:57.242
+R and Z port over.
+
+00:01:58.533 --> 00:02:00.533
+So…
+
+00:02:00.662 --> 00:02:02.662
+obviously failure.
+
+00:02:03.050 --> 00:02:05.050
+Like, you have to count, you mean?
+
+00:02:05.527 --> 00:02:07.527
+Now, first, uh…
+
+00:02:09.113 --> 00:02:12.113
+all the unique characters that are available, and the number of times they're repeated.
+
+00:02:13.482 --> 00:02:18.482
+How many… For example, see, these are the unique A, B, C, D, XYZ, right? And how many times they're repeated.
+
+00:02:18.927 --> 00:02:23.927
+This should be the output should look like this. Okay, okay. Uh, mister, I guess…
+
+00:02:24.264 --> 00:02:26.264
+Uh, it will be better first…
+
+00:02:26.847 --> 00:02:28.847
+To make, like, let's say X.
+
+00:02:29.140 --> 00:02:36.140
+any… or any character, and make a dictionary, and maybe if I start a loop inside this one…
+
+00:02:36.803 --> 00:02:43.803
+for loop, I guess something like that, for, let's say, character, and in this string. Yes, yeah.
+
+00:02:44.685 --> 00:02:49.685
+And, uh, I remember something, it's like to start from 0 plus 1.
+
+00:02:51.001 --> 00:02:54.001
+0 plus 1, like, you mean index, for example, or what?
+
+00:02:54.216 --> 00:02:59.216
+No, I mean… This loop, this loop is going to give you each healthcare one by one. Yeah. So then you will do what here?
+
+00:03:00.210 --> 00:03:05.210
+So, first, CHSE, then CHSE. Yeah, yeah, yeah. It would be like it… first it will start with A,
+
+00:03:05.674 --> 00:03:09.674
+To search, like, if it's… this is one, it will return a 1.
+
+00:03:10.255 --> 00:03:12.255
+And when it find another one?
+
+00:03:12.999 --> 00:03:18.999
+It's like… How? Now, that is logic, right? Like, how using a dictionary, how you can do that? This will be stored here.
+
+00:03:19.765 --> 00:03:23.765
+Okay. Like, as I remember, uh… No, no, take your time, see? Take 2 minutes.
+
+00:03:24.212 --> 00:03:26.212
+And, uh, just…
+
+00:03:26.912 --> 00:03:28.912
+Think about the logic with the dictionary, and let me know.
+
+00:03:29.996 --> 00:03:34.996
+Now, Mr. I will tell you what I… what I understand. But now, before you have to think, right, like, how…
+
+00:03:35.151 --> 00:03:40.151
+Okay, because otherwise you cannot tell. Okay. Right? Take your time, think about how…
+
+00:03:41.242 --> 00:03:49.242
+How do you want to store it in the dictionary, right? And how do you store the count in the dictionary? Okay. Then, let me know, right? Take two minutes. Okay.
+
+00:04:02.197 --> 00:04:04.197
+Or you can go for any other logicals?
+
+00:04:04.190 --> 00:04:06.190
+Brooklyo Choice. Mm-hmm.
+
+00:04:53.754 --> 00:04:55.754
+But look there, so there's a test going on, right?
+
+00:05:04.042 --> 00:05:06.042
+Make sure that it's mostly…
+
+00:05:08.691 --> 00:05:10.691
+Yeah, understood.
+
+00:05:11.794 --> 00:05:16.794
+Yeah, okay. Uh, the dictionary, basically, it's a key and value. Yeah.
+
+00:05:17.268 --> 00:05:28.268
+Uh, it's Paris. So, first, when I start the loop in the string, it will search, like, let's start with A. For this character A in this loop. If it finds, it will return A.
+
+00:05:28.455 --> 00:05:35.455
+And how many number of A? It will start from 0. He will find this one, this is the first one, it will be 0 plus 1, it will be 1.
+
+00:05:36.191 --> 00:05:42.191
+Then here… Okay, so if we… okay, here, you're right, right, Marius. Okay, let's start with Van Bevan, right? Let's say you have a…
+
+00:05:43.902 --> 00:05:48.902
+And you are storing… first, you are storing A in the dictionary, right? Mm-hmm. A is the key or the value?
+
+00:05:48.995 --> 00:05:54.995
+It's the key. Key. And what will be the value? The number of the… of A, how many times it appears in the string.
+
+00:05:55.091 --> 00:05:57.091
+Now, how do you know how many times it appears?
+
+00:05:57.411 --> 00:05:59.411
+Because I'm starting the for loop, no?
+
+00:06:00.529 --> 00:06:04.529
+Not yes, but first iteration, right? Key is a, what will you put in the value?
+
+00:06:05.402 --> 00:06:10.402
+It will be zero. Zero, okay. Okay, then let's move to B now. Yeah.
+
+00:06:10.979 --> 00:06:14.979
+Then you… then you put, of course, based on that logic, we will be zero also. Mm-hmm.
+
+00:06:15.231 --> 00:06:20.231
+Right? Then A appears again. Now, what'll do? It will be 0 plus 1.
+
+00:06:20.525 --> 00:06:22.525
+How? Because A is already…
+
+00:06:24.235 --> 00:06:26.235
+in the dictionary? No, mister, because we started this one.
+
+00:06:27.588 --> 00:06:29.588
+This is, like, we start from 0,
+
+00:06:30.489 --> 00:06:32.489
+This is the first one, it will be zero. Yeah.
+
+00:06:32.516 --> 00:06:42.516
+then here to create zero, because this is B, but when it finds… How do we do one? Like, this is the logic that I'm asking about. Like, how do we do one? Because, see,
+
+00:06:43.339 --> 00:06:47.339
+is, you know, fine, then B comes in, B is 0, right? Okay.
+
+00:06:47.557 --> 00:06:50.557
+Then he comes in again, but remember, A is already there.
+
+00:06:51.295 --> 00:06:53.295
+So, if you insert A again,
+
+00:06:53.516 --> 00:06:55.516
+It will override the existing AP.
+
+00:06:55.898 --> 00:06:58.898
+the value would be 0. How can you change the value to one? How do you know?
+
+00:06:58.991 --> 00:07:00.991
+If he's already there in the dictionary.
+
+00:07:02.743 --> 00:07:04.743
+How many… is there a way to check?
+
+00:07:05.508 --> 00:07:07.508
+Like, but then you have to… do you check everything?
+
+00:07:07.703 --> 00:07:13.703
+Maybe if we use if condition? Yeah, yeah. If A. Okay.
+
+00:07:14.516 --> 00:07:17.516
+You guys don't need to worry about the syntax, right? Like…
+
+00:07:18.299 --> 00:07:21.299
+Can you check, uh, can you check that, uh…
+
+00:07:21.876 --> 00:07:23.876
+a key exists or not in the dictionary.
+
+00:07:24.713 --> 00:07:30.713
+Yes, Mr. Fuyuzaki, if conditioned, you can check it. You can check it, yeah. Yeah, FA, like… So I will tell you the introduction.
+
+00:07:31.314 --> 00:07:35.314
+So, if A in dictionary, you can check that, right? So it will return true or false.
+
+00:07:35.669 --> 00:07:37.669
+Okay. If he's already there, it will return.
+
+00:07:37.926 --> 00:07:41.926
+If it's not there, it will return false. Now, now what do you do? Okay, let's say you…
+
+00:07:42.114 --> 00:07:44.114
+Let's say you are here, right?
+
+00:07:45.197 --> 00:07:52.197
+If… and… because A already exists, you have a condition, right? Okay, let's start from first A again. Okay. You have a condition.
+
+00:07:52.737 --> 00:07:56.737
+If… if character in dictionary, which is going to be false,
+
+00:07:57.783 --> 00:07:59.783
+Yeah. So, what you told me you will do is, you will…
+
+00:07:59.989 --> 00:08:01.989
+add in the dictionary A with 0.
+
+00:08:02.337 --> 00:08:07.337
+If it's false, you will put A0. Next, you move to B.
+
+00:08:07.883 --> 00:08:12.883
+If character not in dictionary, of course, it's not in the dictionary. So again, you do B0.
+
+00:08:13.994 --> 00:08:16.994
+Then you go pay again, then you find again. Now this condition is true.
+
+00:08:17.237 --> 00:08:22.237
+like, sorry, for example, false, because A is in the dictionary, right? So it is going to go in the else.
+
+00:08:22.773 --> 00:08:26.773
+It's not going to put A0, it's going to go in the else. Now, what do you do in the else?
+
+00:08:28.346 --> 00:08:30.346
+flip symbols, here she.
+
+00:08:30.826 --> 00:08:33.826
+Maybe we can visualize this, like, this spectrum. So if…
+
+00:08:34.938 --> 00:08:36.938
+CH in.
+
+00:08:37.830 --> 00:08:39.830
+X, right? This will work.
+
+00:08:40.316 --> 00:08:42.316
+So…
+
+00:08:43.474 --> 00:08:45.474
+For example, for the first day, false.
+
+00:08:46.671 --> 00:08:49.671
+If it's false, what you are trying to do is you are saying, okay, I will insert
+
+00:08:50.418 --> 00:08:53.418
+The characterized key, and the value would be…
+
+00:08:53.697 --> 00:08:56.697
+This is what you're doing, right? Then you go to else.
+
+00:08:57.515 --> 00:08:59.515
+Now, what do you do in ELTS?
+
+00:09:00.553 --> 00:09:02.553
+If the character is repeated, now we're doing else.
+
+00:09:03.312 --> 00:09:07.312
+The final part of the logistics meeting. I guess we should lose now this one.
+
+00:09:07.871 --> 00:09:09.871
+If it's repeated. Yeah, how?
+
+00:09:11.709 --> 00:09:15.709
+See, I already put the syntax for you also, now you can use the same syntax and do something.
+
+00:09:16.620 --> 00:09:18.620
+Take your time. It will be like this.
+
+00:09:18.518 --> 00:09:20.518
+XC Edge. Good.
+
+00:09:21.448 --> 00:09:23.448
+0 plus 1. Then it will always be 1.
+
+00:09:23.661 --> 00:09:25.661
+For example, when you go here,
+
+00:09:26.593 --> 00:09:29.593
+You go into else, 0 plus 1 is 1. So that could be this one.
+
+00:09:29.800 --> 00:09:34.800
+Instead of zero. Because this is the first time it counts zero. Can you write it down? Yeah.
+
+00:09:35.042 --> 00:09:37.042
+It will be…
+
+00:09:39.000 --> 00:09:41.000
+See Edge equals X…
+
+00:09:42.037 --> 00:09:44.037
+See H plus 1.
+
+00:09:44.581 --> 00:09:47.581
+Yeah, nice, yes. Yo, that's it.
+
+00:09:48.630 --> 00:09:53.630
+This is math. Once you print X, you get all. Yeah, yeah. Right?
+
+00:09:54.381 --> 00:09:56.381
+I remember the sentiment.
+
+00:09:57.290 --> 00:09:59.290
+manipulation task.
+
+00:09:59.488 --> 00:10:02.488
+Now, I need you to reverse this stream.
+
+00:10:02.875 --> 00:10:04.875
+Yeah. Without using…
+
+00:10:05.189 --> 00:10:07.189
+the slicing operators in Python.
+
+00:10:08.525 --> 00:10:11.525
+No, Mr.… don't remind me of this thing.
+
+00:10:11.892 --> 00:10:13.892
+The simple reverse.
+
+00:10:14.668 --> 00:10:17.668
+So, Zach should appear first, then why, then so on.
+
+00:10:17.736 --> 00:10:21.736
+How can you do it without using the Python's built-in column for minus 1?
+
+00:10:22.448 --> 00:10:24.448
+Without that.
+
+00:10:25.711 --> 00:10:31.711
+Can we, like, do another question? Because the only thing I remember now was this, the slicing, minus 1.
+
+00:10:32.061 --> 00:10:37.061
+No, like, it's fine, see, just like you strode in a dictionary and you count it, right? Mm-hmm.
+
+00:10:38.013 --> 00:10:41.013
+The logic is kind of similar with…
+
+00:10:41.241 --> 00:10:45.241
+there's some extension to it, right, of course, but you don't have to count here.
+
+00:10:45.254 --> 00:10:47.254
+You just have to reverse, right?
+
+00:10:47.234 --> 00:10:49.234
+So, uh…
+
+00:10:49.217 --> 00:10:51.217
+you know…
+
+00:10:51.416 --> 00:10:53.416
+string is a collection of characters.
+
+00:10:54.182 --> 00:10:56.182
+Just like a list, we also have indexes.
+
+00:10:57.932 --> 00:10:59.932
+like, zero index, 1 index, 2, 4…
+
+00:11:00.876 --> 00:11:04.876
+Yes, you can use minus 1, but you cannot use the slicing to reverse this one.
+
+00:11:05.065 --> 00:11:08.065
+You mean this one? Minus one.
+
+00:11:08.285 --> 00:11:10.285
+Yeah, so you can use…
+
+00:11:10.534 --> 00:11:12.534
+the index minus 1.
+
+00:11:12.517 --> 00:11:14.517
+Which is the last character.
+
+00:11:14.844 --> 00:11:16.844
+minus 2 is the second last step, right?
+
+00:11:17.486 --> 00:11:21.486
+Okay. But you cannot use, uh, like, the slice syntax.
+
+00:11:22.541 --> 00:11:28.541
+So, for example, let's say, uh, right here, uh, let's say R. R. Ah, mister, I remember something.
+
+00:11:28.557 --> 00:11:32.557
+Yeah, just write R. So R should become the reverse to string.
+
+00:11:32.676 --> 00:11:40.676
+Okay, you mean a new one, okay. Mr., I remember, like, uh, we put the last character, like, minus 1.
+
+00:11:40.911 --> 00:11:42.911
+It should be…
+
+00:11:43.936 --> 00:11:45.936
+First, the zero.
+
+00:11:46.485 --> 00:11:51.485
+Because this is 0, 1, 2… Yeah, okay. Minus 1 is Z, actually. Yeah, yeah.
+
+00:11:52.193 --> 00:11:54.193
+So we start the same, minus 2,
+
+00:11:54.395 --> 00:11:56.395
+equals…
+
+00:11:56.716 --> 00:11:59.716
+Y is equal… I don't remember the equal term.
+
+00:12:00.710 --> 00:12:02.710
+Oh, you're trying to reassign the indexes?
+
+00:12:03.206 --> 00:12:10.206
+No, I'm just like… You can even access characters, like, minus 1 is Z, minus 2 is Y, you can access it like this. But you have to store it in R.
+
+00:12:11.369 --> 00:12:21.369
+in sequence, like Z, Y, D, X, D, A, B, B, like this. But is it okay if I do it like this? I need geologic. Yeah, yeah.
+
+00:12:21.580 --> 00:12:26.580
+I will say, like, minus when the last character, it should be in the zero position.
+
+00:12:26.785 --> 00:12:28.785
+This is what I'm trying to say.
+
+00:12:29.239 --> 00:12:32.239
+Yes, this is what I'm trying to also say, right? Okay.
+
+00:12:32.320 --> 00:12:37.320
+In dictionary. But what is the logic here? Like, for example, I'm also saying put it in the…
+
+00:12:37.294 --> 00:12:39.294
+Put it in here. Okay.
+
+00:12:39.942 --> 00:12:43.942
+And I need the logic, actually, right? Yes, you are also saying… Can we append it?
+
+00:12:44.719 --> 00:12:47.719
+Whatever you like. Whatever you like. Whatever is coming in your mind.
+
+00:12:48.529 --> 00:12:50.529
+Okay. Think about it, right? Take a minute.
+
+00:13:32.412 --> 00:13:36.412
+Mr. Singh, my idea is, like, to create a list? Yeah.
+
+00:13:37.277 --> 00:13:43.277
+And, uh, to start, as I said before, it's like to start the last position, which is Z.
+
+00:13:43.753 --> 00:13:45.753
+It will be in the first position.
+
+00:13:46.384 --> 00:13:50.384
+How will you put it? Like, I mean, you know string is immutable, you cannot change it.
+
+00:13:51.513 --> 00:13:54.513
+So… Mr. Smutable.
+
+00:13:54.682 --> 00:14:02.682
+Uh, string is… string is immutable, cannot be changed. String. Oh, okay. You cannot put Z in A. Like, that's why I told you, okay, put it in R.
+
+00:14:03.588 --> 00:14:06.588
+So now, when you do r equal to minus 1, yes, you are putting Z in R.
+
+00:14:06.837 --> 00:14:08.837
+But then what after that?
+
+00:14:12.388 --> 00:14:17.388
+I remember something, like, when we finished this, we will put our…
+
+00:14:17.807 --> 00:14:24.807
+No, no, it would be m. No, don't worry about syndax. Yes, append is fine, like, you can tell me, yes, I need to add this, right?
+
+00:14:24.984 --> 00:14:29.984
+Like, but if you say, I have to put Z here, like, how come?
+
+00:14:30.309 --> 00:14:35.309
+Because programmatically… we are asking about the programmatic logic, and not the syntax.
+
+00:14:35.342 --> 00:14:40.342
+Okay. Like, for example, this is just like, um, Maria, I can say that, uh,
+
+00:14:40.312 --> 00:14:42.312
+I will just reverse this.
+
+00:14:42.711 --> 00:14:44.711
+Like, I mean, high level, so…
+
+00:14:45.559 --> 00:14:50.559
+high level, of course, is not what we need. We need programmatically, how you would do it, right? Okay.
+
+00:14:51.218 --> 00:15:00.218
+like, for example, here you told me I will scan the string and do this. Of course, this is the logic, right? Now, here, how would you scan the list string and do it?
+
+00:15:00.387 --> 00:15:02.387
+Because here, you also need to scan.
+
+00:15:04.657 --> 00:15:06.657
+So, how can you scan and
+
+00:15:07.162 --> 00:15:11.162
+generate the results, gradually. I mean, do I have to start the for loop?
+
+00:15:11.756 --> 00:15:14.756
+you have to think about it. Do you need it or not?
+
+00:15:18.457 --> 00:15:20.457
+Now, for a little bit will not be help.
+
+00:15:20.947 --> 00:15:24.947
+Right? Because I'm not trying to search for something.
+
+00:15:25.511 --> 00:15:30.511
+But for loop… it's for loop only for searching, or also for…? No, I mean, we can use it in something else, but for…
+
+00:15:30.643 --> 00:15:32.643
+Currently, like, what I think is…
+
+00:15:34.027 --> 00:15:40.027
+It's only for searching, or for loop is just to iterate the… all of the elements to do something about it, not just searching.
+
+00:15:41.868 --> 00:15:44.868
+Like, can you not use a for loop to…
+
+00:15:45.188 --> 00:15:47.188
+store each character into a new.
+
+00:15:48.618 --> 00:15:50.618
+Listore string, you can…
+
+00:15:50.816 --> 00:15:52.816
+Like, for example, what…
+
+00:15:53.073 --> 00:15:57.073
+Now, yes, we can use for loop as well. For for loop, you can use for loop for anything. Yeah.
+
+00:15:57.207 --> 00:15:59.207
+It's not just for searching? Yeah, yeah, yeah.
+
+00:16:00.383 --> 00:16:06.383
+This would create freedom to delete all things. So can we use, like, same disk condition for…
+
+00:16:07.580 --> 00:16:13.580
+Yeah, that's right. The finest one? Yeah, just think about it, right? Yeah. Then tell me, like, okay, I'm going to use a for loop, this is what I will do.
+
+00:16:13.706 --> 00:16:18.706
+If you want to go with that logic, and let's… Okay. …take a minute. That's fine.
+
+00:16:37.094 --> 00:16:39.094
+Because, believe me, this is difficult.
+
+00:16:39.078 --> 00:16:41.078
+Mm-hmm. Then reversing.
+
+00:16:42.714 --> 00:16:44.714
+So if you… if you're able to solve difficult,
+
+00:16:46.068 --> 00:16:53.068
+Because you have, uh, one time you have tried it out, it's good, right? So, of course, whenever you're trying a new problem, it will take some time. Next time, it will become…
+
+00:16:53.881 --> 00:16:56.881
+Mm-hmm. Not familiar. And if you have familiar problems, you can solve it very easily.
+
+00:16:57.503 --> 00:16:59.503
+That's fine.
+
+00:17:04.796 --> 00:17:06.796
+Mister, is it okay if I put, like, 4?
+
+00:17:07.421 --> 00:17:09.421
+Um, minus one.
+
+00:17:10.380 --> 00:17:13.380
+Of course, like, just tell me what will it do?
+
+00:17:14.637 --> 00:17:16.637
+Just tell me what it led to. For management will do what?
+
+00:17:18.012 --> 00:17:23.012
+Start the portal from where? It will start from the end, the sprink? Yep, yep.
+
+00:17:23.349 --> 00:17:32.349
+If there is… it will be definitely there is minus 1, the last character. So you're saying I will start from the last. Yeah. You can do that, right? Mm-hmm.
+
+00:17:32.951 --> 00:17:36.951
+Let me write it down here, right, so…
+
+00:17:37.739 --> 00:17:39.739
+This is how it will look like. So, 4…
+
+00:17:43.799 --> 00:17:45.799
+Jennifer? In…
+
+00:17:47.454 --> 00:17:49.454
+string, right?
+
+00:17:50.394 --> 00:17:52.394
+So, because usually it's actually a range.
+
+00:17:52.595 --> 00:17:54.595
+Right? Or you can say, like,
+
+00:17:55.081 --> 00:17:57.081
+4… I…
+
+00:17:57.060 --> 00:17:59.060
+And…
+
+00:17:59.702 --> 00:18:01.702
+Range? Mm-hmm.
+
+00:18:01.555 --> 00:18:03.555
+And you're going to start the range.
+
+00:18:03.861 --> 00:18:06.861
+In reverse. Okay, okay. Right?
+
+00:18:07.154 --> 00:18:09.154
+Well, it's the minus one.
+
+00:18:09.723 --> 00:18:11.723
+is the last element till 0, for example, let's in.
+
+00:18:12.473 --> 00:18:14.473
+So it goes from here to here in Brighton.
+
+00:18:15.353 --> 00:18:19.353
+And this I, like, for example, what you can do, you can do SI now.
+
+00:18:20.188 --> 00:18:26.188
+If, let's say, I'm printing this. So it will print Z, Y, X, D, A, B, okay, now, now what?
+
+00:18:27.015 --> 00:18:29.015
+Now we should return… no, no.
+
+00:18:29.573 --> 00:18:32.573
+This as we print it here. Instead of printing, you can use it.
+
+00:18:35.335 --> 00:18:39.335
+remember R. You have to store it in R. R is also a string. Yeah, yeah.
+
+00:18:41.561 --> 00:18:45.561
+So, we'll start, like, R equals to a list, or a string.
+
+00:18:46.192 --> 00:18:48.192
+And then… In the loop? Inside the loop?
+
+00:18:48.985 --> 00:18:53.985
+No, it will be outside, this is, like… Let's put R here, R equal to illustrate.
+
+00:18:54.393 --> 00:18:58.393
+about equal to all this, let's say right now. What do you… what we'll do inside?
+
+00:19:00.791 --> 00:19:03.791
+Now, how can we start… r.append can store. Yeah, yeah.
+
+00:19:05.343 --> 00:19:11.343
+I know this one, but how can, like… this is a for loop. Yeah. The normal thing, it's like R, a bend. Okay.
+
+00:19:11.874 --> 00:19:14.874
+My inside, what will you consider? It would be, like, minus one, zero?
+
+00:19:15.007 --> 00:19:17.007
+Is it like this?
+
+00:19:18.118 --> 00:19:20.118
+What will you do with this essay?
+
+00:19:22.340 --> 00:19:25.340
+This is Z, then this becomes Y, then this becomes…
+
+00:19:26.861 --> 00:19:30.861
+D, but I knew it pending. Okay, so it would be, like…
+
+00:19:31.165 --> 00:19:33.165
+art that happened. Yeah.
+
+00:19:34.825 --> 00:19:37.825
+It would be, uh, like this, S…
+
+00:19:38.282 --> 00:19:41.282
+Aye. Yeah. Large stuff.
+
+00:19:41.824 --> 00:19:43.824
+Good, I mean…
+
+00:19:44.545 --> 00:19:46.545
+with, uh, just…
+
+00:19:46.562 --> 00:19:53.562
+just need to give some hints that fit me. You're able to do it. I have the allergic, but sometimes, like, I cannot how to explain it deeply.
+
+00:19:54.306 --> 00:19:56.306
+Yep. So…
+
+00:19:59.300 --> 00:20:01.300
+Let me write it down so we remember what we've discussed.
+
+00:20:12.560 --> 00:20:14.560
+Yes. Let's just do…
+
+00:20:16.020 --> 00:20:21.020
+Okay, let's move to Git, because the next game is Git. The big issue!
+
+00:20:21.023 --> 00:20:23.023
+See?
+
+00:20:24.816 --> 00:20:28.816
+Um, I'm not going to ask you about the branch, Kermit, whatnot, we already…
+
+00:20:29.060 --> 00:20:31.060
+Well, that's right. So…
+
+00:20:31.578 --> 00:20:39.578
+I'm going to give you a very simple scenario that we have tried multiple times in the trainings also, is, let's say, this is your main branch,
+
+00:20:41.860 --> 00:20:43.860
+let's say this is your main branch, right?
+
+00:20:44.384 --> 00:20:49.384
+Okay. And, uh, sometimes, you know, when you're working on a task,
+
+00:20:49.514 --> 00:20:51.514
+By mistake, what happened, let's say,
+
+00:20:52.282 --> 00:20:55.282
+Your task, you're working on a task,
+
+00:20:55.255 --> 00:20:58.255
+And you… for that task, you have 3 commits.
+
+00:20:58.448 --> 00:21:00.448
+Mm-hmm. And by mistake,
+
+00:21:01.761 --> 00:21:05.761
+You pushed the commits into the mean branch. Now, these commits are…
+
+00:21:05.857 --> 00:21:07.857
+Related to the task 1.
+
+00:21:08.377 --> 00:21:10.377
+by mistake. Okay.
+
+00:21:11.110 --> 00:21:13.110
+you actually committed into the main branch, right?
+
+00:21:13.563 --> 00:21:15.563
+Now, how can you…
+
+00:21:15.440 --> 00:21:17.440
+Without losing the DOS.
+
+00:21:17.414 --> 00:21:19.414
+How can you actually fix this issue?
+
+00:21:19.913 --> 00:21:21.913
+And move these commits…
+
+00:21:21.953 --> 00:21:23.953
+into the feature branch.
+
+00:21:24.373 --> 00:21:26.373
+And then create a pull request.
+
+00:21:27.860 --> 00:21:29.860
+Uh… let's say…
+
+00:21:30.202 --> 00:21:32.202
+This is F1, right, feature branch.
+
+00:21:32.332 --> 00:21:34.332
+Just need to, uh…
+
+00:21:34.834 --> 00:21:37.834
+this new methodology, like, what would be the method flow?
+
+00:21:38.367 --> 00:21:44.367
+Actually… So you mean, like, I push my task in the main? You are in the main. Unfortunately, you created a branch, right?
+
+00:21:44.746 --> 00:21:49.746
+Or maybe you didn't create a branch, you forgot to create a branch. Okay. And you just, uh, by mistake, committed.
+
+00:21:50.410 --> 00:21:53.410
+dusk went into the main. Okay. Already committed, right? Okay, okay.
+
+00:21:53.894 --> 00:21:56.894
+Of course, when you push, you're gonna push, it's not allowed. Mm-hmm.
+
+00:21:57.950 --> 00:22:01.950
+But, of course, you have to push to create a pull request, right? Okay. So how do you fix this issue?
+
+00:22:02.420 --> 00:22:04.420
+Uh, if I use, uh…
+
+00:22:05.061 --> 00:22:07.061
+what we call this, uh…
+
+00:22:08.176 --> 00:22:13.176
+get reset dash dash. So let's say if you reset hard, right? Yeah. Then you lose the fork.
+
+00:22:13.896 --> 00:22:23.896
+Okay, uh, okay, okay. You lose your task. Mr., if I go to each branch and create, uh, if I go to each comment and create a new branch, it will be saved there.
+
+00:22:23.809 --> 00:22:30.809
+In the branch. Each commit, like, for example, what do you mean by each commit? Like, for example, this is commit one, right? Mm-hmm.
+
+00:22:32.122 --> 00:22:35.122
+First, how do you know that these are the commits that belongs to the task?
+
+00:22:35.813 --> 00:22:39.813
+How will you check? It's basically the message threatened for the… each comment, no?
+
+00:22:40.558 --> 00:22:43.558
+Or I can open it, and I see the edited…
+
+00:22:44.134 --> 00:22:52.134
+thing in that… Okay. But see, you got it right. So now you know these three commits are the… belongs to Metas. Now, what will you do?
+
+00:22:52.497 --> 00:22:55.497
+Like, for example, what you were saying, I didn't get it, like, each commit?
+
+00:22:57.183 --> 00:23:04.183
+Each branch? Something like that? Yeah, is it possible to open each commit and create a new branch? For each commit? Okay. Yeah.
+
+00:23:04.925 --> 00:23:13.925
+Like, let's say this is temporary 1, temporary 2, temporary 3. Okay, so now you have 3 branches. Yeah. Temporary one with commit 1? Mm-hmm. Temporary 2 with commit 2? Yeah.
+
+00:23:14.046 --> 00:23:19.046
+Temporary 3 with Comet 3. Yeah. Now, you have… you have distributed the task into three branches. Yeah.
+
+00:23:19.125 --> 00:23:21.125
+Then I merge it.
+
+00:23:22.505 --> 00:23:27.505
+Once I merge it, I will do the get, uh, hard, uh, reset hard.
+
+00:23:28.359 --> 00:23:33.359
+Okay, so what you are saying, I understand, like, for example, what you're saying is, let's say I have T1,
+
+00:23:33.360 --> 00:23:35.360
+Mm-hmm. T2 and T3.
+
+00:23:35.877 --> 00:23:37.877
+And T1 has…
+
+00:23:38.862 --> 00:23:41.862
+like, of course, you're creating the branch from main, or not?
+
+00:23:41.948 --> 00:23:43.948
+Yeah, yeah, from the main.
+
+00:23:43.814 --> 00:23:45.814
+So, D1 has this…
+
+00:23:47.895 --> 00:23:49.895
+T2 has this…
+
+00:23:52.881 --> 00:23:54.881
+And G3 is this…
+
+00:23:56.563 --> 00:24:00.563
+Right? Now, you have created 3 branches, right? And now you can reset.
+
+00:24:01.142 --> 00:24:03.142
+Yeah. Okay, now let's say you reset.
+
+00:24:03.696 --> 00:24:05.696
+Now, what will you do?
+
+00:24:06.116 --> 00:24:13.116
+Now I will merge this, because this is one task. Uh, what will you merge with what, like, how will you merge? I will merge 3 with 2.
+
+00:24:13.177 --> 00:24:15.177
+But 3 already has things that…
+
+00:24:15.976 --> 00:24:17.976
+Ah, sorry, on March 1 with 2.
+
+00:24:18.314 --> 00:24:20.314
+2 already has things that are in my…
+
+00:24:21.029 --> 00:24:28.029
+It will… it will… it will appear in the GitHub. There's, like, conflict, something like that. I have to resolve conflict.
+
+00:24:28.306 --> 00:24:31.306
+So, it will remove things that are similar.
+
+00:24:31.436 --> 00:24:33.436
+Okay, so for example, here…
+
+00:24:34.405 --> 00:24:40.405
+Um… I'm just trying to understand. See, T3 has all of the work in T21 already.
+
+00:24:40.804 --> 00:24:47.804
+Okay, sure. So, since I think they will work in 3, then I will get arrays this 1 and 2. Because no need for them.
+
+00:24:49.329 --> 00:24:54.329
+And then finally? Finally, I have… this is… this is my branch with the old work, and my minutes…
+
+00:24:54.944 --> 00:24:59.944
+Thank you. Yeah. Okay, yes, nice, right. So why create these two branches, anyways?
+
+00:25:00.580 --> 00:25:07.580
+My extra book. You could have just created a new feature branch that will contain… that will be exactly the same as mean.
+
+00:25:08.895 --> 00:25:13.895
+Which is kind of like T3. Okay. And then just reset me. Mm-hmm. And then push it.
+
+00:25:14.485 --> 00:25:16.485
+Okay, great simple feature of Angel Push.
+
+00:25:17.754 --> 00:25:19.754
+You understand, right? So, it's going to…
+
+00:25:20.500 --> 00:25:22.500
+So, because you cannot push the mean branch.
+
+00:25:23.022 --> 00:25:28.022
+Right? Yeah, yeah. If you create a new branch from mean, you can push that, right? So… Yeah.
+
+00:25:28.394 --> 00:25:30.394
+Simple push. Okay.
+
+00:25:31.061 --> 00:25:34.061
+But anyways, this should also work with extra work.
+
+00:25:34.211 --> 00:25:38.211
+So, of course… Just to make sure. No, no, this… I understand your concept right here.
+
+00:25:38.194 --> 00:25:40.194
+So this will work, which is good.
+
+00:25:40.916 --> 00:25:43.916
+Uh, one more scenario, right?
+
+00:25:43.910 --> 00:25:45.910
+to get is, uh…
+
+00:25:46.205 --> 00:25:52.205
+Actually, let's say you have… sometimes this also happens, that you have your feature branch, right?
+
+00:25:52.635 --> 00:25:55.635
+Okay. And let's a zoom in lunch.
+
+00:25:56.698 --> 00:25:58.698
+And in the feature branch,
+
+00:25:59.937 --> 00:26:01.937
+Sometimes what happens is you have, uh…
+
+00:26:02.822 --> 00:26:05.822
+Uh, by mistake, you do two tasks in the featured launch.
+
+00:26:06.779 --> 00:26:08.779
+What does this mean? And…
+
+00:26:10.672 --> 00:26:13.672
+This is task 1, and this is task 2. Okay.
+
+00:26:14.251 --> 00:26:21.251
+So you have, by mistake, committed both tasks in the feature branch. Although this feature branch one should have only T1,
+
+00:26:21.617 --> 00:26:25.617
+And T2 should be in another feature branch, right? Okay.
+
+00:26:26.357 --> 00:26:30.357
+Because you have to create two pull requests. Yeah, yeah, yeah. Right? And both should not have…
+
+00:26:31.281 --> 00:26:34.281
+Did I push it? No, no, nothing. I just committed.
+
+00:26:34.861 --> 00:26:36.861
+history? How would you fix this situation?
+
+00:26:38.205 --> 00:26:40.205
+Uh, for me, mister?
+
+00:26:40.301 --> 00:26:45.301
+I would take this for the code for this task too, and I'll put it in another page.
+
+00:26:46.986 --> 00:26:52.986
+Another page. In another, like, I open a new Python code, I put this code here.
+
+00:26:53.913 --> 00:26:55.913
+Separately. Okay, like, you're backing up on your PC.
+
+00:26:56.755 --> 00:26:59.755
+Sorry? Like, in your PC, you're backing up in your PC, just…
+
+00:26:59.851 --> 00:27:01.851
+in random files.
+
+00:27:02.777 --> 00:27:07.777
+Uh, you can do it… okay, let's see. Let's see our solution, right? Okay.
+
+00:27:09.896 --> 00:27:12.896
+So you put all of the files, maybe there are a thousand files.
+
+00:27:12.904 --> 00:27:14.904
+How will you do that?
+
+00:27:15.095 --> 00:27:17.095
+Because sometimes, let's say you…
+
+00:27:17.703 --> 00:27:22.703
+committed some output files or log files, so there are maybe hundreds of files.
+
+00:27:23.139 --> 00:27:25.139
+Okay. So how can you, like, uh…
+
+00:27:25.632 --> 00:27:29.632
+Will you, like, how will you download or copy all of the files from GitHub?
+
+00:27:29.860 --> 00:27:31.860
+Is there a better way to do it?
+
+00:27:33.282 --> 00:27:35.282
+Although it's a landing process, you can…
+
+00:27:37.037 --> 00:27:39.037
+So, I mean, I have my featured branch,
+
+00:27:39.484 --> 00:27:44.484
+By mistake, two tasks are merged. Only event should be merged, and this… I have to remove this.
+
+00:27:45.377 --> 00:27:47.377
+From here, so I can push it.
+
+00:27:49.805 --> 00:27:51.805
+This also has happened, by the way.
+
+00:27:51.676 --> 00:27:53.676
+Many times, the trainings.
+
+00:27:56.014 --> 00:27:59.014
+Uh, if I just, like, rename the another task…
+
+00:27:59.527 --> 00:28:05.527
+It would be removed. If I get getStatus, it will be… it will show… it will show. This one is deleted.
+
+00:28:05.859 --> 00:28:07.859
+Okay, how? Like, how? You said…
+
+00:28:09.011 --> 00:28:14.011
+If I do… Rename it. Rename the files. An example? Can you give me an example? Yeah, like, uh…
+
+00:28:14.865 --> 00:28:19.865
+Sometimes, I push two tasks in one pull request.
+
+00:28:21.009 --> 00:28:30.009
+So, the one that I don't need it, I will go to the VS Code, and I will rename this task again, like, I will add one, for example.
+
+00:28:30.773 --> 00:28:34.773
+Then we need to get status, it will show, like, this one is deleted, the old one. Okay.
+
+00:28:35.721 --> 00:28:37.721
+So then I will get add the delete one…
+
+00:28:38.504 --> 00:28:41.504
+get commit, get push. So this will just push T1, right? Yeah.
+
+00:28:42.278 --> 00:28:48.278
+Okay, and then… So, it will remain only this one if I refresh the GitHub? Okay, now, one is done, right? Now, how will you…
+
+00:28:48.681 --> 00:28:55.681
+pushed us to. For the task 2, it's like I rename it again. Okay. Then I can, like, I return the…
+
+00:28:56.305 --> 00:28:59.305
+the previous name, like, I can remove the one.
+
+00:28:59.312 --> 00:29:04.312
+Again, get add, get status, git add comment, and… Same branch, or…?
+
+00:29:05.094 --> 00:29:07.094
+No, no, another branch. We'll create another branch for it.
+
+00:29:07.664 --> 00:29:14.664
+And I push it. It will be separately. This is in French, and this is in Branche. Okay, okay, nice, nice. No, no, yeah, this would work.
+
+00:29:14.576 --> 00:29:21.576
+Nice. Although we have some more, but they are at once, so I'm saving that for the next window. Okay. So this is good, Maria.
+
+00:29:21.755 --> 00:29:23.755
+Okay, let's, uh…
+
+00:29:24.634 --> 00:29:26.634
+So, we have talked about, like, Python, maybe, like,
+
+00:29:29.322 --> 00:29:32.322
+Good, okay. And, uh…
+
+00:29:34.683 --> 00:29:37.683
+Uh, like, you know, you have… you have done some databases, right?
+
+00:29:37.759 --> 00:29:39.759
+Yeah. And you also know about filing?
+
+00:29:39.743 --> 00:29:41.743
+Yeah. Right, like…
+
+00:29:42.798 --> 00:29:48.798
+Uh, why don't, like, people always go for filing? Sometimes they go for databases, and sometimes you would see…
+
+00:29:49.662 --> 00:29:52.662
+that people go for filing and not databases. What are your thoughts on this?
+
+00:29:53.181 --> 00:29:57.181
+Mr. Human Firing, like, the only thing that I know for filing, it's like,
+
+00:29:57.920 --> 00:30:04.920
+How using… using code, how to open files, close, read, write. Right, right. Yeah. So you also know how to write to a database, right?
+
+00:30:05.919 --> 00:30:07.919
+So, if you have a data loose,
+
+00:30:08.674 --> 00:30:10.674
+Okay. Why not just…
+
+00:30:10.819 --> 00:30:13.819
+do everything in the database, or vice versa? Why not…
+
+00:30:14.512 --> 00:30:19.512
+save everything to a file, instead of setting up the whole database and everything, right? What is the reason?
+
+00:30:20.738 --> 00:30:22.738
+Yeah, people use database, like, everyone is using…
+
+00:30:23.284 --> 00:30:26.284
+databases, right? Although you can save everything to a file. Yeah, yeah.
+
+00:30:27.018 --> 00:30:30.018
+Mr., the thing that I know, it's, uh…
+
+00:30:30.457 --> 00:30:32.457
+When we have a database,
+
+00:30:33.317 --> 00:30:37.317
+Uh, the IP address for the database, it should be, like, fixed.
+
+00:30:38.086 --> 00:30:40.086
+So, anyone can access it from anywhere.
+
+00:30:40.328 --> 00:30:45.328
+Like, I mean, it have… there is a server for it, so it will be saved.
+
+00:30:45.839 --> 00:30:47.839
+So, what will be the benefit, then?
+
+00:30:47.957 --> 00:30:51.957
+If anyone can access from anywhere, so… It can be used, like, from anywhere.
+
+00:30:52.174 --> 00:30:54.174
+Yeah, so for example, people can actually
+
+00:30:54.919 --> 00:30:58.919
+use it from anywhere, means they can see the data from anywhere, right? Yeah. But with file, they cannot?
+
+00:31:00.496 --> 00:31:03.496
+Fine, sometimes maybe it depends on the network that's here.
+
+00:31:04.079 --> 00:31:10.079
+Yes, but usually if you're writing profile. So, it's in your project, right? So, who can see that file?
+
+00:31:10.775 --> 00:31:12.775
+Only me and my team, if I share it with them.
+
+00:31:12.840 --> 00:31:14.840
+He has to invite databases.
+
+00:31:16.880 --> 00:31:22.880
+No, it would be, like, databases would be better, because anyone can access it. I give them just the IP, like, I can enable…
+
+00:31:23.238 --> 00:31:25.238
+You have pushed on GitHub.
+
+00:31:25.792 --> 00:31:33.792
+Of course, your project, the config files, and whatever files, so anyone can see it if you just share the link. With the database, you have to also share the password,
+
+00:31:34.238 --> 00:31:37.238
+They have to QD and whatnot, right? So, meanwhile…
+
+00:31:37.190 --> 00:31:39.190
+Sorry, then…
+
+00:31:40.157 --> 00:31:42.157
+think about a reason, like, why.
+
+00:31:42.869 --> 00:31:44.869
+I think Platma covered it, I haven't covered it.
+
+00:31:46.849 --> 00:31:48.849
+filing versus databases, remember?
+
+00:31:49.945 --> 00:31:52.945
+The first session that Fatman Mohammadi first was saying, she gave you.
+
+00:31:55.851 --> 00:31:57.851
+I can't recall it exactly.
+
+00:31:58.359 --> 00:32:02.359
+But, uh, maybe the database, it can save more.
+
+00:32:03.156 --> 00:32:07.156
+data than filing, maybe there's a limitation in the filing.
+
+00:32:08.755 --> 00:32:12.755
+What if I tell you SQLite as a database that is based on filing? So, use files?
+
+00:32:13.312 --> 00:32:16.312
+But, yeah, of course, you can have many files, but…
+
+00:32:16.650 --> 00:32:18.650
+there's a manager that manages all of them, so…
+
+00:32:19.806 --> 00:32:25.806
+I mean… no, I don't think so. You have ISO files, you have, like, terabytes of files, so…
+
+00:32:26.458 --> 00:32:32.458
+There's no limitation in the size. Limitation is your SSD, of course, but database is also limited by SSD.
+
+00:32:33.244 --> 00:32:36.244
+Not a strong more than… if you have 1TB, you will not store more than one.
+
+00:32:36.225 --> 00:32:38.225
+Anything else going into your mind?
+
+00:32:44.916 --> 00:32:46.916
+Nothing for now.
+
+00:32:47.880 --> 00:32:49.880
+Okay, so…
+
+00:32:50.275 --> 00:32:53.275
+Or can you give me hints, like, maybe to refresh my mind?
+
+00:32:53.542 --> 00:32:55.542
+Yeah, so, uh…
+
+00:32:57.226 --> 00:33:00.226
+For example, if you're writing to a file,
+
+00:33:00.897 --> 00:33:02.897
+let's say you're saving…
+
+00:33:03.829 --> 00:33:05.829
+Let's say you're making an application tic-tac-toe, right?
+
+00:33:06.668 --> 00:33:13.668
+And you are saving a score in the file. Okay. So a score has, like, uh, let's say it's a CSV file, right, or TXT file.
+
+00:33:13.920 --> 00:33:15.920
+You have layer name,
+
+00:33:16.466 --> 00:33:18.466
+Write email, school.
+
+00:33:18.667 --> 00:33:20.667
+Okay. Where?
+
+00:33:20.970 --> 00:33:30.970
+Um, and you just keep saving all of the players' records. Now, player names can be different, of course, will get different, so because a lot of people are playing it, right? Okay.
+
+00:33:31.498 --> 00:33:34.498
+Now, if I tell you, Maria, can you actually, first,
+
+00:33:34.964 --> 00:33:37.964
+Can you actually… I need to…
+
+00:33:38.211 --> 00:33:40.211
+see if…
+
+00:33:40.082 --> 00:33:42.082
+there's a specific user
+
+00:33:43.089 --> 00:33:45.089
+How many times a specific user has won.
+
+00:33:46.270 --> 00:33:48.270
+Let's say.
+
+00:33:48.993 --> 00:33:50.993
+Now, how can you…
+
+00:33:51.092 --> 00:33:53.092
+Let's say you have all of the data in the file, right?
+
+00:33:53.998 --> 00:33:55.998
+How can you figure out if that user
+
+00:33:57.055 --> 00:34:02.055
+actually exist, and how much score that user has, and how many times has you been, actually, with the…
+
+00:34:02.219 --> 00:34:06.219
+How can you see, like, do your… could you write a program or something, or…?
+
+00:34:07.802 --> 00:34:10.802
+Write or script. Because in the file, you just have scores.
+
+00:34:10.783 --> 00:34:12.783
+Yeah, yeah. So, how can you…
+
+00:34:13.336 --> 00:34:15.336
+let's say write the logic to figure out.
+
+00:34:15.464 --> 00:34:17.464
+move on. High-level only.
+
+00:34:18.643 --> 00:34:20.643
+In Python.
+
+00:34:20.791 --> 00:34:26.791
+high-level containment. You mean I want to search something in it? Specific? That's the requirement is, Mario?
+
+00:34:27.427 --> 00:34:32.427
+uh, let's say Atheum has been detected normally, but there are many, thousands of many other users who play it, right?
+
+00:34:32.901 --> 00:34:35.901
+if, let's say, a client tells you, I need to know
+
+00:34:36.885 --> 00:34:38.885
+How many times have Atya won?
+
+00:34:40.082 --> 00:34:44.082
+Okay. That's a… you just need that information, that is already there in the file.
+
+00:34:44.744 --> 00:34:47.744
+But that is not, like, a tea upon how many times, it's just sports.
+
+00:34:48.729 --> 00:34:51.729
+Okay. So, how can you process the data to figure out how many times I win?
+
+00:34:53.162 --> 00:34:56.162
+Right? Yeah, yeah. Uh, so you can do that.
+
+00:34:56.660 --> 00:34:58.660
+Can you do that in Python?
+
+00:34:59.340 --> 00:35:06.340
+Yes, we can do, like… You can read a… you can read the file, then you can process, calculate a score, or something, right? Yeah, yeah, yeah. Right?
+
+00:35:07.440 --> 00:35:10.440
+Okay, let's say now you're storing the same thing in a database table.
+
+00:35:11.036 --> 00:35:13.036
+Mm-hmm. And the database table you have.
+
+00:35:13.122 --> 00:35:17.122
+their name, you have email, you have support, you have everything, right?
+
+00:35:17.859 --> 00:35:19.859
+If a person tells you, I just need to know
+
+00:35:20.212 --> 00:35:22.212
+The total score… the total score.
+
+00:35:22.336 --> 00:35:26.336
+on a program session, right? Of, say, say, 30% rate, for example.
+
+00:35:26.854 --> 00:35:30.854
+then… can you not get disclosure from a SQL query?
+
+00:35:32.942 --> 00:35:34.942
+like, select duty.
+
+00:35:38.066 --> 00:35:41.066
+And just do select count scope, where…
+
+00:35:41.167 --> 00:35:43.167
+main equal to, say you have.
+
+00:35:43.141 --> 00:35:45.141
+from this table, can you do that or no?
+
+00:35:47.625 --> 00:35:52.625
+For the SQLite, yes? Using SQLite? Yeah, yeah. Yeah, yeah, I remember that we do it. So what… one…
+
+00:35:53.033 --> 00:35:55.033
+One approach involves…
+
+00:35:55.734 --> 00:35:58.734
+Right? Writing code to actually get what you need.
+
+00:35:59.272 --> 00:36:02.272
+get the data however you like. One approach involves…
+
+00:36:03.199 --> 00:36:05.199
+don't care about the data, just tell me how you want it.
+
+00:36:05.677 --> 00:36:07.677
+Using SQL data abstraction.
+
+00:36:09.922 --> 00:36:13.922
+Anyways, this is not a session, right? So, we don't discuss databases. Okay. So…
+
+00:36:14.677 --> 00:36:16.677
+Let's say, in the file,
+
+00:36:17.022 --> 00:36:19.022
+You have a stored player first?
+
+00:36:19.743 --> 00:36:23.743
+then the CPU, then the email, then the score.
+
+00:36:24.071 --> 00:36:26.071
+If I want to get the information,
+
+00:36:26.661 --> 00:36:28.661
+If I just want to get the last two columns.
+
+00:36:28.907 --> 00:36:33.907
+the last two. Yeah, yeah. How can I do that? If I… I've stored it in a file.
+
+00:36:34.278 --> 00:36:39.278
+I just want you… your application to show on the two columns. Yeah, yeah. How can you do that?
+
+00:36:40.137 --> 00:36:42.137
+In Python. High level only.
+
+00:36:43.561 --> 00:36:48.561
+You read a file? Yeah, yeah, I read a file. This is normal. You skipped some columns from the beginning?
+
+00:36:49.083 --> 00:36:54.083
+Yeah, there is, uh… I can't recall exactly, but I remember in Jupiter,
+
+00:36:54.315 --> 00:36:57.315
+When we open it to, like, uh…
+
+00:36:59.608 --> 00:37:02.608
+There is this, like, something… What difference?
+
+00:37:05.180 --> 00:37:08.180
+Yeah, it's DF… Data frames. Yeah.
+
+00:37:08.360 --> 00:37:12.360
+DF, like, don't make it too complex, right? Like, I mean…
+
+00:37:13.369 --> 00:37:18.369
+Yes, but I understand. Let's say data frames, and then you just get the last two columns, right? Yeah. You load it to a data frame.
+
+00:37:18.539 --> 00:37:21.539
+Using Pandas, right? Yeah. Then you actually just…
+
+00:37:21.522 --> 00:37:23.522
+Print the last two columns, right? Yeah.
+
+00:37:24.793 --> 00:37:28.793
+If you want… if I… if someone has a store, the same thing in the database.
+
+00:37:29.420 --> 00:37:31.420
+Mm-hmm. Can you not just do select?
+
+00:37:32.320 --> 00:37:34.320
+Email for my score from…
+
+00:37:35.228 --> 00:37:38.228
+press enter and get the score.
+
+00:37:39.021 --> 00:37:46.021
+Without using any data frames, import bundles, anything. Yes, we can use select to get the exact… Just specific columns.
+
+00:37:46.492 --> 00:37:48.492
+Only, right? Yeah.
+
+00:37:48.439 --> 00:37:51.439
+No, no, no. No, I mean, like…
+
+00:37:51.638 --> 00:37:53.638
+Uh, this, uh, data frame.
+
+00:37:53.960 --> 00:37:55.960
+It will be, like, uh…
+
+00:37:57.924 --> 00:38:00.924
+It will give me the result from a big table, it will take, like, only 2.
+
+00:38:01.528 --> 00:38:07.528
+Yeah, this is from a file, right? Or from CSV file, or from some… some file. Yeah, and if I use select…
+
+00:38:08.740 --> 00:38:10.740
+Yeah, that's the thing that I write it, it will…
+
+00:38:10.707 --> 00:38:12.707
+Give me. Right, so… Yeah.
+
+00:38:13.909 --> 00:38:18.909
+So, for example, in Python, you have to write… modify the code in order to generate the reports, right? Mm-hmm.
+
+00:38:19.240 --> 00:38:21.240
+But in SQL, you just…
+
+00:38:21.771 --> 00:38:25.771
+tell the DB what we need, right? So, which one, like, I mean…
+
+00:38:26.391 --> 00:38:31.391
+This is one thing, okay. For example, let's say you're writing to a file, and there's a power cut.
+
+00:38:31.260 --> 00:38:33.260
+Okay.
+
+00:38:34.336 --> 00:38:37.336
+Only… it was writing, but half of the line is written.
+
+00:38:37.664 --> 00:38:42.664
+let's say score is 1000… 1000. Okay. Only 10 is written, but there's a power outage.
+
+00:38:42.722 --> 00:38:45.722
+Okay. So, can this happen in the database?
+
+00:38:48.165 --> 00:38:51.165
+You mean… can I get these numbers only?
+
+00:38:52.162 --> 00:38:54.162
+I didn't get it. Like, uh…
+
+00:38:54.180 --> 00:38:57.180
+Okay, forget about it, right? Uh, let's say…
+
+00:38:57.884 --> 00:39:01.884
+People are playing your detector a lot. Millions of people are playing the game. Okay.
+
+00:39:02.216 --> 00:39:04.216
+And you have to write…
+
+00:39:04.198 --> 00:39:06.198
+thousands of scores per second.
+
+00:39:06.463 --> 00:39:08.463
+Okay.
+
+00:39:08.797 --> 00:39:13.797
+is file the right choice for it, or is the database the right choice for it, or both can…
+
+00:39:14.325 --> 00:39:16.325
+It's with can't be work.
+
+00:39:16.974 --> 00:39:19.974
+But it depends on the person who prefer which one to use.
+
+00:39:19.960 --> 00:39:21.960
+Look at, for example, let's say…
+
+00:39:23.205 --> 00:39:25.205
+If I write to a file, right?
+
+00:39:25.660 --> 00:39:28.660
+continuously, thousands times per second.
+
+00:39:29.810 --> 00:39:34.810
+So, you use your SSD, right? Like, disk usage becomes… goes to 100%. Everything hangs.
+
+00:39:34.963 --> 00:39:37.963
+Okay. Of course, everything will hang, right?
+
+00:39:38.284 --> 00:39:41.284
+So, which means if there are many more rides, they will be lost.
+
+00:39:41.623 --> 00:39:43.623
+Because the disk is busy.
+
+00:39:44.097 --> 00:39:46.097
+Okay. It has a limit, right?
+
+00:39:46.432 --> 00:39:49.432
+Mm-hmm. When it comes to database…
+
+00:39:50.365 --> 00:39:54.365
+servers. Database servers are somewhere else. They can scale also.
+
+00:39:55.045 --> 00:39:57.045
+Like, for example, if you want to fry it,
+
+00:39:57.800 --> 00:39:59.800
+3 SSDs can actually write
+
+00:40:00.033 --> 00:40:05.033
+different records, because database can have a cluster, by the way, right, that you don't have.
+
+00:40:05.129 --> 00:40:07.129
+So, I'm just telling you, right? Fine.
+
+00:40:07.647 --> 00:40:10.647
+But anyways, I didn't… Dean forgot about Deep Intel.
+
+00:40:11.401 --> 00:40:13.401
+Uh…
+
+00:40:14.386 --> 00:40:18.386
+For filing versus database, it's something that I think you should revise later, right?
+
+00:40:18.372 --> 00:40:20.372
+Because we took it, it was too fast.
+
+00:40:21.245 --> 00:40:24.245
+Uh, do you know about asset properties of database asset?
+
+00:40:26.084 --> 00:40:28.084
+atomic consistency, isolation, durability.
+
+00:40:30.057 --> 00:40:32.057
+You might be thinking, oh, no one discussed WebDB, right?
+
+00:40:33.119 --> 00:40:36.119
+No, no, I guess we discussed it, but… No, no, I'm telling, like…
+
+00:40:36.687 --> 00:40:41.687
+interviews. Mm-hmm. No one would have told you that we discussed DPR? No.
+
+00:40:42.128 --> 00:40:46.128
+I think… but anyways, you covered TP, right?
+
+00:40:46.840 --> 00:40:48.840
+So, acid… okay.
+
+00:40:49.860 --> 00:40:51.860
+Have you covered, like, CRUD in the DB?
+
+00:40:52.709 --> 00:40:54.709
+basic curve.
+
+00:40:55.037 --> 00:41:06.037
+I didn't go deep with the database. Okay, select, insert, update, QDs? Yeah, I remember these things. Okay, like, okay, you didn't… because we haven't practiced this too much, right?
+
+00:41:06.226 --> 00:41:09.226
+Let's fine. Let's move forward, right? Let's talk about, uh…
+
+00:41:10.039 --> 00:41:12.039
+You say database server, right? Mm-hmm.
+
+00:41:12.826 --> 00:41:15.826
+So, what is the difference between a server application and a client application?
+
+00:41:16.541 --> 00:41:20.541
+blind, basically, it, like, uh…
+
+00:41:21.093 --> 00:41:24.093
+It sends the request, and the server responds.
+
+00:41:24.420 --> 00:41:26.420
+Can server send a request? Is it possible?
+
+00:41:27.086 --> 00:41:32.086
+Uh… I remember, yeah, it can. How? Um…
+
+00:41:32.062 --> 00:41:34.062
+Like, uh…
+
+00:41:36.380 --> 00:41:38.380
+How can I tell you?
+
+00:41:39.577 --> 00:41:41.577
+Like, if it's the host?
+
+00:41:41.642 --> 00:41:43.642
+It will be send a request.
+
+00:41:43.627 --> 00:41:45.627
+Uh, who?
+
+00:41:46.128 --> 00:41:49.128
+What is a host? Host, basically, it's like, um…
+
+00:41:49.226 --> 00:41:52.226
+Any… any device that's connected to network?
+
+00:41:52.280 --> 00:41:56.280
+Also, notice a device that is connected to a network, right?
+
+00:41:57.050 --> 00:42:01.050
+But host, maybe… okay, let's say I disconnect this from the internet, right?
+
+00:42:01.929 --> 00:42:07.929
+So, is it a host or not? Like, if I disconnect this laptop from the internet… It will not be host. It will not be host. Yeah.
+
+00:42:08.665 --> 00:42:12.665
+Because I remember hostits, like, hosting for now. Oh, sorry, Maria.
+
+00:42:13.603 --> 00:42:17.603
+What is hosting? You hear this word, right? Hosting, the application hosting. Yeah, yeah.
+
+00:42:17.759 --> 00:42:19.759
+Mister, it's like, um…
+
+00:42:22.148 --> 00:42:27.148
+Host, it's like hosts, something, like, he leads something, or he's the biggest thing.
+
+00:42:28.474 --> 00:42:31.474
+And it can be, like, a server or client. In terms of…
+
+00:42:32.085 --> 00:42:35.085
+In terms of computer networks, or in terms of
+
+00:42:35.465 --> 00:42:39.465
+In terms of computer network, like, as I remember,
+
+00:42:40.089 --> 00:42:47.089
+based on my studies, it's, uh… if I have this, my laptop, and I connect it to network, it will have its own IP.
+
+00:42:47.495 --> 00:42:50.495
+And I can make it as a host or a client.
+
+00:42:50.363 --> 00:42:56.363
+Uh, not blind, sorry, server and client. What is a host? So, host versus server versus client.
+
+00:42:56.544 --> 00:43:01.544
+So, client test, you see a consent request. Servers can respond back, right? Yeah. What is a host?
+
+00:43:03.568 --> 00:43:05.568
+Yes, no, you told about the node.
+
+00:43:06.609 --> 00:43:08.609
+a device that is connected to the internet.
+
+00:43:08.774 --> 00:43:11.774
+Right? That can connect to the internet, right? Okay.
+
+00:43:12.458 --> 00:43:14.458
+Host can be a node, but
+
+00:43:14.526 --> 00:43:16.526
+Poster is not just a note.
+
+00:43:17.428 --> 00:43:20.428
+posting, let's say, what does posting means? When I say, uh…
+
+00:43:20.900 --> 00:43:24.900
+Mario, can you host my application? What does that mean to you?
+
+00:43:25.001 --> 00:43:27.001
+It's like, I give a service,
+
+00:43:27.400 --> 00:43:29.400
+Something like that?
+
+00:43:30.144 --> 00:43:34.144
+Okay, so let's say… Let's say the application belongs to us, right? Okay. Join me.
+
+00:43:34.954 --> 00:43:36.954
+So, I will say, Maria, let's host our application.
+
+00:43:37.988 --> 00:43:40.988
+Right? Now, you are not providing me service, I'm not providing you service.
+
+00:43:41.559 --> 00:43:46.559
+I'm telling you, Mario, let's host our application. Okay. So what does that mean to you?
+
+00:43:47.204 --> 00:43:49.204
+Or, generally speaking, Christian.
+
+00:43:49.185 --> 00:43:51.185
+Um, it's like, uh…
+
+00:43:52.594 --> 00:43:55.594
+I lead everything, maybe.
+
+00:43:56.017 --> 00:44:00.017
+And I check everything like this. Okay, okay, no issues.
+
+00:44:00.118 --> 00:44:02.118
+Okay, let's do…
+
+00:44:02.305 --> 00:44:07.305
+A host is actually just something that can run applications. Hosting means running applications.
+
+00:44:07.285 --> 00:44:09.285
+Mm-hmm. Nothing that's right.
+
+00:44:10.017 --> 00:44:12.017
+So, a client application runs on a host.
+
+00:44:12.687 --> 00:44:14.687
+So, reflection on some of those, right?
+
+00:44:17.233 --> 00:44:19.233
+Okay, so…
+
+00:44:19.440 --> 00:44:21.440
+Again, we were talking about…
+
+00:44:21.542 --> 00:44:23.542
+Landrin servers, right? Mm-hmm.
+
+00:44:23.544 --> 00:44:25.544
+So…
+
+00:44:26.140 --> 00:44:29.140
+Client can send a request, right? In order to send a request,
+
+00:44:30.241 --> 00:44:32.241
+You need to know the address, right?
+
+00:44:32.541 --> 00:44:39.541
+Do you agree? Do we need to know the address or not? Yes, ma'am. For example, if a client wants to send a request, should it… must…
+
+00:44:39.464 --> 00:44:45.464
+It must know the IP address, or it can actually send a request without knowing the IP address. No, it should know the IP address.
+
+00:44:45.577 --> 00:44:47.577
+It's like a direction. Yep.
+
+00:44:47.564 --> 00:44:49.564
+So…
+
+00:44:50.677 --> 00:44:52.677
+So it should know the IP address of the server.
+
+00:44:53.766 --> 00:45:00.766
+Yeah. Right? Yeah, yeah. Because how can I get the information if I don't know? Which means the server has an IP address, right? Yes.
+
+00:45:01.561 --> 00:45:13.561
+But does the client also have an IP address? Yes, definitely. Like, my phone, it's my… I have my own IP address. If I want to search something in Google, Google have its own IP address.
+
+00:45:13.527 --> 00:45:16.527
+How can I get this information if Google don't have?
+
+00:45:17.516 --> 00:45:26.516
+like, my question, it would be distributed, like, somewhere in the cloud, searching for the answer, because it didn't get it if it doesn't find IP address from the Google itself.
+
+00:45:27.296 --> 00:45:29.296
+Okay. This is how I understand it.
+
+00:45:29.395 --> 00:45:32.395
+I do remember regular expressions?
+
+00:45:35.536 --> 00:45:38.536
+No. Maybe if you give me example?
+
+00:45:38.922 --> 00:45:40.922
+like, uh, for example, if I…
+
+00:45:41.265 --> 00:45:43.265
+write an email address. Mm-hmm.
+
+00:45:43.689 --> 00:45:47.689
+I tell you, can you make sure that the email address is valid?
+
+00:45:49.210 --> 00:45:55.210
+Oh, yeah, yeah. How can you? I remember, like, we have a template for the email, basically. Okay.
+
+00:45:55.953 --> 00:46:02.953
+It's first the name, at, it should be, like, outlook.com. So it will check, like, uh, if there is a dot.
+
+00:46:03.891 --> 00:46:07.891
+And at the end, I mean, it should find a dot, and there is…
+
+00:46:07.984 --> 00:46:13.984
+More than 2 characters, because we can make sure, like, no one writes only m.m. Okay.
+
+00:46:14.694 --> 00:46:19.694
+And, uh, it should search for ad, and there is something after at.
+
+00:46:20.423 --> 00:46:24.423
+Like, it's not empty. And… No, that's fine, I got your foot.
+
+00:46:24.517 --> 00:46:26.517
+Yeah. Uh…
+
+00:46:26.602 --> 00:46:28.602
+Oh, it's already 9.30, sorry.
+
+00:46:29.226 --> 00:46:34.226
+So… let's talk about, uh, HTTP versus HTTPS.
+
+00:46:35.187 --> 00:46:37.187
+Mm-hmm. So…
+
+00:46:37.715 --> 00:46:40.715
+what is the difference? HTTP versus HTTPS.
+
+00:46:41.048 --> 00:46:43.048
+Um…
+
+00:46:44.375 --> 00:46:53.375
+I remember that HTTPS, it's, like, more secure. More secure, so HLDP is also secure? Yeah, yeah, it's… both of them are secure, but this is, like, more security.
+
+00:46:53.804 --> 00:46:56.804
+On it. Like, HTTP secure, but HTTPS is more secure. Yeah.
+
+00:47:01.104 --> 00:47:03.104
+Okay, so…
+
+00:47:04.107 --> 00:47:09.107
+Uh, you know, when we are using HTTPS, we actually…
+
+00:47:09.764 --> 00:47:12.764
+There's the involvement of public and private key.
+
+00:47:15.722 --> 00:47:18.722
+Do you remember anything about, like, what is the difference between a public key?
+
+00:47:18.765 --> 00:47:24.765
+And I'm very keen. Is it the same as, like, public IP, this is, you mean?
+
+00:47:25.091 --> 00:47:31.091
+like, for example, there's something called a public IP address and private IP address. That is different, that's addresses, right? Okay.
+
+00:47:31.708 --> 00:47:34.708
+Public key and private keys related to information security.
+
+00:47:35.214 --> 00:47:41.214
+This is how HTTPS works, this is how SSH works. This is how you avoid man-in-the-middle attacks, right? So…
+
+00:47:41.384 --> 00:47:44.384
+Generally, just asking a very simple question,
+
+00:47:45.800 --> 00:47:47.800
+What is public versus private type?
+
+00:47:49.124 --> 00:47:52.124
+Public versus IBM. Like, public IP… sorry.
+
+00:47:52.639 --> 00:47:54.639
+public key, and private key.
+
+00:47:56.049 --> 00:47:58.049
+in HTTPS.
+
+00:47:58.068 --> 00:48:00.068
+What is the purpose section?
+
+00:48:01.958 --> 00:48:04.958
+Mr. Based on my knowledge?
+
+00:48:05.358 --> 00:48:10.358
+Um… the public IP, uh, public key,
+
+00:48:10.980 --> 00:48:14.980
+It's like anyone can access it or get it. But the private one, it's like…
+
+00:48:16.389 --> 00:48:19.389
+What is inside the public? Like, no one can access it.
+
+00:48:20.949 --> 00:48:22.949
+Uh, private can… private key cannot be accessed?
+
+00:48:23.094 --> 00:48:28.094
+It can be accessed by, like, a specific person. Okay, okay, yes, you're right, you're right.
+
+00:48:29.265 --> 00:48:33.265
+Okay, that's fine. So, public, by the name, of course, it can be accessed by name.
+
+00:48:34.109 --> 00:48:38.109
+But what do we do with the public key? What can we do with the public key? What can we do with the private key?
+
+00:48:38.467 --> 00:48:42.467
+What is… what is asymmetric key encryption?
+
+00:48:43.075 --> 00:48:45.075
+What's this? Asymmetric key encryption.
+
+00:48:49.115 --> 00:48:51.115
+We have discussed, I think, 2 or 3 times.
+
+00:48:56.924 --> 00:48:58.924
+asymmetrically encryption.
+
+00:49:00.241 --> 00:49:04.241
+like, uh, using… like, there… I can tell you this, that public key?
+
+00:49:05.365 --> 00:49:07.365
+And private keys involved.
+
+00:49:08.163 --> 00:49:10.163
+To make the communication secure.
+
+00:49:10.558 --> 00:49:12.558
+But what role do they play?
+
+00:49:13.160 --> 00:49:15.160
+In asymmetric encryption.
+
+00:49:15.224 --> 00:49:18.224
+Just your thoughts, right? No definitions, no memorization.
+
+00:49:23.682 --> 00:49:27.682
+This is the… is it the same encryption, like, that we see it in WhatsApp?
+
+00:49:28.224 --> 00:49:31.224
+This, uh, this chat is encrypted, something like that.
+
+00:49:31.593 --> 00:49:36.593
+That is… so, there's something called symmetrically encryption, using the same keyfert encryption, same for decryption.
+
+00:49:37.970 --> 00:49:41.970
+Okay. This one means different key for encryption, different for decryption, right? Okay.
+
+00:49:41.968 --> 00:49:43.968
+So, not the same.
+
+00:49:44.631 --> 00:49:50.631
+Although both are used, right? But I'm specifically asking about the role of a secret key and private.
+
+00:49:51.603 --> 00:49:56.603
+public key, like, what do you do with it? Yes, public can be accessed by public. Secret cannot be… can be accessed by specific
+
+00:49:56.759 --> 00:49:58.759
+people, right? What is the rule?
+
+00:49:58.872 --> 00:50:00.872
+Any role you can think of.
+
+00:50:01.862 --> 00:50:03.862
+what… what do… what are they used for?
+
+00:50:04.306 --> 00:50:07.306
+And they're used in HTTPS, they are used in SSH.
+
+00:50:07.288 --> 00:50:09.288
+Everywhere.
+
+00:50:09.860 --> 00:50:12.860
+And we have discussed also SSH, we have discussed HTTPS.
+
+00:50:16.449 --> 00:50:21.449
+But I told you memorization is not going to work, interview is going to change as soon as I realize there's a lot of discussion.
+
+00:50:22.509 --> 00:50:26.509
+support the previous question. But this is also basic. See, I'm not asking about…
+
+00:50:26.618 --> 00:50:30.618
+Okay, let's say, maybe I will help you remember. Digital certificates, remember?
+
+00:50:31.233 --> 00:50:33.233
+What is it? Digital certificates.
+
+00:50:33.631 --> 00:50:35.631
+Somehow, sub-certificate.
+
+00:50:36.205 --> 00:50:42.205
+The certificate you see on the browser, when you click on HTTP, you see a certificate. These are very important things for DevOps, by the way.
+
+00:50:42.330 --> 00:50:46.330
+So, for example,
+
+00:50:46.410 --> 00:50:51.410
+What is a digital certificate? I don't want to know the exact thing, maybe just a general idea.
+
+00:50:51.771 --> 00:50:53.771
+It's fine.
+
+00:50:54.487 --> 00:50:58.487
+Don't need to know, okay, this is what you mean. Okay, let's talk about, uh…
+
+00:51:04.732 --> 00:51:06.732
+Passion.
+
+00:51:08.444 --> 00:51:10.444
+Hash, right? For example…
+
+00:51:10.750 --> 00:51:12.750
+let's say this is a string hello, right?
+
+00:51:12.930 --> 00:51:14.930
+Mm-hmm.
+
+00:51:17.751 --> 00:51:21.751
+So, I can compute a hash of this string, right?
+
+00:51:22.488 --> 00:51:24.488
+The hash would be our very biggest string. Mm-hmm.
+
+00:51:25.208 --> 00:51:28.208
+hexadecimal string that will look like, like, a…
+
+00:51:28.800 --> 00:51:33.800
+you know, what, like, sex, calf… Yeah, yeah, to be combination. Big bit, right? Yeah.
+
+00:51:34.417 --> 00:51:38.417
+And you might have seen algorithms like SHA,
+
+00:51:38.976 --> 00:51:41.976
+Yeah, yeah. Proof of D6, right, MD5.
+
+00:51:42.824 --> 00:51:47.824
+Hatching is also a useful color, or something like that. Yeah. What is the purpose of using…
+
+00:51:48.749 --> 00:51:52.749
+what do these… like, what is the benefit of using the hashing algorithms?
+
+00:51:55.108 --> 00:51:57.108
+It's like an easy communication to the computer.
+
+00:51:58.643 --> 00:52:03.643
+like, um, I mean, I will talk in terms of colors. A computer, it cannot understand, like,
+
+00:52:04.256 --> 00:52:07.256
+bright, yellow. No, no, see, what you're talking about is…
+
+00:52:07.760 --> 00:52:12.760
+hex colors that is looking. Hex, okay. Shadow 56 hashes for a specific purpose.
+
+00:52:13.964 --> 00:52:15.964
+And we have covered it sometimes, like, 2 times at least.
+
+00:52:17.229 --> 00:52:20.229
+like, uh, these hashes that you compute.
+
+00:52:21.147 --> 00:52:24.147
+They have multiple purposes, but you can just specify only one.
+
+00:52:24.471 --> 00:52:26.471
+One is fine.
+
+00:52:31.925 --> 00:52:34.925
+I don't know, mister. Okay, no issues. Let's move to, uh…
+
+00:52:37.121 --> 00:52:42.121
+But smooth to… I already gave you scenarios for this, there's no networking, but right, let's move.
+
+00:52:42.604 --> 00:52:45.604
+Okay, uh, containerization, right? Mm-hmm.
+
+00:52:47.259 --> 00:52:52.259
+Let's say you are developing an application, the tic-Tac-toe one, that we usually develop, right?
+
+00:52:53.147 --> 00:52:55.147
+I want to containerize it not yet. Yeah.
+
+00:52:57.068 --> 00:53:03.068
+Now, I don't want you to give me this specific syntax, no, but I just want you to give me the…
+
+00:53:03.418 --> 00:53:05.418
+Just walk me through the steps, like,
+
+00:53:05.549 --> 00:53:07.549
+How would you write the Dockerfile?
+
+00:53:08.002 --> 00:53:16.002
+Okay. Yeah, yeah. Let's say past APA application is simple. Past API application. How would you containerize this application?
+
+00:53:16.870 --> 00:53:20.870
+in the Dockerfile, how can you tell Docker, like, what to do in order to contain it?
+
+00:53:21.588 --> 00:53:25.588
+Basically, Mr., there is 5 things we have to write in Dockerfile. Yep.
+
+00:53:26.852 --> 00:53:30.852
+Don't remember about the fight, then just a general idea, like, think about a virtual…
+
+00:53:30.759 --> 00:53:32.759
+Think about virtual machine and host, and
+
+00:53:33.530 --> 00:53:40.530
+Mm-hmm. What would you do, generally? Mr., I remember, like, first I have to mention the biphon version, which is… so I use from.
+
+00:53:41.648 --> 00:53:43.648
+from this Python version. What does that do?
+
+00:53:44.006 --> 00:53:46.006
+This is, like…
+
+00:53:47.563 --> 00:53:50.563
+I can't remember it exactly, but I remember that we used to…
+
+00:53:50.733 --> 00:53:53.733
+First, to write, like, from this Python version.
+
+00:53:54.529 --> 00:53:57.529
+Yes, but what does it do, actually, when you write it? What does it tell Docker?
+
+00:53:58.110 --> 00:54:00.110
+It will search on this file, in this version,
+
+00:54:00.319 --> 00:54:02.319
+Search for this specific thing.
+
+00:54:02.899 --> 00:54:04.899
+But what do I mean?
+
+00:54:05.066 --> 00:54:07.066
+Because we have multiple files, no?
+
+00:54:07.171 --> 00:54:09.171
+Yes, we have, but, like, I mean…
+
+00:54:11.501 --> 00:54:14.501
+After from, what you write is the name of the image first.
+
+00:54:15.269 --> 00:54:17.269
+is the name of our existing image.
+
+00:54:17.774 --> 00:54:24.774
+We write, from Python… So when you… whatever comes, whatever comes after from is the name of the image, existing image.
+
+00:54:25.781 --> 00:54:27.781
+So there's a new… there's an image called Python 3.
+
+00:54:28.699 --> 00:54:30.699
+Okay. I thought this is the version.
+
+00:54:31.720 --> 00:54:36.720
+Because the whole thing, I remember, it's the version. Memoration won't work, and then… No, because I worked on the hackathon,
+
+00:54:36.586 --> 00:54:38.586
+And they remember us and think only.
+
+00:54:39.019 --> 00:54:45.019
+And everyone tells me this is the Python version. No, yes, then it. So, that is actually the name of the image, right?
+
+00:54:45.526 --> 00:54:47.526
+That's why, don't tell me anything.
+
+00:54:47.976 --> 00:54:54.976
+based on your memorization, your concepts, right? Like, what is the purpose of Dockerfile? What are you telling Docker to do?
+
+00:54:55.893 --> 00:54:57.893
+Like, based on what you have done, what do you understand?
+
+00:54:58.562 --> 00:55:02.562
+Okay. So, the Docker fire, I only give them instruction.
+
+00:55:03.186 --> 00:55:05.186
+To create the image.
+
+00:55:06.226 --> 00:55:08.226
+Okay, yeah. Uh…
+
+00:55:08.324 --> 00:55:10.324
+So, we use, again,
+
+00:55:11.150 --> 00:55:16.150
+copy, we have to copy the old libraries from the requirement.txt. Yeah.
+
+00:55:17.190 --> 00:55:19.190
+Inside what? In the Dockerfile.
+
+00:55:19.883 --> 00:55:21.883
+Or to copy it in the image. In the image, okay.
+
+00:55:22.202 --> 00:55:24.202
+And uh…
+
+00:55:24.272 --> 00:55:29.272
+We use, I remember, CMD to create the board and the name of the file.
+
+00:55:29.267 --> 00:55:33.267
+That we run it. And again, we use, like,
+
+00:55:34.049 --> 00:55:37.049
+Copy, to copy all of things. Okay, okay, nice, yes.
+
+00:55:37.175 --> 00:55:45.175
+Yeah. Now, this is what I want, right? If you tell me specific lines, I can then ask more questions. Okay. Right? Which is not a good idea. No one actually told me.
+
+00:55:45.504 --> 00:55:52.504
+Which is good, right? At least you know the structure of Dockerfy. Yeah, yeah. Anyways, all of the other people, they forgot.
+
+00:55:53.395 --> 00:55:55.395
+Anyways, uh, but these are the things that…
+
+00:55:56.092 --> 00:55:58.092
+they're not, like, critical to remember,
+
+00:55:58.086 --> 00:56:00.086
+These come with practice, so…
+
+00:56:00.270 --> 00:56:02.270
+I don't want to support that.
+
+00:56:02.453 --> 00:56:07.453
+Okay, I just want to ask you, Maria, okay, let's say you container… you have an image, right?
+
+00:56:07.920 --> 00:56:09.920
+What can you do with the image now? Next.
+
+00:56:10.640 --> 00:56:21.640
+Uh, there is two ways to run it. Either I use Docker Compose App or Docker Compose. Okay, so you can run the container, right? I have to run the image, not container. Then it will convert it as a container.
+
+00:56:21.501 --> 00:56:23.501
+So, for example,
+
+00:56:25.075 --> 00:56:29.075
+you… you run a container based on an image, or you run the image? I run the image.
+
+00:56:29.514 --> 00:56:32.514
+And it will be… and it will create an…
+
+00:56:32.981 --> 00:56:38.981
+container. Because images like a template prop… Yes, but how can you run image? I don't understand?
+
+00:56:39.195 --> 00:56:45.195
+Because a process can run, right? Yeah, yeah. So, image is not… like, image is just a… just like a file.
+
+00:56:46.062 --> 00:56:51.062
+Yeah. Or just, like, a zip file with so many things inside, right? Mr. Running means one?
+
+00:56:51.883 --> 00:56:56.883
+Based on my know, the image is like there's an instruction, or…
+
+00:56:57.196 --> 00:57:03.196
+Yeah, there is instruction. The data, all the data is stored on a… On the SSD, right? Like, for example…
+
+00:57:03.692 --> 00:57:05.692
+Uh, if I turn off my laptop… Mm-hmm.
+
+00:57:07.050 --> 00:57:12.050
+Right now, my SSD is, let's say, image. It has everything to spin up what?
+
+00:57:12.532 --> 00:57:17.532
+The operating system, or here I can say to spin up the container, to run the container.
+
+00:57:17.772 --> 00:57:19.772
+So…
+
+00:57:19.859 --> 00:57:21.859
+How can you run the…
+
+00:57:22.651 --> 00:57:25.651
+Like, I mean, the data. Because debt is data, right? Yeah, yeah.
+
+00:57:26.431 --> 00:57:29.431
+A process actually uses the data, so a process runs.
+
+00:57:29.561 --> 00:57:31.561
+So, what you're trying to say is?
+
+00:57:32.399 --> 00:57:35.399
+Uh, we can run Appendainer based on an image.
+
+00:57:35.948 --> 00:57:37.948
+Okay. With Docker run command.
+
+00:57:38.455 --> 00:57:48.455
+Yeah, yeah. You first mentioned port, name of container, everything. You're running the container, but based on what image? At the end, you put the name of the image. Okay, okay. Right? Yeah, yeah. But you're right, it's fine.
+
+00:57:49.251 --> 00:57:52.251
+So, what… is there any benefit you see for this con…
+
+00:57:52.586 --> 00:57:55.586
+all of this extra work. When you… we can just go to Ubuntu,
+
+00:57:56.585 --> 00:58:01.585
+And just install Python, and just copy-paste over aperture and run. Yeah, yeah. While I container is…
+
+00:58:01.446 --> 00:58:06.446
+Mr. Container, it's, like, not heavy as the… this is another operating system.
+
+00:58:07.471 --> 00:58:10.471
+No, no, but think about it. See, I have two computers, so, like, I can go to Ubuntu. Mm-hmm.
+
+00:58:10.664 --> 00:58:12.664
+I can just… and by the way,
+
+00:58:13.266 --> 00:58:15.266
+Python is coming with Ubuntu. Mm-hmm.
+
+00:58:17.540 --> 00:58:23.540
+So, Python nowadays, it's coming with Ubuntu, and you have a FastAP application. Instead of, like, installing Docker here, here,
+
+00:58:23.634 --> 00:58:25.634
+than writing a broker file, then…
+
+00:58:25.970 --> 00:58:31.970
+then actually creating an image, building an image, then, I mean, running a container here.
+
+00:58:32.312 --> 00:58:35.312
+But I can just do is copy and paste your code.
+
+00:58:36.030 --> 00:58:40.030
+get clone your code, and Python is already there, so I can just run Python main app.
+
+00:58:41.566 --> 00:58:48.566
+I go through all of this effort. What is the reason you see, like, is there any benefit, or just… Yeah, yeah, there is a benefit, of course, for the Docker.
+
+00:58:48.569 --> 00:58:52.569
+Um, it's easy for publishing later.
+
+00:58:53.145 --> 00:58:56.145
+Okay. And the, uh, yeah, yeah.
+
+00:58:56.770 --> 00:59:04.770
+Okay, let's say you push to talk around. What is the benefit, I mean? Like, uh, I'm a Zamari, yeah, I will go to Docker Hub, like, it will be easy to…
+
+00:59:04.798 --> 00:59:10.798
+Um, pull that, uh… Wouldn't that be easy to just git clone and run your application on the name? Maybe he did… he didn't…
+
+00:59:11.139 --> 00:59:13.139
+It's not pushing to the GitHub.
+
+00:59:15.106 --> 00:59:18.106
+No, no, let's… I will give you a scenario. He's pushing together. Okay.
+
+00:59:18.413 --> 00:59:24.413
+Wouldn't it be easy to just get clone of the other computer and Python vendor? No, miss that, because maybe my laptop is different.
+
+00:59:24.745 --> 00:59:32.745
+market, like, make it another operating system. But Python can run, you know? Python is platform independent. But, I mean, what is inside my application?
+
+00:59:33.204 --> 00:59:35.204
+So I have to make sure, like, it works in…
+
+00:59:35.752 --> 00:59:41.752
+In a proper way, in all computer, in all operating system, so that's why we containerize it.
+
+00:59:42.767 --> 00:59:45.767
+To make sure, like, run it smoothly, and…
+
+00:59:46.904 --> 00:59:55.904
+The thing that I see here on my laptop, it should be a bit the same for you. Like, for example, whatever, however you set up the picture in here should appear here, okay? Mm-hmm. Right.
+
+00:59:56.038 --> 00:59:59.038
+So… you know, you're nice, right? Let's…
+
+00:59:59.453 --> 01:00:02.453
+Just last time, right? Do you see any benefits of CICD?
+
+01:00:03.424 --> 01:00:05.424
+Yeah, I'm just… like, for example,
+
+01:00:06.191 --> 01:00:08.191
+You can manually deploy also, right?
+
+01:00:08.351 --> 01:00:10.351
+But by, I mean…
+
+01:00:10.829 --> 01:00:12.829
+What was the benefit of, like…
+
+01:00:13.137 --> 01:00:19.137
+Basically, we didn't go through it deeply for now. No, no, just like, yeah, yeah. In general, I mean…
+
+01:00:19.891 --> 01:00:23.891
+It will save time, CICD, because normally, like,
+
+01:00:24.666 --> 01:00:27.666
+Muzna and the code owner take time to review the code.
+
+01:00:27.831 --> 01:00:31.831
+they have to make… Does CICD have something to do with reviewing the code? Yeah, yeah.
+
+01:00:32.115 --> 01:00:41.115
+It's like automation, the Jenkins, it will testing, running, and then deployment. No, no, you said, like, uh, because, let's say Muzuna takes time to review the port, right? Yeah.
+
+01:00:42.359 --> 01:00:44.359
+She will… so, do you think the…
+
+01:00:45.047 --> 01:00:47.047
+code will be deployed automatically without the review.
+
+01:00:47.623 --> 01:00:49.623
+No, no, no. It could be test.
+
+01:00:50.085 --> 01:00:55.085
+First, does it, like, fit to the main? Like, I mean, for the hackathon, what we do?
+
+01:00:55.661 --> 01:01:01.661
+Maria and Hor have, like, their own work. Yeah. So, I have to make sure.
+
+01:01:01.963 --> 01:01:03.963
+My work, it fit with the Hur.
+
+01:01:04.324 --> 01:01:08.324
+And everything with other girls, it's fit. Like, working properly.
+
+01:01:08.898 --> 01:01:13.898
+And there's no conflict. Then still you have to create a pull request? Yeah, yeah. Which Phil doesn't have to review, right?
+
+01:01:14.292 --> 01:01:18.292
+No, no, this is done by all for… by the Jenkins. Yeah, no.
+
+01:01:19.476 --> 01:01:22.476
+Anyways, but you're partially correct, right? Of course,
+
+01:01:22.569 --> 01:01:24.569
+Unless you must domain.
+
+01:01:24.999 --> 01:01:29.999
+The pipeline is not supposed to start, and you can only merge domain if you get approvals, promo code owner.
+
+01:01:30.368 --> 01:01:32.368
+So, CICD will not trigger.
+
+01:01:33.494 --> 01:01:38.494
+If the pull request is not on the string. But anyways, you got the idea, it saves time, which is definitely fine.
+
+01:01:38.916 --> 01:01:41.916
+So, yeah, partially good, right? Okay, last thing, Mario.
+
+01:01:42.248 --> 01:01:44.248
+45, 9, 45, 1 hour.
+
+01:01:44.233 --> 01:01:46.233
+I'm really sorry.
+
+01:01:46.809 --> 01:01:48.809
+With it? Great, uh…
+
+01:01:49.909 --> 01:01:52.909
+EI agents. Very recently, we saw EI agents.
+
+01:01:53.636 --> 01:01:58.636
+So, I have been asking the same question, maybe people have told you, 10 different people have told you already now.
+
+01:01:59.088 --> 01:02:01.088
+that, uh… but I will ask you it. So…
+
+01:02:02.004 --> 01:02:05.004
+I use large language model to, let's say,
+
+01:02:05.346 --> 01:02:07.346
+generate text, right? Mm-hmm.
+
+01:02:08.191 --> 01:02:11.191
+And I use AI agents for some other things, right?
+
+01:02:12.031 --> 01:02:14.031
+The question is, is it possible?
+
+01:02:14.426 --> 01:02:16.426
+for an AI agent,
+
+01:02:17.269 --> 01:02:19.269
+For an AI agent, for example, let's say.
+
+01:02:19.250 --> 01:02:21.250
+to…
+
+01:02:21.835 --> 01:02:24.835
+print a document using CodeLine Sprinter.
+
+01:02:25.828 --> 01:02:27.828
+print a document? Yes.
+
+01:02:28.161 --> 01:02:30.161
+Uh, yes, it can.
+
+01:02:30.776 --> 01:02:35.776
+Because the AI agent, it's like a multiple of AI that I joined them together.
+
+01:02:35.617 --> 01:02:37.617
+As I remember.
+
+01:02:38.279 --> 01:02:47.279
+Because I remember, like, we have something like that, so I connect here, like, ChatGBT, I connect here something, so everything, it can, like…
+
+01:02:48.191 --> 01:02:52.191
+collaborate together, and help me to do specific things.
+
+01:02:52.986 --> 01:02:54.986
+So, for example, is it possible to have
+
+01:02:56.050 --> 01:02:59.050
+What you're seeing is, like, print, print function here.
+
+01:02:59.547 --> 01:03:01.547
+Or a printer note here, so it can actually print.
+
+01:03:01.924 --> 01:03:03.924
+Yeah, it can be. Okay.
+
+01:03:06.504 --> 01:03:10.504
+Okay, Maria, thank you. You're welcome, mister. Nice enjoying you.
+
+01:03:11.527 --> 01:03:13.527
+Ms. Seb, did I pass? I saw so many things red.
+
+01:03:13.783 --> 01:03:15.783
+Yeah, I mean, it's okay.
+
+01:03:16.320 --> 01:03:22.320
+Just say, like, do it like this. Yeah, you pass, but it's okay, it's not very good. Yeah, yeah. It's fine.
+
+01:03:22.192 --> 01:03:27.192
+I have to prepare myself more for the… No, that's fine, I think you did a good job.
+

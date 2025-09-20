@@ -1,0 +1,1269 @@
+WEBVTT
+
+
+00:00:02.879 --> 00:00:04.879
+Okay, Suleiman, so you already know.
+
+00:00:04.972 --> 00:00:06.972
+basics of everything that we have covered, right?
+
+00:00:07.514 --> 00:00:14.514
+Do I? Yeah, like, see, Python, you know, networking, Linux, Git…
+
+00:00:15.373 --> 00:00:19.373
+Docker deployment, whatnot. Conceptually, yes. All of those stuff, right?
+
+00:00:19.593 --> 00:00:21.593
+So, I will start with something
+
+00:00:22.272 --> 00:00:24.272
+Uh, with the same level first, right?
+
+00:00:25.334 --> 00:00:27.334
+So, I will give you directly…
+
+00:00:28.091 --> 00:00:38.091
+See, again, I don't want to know the syntax, I don't want to remember or memorize anything at all, like, use any memorized thing at all, right? If you want, you can, but
+
+00:00:38.526 --> 00:00:41.526
+It's totally fine. Only your logic?
+
+00:00:43.048 --> 00:00:46.048
+And only, uh, your, uh…
+
+00:00:46.332 --> 00:00:49.332
+concepts matter, only two things matter, right?
+
+00:00:50.057 --> 00:00:52.057
+Uh, so here, I will just give you a save.
+
+00:00:52.214 --> 00:00:54.214
+Let's say these are numbers.
+
+00:00:56.416 --> 00:00:58.416
+Okay.
+
+00:00:59.740 --> 00:01:02.740
+Uh, what would be your logic? Let me tell me.
+
+00:01:03.079 --> 00:01:05.079
+to find the minimum number from this list.
+
+00:01:07.019 --> 00:01:10.019
+Um, the logic minimum number for the stripe, just minimum.
+
+00:01:11.232 --> 00:01:14.232
+And you know, minimum is one, right? But it can be any number, so…
+
+00:01:15.056 --> 00:01:17.056
+How can I iterate this list to find the minimum?
+
+00:01:18.336 --> 00:01:21.336
+Demand-max function, or it cannot be used.
+
+00:01:21.478 --> 00:01:23.478
+Okay, fine.
+
+00:01:26.841 --> 00:01:33.841
+Uh, for this… to think about it. I mean, the min-max would have been easier, although it would… Although it would be easy…
+
+00:01:34.639 --> 00:01:37.639
+Uh, although another way is to make a min variable.
+
+00:01:37.620 --> 00:01:39.620
+Yeah.
+
+00:01:41.266 --> 00:01:43.266
+let's put it as…
+
+00:01:43.697 --> 00:01:45.697
+a big number.
+
+00:01:46.116 --> 00:01:48.116
+Okay. Or max value.
+
+00:01:48.328 --> 00:01:53.328
+Okay. Assuming it does exist in whatever language I'm using.
+
+00:01:54.433 --> 00:01:57.433
+In Python, there's something called infinite max. Let's say you're using it.
+
+00:01:57.601 --> 00:01:59.601
+Okay, it's always the maximum.
+
+00:02:02.398 --> 00:02:04.398
+And then I just go through the list.
+
+00:02:05.245 --> 00:02:10.245
+Yeah. Can I just type, go through a list, or does I have to open the for loop?
+
+00:02:10.382 --> 00:02:12.382
+Right? Okay.
+
+00:02:12.761 --> 00:02:15.761
+go… no, don't write it, I'll just tell me.
+
+00:02:16.921 --> 00:02:18.921
+Okay, so I just… I'd like to sit here like this.
+
+00:02:19.721 --> 00:02:23.721
+Yeah, and then I just go through the list, search for, uh…
+
+00:02:24.818 --> 00:02:26.818
+Uh, every time, uh, I, uh…
+
+00:02:27.077 --> 00:02:31.077
+iterate, I search for a value that is smaller than minimum,
+
+00:02:31.339 --> 00:02:38.339
+Every time I find a value that is smaller than the current minimum, then the minimum is going to be equals to that specific value.
+
+00:02:38.655 --> 00:02:45.655
+Yeah, and then so on, and then I find that 1 is the minimum value. Of course, I would continue to 7 and 8.
+
+00:02:46.576 --> 00:02:51.576
+That's the only disadvantage with it, but in the end, the minimum value
+
+00:02:51.736 --> 00:02:53.736
+will still be returned as one.
+
+00:02:54.198 --> 00:02:59.198
+So that's what I was telling you about, right? That's why… do you want to increase the…
+
+00:03:00.028 --> 00:03:03.028
+Do you want me to skip the basic? That will be much faster, right?
+
+00:03:03.620 --> 00:03:07.620
+I will give you full score in the basics. Let's directly jump to advance. Okay, fine.
+
+00:03:07.721 --> 00:03:09.721
+Great.
+
+00:03:12.455 --> 00:03:15.455
+Let's, uh, check this one out, right? So, let's say you have…
+
+00:03:16.085 --> 00:03:22.085
+Maybe, I don't know, we have discussed this back then, I don't know with Tarek or Suman, but anyways.
+
+00:03:22.285 --> 00:03:24.285
+So, this is a list of characters, right?
+
+00:03:24.848 --> 00:03:34.848
+Even 2 is… 2 is also, let's say, a number is a character, right? Okay. A character. So, we need an output like this. I do have a question real quick. Yep.
+
+00:03:36.042 --> 00:03:43.042
+So, as the data type character or string? I'm pretty sure there's a data type called character, which has only… In Python, there's no data…
+
+00:03:43.256 --> 00:03:48.256
+Yeah, in Python, there's a string-only, right? So all of them are strings. I see. Right? So…
+
+00:03:48.466 --> 00:03:51.466
+You need to… you need to figure out
+
+00:03:51.573 --> 00:03:53.573
+the reputations, right?
+
+00:03:54.257 --> 00:04:01.257
+of each character. For example, how many number of times A is repeated, how many number of times 2 is repeated, B is repeated, and you have to…
+
+00:04:01.453 --> 00:04:03.453
+Generate an output like this. For example,
+
+00:04:04.176 --> 00:04:09.176
+A 2, because A is repeated 2 times, so you just add 2 at that, right? Then…
+
+00:04:09.156 --> 00:04:11.156
+Nothing in between? No.
+
+00:04:11.413 --> 00:04:15.413
+Okay, then 2, 1, you know, space is nothing, right? Then…
+
+00:04:15.540 --> 00:04:17.540
+B?
+
+00:04:18.594 --> 00:04:20.594
+3, and then C…
+
+00:04:20.908 --> 00:04:22.908
+Ooh, one.
+
+00:04:23.513 --> 00:04:27.513
+Right? Any spaces? No spaces, nothing. I'll just select this, right?
+
+00:04:27.377 --> 00:04:29.377
+So, for example, now this is your output.
+
+00:04:31.037 --> 00:04:33.037
+This is usually the output, right? But…
+
+00:04:33.926 --> 00:04:35.926
+you have to write a logic,
+
+00:04:37.222 --> 00:04:40.222
+That can actually decompress it into the original string.
+
+00:04:41.190 --> 00:04:53.190
+I need to convert it back to the original string. Just… just communicate your logic, right? And think about it first, take your time. Wait, so do you want me to convert this to this, or this to this? This, back to this. What would be our logic to convert this back to this?
+
+00:04:53.011 --> 00:04:56.011
+Right? So, think about it first.
+
+00:04:56.213 --> 00:04:58.213
+take your time. I see.
+
+00:05:14.780 --> 00:05:17.780
+Is it okay… is it okay that I've solved authority first?
+
+00:05:18.746 --> 00:05:20.746
+I think I figured it out.
+
+00:05:21.748 --> 00:05:25.748
+My logic would be to iterate, uh, through the string twice.
+
+00:05:25.882 --> 00:05:34.882
+Okay, how? I would, uh, I would iterate through it twice, meaning that I would iterate through A, then 2, then B, then C, right?
+
+00:05:36.241 --> 00:05:42.241
+Then, uh, so basically… Like, you're skipping one number, right? No, I'm not really skipping one number, I'm using…
+
+00:05:44.245 --> 00:05:49.245
+I'm taking, like, the first and second in the first iteration. Second iteration, okay, okay.
+
+00:05:49.998 --> 00:05:51.998
+then you are taking… like, you take this,
+
+00:05:52.109 --> 00:06:03.109
+then you directly jump to the… to this and take these, right? Yeah. And then jump to this and take this, right? Okay. And then I check if the second character is numerical. I mean, just in case.
+
+00:06:05.018 --> 00:06:11.018
+And then after check… after checking is numerical, I convert it into, uh, a number.
+
+00:06:11.153 --> 00:06:15.153
+And then I make my, uh… and then my make my own for loop.
+
+00:06:15.134 --> 00:06:17.134
+to repeatedly
+
+00:06:18.256 --> 00:06:20.256
+to repeatedly, uh…
+
+00:06:21.189 --> 00:06:23.189
+And put the first…
+
+00:06:23.546 --> 00:06:29.546
+First character in the two-character string? No, no, I understand your logic. That will work fine.
+
+00:06:29.900 --> 00:06:31.900
+good first to start, right?
+
+00:06:32.077 --> 00:06:35.077
+Okay, but there's a… there's a problem, I think, here.
+
+00:06:35.638 --> 00:06:39.638
+The problem is, how would your logic know
+
+00:06:39.739 --> 00:06:41.739
+that it's A2,
+
+00:06:41.719 --> 00:06:43.719
+And not A221.
+
+00:06:45.804 --> 00:06:57.804
+I told you, I'm, uh… it's big… oh, yeah. What if it's re… what if rea… it really is 22 or 21? Yeah, then it will generate… So that's why you added a number.
+
+00:06:58.139 --> 00:07:02.139
+as a thing. Very sneaky stuff.
+
+00:07:06.533 --> 00:07:11.533
+And there's nothing in between, that's the thing. Anyways, you know, of course… I think I… but you are allowed to do one thing here.
+
+00:07:12.885 --> 00:07:14.885
+How would you…
+
+00:07:15.459 --> 00:07:17.459
+process this list?
+
+00:07:17.974 --> 00:07:19.974
+and generate something.
+
+00:07:20.955 --> 00:07:22.955
+What if I went through it backwards?
+
+00:07:26.449 --> 00:07:28.449
+Let's say… this is 11.
+
+00:07:29.096 --> 00:07:31.096
+Yep.
+
+00:07:31.741 --> 00:07:33.741
+How do I know it's not a 1? 1?
+
+00:07:34.198 --> 00:07:36.198
+One times.
+
+00:07:36.960 --> 00:07:42.960
+Yeah, but, uh, no, I already thought of the problem. I was, uh, my logic was going to see, uh…
+
+00:07:43.106 --> 00:07:50.106
+Go to see if, like, it's numerical, but then you have two 1, 2, 2. Of course, these are all… Yes.
+
+00:07:50.216 --> 00:07:52.216
+And numerical.
+
+00:08:01.849 --> 00:08:03.849
+Okay, you know, um…
+
+00:08:05.174 --> 00:08:07.174
+You are allowed to do one thing.
+
+00:08:07.357 --> 00:08:10.357
+Forget about this. How can you actually
+
+00:08:10.858 --> 00:08:12.858
+process this list.
+
+00:08:13.239 --> 00:08:16.239
+and generate something that you can later decompress easily.
+
+00:08:17.022 --> 00:08:20.022
+what would be your logic? Like, this is my without any spaces or nothing, right?
+
+00:08:20.771 --> 00:08:26.771
+Like, how would you, uh, do it? How would you compress it, right? Only spaces are not allowed, anything else is allowed.
+
+00:08:26.790 --> 00:08:30.790
+Or even if spaces are allowed on, let's say, right? So, how would you do it?
+
+00:08:31.730 --> 00:08:38.730
+I mean, of course, uh, I mean, of course, if I want to convert it to something, I can easily… Can you just put it right in?
+
+00:08:39.304 --> 00:08:44.304
+Just quickly here. With your choice of, let's say, compression, right? Like, for example, your choice.
+
+00:08:45.019 --> 00:08:47.019
+I could just add, uh, comments, right?
+
+00:08:52.036 --> 00:08:54.036
+And then, uh, just, uh…
+
+00:08:55.897 --> 00:08:57.897
+And just to make sure that, uh…
+
+00:08:59.106 --> 00:09:04.106
+Yeah. And just to make sure that it's actually separated, I'll separate these using colons.
+
+00:09:04.482 --> 00:09:06.482
+the character and the number.
+
+00:09:06.996 --> 00:09:08.996
+Okay, so now…
+
+00:09:12.099 --> 00:09:14.099
+Let's check it out here, right?
+
+00:09:14.651 --> 00:09:16.651
+For example,
+
+00:09:20.063 --> 00:09:23.063
+Come on, right? In the list, comma can be also a character, right?
+
+00:09:23.377 --> 00:09:26.377
+Yes. Like, Coma can also repeat.
+
+00:09:26.364 --> 00:09:28.364
+That's the things you correct, right?
+
+00:09:28.669 --> 00:09:35.669
+So, for example, uh, where I… I think this will definitely work fine if you have, uh…
+
+00:09:37.108 --> 00:09:42.108
+Uh, if all of these things are… if comma is actually one time… Yeah.
+
+00:09:42.637 --> 00:09:44.637
+And pollen is one time, so comma.
+
+00:09:44.862 --> 00:09:46.862
+Como? Hold on.
+
+00:09:47.053 --> 00:09:50.053
+Right? Let's say this is…
+
+00:09:50.641 --> 00:09:55.641
+This is the string. This is the list, right? So, which means you get something like this.
+
+00:10:00.194 --> 00:10:02.194
+One, right? And then, uh…
+
+00:10:02.638 --> 00:10:05.638
+Then you get here in comma.
+
+00:10:08.632 --> 00:10:10.632
+Colon. Colon is repeated also one time, right?
+
+00:10:11.956 --> 00:10:13.956
+Something like this.
+
+00:10:13.936 --> 00:10:15.936
+So, uh…
+
+00:10:16.094 --> 00:10:18.094
+Any character can be.
+
+00:10:19.064 --> 00:10:25.064
+can we put here? Everything is a character, even colon is a character, right? So there might be a case… do you think there…
+
+00:10:25.136 --> 00:10:27.136
+Do you think any case is possible where
+
+00:10:27.910 --> 00:10:29.910
+This scenario will fail.
+
+00:10:30.855 --> 00:10:32.855
+Or do you think this is a perfect solution?
+
+00:10:32.836 --> 00:10:34.836
+In every case.
+
+00:10:35.980 --> 00:10:41.980
+So, this will fail, uh, if the commas and colons are characterized. Like, for example,
+
+00:10:42.252 --> 00:10:44.252
+Uh, comma?
+
+00:10:44.968 --> 00:10:50.968
+And 2 is here, right? So here, for example, if you're converting this, for example, and if I write, let's say, comma,
+
+00:10:51.244 --> 00:10:56.244
+1, or comma 2 here, so this matches this, right?
+
+00:10:58.235 --> 00:11:00.235
+Here. Then colon.
+
+00:11:01.994 --> 00:11:04.994
+You just have to think of a case. You can lock the answer, you can say no.
+
+00:11:05.472 --> 00:11:08.472
+This one not visible. This might not work in some cases.
+
+00:11:12.440 --> 00:11:14.440
+Okay.
+
+00:11:39.401 --> 00:11:41.401
+So, this will be converted to this switch.
+
+00:11:41.934 --> 00:11:43.934
+might seem like it's…
+
+00:11:44.470 --> 00:11:49.470
+a non-understandable. Like, how would you decompress is the problem, right, then? If this is the strength of them?
+
+00:11:50.840 --> 00:11:53.840
+So the only problem is you cannot decompose it, because you're…
+
+00:11:54.679 --> 00:11:59.679
+For this specific example, I actually can't.
+
+00:12:00.535 --> 00:12:02.535
+Because, uh…
+
+00:12:03.222 --> 00:12:07.222
+First of all, it started with a comma. I know… I know that…
+
+00:12:07.839 --> 00:12:11.839
+I know that I have a Conan before the number. Yeah.
+
+00:12:12.712 --> 00:12:26.712
+So I have the character, and then the colon, and then the number, so I know that this is supposed to be together, and then this is separated from the other one using a comma, so I know that the comma is also separate.
+
+00:12:27.678 --> 00:12:35.678
+And then I know… and then, uh, you know, there's also this colon, uh, that's, uh, that might, that might seem like a problem.
+
+00:12:35.836 --> 00:12:37.836
+But after it is another colon,
+
+00:12:38.658 --> 00:12:40.658
+Which would make this color the character,
+
+00:12:41.174 --> 00:12:45.174
+And obviously, after this is the number, so I can just…
+
+00:12:45.033 --> 00:12:47.033
+So I know that this…
+
+00:12:47.217 --> 00:12:53.217
+It is a curve repeated one time, and this is a comment. You are going to add many rules, right? Many tools.
+
+00:12:53.663 --> 00:12:58.663
+oil processing the string. Kind of, yes. So, for example, what if this is the case?
+
+00:12:59.415 --> 00:13:01.415
+Because…
+
+00:13:02.742 --> 00:13:06.742
+A volunteer, right? What I'm going to do is do something like this.
+
+00:13:06.772 --> 00:13:08.772
+Uh, for example,
+
+00:13:08.830 --> 00:13:10.830
+Cuomo?
+
+00:13:12.758 --> 00:13:14.758
+Colon, 1.
+
+00:13:16.400 --> 00:13:18.400
+Yep. One, right?
+
+00:13:19.077 --> 00:13:21.077
+And then… we have…
+
+00:13:21.716 --> 00:13:23.716
+Again, comma.
+
+00:13:26.378 --> 00:13:28.378
+And then…
+
+00:13:29.017 --> 00:13:31.017
+colon.
+
+00:13:31.634 --> 00:13:35.634
+But again, see, this is… this is the comma that is separator, this is the comma that is not the separator, right?
+
+00:13:35.721 --> 00:13:37.721
+Yeah. So…
+
+00:13:37.779 --> 00:13:40.779
+This is this… this is the separate bit here.
+
+00:13:40.916 --> 00:13:43.916
+After colon, this is repeated.
+
+00:13:46.772 --> 00:13:48.772
+Let's see… 2 times, for example, right?
+
+00:13:49.828 --> 00:13:55.828
+So, with your logic, you can also convert this string back, right, to the numeric list, easily like the way you see it, right?
+
+00:13:56.019 --> 00:13:59.019
+Yeah, which is going to work? Good approach. Like, I think it…
+
+00:13:59.601 --> 00:14:01.601
+Maybe it's… it doesn't work, but I cannot think of any.
+
+00:14:02.435 --> 00:14:05.435
+thing that doesn't make it work, so it's good. Okay.
+
+00:14:06.193 --> 00:14:08.193
+Although, actually, uh…
+
+00:14:08.721 --> 00:14:11.721
+what you are trying to do is you can use a delimiter.
+
+00:14:13.286 --> 00:14:16.286
+Because if you use a delimiter, for example, like backslash use, right?
+
+00:14:17.242 --> 00:14:21.242
+We use backslashes as separate. So, backslash colon as a separate room.
+
+00:14:22.295 --> 00:14:25.295
+Right? So, just for the separator, right?
+
+00:14:25.406 --> 00:14:27.406
+So, for example… Let's put a separator.
+
+00:14:27.550 --> 00:14:34.550
+Like, for example, you know why backslash and backslash are? Backslash double quote exist to differentiate it from the double quotes.
+
+00:14:34.675 --> 00:14:41.675
+Oh, yeah. I'm just telling you, right? It's fine. I mean, in Python, yes, I was thinking… I was thinking in terms of, uh…
+
+00:14:43.074 --> 00:14:47.074
+In terms of, like, real-life logic, I forgot we were doing Python.
+
+00:14:47.779 --> 00:14:53.779
+Even in C or any language, right, you have escape sequences. Yeah, escape sequences. Of course, I could have… So, you can escape the delimiter.
+
+00:14:54.797 --> 00:14:57.797
+delimiter is a separator, right? So you can skip the delimiter,
+
+00:14:59.471 --> 00:15:04.471
+Right? So if delimiter appears, actually, in actual, that is not separate. For example,
+
+00:15:04.335 --> 00:15:06.335
+Let's say this is your string.
+
+00:15:08.539 --> 00:15:10.539
+Cuomo? Let's say A.
+
+00:15:12.064 --> 00:15:15.064
+Right? So this appears one, right? So you write this…
+
+00:15:15.923 --> 00:15:17.923
+And separator is always backslash.
+
+00:15:18.605 --> 00:15:23.605
+With backslash, and then you write one, right? And then, for example, for the next, you can write,
+
+00:15:23.962 --> 00:15:25.962
+Uh, that's A, uh, A.
+
+00:15:27.955 --> 00:15:29.955
+And this would just help you quickly.
+
+00:15:30.815 --> 00:15:33.815
+So check it out without any more rules, just one tools.
+
+00:15:33.938 --> 00:15:37.938
+Anyways… Yeah, it's a bit of… But really good, right, Suleiman? Okay. Yeah.
+
+00:15:38.014 --> 00:15:42.014
+You know, let's move to next things, and uh… can you tell me…
+
+00:15:43.865 --> 00:15:45.865
+Can you tell me, uh, we want to solve this?
+
+00:15:46.805 --> 00:15:49.805
+There's done. You told the logic, right? So you solve it.
+
+00:15:50.261 --> 00:15:53.261
+Uh, I'm going to take disclosure into account. Okay.
+
+00:15:53.241 --> 00:15:55.241
+So, uh…
+
+00:15:55.339 --> 00:15:57.339
+Please tell me, uh…
+
+00:15:57.669 --> 00:15:59.669
+You have done exception handling, right?
+
+00:15:59.801 --> 00:16:03.801
+In a couple of Python projects. Kind of.
+
+00:16:03.918 --> 00:16:05.918
+Do you see any benefit of, uh…
+
+00:16:07.797 --> 00:16:09.797
+Adding credit accept looks.
+
+00:16:11.110 --> 00:16:13.110
+I…
+
+00:16:13.464 --> 00:16:20.464
+For example, I have a previous name. I do have the… yeah, give me a syndrome. I will give you a scenario. For example, you are trying to open a file.
+
+00:16:21.860 --> 00:16:23.860
+the file doesn't exist, let's say, right?
+
+00:16:24.506 --> 00:16:28.506
+One thing you can do is you can just directly check if the file exists or not.
+
+00:16:29.631 --> 00:16:32.631
+The other thing you can do is actually put it in the tri-accept block,
+
+00:16:32.899 --> 00:16:39.899
+And then, if it fails, or if the code crashes, then you can check, oh, it's failing because the file is not found, so I will do something.
+
+00:16:40.421 --> 00:16:42.421
+Yeah, so…
+
+00:16:42.859 --> 00:16:44.859
+What is the…
+
+00:16:45.558 --> 00:16:47.558
+which approach do you think is better?
+
+00:16:47.948 --> 00:16:51.948
+Should I just pros check the file and then do something, and skip try accept?
+
+00:16:52.333 --> 00:16:54.333
+Or should I just still go for Drexel?
+
+00:16:55.397 --> 00:16:57.397
+I think you should, uh, still go for tryExcept.
+
+00:16:57.755 --> 00:16:59.755
+And what would be the reason for that?
+
+00:17:00.216 --> 00:17:08.216
+Uh, one reason is that, uh, your code might fail, uh, reading, uh, reading the file, uh, that's…
+
+00:17:08.558 --> 00:17:17.558
+Uh, that might be an error, although you still want to run the code and you don't want it to stop. So you come up with a compromise, which is where the accept part…
+
+00:17:17.745 --> 00:17:23.745
+Uh, comes in. That is your, uh, that is your compromise. You can either print out a log,
+
+00:17:24.517 --> 00:17:30.517
+that you couldn't read the file and still continue the code, or you could read the file with the try.
+
+00:17:31.603 --> 00:17:33.603
+And, uh, run the code successfully.
+
+00:17:35.482 --> 00:17:37.482
+Either way, your code is still running.
+
+00:17:40.169 --> 00:17:42.169
+Okay, nice.
+
+00:17:42.385 --> 00:17:47.385
+And there are many, like, uh… you have just touched one case, but…
+
+00:17:47.685 --> 00:17:53.685
+There are many others, but… I'm pretty sure there are many, it's just that… Yeah, for example, sometimes, sometimes, you know, the file…
+
+00:17:54.166 --> 00:17:58.166
+After you read the file, file can disappear, like antivirus, let's say, puts it in a vault, right?
+
+00:17:58.803 --> 00:18:09.803
+Like I said, failed reading the file. There are many cases where you can fail reading the file. Yes, maybe some… yeah, fail reading the file, like, someone renamed the file, someone moved the file. Yeah. External factors, right? Which is good.
+
+00:18:09.800 --> 00:18:11.800
+Okay, so, uh…
+
+00:18:15.681 --> 00:18:17.681
+I'm starting the skip sequence.
+
+00:18:17.833 --> 00:18:19.833
+I can't…
+
+00:18:20.194 --> 00:18:25.194
+I know I might escape sequences, I just forgot that we were doing Python with this.
+
+00:18:25.599 --> 00:18:28.599
+It works… this solution will work anywhere.
+
+00:18:28.786 --> 00:18:31.786
+Anyways, so, uh, surround now.
+
+00:18:32.299 --> 00:18:34.299
+You know about virtual machines.
+
+00:18:34.766 --> 00:18:40.766
+virtual machines, right? Kind, if I do have a weakness, but kind of… You know about containers, Docker containers, right? Almost.
+
+00:18:41.065 --> 00:18:43.065
+So, what is…
+
+00:18:44.060 --> 00:18:48.060
+the difference, the core difference between a virtual machine and a local container?
+
+00:18:49.186 --> 00:18:51.186
+What are your thoughts on this?
+
+00:18:52.346 --> 00:18:56.346
+Uh, the only thing that comes to mind when, uh…
+
+00:18:56.983 --> 00:19:00.983
+when I talk about the ver… like I said, I do have a weakness about…
+
+00:19:01.087 --> 00:19:05.087
+the concepts between virtual machine and Docker, but…
+
+00:19:05.936 --> 00:19:07.936
+Conceptually, uh, thinking about it.
+
+00:19:08.526 --> 00:19:12.526
+A virtual machine is basically another laptop in your laptop.
+
+00:19:13.480 --> 00:19:21.480
+Uh, but, uh, with, uh, but with Docker containers, it's as if it's… Docker is an application that is made
+
+00:19:22.388 --> 00:19:25.388
+Uh, to, uh, to deploy your, uh…
+
+00:19:26.343 --> 00:19:31.343
+to deploy your applications without the heavy lifting of managing a whole laptop.
+
+00:19:31.637 --> 00:19:41.637
+Without the extra hardware, without the extra, uh, back, uh, what do you… what do you call it? Background, uh…
+
+00:19:42.203 --> 00:19:44.203
+Background services running.
+
+00:19:45.905 --> 00:19:47.905
+Great. So, lightweight, heavyweight.
+
+00:19:48.704 --> 00:19:52.704
+less resources, more, whatever, you covered everything, right? Okay, let's…
+
+00:19:53.325 --> 00:19:56.325
+Uh, let's talk about Git and GitHub, right?
+
+00:19:56.717 --> 00:19:58.717
+But we spent a lot of time at the beginning.
+
+00:19:59.379 --> 00:20:02.379
+So, I mean, uh…
+
+00:20:02.906 --> 00:20:04.906
+The scenario is very simple, see?
+
+00:20:05.290 --> 00:20:11.290
+Here, by mistake, and many people make this mistake, is there were… this is their feature branch, F1.
+
+00:20:11.763 --> 00:20:13.763
+Yeah. And they are doing Task 1.
+
+00:20:13.740 --> 00:20:15.740
+they committed the task one, right?
+
+00:20:16.726 --> 00:20:19.726
+By mistake, they forgot to change the branch, and they committed trust to also.
+
+00:20:20.197 --> 00:20:23.197
+Right? Although task 2 should have been done in F2,
+
+00:20:24.471 --> 00:20:26.471
+So, how can you fix this?
+
+00:20:28.366 --> 00:20:30.366
+fixed in a sense that F1 should have T1 only?
+
+00:20:30.460 --> 00:20:32.460
+let's say T1 has 3 commits.
+
+00:20:33.182 --> 00:20:35.182
+And T2 also has, like, 3 commits.
+
+00:20:36.543 --> 00:20:38.543
+So, how can you fix it?
+
+00:20:39.362 --> 00:20:43.362
+So that F1 just left T1, F2 has only T2, and then pushed.
+
+00:20:49.479 --> 00:20:52.479
+Just ports, right? Or maybe if you need to use a pen, you can.
+
+00:20:55.904 --> 00:20:58.904
+And any approach. You can use any approach. And now, uh…
+
+00:20:59.526 --> 00:21:12.526
+Of course, when it comes to problems with commits, your first thing would be… the first part to every commit related to the solution is to check the logs.
+
+00:21:13.474 --> 00:21:22.474
+Okay, locks, you check the logs. Let's say you form the ID of this comment, let's say. I do need a little bit, little bit more, uh… No need to remember the commands. No, no, uh, not commands.
+
+00:21:22.576 --> 00:21:24.576
+As in, like, more research to it.
+
+00:21:25.104 --> 00:21:29.104
+Yeah. But, uh, after checking the logs, uh, I searched for…
+
+00:21:29.406 --> 00:21:41.406
+The hash, uh, the, uh… the commitment, right? You found the last commit of T1, let's say. Yeah. You found it. Yeah, the commit… the commit hash of this last commit for T1,
+
+00:21:41.748 --> 00:21:46.748
+And then I push… and then I, uh, do a git commit
+
+00:21:46.848 --> 00:21:51.848
+from… uh, wait, those are committed but not pushed, right? So, so I…
+
+00:21:52.620 --> 00:21:55.620
+So, I, uh, use a pushed command,
+
+00:21:56.127 --> 00:22:00.127
+Uh, with the commit hash.
+
+00:22:01.082 --> 00:22:06.082
+Yeah, because I'm pretty sure CommitHash is being used, like, in all Git commands. Yep, yep, yep.
+
+00:22:06.442 --> 00:22:08.442
+So I pushed this…
+
+00:22:09.687 --> 00:22:14.687
+as… as one commit, and then I make another commit. Can you also move this to a new branch, like…
+
+00:22:15.464 --> 00:22:26.464
+From beginning to… until this commit, can you move all of these things to a new branch? I can also move it to your new branch. There are also, like, many possible ways, right? So you can, yeah, you can just…
+
+00:22:27.382 --> 00:22:35.382
+You can just do git branch, and then the name of the new branch, along with the commit hash.
+
+00:22:36.370 --> 00:22:40.370
+Well, anyways, let's go with your approach, right? Let's say you push directly taskman, right? Done.
+
+00:22:41.544 --> 00:22:43.544
+Now, how do you separate out task 2? Next.
+
+00:22:44.344 --> 00:22:51.344
+I already separated it using the commit hash. Oh, so you… okay, so you pushed task 1, right? Now, how do you push task 2? Because…
+
+00:22:52.207 --> 00:22:55.207
+start and end. You need a different start and different end.
+
+00:22:55.794 --> 00:22:57.794
+Here, the start was the beginning, right?
+
+00:22:59.091 --> 00:23:05.091
+Like, for example, when you put… when you mention the hash, automatically all of the commits before are considered, right?
+
+00:23:05.837 --> 00:23:08.837
+Yeah. Like, for example, if you push… But I didn't revert it.
+
+00:23:09.841 --> 00:23:14.841
+Yes, you're in the reverter. So, would you also revert? So it's the… so it's still there. T2 is there, yes. Now, how do you…
+
+00:23:15.263 --> 00:23:20.263
+push just T2. Just T2? Yeah. Without this. Without even. Okay.
+
+00:23:22.721 --> 00:23:25.721
+I'm pretty sure… thing is, I'm pretty sure had…
+
+00:23:26.399 --> 00:23:32.399
+has to do… has to do with it. That's the first thing that, uh, comes to mind, the command head,
+
+00:23:32.768 --> 00:23:35.768
+The command head-head, okay? Yeah. Head is here, let's say.
+
+00:23:36.792 --> 00:23:44.792
+Head is, of course, here, right? A head dash… so, if you say, like, head dash the number, it'll give you, like, the first…
+
+00:23:45.519 --> 00:23:49.519
+Uh, through e-commerce, right? First, like, 3 commands, so…
+
+00:23:50.860 --> 00:23:52.860
+I mean, I would say manually merge comment, one by one, or…?
+
+00:23:53.725 --> 00:23:56.725
+What? You will manually merge all of the commits to another branch.
+
+00:23:58.643 --> 00:24:00.643
+For T2.
+
+00:24:01.138 --> 00:24:03.138
+Or you will start from something, go to head.
+
+00:24:06.785 --> 00:24:11.785
+Okay, so I can make a new branch with only those 3 commits.
+
+00:24:13.376 --> 00:24:15.376
+Yes, you can, I think it's possible.
+
+00:24:16.666 --> 00:24:20.666
+Head pointer is here, right? So, you can just select a commit and go up like you went down.
+
+00:24:21.006 --> 00:24:24.006
+Yeah. It's possible, no need to…
+
+00:24:24.936 --> 00:24:26.936
+memorize the mark. So, okay, nice, right?
+
+00:24:27.020 --> 00:24:29.020
+Advanced Git.
+
+00:24:29.417 --> 00:24:32.417
+Now, this… I'm writing this to give you bonus, by the way.
+
+00:24:32.975 --> 00:24:34.975
+not, uh, just…
+
+00:24:36.317 --> 00:24:41.317
+Well, let's see. Anyways, yeah. Uh, let's move forward, and let's talk about…
+
+00:24:43.401 --> 00:24:45.401
+Docker Compose.
+
+00:24:45.458 --> 00:24:48.458
+Right? Uh, so, uh…
+
+00:24:49.215 --> 00:24:51.215
+Is it possible?
+
+00:24:51.780 --> 00:24:54.780
+to run the same image…
+
+00:24:55.116 --> 00:24:59.116
+multiple times under different services in Doctor Compass.
+
+00:25:01.085 --> 00:25:04.085
+Uh, same image, sorry? Like, in Docker Compose?
+
+00:25:03.966 --> 00:25:05.966
+I have an image NGINX.
+
+00:25:06.077 --> 00:25:08.077
+I call it UI.
+
+00:25:08.126 --> 00:25:11.126
+Then, I call another service, UIP.
+
+00:25:12.418 --> 00:25:14.418
+Again, the images and units, right? Is it possible to do that?
+
+00:25:15.880 --> 00:25:19.880
+What do you think? They're possible to run the image under different servers?
+
+00:25:20.151 --> 00:25:28.151
+Uh, your Docker Compose has the name of service, right? Like UI, API. Yeah, uh, multiple containers. Let's say I have UI1, UI2, UI3.
+
+00:25:29.648 --> 00:25:32.648
+All three sections have the same image, internet, internet, internet.
+
+00:25:33.064 --> 00:25:35.064
+Is it possible to move?
+
+00:25:35.044 --> 00:25:37.044
+runtime, which is…
+
+00:25:38.406 --> 00:25:40.406
+Multiple times, you say.
+
+00:25:40.382 --> 00:25:42.382
+just three… there are three…
+
+00:25:43.092 --> 00:25:47.092
+3 services, so 3 containers will run, right? Like, will they run, or is there a problem?
+
+00:25:47.407 --> 00:25:52.407
+No, I'm, uh, okay, I don't understand. You said run the image. I see.
+
+00:25:53.233 --> 00:25:58.233
+Don't run the container, okay. So here, UI1…
+
+00:25:59.859 --> 00:26:03.859
+image is, let's say, NGINX, right, in the Docker Compose.
+
+00:26:04.498 --> 00:26:08.498
+Then UI2 also has Image NGINX same. UY3.
+
+00:26:08.909 --> 00:26:11.909
+has seemed rich in genetics 3.
+
+00:26:11.881 --> 00:26:13.881
+So, if I do docker compose up,
+
+00:26:13.859 --> 00:26:15.859
+Will it work or not?
+
+00:26:17.236 --> 00:26:19.236
+What do you think? Will it work or not?
+
+00:26:19.220 --> 00:26:21.220
+Of course, you do try to test it, just…
+
+00:26:23.212 --> 00:26:25.212
+Both are right answers. If you say yes, then why?
+
+00:26:26.261 --> 00:26:28.261
+Oh, and if you say no, then why not?
+
+00:26:28.886 --> 00:26:30.886
+Yeah, I understand.
+
+00:26:32.687 --> 00:26:37.687
+Uh, so that's what you meant by run multiple images. I thought run the same image multiple times.
+
+00:26:38.222 --> 00:26:41.222
+Same message, it's actually the same… it's mentioned multiple times only.
+
+00:26:41.741 --> 00:26:43.741
+It's the same image, right?
+
+00:26:43.725 --> 00:26:45.725
+like, NGINX, NGINX, NGINX.
+
+00:26:49.536 --> 00:26:51.536
+So, is it possible, or what do you think? Do you think it's possible?
+
+00:26:53.201 --> 00:26:55.201
+Under…
+
+00:26:56.602 --> 00:26:59.602
+I'd say under different port numbers, yeah, it might be possible. Yes, you're right.
+
+00:27:00.330 --> 00:27:03.330
+under different port number was the actual answer I wanted to…
+
+00:27:05.205 --> 00:27:08.205
+I thought it was more complicated than this, I swear.
+
+00:27:08.305 --> 00:27:10.305
+You see, that's why I'm telling you boring, right?
+
+00:27:11.100 --> 00:27:13.100
+I should increase the level weight. No, no, no, please don't.
+
+00:27:13.335 --> 00:27:15.335
+I'm doing good enough.
+
+00:27:15.331 --> 00:27:17.331
+Oh my god.
+
+00:27:19.328 --> 00:27:21.328
+Okay, so…
+
+00:27:22.417 --> 00:27:24.417
+What is the difference between
+
+00:27:24.666 --> 00:27:30.666
+like, uh, using a Docker Compose versus manually spinning up containers using different terminals.
+
+00:27:32.248 --> 00:27:39.248
+manually spinning up containers. I guess the composer had the three containers, right? Let's say I open 3 command prompts.
+
+00:27:40.062 --> 00:27:52.062
+And I run Docker Commons 3 times, Docker run, docker run, docker run. Ah, okay. Now, with Docker Compose, you can run, uh, multiple containers all at the same time.
+
+00:27:52.144 --> 00:27:55.144
+Is there another benefit? What about the network?
+
+00:27:56.047 --> 00:27:59.047
+Docker Network. Does it have Docker Compose?
+
+00:27:59.301 --> 00:28:02.301
+Does it have something to do with, like, creating a network?
+
+00:28:04.572 --> 00:28:09.572
+creating a nut. I didn't cover, so I will tell you, right? So, Docker Compose actually creates a network.
+
+00:28:10.474 --> 00:28:13.474
+So all of the containers can communicate with each other internally.
+
+00:28:14.877 --> 00:28:16.877
+Internally. Yeah, I see, okay.
+
+00:28:18.224 --> 00:28:28.224
+So, uh, anyways, sorry, I just remembered… I'm sorry, I don't know what… I don't know why I didn't think about the connectivity of Docker Compose
+
+00:28:28.439 --> 00:28:30.439
+Okay, let's… let's say what you know, right?
+
+00:28:31.240 --> 00:28:33.240
+three containers separately, not Docker Compose, outside.
+
+00:28:33.385 --> 00:28:37.385
+Yeah. Can these 3 containers communicate with each other? No, no, they can't.
+
+00:28:37.815 --> 00:28:39.815
+I mean, wait…
+
+00:28:41.661 --> 00:28:45.661
+Okay? UI, container, communicate with your first API container.
+
+00:28:46.186 --> 00:28:48.186
+Can you first CP continue it?
+
+00:28:49.077 --> 00:28:52.077
+Communicate with your database container. If they're running without Docker Compose.
+
+00:28:52.987 --> 00:28:55.987
+Yeah, I guess they still can. Yeah, I hope so.
+
+00:28:57.400 --> 00:28:59.400
+So…
+
+00:29:00.777 --> 00:29:11.777
+So what would be the advantage of Docker… you said the advantage of Docker Compose is the connectivity, but they can still run… Because that I haven't covered, so I will tell you the advantage in the session. But they still can communicate…
+
+00:29:12.866 --> 00:29:22.866
+Oh, what internally? Internally. Internally, yes. So, there's an external port, internal port, right? It still feels convenient to run Docker Compose with everything is already there.
+
+00:29:23.723 --> 00:29:27.723
+predefined. I mean, the things that I have, why should I ask you this?
+
+00:29:28.296 --> 00:29:35.296
+What are type 2 hypervisors? Sorry? Type 2 hypervisors? Oh my gosh. So I know.
+
+00:29:35.265 --> 00:29:39.265
+This is just a memorization question, just for fun, right? Sure.
+
+00:29:39.704 --> 00:29:41.704
+Show us a script and get…
+
+00:29:45.270 --> 00:29:49.270
+Okay, what are your thoughts about AI agents? Like, how…
+
+00:29:49.982 --> 00:29:53.982
+How is… how are… how is an EA agent different from a large language model?
+
+00:30:03.615 --> 00:30:05.615
+So the first thing that comes, uh…
+
+00:30:08.924 --> 00:30:11.924
+Uh, with an AI agent, I think it's…
+
+00:30:17.003 --> 00:30:19.003
+Different to a large language model, you see.
+
+00:30:19.745 --> 00:30:26.745
+Yes, like, for example, ChatGPT, you are using ChatGPT 5, right? Yeah. So what can AIA Agent do that ChatGPT5 cannot?
+
+00:30:28.626 --> 00:30:30.626
+I guess you can actually…
+
+00:30:31.945 --> 00:30:33.945
+It can actually execute. Yep.
+
+00:30:34.236 --> 00:30:36.236
+Okay, Suleiman?
+
+00:30:37.226 --> 00:30:40.226
+Uh, you know, client-serve architecture very well, right?
+
+00:30:40.435 --> 00:30:44.435
+Client application server applications, right?
+
+00:30:44.777 --> 00:30:46.777
+Yeah. By definition?
+
+00:30:47.268 --> 00:30:51.268
+The client can send a request, right? And the server can respond back on the… Yeah.
+
+00:30:52.899 --> 00:30:54.899
+But if you add webhooks to the server,
+
+00:30:55.860 --> 00:30:57.860
+it traverses it somehow.
+
+00:30:57.907 --> 00:31:03.907
+How would you define a bubble, then? Uh, a webhook is, uh…
+
+00:31:04.959 --> 00:31:18.959
+In simple terms, it's a reverse API. Oh, yeah, as you see. If you want me to define it further, well, it's basically the server sending the request to the clients. So that the client can, uh…
+
+00:31:19.143 --> 00:31:21.143
+Yeah, kind of. Okay.
+
+00:31:21.929 --> 00:31:28.929
+Okay, nice. The server becomes the client, it sends the request to the clients, and the client can execute while…
+
+00:31:29.424 --> 00:31:36.424
+And then the client can execute in turn. Last question, right? Like, CICD. Yeah. What do you think about CICD? Like…
+
+00:31:37.224 --> 00:31:42.224
+What is CICD? CI-CD is continuous integration, continuous development.
+
+00:31:42.380 --> 00:31:46.380
+Yeah, so what does it solve for? How does it benefit us as developers?
+
+00:31:46.640 --> 00:31:50.640
+It's, uh, and benefits in terms of…
+
+00:31:50.737 --> 00:31:55.737
+Uh… and benefits in terms of update…
+
+00:31:56.509 --> 00:32:01.509
+After deploying the application, every time you attempt
+
+00:32:01.814 --> 00:32:07.814
+to, uh, update that… The new version? The new version, yeah. Yes. So, what does it do with…
+
+00:32:08.324 --> 00:32:10.324
+manually you have to do something, or…
+
+00:32:10.995 --> 00:32:20.995
+Uh, well, you can… well, you can manually, uh, push, uh, push to GitHub and then, uh, push to Docker, or you can use Jenkins.
+
+00:32:21.316 --> 00:32:27.316
+To automate all of this, since Jenkins is an automation tool. Yeah, so CICD pipeline can… you can create it.
+
+00:32:28.102 --> 00:32:30.102
+Right? Yes. Okay, thank you, Sinema.
+
+00:32:30.798 --> 00:32:33.798
+So, down next steps…
+
+00:32:34.276 --> 00:32:36.276
+I'm going to save the transcript.
+

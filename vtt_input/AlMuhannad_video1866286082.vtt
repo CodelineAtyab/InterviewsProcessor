@@ -1,0 +1,1602 @@
+WEBVTT
+
+
+00:00:02.714 --> 00:00:06.714
+Okay, so Mohanath, the interview is going to be… hopefully, I will try to keep it short, but…
+
+00:00:07.818 --> 00:00:14.818
+It goes longer for unexpectedly. Uh, we are going to discuss things, uh, related to Python Basics. Okay.
+
+00:00:14.927 --> 00:00:19.927
+Networking basics and Linux, Git, Docker deployment, right?
+
+00:00:20.855 --> 00:00:25.855
+All of these things. We might also… we will also jump into some intermediate questions, and maybe some advanced, right?
+
+00:00:26.817 --> 00:00:35.817
+Only if you're able to answer basic and intermediate, then you can jump to advanced one, right? So, I'll just quickly start with Python. So, for example, just a small problem.
+
+00:00:36.492 --> 00:00:39.492
+Okay. Don't… no need to write… like, you can write the code, but…
+
+00:00:40.530 --> 00:00:42.530
+It's totally your choice, you can explain your logic, alright?
+
+00:00:43.350 --> 00:00:45.350
+So, for example, here…
+
+00:00:46.632 --> 00:00:48.632
+You know, um…
+
+00:00:49.784 --> 00:00:58.784
+In ROP, for example, if, let's say, people are making complaints, so some complaints has high priority, some has low priority. Okay. So, let's say if you're… if you're building an application,
+
+00:00:58.877 --> 00:01:03.877
+that has to find the complaint with the highest priority, right? Highest priority, right, so…
+
+00:01:04.052 --> 00:01:07.052
+It's related to that. For example, here, I have a list.
+
+00:01:07.783 --> 00:01:09.783
+Okay, let's say these numbers are complaints, for example.
+
+00:01:11.389 --> 00:01:13.389
+3, 7…
+
+00:01:14.990 --> 00:01:16.990
+9… 5…
+
+00:01:17.785 --> 00:01:19.785
+10… 6…
+
+00:01:21.637 --> 00:01:23.637
+Now,
+
+00:01:24.151 --> 00:01:27.151
+What you have to do, you have to find the highest priority number.
+
+00:01:27.951 --> 00:01:30.951
+Or, in simple terms, you have to find the maximum number. Okay.
+
+00:01:31.532 --> 00:01:37.532
+Right? So, what would be your logic, actually, to find the maximum number? Like, for example, if it's, like, uh…
+
+00:01:39.068 --> 00:01:50.068
+A… I can write, like, a.max, and it will show us the maximum. Nice, right? So, let's say if we are not allowed to use MEX, because MEX is not in all of the languages, right?
+
+00:01:50.228 --> 00:01:54.228
+maybe you are working in some other language. So what would be your logic of finding the maximum?
+
+00:01:54.714 --> 00:01:58.714
+just logic, like, how would you scale? Yes.
+
+00:01:59.443 --> 00:02:01.443
+And how would you figure out, okay, this is the bed zone?
+
+00:02:01.556 --> 00:02:06.556
+Yeah, we'll try to add numbers, and try to get the highest number.
+
+00:02:07.684 --> 00:02:11.684
+Uh, like, how can you… can you just, uh, explain your thoughts a bit? Like, uh…
+
+00:02:11.708 --> 00:02:13.708
+Do you at 3 and 7?
+
+00:02:14.057 --> 00:02:16.057
+Yes, like that.
+
+00:02:17.105 --> 00:02:19.105
+but then how would it help finding the highest?
+
+00:02:35.702 --> 00:02:38.702
+Okay, let's say if you want to print all of the numbers, how can you do that?
+
+00:02:39.363 --> 00:02:43.363
+Print all of the numbers. Yes, for loop. For loop, right? Yes. Instead of printing,
+
+00:02:44.498 --> 00:02:49.498
+you… you have to just compare, right? Like, for example, this is the first number, it's the next number.
+
+00:02:50.347 --> 00:02:55.347
+Is the first number maximum? Oh, okay. Then second number… is the second number maximum?
+
+00:02:55.805 --> 00:03:00.805
+So, then, is the third number maximum, right? Something like that? But you have to keep track of the maximum number.
+
+00:03:01.656 --> 00:03:08.656
+Okay, so think about it, like, how would you… yeah. So, as you said, we use, uh, for the… let's say you start with 3 here.
+
+00:03:08.658 --> 00:03:13.658
+Okay. Now, 3 is… 3 is bigger than 7? No.
+
+00:03:14.187 --> 00:03:20.187
+No. Then we go to another one. It's 7 is bigger than 9? No. If not, 9 is bigger than 5, yes.
+
+00:03:20.851 --> 00:03:23.851
+then we will put it at the first of the list.
+
+00:03:24.348 --> 00:03:28.348
+Let's just separate, right? Don't put it first on the list, just save 90, let's say. So annoying.
+
+00:03:28.531 --> 00:03:34.531
+Let's put it in another variable, 9, right? Okay, 9, yes. Okay, then you compare 9 with… 9, uh, 9 with 10.
+
+00:03:35.145 --> 00:03:39.145
+10 is bigger. First, you compare 9 with 5, right? Yeah, so if it's not bigger, then what will happen?
+
+00:03:39.155 --> 00:03:45.155
+If it's not bigger, it will go to… The skip, right? Yes, skip. And then go. If it's bigger, then?
+
+00:03:45.457 --> 00:03:52.457
+it will, uh… You update the variable? Yes, update the variable, and you will go. Yes, yes.
+
+00:03:52.819 --> 00:03:56.819
+So, this is how you find the maximum here.
+
+00:03:57.644 --> 00:04:01.644
+Yeah, now, do you remember anything about this? We have, uh…
+
+00:04:02.277 --> 00:04:05.277
+You might have seen in many Python scripts, underscore, underscore name.
+
+00:04:06.459 --> 00:04:08.459
+Yes.
+
+00:04:11.317 --> 00:04:13.317
+Right.
+
+00:04:13.685 --> 00:04:15.685
+Uh, this is still, uh…
+
+00:04:18.832 --> 00:04:21.832
+This is to set the file as the main script.
+
+00:04:22.564 --> 00:04:26.564
+Okay, it will launch first. What is the benefit of this virtual?
+
+00:04:26.619 --> 00:04:33.619
+So, for example, if you have a main application and many applications, but you want something to start first,
+
+00:04:34.401 --> 00:04:37.401
+We write this script to, uh, for it.
+
+00:04:38.635 --> 00:04:42.635
+pilot riser. Okay, let's say if you have, uh… if I have a stripped ADOT…
+
+00:04:43.847 --> 00:04:46.847
+A dot P1, and B dot PY, right?
+
+00:04:47.131 --> 00:04:50.131
+Yes. And uh…
+
+00:04:51.333 --> 00:04:54.333
+Okay, I've been registered on Harry. Let's say A.P. Okay.
+
+00:04:55.234 --> 00:04:58.234
+And we dot PY, right? Okay. PY.
+
+00:04:58.733 --> 00:05:00.733
+And uh…
+
+00:05:00.791 --> 00:05:04.791
+both VDROTPY has this line, F underscore underscore.
+
+00:05:05.289 --> 00:05:08.289
+I'm just writing it right here, let's say this line here, Y and B.
+
+00:05:09.493 --> 00:05:11.493
+And also, this line is here in a dot cell.
+
+00:05:14.787 --> 00:05:17.787
+Uh, under this line, right, I do, let's say…
+
+00:05:18.773 --> 00:05:20.773
+Let's see, uh…
+
+00:05:24.297 --> 00:05:26.297
+equal to ABC freely.
+
+00:05:27.768 --> 00:05:32.768
+Under, under if, I write name equal to APC, right? Okay. And then, in A.PY, I import
+
+00:05:36.764 --> 00:05:38.764
+I import, uh…
+
+00:05:39.354 --> 00:05:41.354
+B, right? Yes. And then…
+
+00:05:41.454 --> 00:05:43.454
+If I do b.name.
+
+00:05:44.844 --> 00:05:46.844
+Would this work or not? It will work.
+
+00:05:47.608 --> 00:05:55.608
+Probably, yes, it will work, because you import it. But, uh, is this in the same directory?
+
+00:05:55.783 --> 00:05:58.783
+See, is this piles.name is under if?
+
+00:06:00.340 --> 00:06:05.340
+This dot name is defined in ref, not outside, right? Yes. So, for example, when I import B,
+
+00:06:06.212 --> 00:06:09.212
+Okay. But I have a question. Now, A and B.
+
+00:06:09.347 --> 00:06:13.347
+Are they in the same directory? Yes, sir. Same there. Okay, nice.
+
+00:06:14.685 --> 00:06:17.685
+Okay. Now, import B, okay.
+
+00:06:18.699 --> 00:06:21.699
+And this is if statement? Yep, this is statement.
+
+00:06:21.718 --> 00:06:23.718
+If anyone responded to me. Yes.
+
+00:06:25.813 --> 00:06:28.813
+Yes, yes, it will work, yes. Okay, so now, for example, if I do…
+
+00:06:28.994 --> 00:06:30.994
+let's a B…
+
+00:06:31.114 --> 00:06:35.114
+dot ID equals to, let's say, 123.
+
+00:06:35.754 --> 00:06:38.754
+Okay. And I do access both VDO or Tridy.
+
+00:06:40.232 --> 00:06:42.232
+So, for example, both will work.
+
+00:06:42.832 --> 00:06:45.832
+It will work both. Okay. So, for example,
+
+00:06:46.567 --> 00:06:48.567
+Uh, this condition…
+
+00:06:49.092 --> 00:06:54.092
+can be true or false, right? Yes. You just told me that if I'm running this…
+
+00:06:54.229 --> 00:06:56.229
+Okay, so when is this condition truth?
+
+00:06:56.857 --> 00:06:59.857
+For example, if I run this a.py script, right? Okay.
+
+00:07:00.239 --> 00:07:03.239
+And let's say this is inside A.py.
+
+00:07:04.259 --> 00:07:08.259
+If I run a.py directly, okay, is this condition false or true? It's true.
+
+00:07:08.439 --> 00:07:13.439
+Okay, so now, imagine this is… this is A.PY, imagine, right?
+
+00:07:13.412 --> 00:07:15.412
+Let's say I run this directory.
+
+00:07:16.801 --> 00:07:20.801
+Now, A.py runs B.py indirectly.
+
+00:07:21.919 --> 00:07:23.919
+Okay, so is this condition true?
+
+00:07:24.080 --> 00:07:30.080
+If this is the same, see, so, yes, it will work.
+
+00:07:30.791 --> 00:07:32.791
+It will work, although I'm not running it directly.
+
+00:07:33.557 --> 00:07:37.557
+is running it. I'm not running b.py directly.
+
+00:07:38.379 --> 00:07:43.379
+I just run A.P. Only a.p, only. A.P. And A.PY imports V, so…
+
+00:07:43.475 --> 00:07:45.475
+A is running B, not B.
+
+00:07:45.901 --> 00:07:50.901
+Okay. Right, so… still, do you stick with your answer that this is going to be true? Yes, yes, I thank you.
+
+00:07:50.962 --> 00:07:52.962
+Right? So…
+
+00:07:54.808 --> 00:07:56.808
+Yeah, let me note down so we can actually… yeah.
+
+00:07:56.876 --> 00:07:58.876
+some things later, right? Sure.
+
+00:08:12.405 --> 00:08:15.405
+Okay, let's jump to next.
+
+00:08:17.431 --> 00:08:21.431
+Okay, uh, Manhatt, you have… you have seen lists, right? Yes. You have also seen tuples.
+
+00:08:22.474 --> 00:08:24.474
+Yes, for example, I can have B equal to…
+
+00:08:25.220 --> 00:08:29.220
+1, 2, 3, 4, 5. Like, what is the…
+
+00:08:29.624 --> 00:08:34.624
+Apparently, it looks the same. It has numbers, this all has numbers, right? What is different between a list and a triple?
+
+00:08:35.549 --> 00:08:37.549
+List is, uh… list is immutable.
+
+00:08:38.530 --> 00:08:42.530
+And tuple is not a mu… it's immutable.
+
+00:08:42.859 --> 00:08:46.859
+That means that, uh, whenever the number here
+
+00:08:46.784 --> 00:08:53.784
+You cannot, like, change it or remove it. But I can define it also. Yes. I can define it once only. Yes, define it once. But I can change list?
+
+00:08:54.312 --> 00:08:57.312
+Yes, you can't change this. Okay. So, okay.
+
+00:08:57.837 --> 00:09:02.837
+And dictionaries, right? So, is dictionary Python dictionary also…
+
+00:09:03.406 --> 00:09:05.406
+Uh, mutable or immutable?
+
+00:09:05.393 --> 00:09:07.393
+dictionary? Yeah.
+
+00:09:07.544 --> 00:09:14.544
+So, for example, when we talk about a dictionary, right, like, let's say a dictionary, this is a dictionary, yes.
+
+00:09:16.254 --> 00:09:18.254
+And let's say, like, keys…
+
+00:09:19.062 --> 00:09:21.062
+And, like, values…
+
+00:09:21.837 --> 00:09:23.837
+Okay.
+
+00:09:34.346 --> 00:09:36.346
+So, uh…
+
+00:09:39.696 --> 00:09:41.696
+Usually, when you have a list rate? Yes.
+
+00:09:42.107 --> 00:09:44.107
+If you, let's say, use a loop to print the list,
+
+00:09:44.295 --> 00:09:47.295
+Okay, and if you use a loop to print the dictionary, right? Okay.
+
+00:09:47.995 --> 00:09:49.995
+So, remember, we are not…
+
+00:09:50.544 --> 00:09:52.544
+printing using keys. A loop.
+
+00:09:53.370 --> 00:09:55.370
+Okay. To print, right? Everything, yes.
+
+00:09:55.778 --> 00:09:57.778
+So,
+
+00:09:58.103 --> 00:10:00.103
+What do you… do you think?
+
+00:10:01.100 --> 00:10:10.100
+the dictionary, just like the list prints everything in order, right? Yes. So, do you think the list will print in order? Like, if I print, it will not just randomly print things, or…?
+
+00:10:10.563 --> 00:10:12.563
+Great printing orders. Yep.
+
+00:10:13.009 --> 00:10:16.009
+List will print, uh… In order, or out of order?
+
+00:10:18.734 --> 00:10:20.734
+No, listen, order. Order.
+
+00:10:21.618 --> 00:10:27.618
+What about the dictionary? Would it print in order, or can be out of order also? Can we out of order? Okay, nice.
+
+00:10:28.148 --> 00:10:30.148
+Okay, so…
+
+00:10:32.374 --> 00:10:37.374
+Let's say you were making an application, right? So, where people can actually… people are submitting their complaints. Okay.
+
+00:10:37.485 --> 00:10:40.485
+Now, or let's say, let's talk about…
+
+00:10:40.774 --> 00:10:42.774
+Contract book application, right?
+
+00:10:42.835 --> 00:10:45.835
+Okay, so much easier. So…
+
+00:10:47.110 --> 00:10:51.110
+Or maybe let us stick with your ROP contain application, I think that's better, because…
+
+00:10:51.450 --> 00:10:53.450
+let's say I… if I'm submitting a complaint,
+
+00:10:53.556 --> 00:10:58.556
+Right? So, I submitted through a forum. Forum has my name, and…
+
+00:10:59.315 --> 00:11:04.315
+Like I say, right? It goes to the API, right, and calls your function? Yes.
+
+00:11:04.528 --> 00:11:09.528
+And your function, let's say this is your function, right? Okay. Now, your function needs to store the complaint.
+
+00:11:09.999 --> 00:11:14.999
+Yes. There's no database, no file, nothing, forget about it, right? So I need to store the complaint.
+
+00:11:16.114 --> 00:11:18.114
+I have two choices. I can use a list,
+
+00:11:18.554 --> 00:11:22.554
+Restored, or I can use a dictionary to store. Which one would you prefer?
+
+00:11:24.528 --> 00:11:27.528
+I would prefer dictionary, because…
+
+00:11:27.887 --> 00:11:30.887
+from the name of the person and the complaint.
+
+00:11:30.895 --> 00:11:32.895
+But name can repeat, right? Like…
+
+00:11:34.884 --> 00:11:40.884
+Uh, yes, name can be, uh, can be… oh, okay, I got, I got the answer. One is just mean?
+
+00:11:40.858 --> 00:11:45.858
+Is there a way that you can still store it in a dictionary, even…
+
+00:11:46.877 --> 00:11:49.877
+If the name is seen, just so it doesn't override the previous complaint.
+
+00:11:52.782 --> 00:11:54.782
+Yes, we can, uh, we can use sets.
+
+00:11:56.634 --> 00:11:59.634
+Yeah, but I want to… I don't want to, uh…
+
+00:11:59.869 --> 00:12:01.869
+remove the duplicate complaints I want to keep.
+
+00:12:02.000 --> 00:12:04.000
+You want to keep them? Skip them.
+
+00:12:05.112 --> 00:12:10.112
+Okay. Like, for example, if you are using a dictionary, what would you use in the key section?
+
+00:12:11.838 --> 00:12:16.838
+And the value is not a complaint, right, from yes, and the complaint. In the key… the key would be my name,
+
+00:12:17.346 --> 00:12:21.346
+Yes, but name… key should be unique, right? And name is not unique, so… Yes.
+
+00:12:21.427 --> 00:12:23.427
+Is there any strategy to make it unique?
+
+00:12:24.210 --> 00:12:26.210
+Anything you can do to make it unique?
+
+00:12:33.411 --> 00:12:37.411
+We can use, like, .unique, and it will show us the unique…
+
+00:12:39.980 --> 00:12:41.980
+Uh, let's say you're a student, the dictionary is empty.
+
+00:12:42.806 --> 00:12:52.806
+Okay. Now, you need to store… there are two complaints coming in. Unfortunately, both people has the name is same ate, right? Okay. So first, you store Atyip, right? Yes. And that message. The second…
+
+00:12:53.646 --> 00:12:57.646
+There's also a tip, so it will, of course, it will override, right? I don't want to override.
+
+00:12:58.547 --> 00:13:03.547
+When I installed in the first report, can I store something else with the report, so to make it unique, can I…
+
+00:13:04.271 --> 00:13:10.271
+change the key somehow to make it unique? Is there any idea that comes in your mind? Oh, okay, yes. We can't change the, um…
+
+00:13:10.586 --> 00:13:16.586
+The… Name? Uh, yeah, the name, like, make it capital, or make it small, that… Yeah, that's one approach, but yeah.
+
+00:13:17.310 --> 00:13:20.310
+Yeah, but, like, if we randomly do it, like, make it capital?
+
+00:13:21.114 --> 00:13:23.114
+then other name might be randomly capital, also same.
+
+00:13:24.082 --> 00:13:28.082
+might be sometimes, I guess. It might be small than capital. Is there any other unique
+
+00:13:28.749 --> 00:13:38.749
+thing that we can add with the name, or maybe… what can we use, for example, the, uh, the key, and after that, we can write, uh, dot capitalizer. You remember U-U-ID.
+
+00:13:40.560 --> 00:13:44.560
+to your ID. Import QUID in Python when you were doing the tickets.
+
+00:13:44.766 --> 00:13:46.766
+unique number.
+
+00:13:46.840 --> 00:13:49.840
+Uh, yes, yes, I remember. Do you remember a unique number, right? Yes.
+
+00:13:50.501 --> 00:13:52.501
+Can you use that? Yes.
+
+00:13:52.695 --> 00:13:54.695
+Can you use that? Like, how would you use that?
+
+00:13:57.841 --> 00:14:01.841
+let's say you're incoming name, you have a function. Name?
+
+00:14:02.234 --> 00:14:05.234
+complain. Like, how would you put it in the dictionary? Using the UUID.
+
+00:14:11.250 --> 00:14:17.250
+I will research about it, but I remember the library UI. I will tell you about right now, point research. So, UUID?
+
+00:14:17.455 --> 00:14:20.455
+It helps you generate a true's random number.
+
+00:14:21.080 --> 00:14:29.080
+I string, two random strings right now. Unique, unique, always unique. So UUID4 is always unique. So it'll give you something, like…
+
+00:14:29.827 --> 00:14:31.827
+43AB dash…
+
+00:14:32.569 --> 00:14:38.569
+2A, C, B, something, a string that is always unique. Okay. Now, how can you use this
+
+00:14:38.554 --> 00:14:40.554
+in the dictionary to record the complete.
+
+00:14:41.731 --> 00:14:44.731
+Yeah, so that's what would be the key, what would be the value?
+
+00:14:44.917 --> 00:14:46.917
+of the dictionary. Okay.
+
+00:14:49.695 --> 00:14:54.695
+So it will change the key to this unique. Okay, then. Then, where would the name go?
+
+00:14:56.729 --> 00:14:58.729
+Uh, the name will be Sturt…
+
+00:14:58.593 --> 00:15:00.593
+instead of this.
+
+00:15:00.777 --> 00:15:03.777
+He has been useful, but you stored this in the key, right? So…
+
+00:15:04.727 --> 00:15:06.727
+Now, where will I store the name of the complainer? Like…
+
+00:15:07.075 --> 00:15:14.075
+Because the key becomes this, right? Yes. Now, my name and message is remaining, so wherever you put it?
+
+00:15:18.156 --> 00:15:21.156
+in the direction. In the dictionary, okay.
+
+00:15:22.354 --> 00:15:28.354
+Like, here's the tick change, right? Like, we can… we can write the name, and after that, .u ID, and it will be…
+
+00:15:28.298 --> 00:15:31.298
+change to the… to the…
+
+00:15:32.135 --> 00:15:36.135
+Just a story in part, like, okay, for example, you need to store now 3 things.
+
+00:15:37.526 --> 00:15:39.526
+Okay. Atiya, you need to store the…
+
+00:15:40.773 --> 00:15:42.773
+you need to store the message? Yes.
+
+00:15:43.280 --> 00:15:46.280
+And you also have UID here, right? Yes. How do you…
+
+00:15:47.096 --> 00:15:51.096
+define a dictionary to store these things. Okay, we can use, like, uh…
+
+00:15:51.491 --> 00:15:53.491
+Dick opened up in here, eh?
+
+00:15:54.443 --> 00:15:56.443
+So we can write 8 dot dot…
+
+00:15:57.912 --> 00:15:59.912
+Define, not accessing, right? Like…
+
+00:16:00.757 --> 00:16:02.757
+Uh, when you define addiction.
+
+00:16:03.686 --> 00:16:11.686
+entity, right? Inside the entry dictionary, you are putting, okay, let's do it. Let's see how you are doing it. Can we use, like, this, like, keys, and then after that, we can…
+
+00:16:11.890 --> 00:16:14.890
+Right? Do something, yeah, you, uh…
+
+00:16:15.337 --> 00:16:17.337
+the… the UUID?
+
+00:16:18.959 --> 00:16:24.959
+Now, you have the U8, okay? U8 is… now, how do you store it? Where's the name? How would you store the message?
+
+00:16:25.215 --> 00:16:27.215
+In the dictionary.
+
+00:16:27.431 --> 00:16:32.431
+Because I have to save it in the dictionary. With the… with open.
+
+00:16:32.299 --> 00:16:37.299
+Not filing, just dictionary. Just like… like, unless you can append, right? Yes.
+
+00:16:37.756 --> 00:16:39.756
+So, induction, do you remember how you can insert the element?
+
+00:16:40.630 --> 00:16:42.630
+In dictionary.
+
+00:16:44.933 --> 00:16:51.933
+Yeah, let's say add. Use anything you like, okay. It's not add, but use add. It's fine. Okay. So what would you do put in the ad, actually?
+
+00:16:52.576 --> 00:16:57.576
+Can you… right here? Add the keys. Okay, what, like… because there are three things, right?
+
+00:16:57.869 --> 00:16:59.869
+UUID, my name, and complain.
+
+00:17:00.399 --> 00:17:02.399
+one record. So, how will you add?
+
+00:17:03.979 --> 00:17:05.979
+How will you add these three variables in the dictionary?
+
+00:17:06.657 --> 00:17:09.657
+Okay, so we can use, like, A.
+
+00:17:12.189 --> 00:17:15.189
+Okay, and then the UUID, okay?
+
+00:17:15.939 --> 00:17:22.939
+This is one? Yes. And then after that… But now, uh, when… in a dictionary, you know, whenever you add an item,
+
+00:17:23.912 --> 00:17:25.912
+Because there's not a list.
+
+00:17:26.448 --> 00:17:29.448
+Yes, it's sort of chain, right? So, each item is a key-value pair.
+
+00:17:31.194 --> 00:17:33.194
+Yes. But here, UID is just…
+
+00:17:33.667 --> 00:17:35.667
+Oh, yeah, your ID?
+
+00:17:35.955 --> 00:17:38.955
+And the name, and the key.
+
+00:17:40.785 --> 00:17:46.785
+Now, what is… what… okay, like, key is UUID. So what you're saying is key, column, and the value of the UID, right? Yes.
+
+00:17:47.109 --> 00:17:49.109
+Okay, okay, done. That's done. And then?
+
+00:17:49.701 --> 00:17:52.701
+And then after that, the complaint.
+
+00:17:53.778 --> 00:17:55.778
+Kamlin, how would you do that? Just write it, write it first.
+
+00:17:56.062 --> 00:17:58.062
+Um, like… Yeah, okay.
+
+00:17:58.198 --> 00:18:00.198
+Yeah, right?add…
+
+00:18:00.956 --> 00:18:02.956
+And then after that, uh… But if you call add again,
+
+00:18:03.077 --> 00:18:05.077
+Isn't this a new record?
+
+00:18:06.557 --> 00:18:12.557
+Because it's new, right? So once you call add, you must add one record. Yes, the record should contain
+
+00:18:12.557 --> 00:18:14.557
+All three things, UID,
+
+00:18:15.791 --> 00:18:18.791
+name and complaint, and then you can add another complaint, UUID,
+
+00:18:19.577 --> 00:18:22.577
+another company and report, right? Yes. So how… so you have to…
+
+00:18:22.876 --> 00:18:25.876
+modify this ad, like, what would you add here?
+
+00:18:27.121 --> 00:18:29.121
+We have three things. Extent.
+
+00:18:30.342 --> 00:18:38.342
+Yeah, it's true, yeah. It's fine, no need to memorize the keywords, right? Add… let's say, I will assume ad is extract, right? Okay.
+
+00:18:38.524 --> 00:18:41.524
+So now, I need you to just put the…
+
+00:18:42.338 --> 00:18:48.338
+the data. Like, for example, see, I put the data here, right? Yes. So, how can you put the data? You have three things in the same record.
+
+00:18:48.737 --> 00:18:50.737
+Okay, um…
+
+00:18:52.559 --> 00:18:54.559
+I think better than we go on that question.
+
+00:18:55.104 --> 00:18:57.104
+Yeah, so, uh…
+
+00:19:01.873 --> 00:19:06.873
+The measure solution. The full…
+
+00:19:06.983 --> 00:19:08.983
+Okay.
+
+00:19:09.918 --> 00:19:12.918
+Maine has already… okay, this is there.
+
+00:19:13.545 --> 00:19:20.545
+Uh, you know, Vanit, whenever we are, uh, like, working on a Python project nowadays, we create a Python virtual environment.
+
+00:19:20.997 --> 00:19:22.997
+Yes, right? So…
+
+00:19:23.959 --> 00:19:26.959
+why… why do you think it's, uh…
+
+00:19:28.582 --> 00:19:32.582
+a good idea to create a virtual environment, although we already have Python installed, we can just directly…
+
+00:19:32.898 --> 00:19:41.898
+Because some application has different library version, so you need a virtual environment so that you can install
+
+00:19:42.185 --> 00:19:48.185
+a specific version, so that you won't be messed up with your plugins in Python.
+
+00:19:48.812 --> 00:19:54.812
+Gotcha. Okay, okay, nice. So, okay, remember when we were talking about, like, storing the complaints?
+
+00:19:56.301 --> 00:19:58.301
+Instead of storing it in a list or dictionary,
+
+00:19:58.602 --> 00:20:01.602
+For example? Because if you store it in a list draw dictionary,
+
+00:20:02.054 --> 00:20:04.054
+When you exit your application, of course…
+
+00:20:04.452 --> 00:20:06.452
+Is everything gone, or it's still there?
+
+00:20:08.099 --> 00:20:12.099
+When you exist. Like, for example, your Python application is running. It is just restoring in dictionary.
+
+00:20:12.954 --> 00:20:14.954
+Okay. Not anything else, just dictionary, right?
+
+00:20:15.079 --> 00:20:17.079
+And when I exit the application, close it.
+
+00:20:18.372 --> 00:20:21.372
+shut down the computer, yes, run on it again. From the application again.
+
+00:20:22.229 --> 00:20:30.229
+Will I still have the older? No. No, right back on, yes. So, how do you make sure it doesn't go away? What approach shall you use? Fire, Rick? Yes.
+
+00:20:30.724 --> 00:20:36.724
+So, what is your approach to writing to a file? So, whenever I'm making the complaints,
+
+00:20:36.599 --> 00:20:41.599
+or before I exit the application, when should we write to the files?
+
+00:20:42.317 --> 00:20:46.317
+Before I exit the application, or before you exit the application? Application, or…?
+
+00:20:46.396 --> 00:20:49.396
+As soon as I give a complaint.
+
+00:20:50.823 --> 00:20:56.823
+Okay, you have two approaches. Like, you can, uh, create a file, and then after that, you can
+
+00:20:57.296 --> 00:21:06.296
+write the complaint inside it, and after that, you write… you write in… so, yes. Yes, complaint. Or you can…
+
+00:21:07.034 --> 00:21:14.034
+Uh, before you actually… yes, before you exit, you, uh, write the complaints in the file. So, which approach do you think is…
+
+00:21:14.798 --> 00:21:17.798
+better, I mean, in terms of… so I don't lose any data.
+
+00:21:18.556 --> 00:21:23.556
+The first approach, in which you… Right, you create… Right, write it immediately, right? Yes.
+
+00:21:24.429 --> 00:21:26.429
+Oh, yes, it's good. It's good time.
+
+00:21:27.056 --> 00:21:29.056
+Okay, uh…
+
+00:21:30.553 --> 00:21:33.553
+Exception handling, right? Yes. Like, for example, uh…
+
+00:21:34.095 --> 00:21:40.095
+Do you remember any example where we… where… where the code can throw an exception and… Yes.
+
+00:21:40.458 --> 00:21:46.458
+like, for example, if you want to enter a folder and it's not available in the directory, you can
+
+00:21:46.912 --> 00:21:49.912
+do exception handling, so that gives an error.
+
+00:21:50.059 --> 00:21:53.059
+Okay, okay. So, what is the benefit?
+
+00:21:53.550 --> 00:22:01.550
+of handling the exception. The benefit is to read the error. What happened? Why it's not found.
+
+00:22:02.710 --> 00:22:04.710
+But actually, if you don't handle the exception, right?
+
+00:22:05.547 --> 00:22:07.547
+And then you run the application,
+
+00:22:08.597 --> 00:22:10.597
+Still, it will show you the error, and application will stop.
+
+00:22:11.551 --> 00:22:13.551
+Yes. Then what is the benefit of try and catch?
+
+00:22:13.977 --> 00:22:15.977
+Try is still, uh…
+
+00:22:16.916 --> 00:22:27.916
+to let the application try to check if there is a folder. Any exception, for example, yeah. And after that, it will show you. If it doesn't exist, it will show you anything. It will show, like…
+
+00:22:28.199 --> 00:22:32.199
+Yes, we can show it, right? Yes. But can we do any other thing to fix it?
+
+00:22:34.265 --> 00:22:38.265
+Because try and accept, right? Yes. Okay, two diff…
+
+00:22:38.764 --> 00:22:41.764
+If I don't use Triaccept, will it crash the application?
+
+00:22:41.643 --> 00:22:49.643
+It will not crush. If I use try and accept, it will not crash, right? Yes. But if I don't use try and accept, will it crash the application? It's not crash.
+
+00:22:50.843 --> 00:22:53.843
+So, if I don't use… If you don't use, try and get…
+
+00:22:54.693 --> 00:23:05.693
+Yes, it will crash, because it doesn't find the folder. So, it stops the application, yes. But if I use try and catch, it will? It will try, and if not, it will give you an error, but it will not crash.
+
+00:23:06.240 --> 00:23:08.240
+Now, it will resume, right? Yes, yes.
+
+00:23:08.996 --> 00:23:14.996
+Yep. So, you can handle, of course, like, instead of printing the error, you can also do something about it, like create a folder.
+
+00:23:16.294 --> 00:23:18.294
+Yes, in the accept block, right? But if it's not there.
+
+00:23:18.881 --> 00:23:20.881
+But it's good, cancer's fine. Yeah.
+
+00:23:21.376 --> 00:23:23.376
+Right?
+
+00:23:24.987 --> 00:23:29.987
+Okay, let's talk a bit about, like, I mean, environment variables, right? We have been setting them a lot, right? Yeah.
+
+00:23:31.501 --> 00:23:35.501
+Like, for example, if I installed Python open command prompt, I write Python and press enter,
+
+00:23:35.723 --> 00:23:40.723
+So, it says command not found? Yes. So, how can we fix this situation?
+
+00:23:41.262 --> 00:23:53.262
+So, first of all, we go to the system environment variable, and after that, we can set a new variable, but for example, yes, path variable, like Python, and then after that, the link or the path of the
+
+00:23:53.513 --> 00:23:58.513
+Okay, let's save it to you that, right? Let's say we do that. So, then I restart the command prompt.
+
+00:23:58.809 --> 00:24:06.809
+But if I run Python then, how is it able to find Python afterwards? It will read the environment variable, and after that, it will check
+
+00:24:06.927 --> 00:24:11.927
+Uh, if it's available, and it will… Available, like, how it will check the biography that you put, or…?
+
+00:24:12.892 --> 00:24:17.892
+It will check… like, if you write Python, it will check first the…
+
+00:24:17.921 --> 00:24:20.921
+The environment development. If it… if it doesn't find it,
+
+00:24:21.395 --> 00:24:28.395
+it will not, uh, open. If it finds me. But if it finds, it will go to the path that you set, and search for.
+
+00:24:28.593 --> 00:24:34.593
+Like, in the path, it will search for something? It will search for the, uh, environment variable, the path.
+
+00:24:34.577 --> 00:24:36.577
+of the… of that application.
+
+00:24:36.918 --> 00:24:39.918
+Okay, so let's say if I write C…
+
+00:24:40.937 --> 00:24:46.937
+slash Python, right? So it will go to the Python folder. Yes. But after it goes, what will it search then, inside?
+
+00:24:49.073 --> 00:24:52.073
+In command prompt, find writing, just Python and pressing Enter, so… Okay.
+
+00:24:52.686 --> 00:24:58.686
+It will search for the path, where the application is stored. Okay, let's say it finds the path. Then, inside…
+
+00:24:59.012 --> 00:25:01.012
+Imagine if that path doesn't…
+
+00:25:01.543 --> 00:25:04.543
+Let's say if I set the path, but it's still the command prompt gives me
+
+00:25:04.915 --> 00:25:06.915
+Python.form. So what could be the problem?
+
+00:25:08.715 --> 00:25:10.715
+Um, just assume, right?
+
+00:25:13.222 --> 00:25:15.222
+Maybe it's not in stock.
+
+00:25:15.984 --> 00:25:18.984
+Yes, so maybe Python is not there, what you're saying, right? Yes.
+
+00:25:19.438 --> 00:25:21.438
+So Python.exe is not there. Yes.
+
+00:25:21.943 --> 00:25:25.943
+If Python.exe is not there, then it will not open. Yes, right, okay. So, yeah.
+
+00:25:27.532 --> 00:25:32.532
+Okay, let's talk about some, uh, I mean, when we are talking about your application, right? So… Yes.
+
+00:25:34.504 --> 00:25:40.504
+Uh… okay, so Mahnat, what is, like, I mean, what is the difference between a public… like, I mean,
+
+00:25:40.980 --> 00:25:45.980
+What is an IP address, by the way, first? Okay, well, IP address is like, uh…
+
+00:25:46.899 --> 00:25:48.899
+a name for the… for the device.
+
+00:25:49.344 --> 00:25:51.344
+Okay. Nemo address.
+
+00:25:51.459 --> 00:25:53.459
+Because name can be synced.
+
+00:25:54.754 --> 00:26:04.754
+See, like, IP is, uh… like, unique, like unique IP for each device. Unique address, right? Yes, unique address.
+
+00:26:05.791 --> 00:26:09.791
+Yes. Okay, so what is the… okay, let's say…
+
+00:26:10.631 --> 00:26:13.631
+Uh, let's… let's say you have an IPR already.
+
+00:26:13.690 --> 00:26:15.690
+let's say…
+
+00:26:16.125 --> 00:26:22.125
+Uh, you have two machines. Okay. One machine is running a server application, one is running a client. Okay.
+
+00:26:23.741 --> 00:26:26.741
+And, by the way, can you tell me, like, what is…
+
+00:26:27.517 --> 00:26:36.517
+What is the difference between a client application and a server application? The core difference, yes. Why do we call it client, and why do we call it server? So, client is, uh, to, uh, send requests,
+
+00:26:36.581 --> 00:26:39.581
+And Salvato, uh, responds. Okay, now…
+
+00:26:40.466 --> 00:26:46.466
+Does this… both machines have IP addresses? Or only the server has the IP addresses? No, they have…
+
+00:26:46.674 --> 00:26:48.674
+They must have. Both? Yes.
+
+00:26:49.023 --> 00:26:51.023
+The client also shouldn't… Yes.
+
+00:26:51.895 --> 00:26:53.895
+It's good price. So…
+
+00:26:56.394 --> 00:27:01.394
+When client sends a request, right? Yes. Uh, to the server. So, for example,
+
+00:27:01.536 --> 00:27:03.536
+the request…
+
+00:27:04.043 --> 00:27:08.043
+should know, like, if you want to send a request, what should you know? What is a must to know?
+
+00:27:09.877 --> 00:27:12.877
+Uh… okay. First, you need to know the…
+
+00:27:14.036 --> 00:27:19.036
+IP address of the machine, after that, the port. Okay, what… okay, let's… let's talk about ports, right, then? Yes.
+
+00:27:19.725 --> 00:27:24.725
+For example, this is your server application… sorry, there are 3 server applications, right? A1…
+
+00:27:25.794 --> 00:27:27.794
+A3. I'm writing in reverse here. Okay.
+
+00:27:28.683 --> 00:27:30.683
+3.
+
+00:27:31.215 --> 00:27:34.215
+This is the computer who's running on. Okay.
+
+00:27:35.103 --> 00:27:37.103
+Now…
+
+00:27:37.898 --> 00:27:39.898
+Now, I want to send a request to Avon.
+
+00:27:40.005 --> 00:27:42.005
+How can port help me?
+
+00:27:42.122 --> 00:27:47.122
+do that. So, in your application,
+
+00:27:48.024 --> 00:27:51.024
+You set the port? Yeah.
+
+00:27:51.802 --> 00:27:54.802
+You set port, for example, port, uh…
+
+00:27:55.775 --> 00:27:57.775
+Like, 8,000. Okay.
+
+00:27:58.663 --> 00:28:01.663
+And then after that, when you, uh, want to, uh,
+
+00:28:01.936 --> 00:28:08.936
+When you send the request, yes, you can use, uh… It doesn't only reach Javen, right? Yes, you can't use the…
+
+00:28:09.435 --> 00:28:14.435
+import request in Python. After that, you can get the request
+
+00:28:14.823 --> 00:28:19.823
+Using the IP address of the AO1, and the port.
+
+00:28:21.152 --> 00:28:27.152
+And then after that, the function that you want to… Okay, yes, pathway to it. What if this also has 8000?
+
+00:28:29.156 --> 00:28:31.156
+And this one is 9999, right?
+
+00:28:31.156 --> 00:28:33.156
+Okay.
+
+00:28:33.417 --> 00:28:35.417
+Uh, no, how would I reach?
+
+00:28:37.395 --> 00:28:40.395
+like, if I… if I put the IP address and port is 8000, so…
+
+00:28:41.095 --> 00:28:49.095
+How does… how do I teach, even? If everyone has different function, and A3 has different function, you can enter the function without, uh…
+
+00:28:49.244 --> 00:28:54.244
+Is it possible for more than one application to have the same port on the same machine? Yes, of course.
+
+00:28:54.996 --> 00:29:04.996
+Wait, same port on the same machine? Yes, right. So, for example, A1 can have 8,000, A3 can have 8,000, and A2 can have 99, right? And this is not talking about Docker, not talking about Docker, right?
+
+00:29:05.317 --> 00:29:13.317
+Uh, so one machine can have, uh, multiples. Multiple same ports also, and also can have unique, right? Yes. So…
+
+00:29:13.655 --> 00:29:18.655
+Port uniqueness is not a must. Yes. Port should not be unique, it can be duplicated. Yes. Right?
+
+00:29:25.781 --> 00:29:27.781
+on the same machine, right? Yes.
+
+00:29:31.184 --> 00:29:36.184
+Like, for example, application 1 is 8000, so application 3 can also have 8000.
+
+00:29:37.177 --> 00:29:39.177
+And Application 2 also can have 8,000, right?
+
+00:29:43.704 --> 00:29:45.704
+Okay, so one of, uh…
+
+00:29:48.340 --> 00:29:50.340
+to be able to reach to your machine, your…
+
+00:29:51.079 --> 00:29:53.079
+I should be, like, for example,
+
+00:29:55.195 --> 00:29:57.195
+If I want to reach to a machine, right?
+
+00:29:57.194 --> 00:29:59.194
+Uh, let's say…
+
+00:30:00.081 --> 00:30:02.081
+I know your address. Okay.
+
+00:30:02.469 --> 00:30:08.469
+And let's say I put your address in the URL, right? Okay. Like…
+
+00:30:08.633 --> 00:30:10.633
+31 dot something over there.
+
+00:30:12.060 --> 00:30:14.060
+But let's say the request times out.
+
+00:30:14.823 --> 00:30:19.823
+It doesn't reach. So, there might be many issues. Yes. Can you remember any…
+
+00:30:19.957 --> 00:30:21.957
+And it could be just one possible issue for that.
+
+00:30:22.954 --> 00:30:26.954
+Yeah. Maybe we are not in the same network.
+
+00:30:27.716 --> 00:30:30.716
+Nice for it. Yes, and uh… Anything else?
+
+00:30:38.021 --> 00:30:41.021
+What if the servers don't? Can we still…
+
+00:30:41.217 --> 00:30:43.217
+No, send a request, you're out.
+
+00:30:43.939 --> 00:30:45.939
+Yes. Okay, nice. So…
+
+00:30:47.320 --> 00:30:57.320
+Uh, you have heard about public IP addresses a lot, right? Like, what is the difference between a public and a private IP address? So, private IP address is unique for each device.
+
+00:30:57.322 --> 00:30:59.322
+And, uh, public is not unique?
+
+00:31:00.125 --> 00:31:05.125
+Public is unique, but let me explain. Yeah, okay. So, private IP address is, uh…
+
+00:31:05.300 --> 00:31:08.300
+Like, when you have many devices,
+
+00:31:08.933 --> 00:31:17.933
+And, uh, you connect to your router, the DHCP protocol, it will distribute these IP addresses based for each device.
+
+00:31:17.901 --> 00:31:20.901
+But the public IP address is from the ISP.
+
+00:31:22.582 --> 00:31:25.582
+And ISP also distributes… Yes.
+
+00:31:26.979 --> 00:31:28.979
+Yes, you're right, like, kind of you're right here.
+
+00:31:30.069 --> 00:31:38.069
+Like, I would say that you cannot reach out from the public network, you cannot reach out to the private network directly. Yes, yes. If you want to reach out to it, is there a way?
+
+00:31:38.582 --> 00:31:42.582
+Like, there's something called NAT, Network Address Translation, right? Like, there's a router.
+
+00:31:43.499 --> 00:31:45.499
+is… can you do something with the router? So…
+
+00:31:45.597 --> 00:31:47.597
+people from outside can reach out to your
+
+00:31:48.343 --> 00:31:50.343
+port over. Yeah, that's right.
+
+00:31:50.785 --> 00:31:52.785
+So…
+
+00:31:57.252 --> 00:31:59.252
+And also, what did you just tell me about?
+
+00:32:00.814 --> 00:32:03.814
+Just know, before the port forward is, uh…
+
+00:32:04.094 --> 00:32:06.094
+public and private, right? Yes.
+
+00:32:08.265 --> 00:32:11.265
+It's super easy. And also DHCP.
+
+00:32:12.495 --> 00:32:14.495
+So, when we talk about DHCP,
+
+00:32:15.360 --> 00:32:17.360
+So…
+
+00:32:18.243 --> 00:32:23.243
+Is DHCP a tool, or, like, is DHCP also is something like a DHCP client and DHCP server?
+
+00:32:23.785 --> 00:32:25.785
+Is it a pair of application, or just…?
+
+00:32:26.081 --> 00:32:28.081
+just a client, or…
+
+00:32:29.509 --> 00:32:31.509
+Via Supi?
+
+00:32:32.003 --> 00:32:39.003
+What is the functioning of DHC? DHCP is to distribute the IP addresses. It is… Okay, what is the… how is it different from DNS?
+
+00:32:39.527 --> 00:32:44.527
+Okay, DNS, to change the IP address, just to change the IP address to a domain name.
+
+00:32:45.703 --> 00:32:47.703
+Or vice versa. Yes.
+
+00:32:48.151 --> 00:32:50.151
+So it's different articles.
+
+00:32:54.086 --> 00:32:56.086
+Okay, so…
+
+00:32:58.254 --> 00:33:00.254
+Let's talk about some, um, I mean…
+
+00:33:00.612 --> 00:33:03.612
+What is the difference between, like, how do you see…
+
+00:33:04.232 --> 00:33:06.232
+How is Docker Container?
+
+00:33:06.836 --> 00:33:08.836
+different than the virtual machine.
+
+00:33:09.047 --> 00:33:17.047
+Okay. That we use… that we create using a hypervisor. So, virtual machine is, uh, basically you rent a machine.
+
+00:33:18.180 --> 00:33:22.180
+Like, you get more GB, more sound, more everything.
+
+00:33:23.945 --> 00:33:26.945
+But in Docker container, it's like a lightweight of the VM.
+
+00:33:27.860 --> 00:33:29.860
+It's the same, but it's faster.
+
+00:33:30.846 --> 00:33:36.846
+And you don't need many spaces, because you are using an image that you pull in after that.
+
+00:33:37.852 --> 00:33:43.852
+You can run the same application in the VM, but in counterized environment.
+
+00:33:44.613 --> 00:33:46.613
+Can we run multiple containers of the same image?
+
+00:33:46.941 --> 00:33:48.941
+More than one? Yes, we can.
+
+00:33:50.041 --> 00:33:52.041
+So, um…
+
+00:33:52.956 --> 00:33:54.956
+Okay, when I say this, right, like…
+
+00:33:56.978 --> 00:33:58.978
+the container and virtual machine, right? Okay.
+
+00:34:00.868 --> 00:34:02.868
+One of them, virtualizes the hardware.
+
+00:34:03.940 --> 00:34:06.940
+Yes, and one of them virtualizes the operating system, yes.
+
+00:34:07.397 --> 00:34:09.397
+So, if we talk about virtual machines…
+
+00:34:10.660 --> 00:34:13.660
+Do they virtualize the operating system, or do they virtualize the hardware?
+
+00:34:14.262 --> 00:34:17.262
+for virtual machines. For virtual machines? Hardware.
+
+00:34:18.190 --> 00:34:20.190
+Hardware. And for Doppler containers?
+
+00:34:20.175 --> 00:34:22.175
+Do they virtualize?
+
+00:34:22.792 --> 00:34:26.792
+the hardware, or do they virtualize the operating system, the operating system? Okay, nice, nice.
+
+00:34:38.936 --> 00:34:40.936
+Now, we are moving to some intermediate.
+
+00:34:43.600 --> 00:34:46.600
+Although BASIC is remaining like regularly, yes, we can, um, I think, just…
+
+00:34:46.853 --> 00:34:50.853
+maybe let's talk about Git quickly, very quickly? Yeah. Right? Like, uh…
+
+00:34:51.851 --> 00:34:53.851
+How do you…
+
+00:34:54.403 --> 00:34:57.403
+How does a branch relate to a committee?
+
+00:34:58.521 --> 00:35:01.521
+What is the relationship between a commit and a branch?
+
+00:35:02.022 --> 00:35:05.022
+Okay, so, uh, when you create a branch,
+
+00:35:05.922 --> 00:35:09.922
+you'll create a copy from the mail.
+
+00:35:10.477 --> 00:35:13.477
+Okay, and the comment is basically like, uh…
+
+00:35:13.831 --> 00:35:16.831
+a save point, so that you can…
+
+00:35:17.242 --> 00:35:20.242
+return if you want. Uh, so…
+
+00:35:20.344 --> 00:35:29.344
+like, are the commit… is a commit independent of the branch, or is the commit dependent on the branch? Like, what is the case? Commit is dependent on the branch.
+
+00:35:29.820 --> 00:35:31.820
+And what is the staging area, then?
+
+00:35:32.235 --> 00:35:34.235
+staging area is, uh…
+
+00:35:36.184 --> 00:35:40.184
+Um, when you do get add, it will be in the staging area.
+
+00:35:42.005 --> 00:35:44.005
+Okay, so…
+
+00:35:45.950 --> 00:35:49.950
+If I don't do GitHat, for example, all of the RAT files that I have, they are not in this region area.
+
+00:35:50.424 --> 00:35:53.424
+Yes, they're not right there wrong now. Okay.
+
+00:35:53.877 --> 00:35:55.877
+Okay, nice. So…
+
+00:35:56.357 --> 00:35:58.357
+Good, right? Yes.
+
+00:35:59.023 --> 00:36:02.023
+Okay, let's talk about a few things. For example…
+
+00:36:03.695 --> 00:36:06.695
+Let's say you have a branch, right?
+
+00:36:07.456 --> 00:36:09.456
+Yes. Uh, let's say you have
+
+00:36:10.441 --> 00:36:13.441
+mistakenly, you have created a feature branch, F1.
+
+00:36:13.944 --> 00:36:21.944
+This is your task. Mistakenly… Like, you created a branch from main, right? Okay. But mistakenly, you actually committed two tasks, T1 and T2. Okay.
+
+00:36:23.916 --> 00:36:28.916
+Mistake by mistake, right? But you have to, of course, F1 should contain just Steven. Okay.
+
+00:36:28.783 --> 00:36:33.783
+And there's an F… like, F2 is not there, but there should be an F2 that should contain
+
+00:36:34.636 --> 00:36:36.636
+T2, okay. So, how do you fix that?
+
+00:36:36.901 --> 00:36:39.901
+So, first of all, uh, you will enter the branch.
+
+00:36:40.286 --> 00:36:42.286
+And that includes the pen, you can.
+
+00:36:43.336 --> 00:36:48.336
+You will enter the branch of F1. Okay. And after that, you will delete
+
+00:36:49.101 --> 00:36:54.101
+file, or just cut it off from the… from the… Cut off here, okay, cut. Yes.
+
+00:36:54.002 --> 00:37:00.002
+All of the files related to the task. Better to delete it, okay? And after that… But if you delete it, we'll lose the task.
+
+00:37:00.665 --> 00:37:09.665
+No? No, yeah, yeah, I mean, copy it. Copy all the content of the file, or just cut it and put it in the desktop.
+
+00:37:09.638 --> 00:37:13.638
+And after that, uh, you will get add, get commit, get push.
+
+00:37:14.084 --> 00:37:24.084
+And you always done with the task. Yes, you are done. Now for the T2? Yes. And now you will go to the main, and after that, you will get checkout to F2, and you will…
+
+00:37:24.974 --> 00:37:29.974
+But the fight, and to get that. Which will work. This approach works, right? Yes. But what if I tell you…
+
+00:37:29.842 --> 00:37:34.842
+Can you do something without pasting to the desktop? Like, without backing up the code to your desktop?
+
+00:37:35.110 --> 00:37:42.110
+Can you do something without backing up? Instead of backing up to the desktop, can you back up to another branch and then do the same work?
+
+00:37:44.403 --> 00:37:54.403
+to a new temporary branch, and then do the same work. Like, for example, of course, you're copying task 2 to the desktop, right, first? Yes. And then deleting it. Yes. Can you… is it possible to use… instead of desktop,
+
+00:37:54.615 --> 00:37:56.615
+Use a temporary branch.
+
+00:37:56.863 --> 00:37:59.863
+to actually save Task 2 while you get rid of…
+
+00:38:00.877 --> 00:38:05.877
+plus 2 from here. Is it possible? Yes, yes, it's possible. Possible, right? So, for example, if I create…
+
+00:38:06.886 --> 00:38:08.886
+PMP branch from F1. Yes.
+
+00:38:09.108 --> 00:38:15.108
+So I get both T1 and T2, right? Yes. Then I can do the T2? Yes. So you have F and you push it, right? Now…
+
+00:38:15.422 --> 00:38:20.422
+In F2, like, for example, now how do I remove T1 from that there?
+
+00:38:20.426 --> 00:38:25.426
+So, you would use, um, F2, and, uh… Yeah, for example, here, see? You will, uh…
+
+00:38:25.790 --> 00:38:29.790
+But the… here, see, this is the TMP branch, right? Now, for example, I copied,
+
+00:38:30.385 --> 00:38:35.385
+And this is now T1, T2, because I copied from F1, right? Yes. So there's T1 and T2. Okay.
+
+00:38:36.007 --> 00:38:49.007
+This is already pushed and done, right? Yes. Now, time to create F2. Like, how… Okay. So, we can't use F2, and we merge with the temp, so that it will be a copy from the… But F2, F2 is not here, right? MD.
+
+00:38:49.338 --> 00:38:54.338
+Like, it's… we are restarting the scenario now. Let's say… let's say this one you already fixed, right? Okay.
+
+00:38:54.719 --> 00:38:59.719
+You create it from F1? Temp. Okay. Temp, and then, because now you have a backup,
+
+00:38:59.951 --> 00:39:06.951
+You remove T2 and push. Okay, good. Now, how do you get the event from here? Because you have to remove T2.
+
+00:39:08.340 --> 00:39:15.340
+Okay, so, uh, we can go to, uh, we can, uh, inside the team branch, we do, uh, get checkout.
+
+00:39:15.328 --> 00:39:20.328
+F2, bit checkout HBF2. So, F2 will have the same… Yes.
+
+00:39:20.773 --> 00:39:22.773
+Is it possible to…
+
+00:39:23.379 --> 00:39:28.379
+Okay, so is it possible to create a branch from 10, but from a specific commit?
+
+00:39:29.246 --> 00:39:38.246
+Yes. Another get log, and we will get the domain, yes. So is it possible to… that you can just skip all of T2's commit and just
+
+00:39:38.549 --> 00:39:44.549
+Create a branch? Yes. Till here, right? Yes, we can. You can, right? Yes, we can. Is it possible, or…? Yes, it's possible. Yes, this is how you can do it. Okay.
+
+00:39:45.176 --> 00:39:56.176
+It's easy like that, right? Now, this is intermediate, right? It's still not advanced. Okay. It's good. So you're doing good. Okay, thank you. But anyways, no time for advancements left.
+
+00:39:56.163 --> 00:39:58.163
+Uh, so…
+
+00:39:59.104 --> 00:40:01.104
+Let's talk about, like, one of…
+
+00:40:02.035 --> 00:40:04.035
+steps of deployment, right? Manual deployment. Yes.
+
+00:40:04.897 --> 00:40:08.897
+For example, let's say you have this complaint API running, right? Yes.
+
+00:40:09.269 --> 00:40:17.269
+On your Windows, okay? How can you forget about Docker containerization, or you can use your choice, right? Yes, okay. But how can you run…
+
+00:40:17.462 --> 00:40:20.462
+the same application, or to move the same application from
+
+00:40:20.643 --> 00:40:23.643
+your machine to the Linux machine? Using SSH.
+
+00:40:23.906 --> 00:40:27.906
+Uh, okay, like, how… can you tell me, okay, let's say you as such, and then…
+
+00:40:29.159 --> 00:40:37.159
+Then after that, you can, uh, using the WinCSPH, yes, to, uh, copy, uh, the… your folder to…
+
+00:40:37.117 --> 00:40:39.117
+Is it… is GitKlone possible or not?
+
+00:40:39.125 --> 00:40:44.125
+Get clear as possible, right? Okay, then… then… but you don't have Python there, so…
+
+00:40:44.669 --> 00:40:48.669
+You don't have Python in there, you wouldn't do. That's it.
+
+00:40:49.129 --> 00:40:51.129
+Okay, then you can use Docker.
+
+00:40:52.007 --> 00:40:58.007
+Okay. You can use Docker, and you specify the version, and Alpine, or… Yeah, okay.
+
+00:40:59.241 --> 00:41:08.241
+Now, work directly, then after that, we can push it to the Docker Hub. After that, the other machine can pull the image and can use the application. Can run that image, yes.
+
+00:41:09.267 --> 00:41:11.267
+Okay,
+
+00:41:11.381 --> 00:41:14.381
+Recently, we discussed about AI Agent, right? Yes.
+
+00:41:14.360 --> 00:41:22.360
+Using an return, yes. So, how do you see, like, how do you… how would you define an AI agent versus, like, specifically, what is the difference between
+
+00:41:23.007 --> 00:41:29.007
+A large language model, poor difference, and an AI agent. Okay. So, LLM is basically, uh…
+
+00:41:29.855 --> 00:41:32.855
+AI for generative text. Okay.
+
+00:41:33.693 --> 00:41:41.693
+And, uh, NATM is used to… you can use, uh, it's like an automation work, uh, workflow for, uh, many AI agents.
+
+00:41:41.742 --> 00:41:44.742
+to work in one application, for example.
+
+00:41:45.202 --> 00:41:47.202
+Can your AI agent write to a file?
+
+00:41:47.992 --> 00:41:51.992
+Yes, of course. Nice. So, now…
+
+00:41:53.152 --> 00:41:59.152
+Remember, just before this question, you talked about, like, I can SSH, and… Yes. I can run, let's say, the Docker container? Yes.
+
+00:41:59.779 --> 00:42:01.779
+Is there any benefit that you see for CICD?
+
+00:42:03.668 --> 00:42:13.668
+Those SSH? Because you can… without CICD, you still are able to deploy the application, right? Yes. Using SSH and running the container manually, right? Yes. So is there a benefit that you see for CICD pipeline?
+
+00:42:14.390 --> 00:42:22.390
+Yes, because you will automate all these steps, all these manual steps. Yes. You don't need to do it manually. You can automate them.
+
+00:42:22.618 --> 00:42:26.618
+Okay, nice one. Okay, so that's it, good. I'm going to stop the recording.
+

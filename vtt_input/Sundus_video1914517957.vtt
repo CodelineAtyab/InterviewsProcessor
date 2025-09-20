@@ -1,0 +1,1632 @@
+WEBVTT
+
+
+00:00:02.400 --> 00:00:06.400
+Okay, so, uh, so those you already know, right? Like, uh…
+
+00:00:07.220 --> 00:00:11.220
+Many people might have already discussed with you some basic things.
+
+00:00:11.886 --> 00:00:21.886
+Okay. Intermediate and some advanced also, but usually we will start with the basics, right? The Python basics, then we'll move to Git Basics, maybe then networking basics, Linux…
+
+00:00:22.271 --> 00:00:27.271
+Docker deployment, right? Yeah. So, let's just start with Python Pro, right?
+
+00:00:27.598 --> 00:00:30.598
+Okay, so this is some Python tool. Okay.
+
+00:00:32.340 --> 00:00:34.340
+Now, this is some Python code.
+
+00:00:35.033 --> 00:00:42.033
+That's not the same as the full. No, no, I didn't ask her. And just doesn't… I keep changing, right? So…
+
+00:00:43.259 --> 00:00:45.259
+Uh, this is the function.
+
+00:00:46.951 --> 00:00:49.951
+Sorry for the bad writing, this is the function, actually, that we are calling here, right?
+
+00:00:50.058 --> 00:00:52.058
+And this is a list of three numbers.
+
+00:00:52.962 --> 00:00:55.962
+Okay. And we are also doing something to the list here.
+
+00:00:56.758 --> 00:00:58.758
+And then we are printing, uh, this…
+
+00:01:00.085 --> 00:01:02.085
+Right? Thanks, yeah.
+
+00:01:02.057 --> 00:01:04.057
+So, just…
+
+00:01:04.038 --> 00:01:06.038
+what would be the output?
+
+00:01:06.972 --> 00:01:08.972
+of the printer statement. You can write it down here.
+
+00:01:10.767 --> 00:01:14.767
+Uh, think about it, take your time. Don't… don't rush, right? Think about it.
+
+00:01:15.661 --> 00:01:17.661
+So, actually, this one due.
+
+00:01:18.431 --> 00:01:20.431
+do something, like, this is the function, actually.
+
+00:01:20.418 --> 00:01:22.418
+I'm calling the function here.
+
+00:01:54.866 --> 00:01:56.866
+You can just write the output.
+
+00:02:02.768 --> 00:02:04.768
+Are you sure?
+
+00:02:04.962 --> 00:02:06.962
+Yeah, because there is to a pen.
+
+00:02:11.813 --> 00:02:13.813
+Let's see, agree.
+
+00:02:14.257 --> 00:02:17.257
+So, do something, you pass L here, right?
+
+00:02:18.007 --> 00:02:20.007
+So…
+
+00:02:21.533 --> 00:02:24.533
+it would append 100, right? Yeah.
+
+00:02:25.155 --> 00:02:27.155
+And, uh, then you return.
+
+00:02:27.944 --> 00:02:29.944
+Okay. So…
+
+00:02:30.917 --> 00:02:32.917
+You think L will be changed by doing this?
+
+00:02:36.010 --> 00:02:41.010
+Uh, because we are passing L, right? So, do you think L will be changed when we do a dot append here?
+
+00:02:42.704 --> 00:02:44.704
+Okay, this one, L and this one A.
+
+00:02:44.935 --> 00:02:46.935
+But you pass L right here, right?
+
+00:02:48.123 --> 00:02:54.123
+And then you go here, like, you pass L. A will not change, because here is when the append to A,
+
+00:02:54.685 --> 00:02:59.685
+And here, when we append to L… so, it will be 200, not 100.
+
+00:03:00.970 --> 00:03:08.970
+Okay, so I will give you 30 seconds, right? Just take a look at it, and if you want to stick with your answer, you can. If you want to change your answer, you can, right? Your choice.
+
+00:03:33.109 --> 00:03:36.109
+I think not as well.
+
+00:03:36.387 --> 00:03:41.387
+I already, since I already updated, just quickly one time, right? Same, like, kind of… the same concept.
+
+00:03:42.501 --> 00:03:44.501
+But this time you have, like, 1, 2, 3.
+
+00:03:44.598 --> 00:03:46.598
+And there's a function add numbers.
+
+00:03:47.951 --> 00:03:49.951
+And here you are passing L, right? Yes.
+
+00:03:49.822 --> 00:03:51.822
+And this is the function definition.
+
+00:03:52.143 --> 00:03:54.143
+So here you see L…
+
+00:03:54.684 --> 00:03:57.684
+This L equal to 12345, right?
+
+00:03:58.030 --> 00:04:00.030
+Okay, and then you return…
+
+00:04:00.976 --> 00:04:04.976
+Oh? But actually, we are not capturing anything in the return, right?
+
+00:04:04.959 --> 00:04:06.959
+And I'm printing.
+
+00:04:07.856 --> 00:04:12.856
+So, what do you think would be the output of the running these three lines?
+
+00:04:13.741 --> 00:04:15.741
+Just mention your output here.
+
+00:04:18.785 --> 00:04:23.785
+Three lines? Yeah, of course, I run this line, I run this line, I run this line. What will be the output of L?
+
+00:04:54.067 --> 00:04:56.067
+Oh, okay…
+
+00:05:00.390 --> 00:05:02.390
+Do you remember? Uh, what is the difference between
+
+00:05:02.598 --> 00:05:04.598
+Uh, a shallow copy and deep copy.
+
+00:05:05.373 --> 00:05:07.373
+Very potent concept in Python.
+
+00:05:08.784 --> 00:05:10.784
+Which we discussed, yeah, phone kind of, right?
+
+00:05:10.724 --> 00:05:12.724
+Trello copy versus deep copy.
+
+00:05:13.224 --> 00:05:17.224
+New questions, right? Yeah. I told you about these.
+
+00:05:18.310 --> 00:05:24.310
+Yeah. Shallow copying. Okay, uh, do you remember about pass by reference, or pass-by assignment, something?
+
+00:05:26.502 --> 00:05:31.502
+It's fine if you don't remember, because I'm not here to ask definitions, right? Notions, right?
+
+00:05:32.179 --> 00:05:34.179
+But here, check this out. So, L…
+
+00:05:36.144 --> 00:05:39.144
+L, you pass L to this function, right? Yeah.
+
+00:05:39.996 --> 00:05:41.996
+But remember, this L is different.
+
+00:05:42.277 --> 00:05:44.277
+Because this is inside function, so…
+
+00:05:45.327 --> 00:05:47.327
+But you can't… Yeah, if you remember…
+
+00:05:47.574 --> 00:05:54.574
+If you remember our sessions, I told you that once you do L equal to this, so L starts pointing to…
+
+00:05:55.545 --> 00:05:58.545
+Something in the memory, right? And when you pass this to a function,
+
+00:05:58.605 --> 00:06:01.605
+This other L also starts pointing to the same memory, right?
+
+00:06:02.998 --> 00:06:06.998
+Then, you reassign the cell, L equal to 1 to 3 over 5, so there's a new list.
+
+00:06:07.584 --> 00:06:12.584
+1, 2, 3, 4, 5. So this L stops pointing here, and it starts pointing here, right?
+
+00:06:13.820 --> 00:06:16.820
+Then? See, still the cell is pointing to the same. 1, 2, 3 list.
+
+00:06:17.764 --> 00:06:19.764
+This is 5. Okay.
+
+00:06:20.982 --> 00:06:22.982
+And then you return L.
+
+00:06:24.257 --> 00:06:26.257
+And you're not doing anything with the return, there's nothing here.
+
+00:06:26.820 --> 00:06:30.820
+But then you go out and print L, this L is what? This L.
+
+00:06:30.760 --> 00:06:32.760
+And this cell is pointing to 123.
+
+00:06:35.698 --> 00:06:37.698
+Right, so answer is 1, 2, 3.
+
+00:06:38.070 --> 00:06:42.070
+And unfortunately, uh, your answer… previous answer was right, this is wrong.
+
+00:06:42.205 --> 00:06:44.205
+This is what it costs.
+
+00:06:44.986 --> 00:06:47.986
+So please take your time, right? Relax, don't worry about it.
+
+00:06:48.565 --> 00:06:50.565
+Let's move to the next move, thanks.
+
+00:06:51.226 --> 00:06:54.226
+Anyway, some basic things are written, right? Yeah. Okay, so…
+
+00:06:58.884 --> 00:07:00.884
+Let's say you are writing an application. Yeah.
+
+00:07:01.151 --> 00:07:03.151
+Right? Or, uh…
+
+00:07:03.778 --> 00:07:05.778
+But it helps. Okay.
+
+00:07:06.965 --> 00:07:16.965
+And let's talk about the… we do easy retrospectives, right? So you see the easy retro? Yeah. Let's say this is the… this is an application you are writing, you want to write.
+
+00:07:17.429 --> 00:07:22.429
+Uh, so when you are writing this application, you have, um…
+
+00:07:24.174 --> 00:07:28.174
+I, uh, you have a lot of people, actually,
+
+00:07:29.318 --> 00:07:31.318
+uh… adding the feedback, right?
+
+00:07:31.841 --> 00:07:38.841
+A lot of people are adding the feedback. So… and you already know how to build APIs, right? Simple APIs.
+
+00:07:40.244 --> 00:07:45.244
+So, the question is, using… let's say using FastAPI, because that is what you have covered. Yeah.
+
+00:07:46.223 --> 00:07:48.223
+Uh, how would you…
+
+00:07:48.444 --> 00:07:50.444
+write this API that can…
+
+00:07:50.820 --> 00:07:52.820
+actually capture the user feedback.
+
+00:07:53.336 --> 00:07:55.336
+And also show the user feedback.
+
+00:07:55.694 --> 00:07:57.694
+And if needed, delete the user feedback.
+
+00:07:58.761 --> 00:08:01.761
+So, what would be your thought process of building this type of an application?
+
+00:08:02.659 --> 00:08:07.659
+So, the API will connect with the… You can just talk, John.
+
+00:08:07.647 --> 00:08:12.647
+Okay, the API would connect to the server with the…
+
+00:08:13.200 --> 00:08:15.200
+website, so…
+
+00:08:15.443 --> 00:08:17.443
+isn't API itself
+
+00:08:17.621 --> 00:08:19.621
+Also replication?
+
+00:08:20.430 --> 00:08:24.430
+Yes, so it will connect with the website.
+
+00:08:24.627 --> 00:08:27.627
+API will connect, or the clients will connect to the website.
+
+00:08:27.989 --> 00:08:29.989
+the client.
+
+00:08:30.684 --> 00:08:36.684
+Okay, okay? So, whenever the… they put comments or feedbacks,
+
+00:08:37.849 --> 00:08:40.849
+then the API will send it to the… oops right.
+
+00:08:42.081 --> 00:08:44.081
+EPA will send it to the website.
+
+00:08:45.125 --> 00:08:48.125
+EPA is the website. On the website.
+
+00:08:48.386 --> 00:08:50.386
+APA is the…
+
+00:08:50.847 --> 00:08:58.847
+is the site, right? Like… Yeah, he will not send anything. So, yeah, you are… okay, so client sends the feedback, right? Yeah.
+
+00:08:59.703 --> 00:09:01.703
+So, will API catch the feedback?
+
+00:09:02.343 --> 00:09:04.343
+like, receive the feedback?
+
+00:09:04.596 --> 00:09:08.596
+API endpoint, right? Yes. Okay, and then…
+
+00:09:09.015 --> 00:09:12.015
+how… how… what would be your strategy to save it?
+
+00:09:12.113 --> 00:09:14.113
+like, how would you say, but where would you save it?
+
+00:09:15.548 --> 00:09:19.548
+And it takes flight? In a text file, okay. Yes, you can do that. Nice.
+
+00:09:19.878 --> 00:09:21.878
+Or it blocks.
+
+00:09:22.507 --> 00:09:26.507
+So… Logs is, okay, something that whatever your application is doing.
+
+00:09:26.608 --> 00:09:28.608
+But feedback in a text, right? Yeah.
+
+00:09:30.357 --> 00:09:34.357
+Okay, so… So, they can save it, and then they can see it after that?
+
+00:09:34.347 --> 00:09:39.347
+Augustine trade. So, for example, if a user wants to see his feedback, right? Okay.
+
+00:09:39.442 --> 00:09:41.442
+So…
+
+00:09:41.951 --> 00:09:45.951
+what would you do in first AK? Not talking about the exact sentence, but your thoughts, right?
+
+00:09:46.328 --> 00:09:50.328
+Like, what… how should the endpoint look like that can give him back his feedback?
+
+00:09:51.131 --> 00:09:58.131
+the user feedback. Let's say partner and me, right? Partner and me, we both put feedback.
+
+00:09:59.422 --> 00:10:02.422
+And in the feedback, you have the feedback and my name.
+
+00:10:02.732 --> 00:10:08.732
+or email address, right? Okay. And Fatma also has the name and email address, right? Now, how would the endpoint work to give me…
+
+00:10:09.356 --> 00:10:15.356
+Maybe they… it's kind of API send email, uh, emailed or text message to the end users?
+
+00:10:16.169 --> 00:10:21.169
+So, we already have established that we have… you are storing the feedbacks in a TXT file, right?
+
+00:10:21.441 --> 00:10:23.441
+So, how would you…
+
+00:10:23.777 --> 00:10:26.777
+give back the feedback if a user is asking for it.
+
+00:10:27.303 --> 00:10:36.303
+like, I need mine, not all the feedback, just my feedback. So, what would be the process… let's say I send a request, so what would the function do?
+
+00:10:36.173 --> 00:10:41.173
+Excellent. When, uh, the client sent the request, then the FAI, uh…
+
+00:10:42.024 --> 00:10:45.024
+So, the response, and then a response to the client again.
+
+00:10:45.035 --> 00:10:47.035
+Yes, but in between what…
+
+00:10:47.100 --> 00:10:49.100
+What will the function do, actually?
+
+00:10:49.567 --> 00:10:51.567
+You have a TXT file, right? Like, what should it do?
+
+00:10:51.949 --> 00:10:53.949
+Um…
+
+00:10:54.232 --> 00:11:00.232
+the API maybe will send to the user itself the feedback that you sent this feedback?
+
+00:11:00.224 --> 00:11:03.224
+Yeah, of course. It's shown in the, um…
+
+00:11:03.946 --> 00:11:05.946
+the website.
+
+00:11:06.589 --> 00:11:15.589
+Yes, like, I mean, you're… you are actually, uh, talking about, like, how it would do it. Like, this is how it would work, but, like, how… I'm asking for the implementation.
+
+00:11:16.250 --> 00:11:19.250
+For example, what will your function do in order to
+
+00:11:20.095 --> 00:11:22.095
+Your feedback is stored in the file, right? Like…
+
+00:11:22.321 --> 00:11:24.321
+this is a TXT file.
+
+00:11:24.463 --> 00:11:26.463
+Your feedback is true.
+
+00:11:26.874 --> 00:11:28.874
+Uh, I send you a request.
+
+00:11:29.071 --> 00:11:32.071
+Right? Yeah. Now, this is API in the front, right, let's say.
+
+00:11:32.641 --> 00:11:34.641
+So, what will your function do?
+
+00:11:35.143 --> 00:11:38.143
+In order to find out my feedback and then give it back to him.
+
+00:11:38.439 --> 00:11:41.439
+I'm not… I need just my feedback, right? Not…
+
+00:11:41.431 --> 00:11:46.431
+Not the complete. You want only your feed. Yes, right. So, how would you?
+
+00:11:46.554 --> 00:11:48.554
+do that.
+
+00:11:51.780 --> 00:11:53.780
+Maybe we will write a function that, uh…
+
+00:11:54.323 --> 00:11:56.323
+Only the API return
+
+00:11:56.617 --> 00:11:59.617
+like a response to you, only your feedback.
+
+00:12:00.375 --> 00:12:02.375
+Yes, so what is that function?
+
+00:12:04.599 --> 00:12:09.599
+No, no, notion dates. Steps.
+
+00:12:09.562 --> 00:12:11.562
+What would that function do?
+
+00:12:12.485 --> 00:12:14.485
+You can tell me verbally also if you want.
+
+00:12:26.284 --> 00:12:29.284
+Maybe it will analyze this text and see only your…
+
+00:12:29.376 --> 00:12:34.376
+Your feedback, and then… Yes, yes, that's right, that's right. A little bit more detail.
+
+00:12:35.011 --> 00:12:42.011
+That's right, high-level grade. We'll analyze it. Yes, analyze, like, what would it see? Uh, let's say you are reading line by line, right? Yeah.
+
+00:12:43.084 --> 00:12:46.084
+So, for example, when you stored the feedback,
+
+00:12:47.241 --> 00:12:51.241
+You just destroyed the feedback in the TXT file, right? Did you also store the username?
+
+00:12:52.076 --> 00:12:57.076
+What email? Okay, let's say, yeah, let's say now you decide, okay, I will store the email also, right? Okay.
+
+00:12:57.059 --> 00:12:59.059
+So, would you like to store
+
+00:13:00.003 --> 00:13:02.003
+How would you like to store in the TXT file? Like…
+
+00:13:02.851 --> 00:13:07.851
+How should the record look like? Should the record look like… look like this, for example?
+
+00:13:07.992 --> 00:13:13.992
+For example, at the event, then comma, and then this is my feedback, something like this.
+
+00:13:13.880 --> 00:13:15.880
+Or should it look like…
+
+00:13:16.603 --> 00:13:30.603
+like something else, I'm sure it looked like something else in the file. It should, with the username, it's… to know this one, this is your feedback, not another feedback. Right? Now, no, in your function, you read this line. Yeah. How do you figure out that
+
+00:13:30.990 --> 00:13:34.990
+by name, like, the function read, if this name?
+
+00:13:35.651 --> 00:13:46.651
+For example, not here, send it back here, you give this feedback. But actually, someone else, like, for example, Fatima, might have given the feedback, which also includes my name.
+
+00:13:47.140 --> 00:13:53.140
+Like, uh, this is for Atiya… So, by ID? Or write me address for the…
+
+00:13:53.569 --> 00:13:58.569
+Maybe I'm not able to explain the question. Like, for example, this is the username, right? Yeah.
+
+00:13:58.760 --> 00:14:00.760
+This is the message.
+
+00:14:01.240 --> 00:14:03.240
+Uh… in the file.
+
+00:14:03.575 --> 00:14:05.575
+So, in Python, let's say you read this line, right?
+
+00:14:07.025 --> 00:14:10.025
+How can you separate out the user from the message?
+
+00:14:10.783 --> 00:14:12.783
+from this string.
+
+00:14:13.950 --> 00:14:17.950
+Because we saved this one as a string, so…
+
+00:14:18.721 --> 00:14:31.721
+So, this one, as a username, we write the function if this username is equal to this feedback, then you return only this feedback without… Yeah, you're right. For example, if you say… let's say the username's coming as Atiya, right? For example,
+
+00:14:31.798 --> 00:14:33.798
+So, you can compare it with…
+
+00:14:35.129 --> 00:14:39.129
+But the thing is, this string is very big, so if you compare this with this, it is false.
+
+00:14:39.702 --> 00:14:42.702
+Because it is not just Atiopa, it is Atiyap comma, and the feedback, right?
+
+00:14:43.472 --> 00:14:48.472
+So how can you… you understand the point, right? Yeah, yeah, yeah. So, how can you compare it with
+
+00:14:48.664 --> 00:14:54.664
+this biggest thing. You first have to process the… String, like, or, uh, values.
+
+00:14:55.198 --> 00:14:58.198
+Okay, hold on. For example,
+
+00:14:58.394 --> 00:15:04.394
+the ID number. This one, ID number… Okay, let's say if I put also ID 123. Still, this is a string.
+
+00:15:05.154 --> 00:15:14.154
+No, the ID one, like, equal to this. Oh, okay, okay, so you're talking about a dictionary, right? Dictionaries, yeah. For example, let's say your ID. Or lists.
+
+00:15:16.131 --> 00:15:18.131
+All that's right, so let's say I get 1, 2, 3…
+
+00:15:19.720 --> 00:15:21.720
+como, and let's a message.
+
+00:15:22.136 --> 00:15:24.136
+This one fade away.
+
+00:15:24.788 --> 00:15:27.788
+And that's your feedback, right? So you would have stored like this, right? Yeah.
+
+00:15:28.440 --> 00:15:31.440
+start, like, a dictionary. And how can you read…
+
+00:15:31.843 --> 00:15:34.843
+loaded in the Python file, in your .py file.
+
+00:15:36.848 --> 00:15:41.848
+For, uh, we will… and search for this ID to find this message.
+
+00:15:43.083 --> 00:15:46.083
+Oh, I… okay, you will… if you…
+
+00:15:46.391 --> 00:15:49.391
+First, you have to load it, right? Remember, this is in the file. Mm-hmm.
+
+00:15:50.371 --> 00:15:54.371
+So this is… in the file, let's not a dictionary. You first have to load it, make it a dictionary.
+
+00:15:54.695 --> 00:15:56.695
+How can you make a reduction in Python first?
+
+00:15:57.183 --> 00:15:59.183
+Then you can get the value, right?
+
+00:16:00.220 --> 00:16:04.220
+Yeah, we… Like, remember? Because it doesn't all… it still is a big… it's the biggest string only.
+
+00:16:04.746 --> 00:16:06.746
+Because in file, everything is text.
+
+00:16:08.392 --> 00:16:12.392
+Okay. So, for example, you load it, right? Let's say you load it into a dictionary.
+
+00:16:12.750 --> 00:16:14.750
+Okay, this is the dictionary letter set in.
+
+00:16:15.707 --> 00:16:19.707
+Then here, you are seeing, I will get the ID, but the ID is 123, actually.
+
+00:16:23.015 --> 00:16:26.015
+I need them as… I need to see my message, right? Not the ID.
+
+00:16:26.690 --> 00:16:29.690
+Because this one has got all text, we will read this text.
+
+00:16:32.066 --> 00:16:38.066
+And analyze it to see… Here, we are here, right? You search for ID. Let's say you search for ID, you got this right?
+
+00:16:38.972 --> 00:16:43.972
+But I don't need 1, 2, 3, I need the message. So, what should we do with D here?
+
+00:16:44.427 --> 00:16:46.427
+To get the message.
+
+00:16:48.202 --> 00:16:52.202
+If the ID equal to, for example, 123… 2?
+
+00:16:52.595 --> 00:16:56.595
+Then? Then print the, uh… In what? Okay, print?
+
+00:16:56.740 --> 00:16:58.740
+How do you print the message?
+
+00:16:59.624 --> 00:17:05.624
+This one, because we store it as a message, so… Yes, like, for example, if I… I'm doing this…
+
+00:17:06.307 --> 00:17:13.307
+If I'm… If the ID is equal equal to 1, 2, 3, um… Can you just write what would I write off to the print?
+
+00:17:13.140 --> 00:17:15.140
+to display the message.
+
+00:17:17.620 --> 00:17:19.620
+keeping this in mind, right?
+
+00:17:20.528 --> 00:17:22.528
+Okay. Just for the message.
+
+00:18:00.115 --> 00:18:05.115
+Because really, we store them the… Yeah, so you would write, you would write this, Chief.
+
+00:18:09.534 --> 00:18:11.534
+Rachelor's?
+
+00:18:11.922 --> 00:18:14.922
+Remember, it's fine to use AI tools, but…
+
+00:18:15.771 --> 00:18:21.771
+We must know how to use the basic data structures. Otherwise, how can you fix the generated content, right, if it's wrong?
+
+00:18:22.065 --> 00:18:24.065
+This is very basic, right?
+
+00:18:24.053 --> 00:18:29.053
+So, no need to memorize. See, I already gave you the example, you just need to put the message here.
+
+00:18:29.307 --> 00:18:31.307
+Okay. With this room.
+
+00:18:31.733 --> 00:18:36.733
+Right? But you are partially correct, also, in all of the other things. Your approach is correct.
+
+00:18:37.408 --> 00:18:39.408
+Okay, so, um…
+
+00:18:46.045 --> 00:18:48.045
+Okay, let's talk about, uh…
+
+00:18:51.689 --> 00:18:56.689
+And… have you seen this statement? I keep asking this, but actually…
+
+00:18:57.175 --> 00:18:59.175
+Uh…
+
+00:18:59.376 --> 00:19:01.376
+what, like, let's do something else here.
+
+00:19:01.912 --> 00:19:03.912
+In the second bath.
+
+00:19:06.138 --> 00:19:09.138
+Now, this is Elle, right? List 123.
+
+00:19:10.434 --> 00:19:12.434
+And let's say if I do…
+
+00:19:13.246 --> 00:19:17.246
+let's say this is Alvin, right? If I do L2 and just do 1, 2, 3.
+
+00:19:20.228 --> 00:19:22.228
+Right, so…
+
+00:19:22.685 --> 00:19:24.685
+This is a list, right? Yes. What is this?
+
+00:19:27.828 --> 00:19:29.828
+Make sure that. Uh…
+
+00:19:29.942 --> 00:19:31.942
+And then what is this?
+
+00:19:32.889 --> 00:19:36.889
+No, this one dictionary. This and this one's, um, values.
+
+00:19:37.793 --> 00:19:40.793
+Double, right? Yeah, tuple.
+
+00:19:40.970 --> 00:19:48.970
+What is the difference between a list… like, what is the difference between these two? Suplete is ordered, it's immutable, we can't change it. Immutable.
+
+00:19:49.684 --> 00:19:52.684
+Cannot change it right now, change it, but at least we can't change it.
+
+00:19:54.501 --> 00:19:59.501
+But you also said something about order, right? This one ordered, and this one… It's not ordered. Not ordered.
+
+00:20:00.093 --> 00:20:09.093
+issue. See, again, when I say I showed you can stick to your answer? No, because the dictionary is ordered, so the list is not ordered. Dictionary is ordered?
+
+00:20:10.528 --> 00:20:12.528
+This dictionary is ordered.
+
+00:20:16.684 --> 00:20:18.684
+No, not R. The…
+
+00:20:20.302 --> 00:20:25.302
+Uh, what about the… so this truple is ordered, right? Yes, tuple is ordered. And list is not usage, right?
+
+00:20:25.399 --> 00:20:27.399
+Yeah, that's immutable is correct, right? Yeah.
+
+00:20:28.465 --> 00:20:31.465
+Uh, we are talking about the order now, right? Yeah, yeah, yeah. So this is order.
+
+00:20:32.012 --> 00:20:34.012
+And this is… you said unordered, right?
+
+00:20:34.391 --> 00:20:37.391
+Double is ordered, placed as an order, and this is also an order.
+
+00:20:39.623 --> 00:20:41.623
+No, the list is ordered. And this is the…
+
+00:20:42.566 --> 00:20:44.566
+This is an order? No, this one. I mean, there's…
+
+00:20:45.215 --> 00:20:48.215
+Wait some spit. See, um…
+
+00:20:49.218 --> 00:21:03.218
+The list is not ordered. Yeah, yeah, yeah. Because we can't change the order, and it is immutable, we can't change… immutable, I mean. Oh, in that sense, you're saying, right? No, no, not in that sense. Of course, afterwards, you can make changes to the list, right?
+
+00:21:03.853 --> 00:21:06.853
+Yeah. But after you… if you define a list, right?
+
+00:21:07.831 --> 00:21:12.831
+So, unordered means if I… if I search the list, I can get numbers in any order.
+
+00:21:13.947 --> 00:21:16.947
+Yeah, yeah, yeah. So, is that the case with the list, or not?
+
+00:21:17.571 --> 00:21:22.571
+Do I get the numbers in order, or do I get an order? No, not all. Not ordered, right?
+
+00:21:23.408 --> 00:21:26.408
+So, lists end.
+
+00:21:27.111 --> 00:21:30.111
+technique. A tuple is ordered, right? You said?
+
+00:21:30.164 --> 00:21:32.164
+list… list and dictionary…
+
+00:21:32.906 --> 00:21:36.906
+Dictionary is ordered. Dictionary is ordered. So, let's just…
+
+00:21:37.972 --> 00:21:39.972
+An order?
+
+00:21:39.943 --> 00:21:41.943
+And dictionary is…
+
+00:21:43.257 --> 00:21:45.257
+order, right?
+
+00:21:50.198 --> 00:21:52.198
+That's what it is…
+
+00:21:52.175 --> 00:21:54.175
+I'm… right?
+
+00:21:55.438 --> 00:21:57.438
+A dictionary is ordered, yeah?
+
+00:21:58.369 --> 00:22:02.369
+Although the dictionary is unordered and the list is ordered.
+
+00:22:03.683 --> 00:22:07.683
+Anyways, but this is the thing, see?
+
+00:22:08.438 --> 00:22:11.438
+Don't worry about the scores. See, score doesn't define you. Yeah, yeah, yeah.
+
+00:22:12.479 --> 00:22:14.479
+You can do a wonderful job in future, so don't worry about
+
+00:22:14.682 --> 00:22:16.682
+If you feel a positive review. But…
+
+00:22:17.988 --> 00:22:19.988
+Think about it, see, if you…
+
+00:22:20.061 --> 00:22:30.061
+ever in the interviews, in real interviews, if you ever give any extra information to the interviewer, he will catch there, and he will ask questions. Yeah. Right? So you have to very… yeah.
+
+00:22:30.707 --> 00:22:33.707
+Now, it's a good thing also. Maybe you know everything about orders, right?
+
+00:22:34.440 --> 00:22:41.440
+So then you can take him. Then you can specifically tell him, order. So he actually asks questions, and you make a good introduction, right?
+
+00:22:41.315 --> 00:22:43.315
+Anyway, so… Okay.
+
+00:22:44.286 --> 00:22:50.286
+Uh, filing, right? So, your application is storing everything to a file, right?
+
+00:22:51.524 --> 00:22:53.524
+Is there any other option to…
+
+00:22:53.519 --> 00:22:55.519
+storing data besides filing.
+
+00:22:56.848 --> 00:22:58.848
+that you have learned recently, not recently, maybe…
+
+00:22:59.766 --> 00:23:01.766
+a couple of weeks back.
+
+00:23:02.320 --> 00:23:05.320
+Yes, you're going to store the data to a file. If you're going to store the feedback to a file.
+
+00:23:05.427 --> 00:23:09.427
+Can you use through the feedback to any other thing, other… something…
+
+00:23:09.427 --> 00:23:11.427
+Other than the file.
+
+00:23:17.852 --> 00:23:24.852
+Yes, for platforms or applications. Database? Yes, database. You can store, right? Yeah. So…
+
+00:23:25.234 --> 00:23:27.234
+How can you…
+
+00:23:27.751 --> 00:23:31.751
+Okay, how would the table of the database look like, where you want to keep the…
+
+00:23:32.450 --> 00:23:37.450
+A database like SQL, so we can store the data there.
+
+00:23:38.064 --> 00:23:40.064
+Yeah, so… MySQL.
+
+00:23:41.122 --> 00:23:43.122
+So what is the difference between SQL and database?
+
+00:23:45.381 --> 00:23:47.381
+some SQL and database server.
+
+00:23:49.053 --> 00:23:52.053
+The database server where we can store the data.
+
+00:23:52.228 --> 00:23:54.228
+So it's like, um…
+
+00:23:54.809 --> 00:23:56.809
+No, yeah, they're just fine. What is a SQL, then?
+
+00:23:57.093 --> 00:23:59.093
+Or ask you.
+
+00:23:59.330 --> 00:24:06.330
+Like, what does it do? I'm not asking about the machine here. Inside a database that we can, like,
+
+00:24:07.325 --> 00:24:09.325
+the inside SQL, there's, uh…
+
+00:24:09.739 --> 00:24:14.739
+different type of database where we can store data, like, for example, this data.
+
+00:24:16.031 --> 00:24:25.031
+We can, um, separate the database list that… Yeah, you can store our data in the database, right? That's true. But what is SQL for? What do you use SQL for?
+
+00:24:25.787 --> 00:24:27.787
+So, to do what?
+
+00:24:27.954 --> 00:24:29.954
+to, uh…
+
+00:24:30.327 --> 00:24:40.327
+build database inside. Build, okay, yes. To build and? Test and then… Like everything, right? Yeah. So, it's actually to interact with the database, right? To create…
+
+00:24:40.546 --> 00:24:43.546
+For update, delete all the data.
+
+00:24:45.820 --> 00:24:51.820
+So we insert the delta there. We built that database, and then we insert the data inside that database. Oh, yes, you're right.
+
+00:24:52.562 --> 00:24:55.562
+All right. So, can you do that for the feedbacks, right?
+
+00:24:55.748 --> 00:25:01.748
+Yes, we can. So, uh, even if someone wants to change their feedback, we can…
+
+00:25:02.648 --> 00:25:04.648
+Um, yeah, updated. Nice.
+
+00:25:05.341 --> 00:25:09.341
+Okay, uh, let's move to, um, some…
+
+00:25:13.195 --> 00:25:15.195
+Dark, I guess.
+
+00:25:15.169 --> 00:25:17.169
+So…
+
+00:25:19.156 --> 00:25:21.156
+Okay, um…
+
+00:25:22.089 --> 00:25:27.089
+We have been, uh, again, I'm going to take your application into consideration, right? Feedback.
+
+00:25:28.042 --> 00:25:30.042
+Uh, how can you containerize this application?
+
+00:25:31.790 --> 00:25:34.790
+Like, how would the Dockerfile look like? Yeah. Like, just…
+
+00:25:34.911 --> 00:25:36.911
+guide me step by step.
+
+00:25:38.672 --> 00:25:41.672
+Um, we can use image to put the configure.
+
+00:25:43.230 --> 00:25:46.230
+image. How would you build the image? Like, what are the instructions?
+
+00:25:47.170 --> 00:25:51.170
+Let's say you have… Images is like a platform, we can use it to…
+
+00:25:52.090 --> 00:26:00.090
+Make a container. Okay. And then we can make this feedback to sit there inside the… What is the difference between a Dockerfile and an image?
+
+00:26:01.145 --> 00:26:03.145
+Dockerfile and an image.
+
+00:26:04.156 --> 00:26:07.156
+Yeah, the Docker… the image is a platform.
+
+00:26:07.794 --> 00:26:11.794
+to make the container. Uh, the Docker?
+
+00:26:12.412 --> 00:26:14.412
+Docker files. Dockerfile, not Docker.
+
+00:26:15.590 --> 00:26:19.590
+Dockerfile is used container to run the, um, codes.
+
+00:26:20.392 --> 00:26:22.392
+And, uh, the fights…
+
+00:26:23.027 --> 00:26:25.027
+So…
+
+00:26:25.129 --> 00:26:27.129
+Dockerfile is used to.
+
+00:26:27.898 --> 00:26:30.898
+Again? For the…
+
+00:26:31.184 --> 00:26:33.184
+The process for, um…
+
+00:26:34.449 --> 00:26:38.449
+Wait a minute. Build, test, and deploy the…
+
+00:26:38.986 --> 00:26:40.986
+build, test, and also deploy?
+
+00:26:41.375 --> 00:26:48.375
+All three things. The flow work, so it can build test, uh, test, and deploy the…
+
+00:26:50.037 --> 00:26:53.037
+they use reply. Okay, let's see.
+
+00:26:53.450 --> 00:26:58.450
+Let's forget about extra things, right? Just focus on Dockerfile and image. Okay.
+
+00:26:58.753 --> 00:27:01.753
+What is the relationship between a Dockerfile and the image on the…
+
+00:27:02.388 --> 00:27:04.388
+the Docker file?
+
+00:27:04.926 --> 00:27:07.926
+We use the Dockerfile… we use the image,
+
+00:27:08.695 --> 00:27:16.695
+Uh, we put the Dockerfile inside it to create the… Inside the… No, no, yes, see, I'm not talking about image and container.
+
+00:27:16.835 --> 00:27:25.835
+Okay. Talking about Dockerfiles and imagery. So, we use the image to… Run the container. That's, again, see, you're jumping there, right? Okay. Yes, you are right.
+
+00:27:26.597 --> 00:27:33.597
+You can run the container based off of an image, right? Yeah. What I'm asking is… Dockerfile. Dockerfile and image. What is the relationship between Dockerfile and the image?
+
+00:27:35.144 --> 00:27:39.144
+Docaffeine, not image and continue. Dockerfile.
+
+00:27:40.963 --> 00:27:42.963
+The Docker file used the image.
+
+00:27:44.279 --> 00:27:46.279
+drop, uh…
+
+00:27:46.369 --> 00:27:48.369
+Dockerfile uses the image how?
+
+00:27:50.078 --> 00:27:53.078
+Okay, let's… let's take scenario. How would you…
+
+00:27:53.388 --> 00:27:56.388
+write the Dockerfile for your anonymous feedback.
+
+00:27:56.677 --> 00:27:58.677
+application nurture.
+
+00:27:59.207 --> 00:28:02.207
+like, how would it look like? Just instructions.
+
+00:28:03.531 --> 00:28:09.531
+Um, because remember, in the sessions, we covered that whenever you are writing a Dockerfile, think about a virtual machine.
+
+00:28:10.478 --> 00:28:18.478
+Yes. And think about your computer on the left, on the right-hand side, think about a virtual machine. So, how would… what… what should Dockerfile tell Docker to do?
+
+00:28:20.028 --> 00:28:22.028
+You can just tell, no need to…
+
+00:28:22.565 --> 00:28:25.565
+So, the Dockerfile said the…
+
+00:28:26.049 --> 00:28:28.049
+computer to do.
+
+00:28:28.190 --> 00:28:33.190
+Docker, because Dockerfile is for Docker, right? Yeah, yeah. So it turns Docker to do something, right?
+
+00:28:34.248 --> 00:28:37.248
+So, Dockerfile will tell… the Docker tool
+
+00:28:38.084 --> 00:28:43.084
+save this text feed, uh, for a feed… feedback file.
+
+00:28:43.533 --> 00:28:46.533
+Okay. Okay. And save it, uh…
+
+00:28:47.052 --> 00:28:51.052
+Let's move to the next notion, because time is short, right? I have to be able to move to the next.
+
+00:28:51.634 --> 00:28:55.634
+Uh, let's talk about, just like we were discussing Docker, right? Let's…
+
+00:28:56.096 --> 00:28:58.096
+Talk about Git, right? Git?
+
+00:28:58.550 --> 00:29:00.550
+No.
+
+00:29:03.669 --> 00:29:05.669
+How would you… how do you define… okay.
+
+00:29:06.308 --> 00:29:08.308
+What is a commit in Git?
+
+00:29:09.447 --> 00:29:12.447
+Commit. Comet, it's to save the changes.
+
+00:29:12.585 --> 00:29:14.585
+Okay. We make it to the point.
+
+00:29:15.945 --> 00:29:17.945
+Or do you see any purpose of having a feature branch?
+
+00:29:19.169 --> 00:29:22.169
+like, for example, you already have a main branch, right? Yeah.
+
+00:29:23.353 --> 00:29:25.353
+So, why not just push everything to the main branch?
+
+00:29:26.438 --> 00:29:28.438
+Why is… why do people create a separate branch?
+
+00:29:29.340 --> 00:29:31.340
+The feature branch, because we can…
+
+00:29:32.266 --> 00:29:38.266
+Um, and that's our code without, um, causing the main, main, uh, main…
+
+00:29:39.576 --> 00:29:48.576
+But yeah, I mean, brunch. Yeah, so kind of isolation, right? Yeah. Right? Which means you prepared very well in the interview, but it's not… yeah, so I know you prepared very well.
+
+00:29:48.602 --> 00:29:50.602
+For the interviews, but…
+
+00:29:50.550 --> 00:29:52.550
+So I was just trying to figure out…
+
+00:29:53.162 --> 00:29:55.162
+But you prepared very well in the interview, right?
+
+00:29:58.947 --> 00:30:02.947
+But actually, concepts. You have to work a lot on the concept human. Yeah.
+
+00:30:03.945 --> 00:30:05.945
+Because I asked this question to Muslim.
+
+00:30:07.940 --> 00:30:16.940
+Or some other people also, right? This one? No. Yeah, this one. There's good. So, this is the basic, right? Basic is…
+
+00:30:17.763 --> 00:30:19.763
+I know you already know the basics, so I'm not going to touch more.
+
+00:30:20.486 --> 00:30:24.486
+I'll quickly jump to the intermediate one, right? So let's say Git, right?
+
+00:30:25.657 --> 00:30:27.657
+And good.
+
+00:30:27.631 --> 00:30:29.631
+Let's say you are working in a branch.
+
+00:30:30.903 --> 00:30:34.903
+by mistake, you actually merged two tickets in the branch.
+
+00:30:35.381 --> 00:30:37.381
+Okay. Right? Now…
+
+00:30:38.604 --> 00:30:42.604
+You need to create a pull request only for ticket A, right? So what would you do?
+
+00:30:44.966 --> 00:30:46.966
+One second. I will make git reset.
+
+00:30:47.987 --> 00:30:49.987
+If you reset, you lose everything.
+
+00:30:52.165 --> 00:30:59.165
+on both of the districts? On, uh, get revert, we can, uh, indo this, uh, this merge.
+
+00:31:00.207 --> 00:31:02.207
+If you revert…
+
+00:31:03.253 --> 00:31:08.253
+Because you have all of the commits together in the same branch, right? Okay. So, for example…
+
+00:31:09.171 --> 00:31:13.171
+You need to first create a pull request for just task A.
+
+00:31:13.709 --> 00:31:15.709
+So, if you revert…
+
+00:31:15.867 --> 00:31:17.867
+or research.
+
+00:31:17.852 --> 00:31:19.852
+All of the… Okay, I can…
+
+00:31:20.780 --> 00:31:22.780
+320, because there's another one.
+
+00:31:23.795 --> 00:31:26.795
+Okay? How do you delete? What would be the process of deleting?
+
+00:31:27.631 --> 00:31:29.631
+let's say Task A and task B. Yeah.
+
+00:31:30.491 --> 00:31:36.491
+The same. The same, yeah? Let's say task A and task B, right? Okay. One on top of…
+
+00:31:37.416 --> 00:31:40.416
+like, on top. So this is your branch, right? Like, this is your branch.
+
+00:31:41.414 --> 00:31:43.414
+Now, unfortunately, both are in the same branch.
+
+00:31:43.486 --> 00:31:47.486
+So, you want to delete, let's say, B. So, how would you delete B?
+
+00:31:48.631 --> 00:31:52.631
+task-free. And task-free, let's say, have 3 covers. Task A also have 3 covers.
+
+00:31:53.425 --> 00:31:57.425
+These two tasks is the same, it's not different? Different? Yeah.
+
+00:31:58.147 --> 00:32:00.147
+So, I cannot delete it because it will…
+
+00:32:00.686 --> 00:32:06.686
+Yes, but you need to create a protocols for both. B separately, A separately. Yeah, yeah, yeah. By mistake,
+
+00:32:06.948 --> 00:32:08.948
+The branch was for task A.
+
+00:32:09.460 --> 00:32:17.460
+But you also, by mistake, by mistake, I didn't go, uh, for the main branch, and I merged another page. So…
+
+00:32:19.868 --> 00:32:21.868
+I will delete B.
+
+00:32:22.378 --> 00:32:28.378
+And then make another branch for… and, uh, add comments at the… for the VIN.
+
+00:32:28.931 --> 00:32:31.931
+But if you delete B, right, first you delete B.
+
+00:32:32.384 --> 00:32:35.384
+First, you say you deleted me, right? Yeah. How do you delete B?
+
+00:32:36.558 --> 00:32:40.558
+By actually, the feature and the name of the…
+
+00:32:41.646 --> 00:32:47.646
+But you already have one button, let's a feature-A. You haven't created a branch for B. The ID, there's a different ID.
+
+00:32:48.372 --> 00:32:50.372
+So you will create a new branch first.
+
+00:32:50.879 --> 00:32:54.879
+Yes? Okay, so let's… let's say you created a new branch B.
+
+00:32:56.937 --> 00:33:03.937
+from A? No. From me? From mean? So mean, now it's empty. There's no A, there's no B task. Box is empty here.
+
+00:33:05.145 --> 00:33:07.145
+Right? Now you have AB here, so…
+
+00:33:07.861 --> 00:33:09.861
+How can you move this bee here?
+
+00:33:12.369 --> 00:33:15.369
+You have to move this B here, right? Yeah. Like, delete from here and move it here.
+
+00:33:20.984 --> 00:33:24.984
+I can also put this one in deleted, because it will delete them both.
+
+00:33:24.970 --> 00:33:29.970
+When the main… the new, uh, B branch, I will add and comment here.
+
+00:33:30.888 --> 00:33:37.888
+But then you lose the work. If you just delete it, you lose the betas, then you will do the task. You have to do it again then.
+
+00:33:37.992 --> 00:33:45.992
+We don't want to delete it, we want to just move it. No, no, I would not delete it, I will make another branch, and I will save it.
+
+00:33:46.739 --> 00:33:53.739
+This is the art, like, how do you save it? Yes, right? You have the branch now, right? How do you save B here?
+
+00:33:53.820 --> 00:33:58.820
+If you create a branch not from min, but from A, then you get A and B, right?
+
+00:34:02.471 --> 00:34:04.471
+Then you can delete B.
+
+00:34:05.509 --> 00:34:12.509
+So you get A only, right? So you can push A, create a pull request, one task is done. Okay. Now, again, you have… now you have to remove A from here.
+
+00:34:14.052 --> 00:34:16.052
+Yes.
+
+00:34:22.953 --> 00:34:25.953
+But it's fine. This is something that you can try on the computer property.
+
+00:34:26.835 --> 00:34:30.835
+Uh, but basics is, uh, like, uh, just telling you about the staging area.
+
+00:34:31.629 --> 00:34:33.629
+What is a staging area? Well…
+
+00:34:35.410 --> 00:34:39.410
+Staging area, when we add the file, that's a staging the…
+
+00:34:40.015 --> 00:34:42.015
+saving the fight.
+
+00:34:43.657 --> 00:34:47.657
+Well, so, for example, when I initialize the record. Yeah.
+
+00:34:48.330 --> 00:34:50.330
+And I put many files in it, right?
+
+00:34:51.191 --> 00:34:57.191
+Uh, new repoon, right, Sundays? And I just… just put many files in it. Yes.
+
+00:34:57.621 --> 00:35:03.621
+And then I do get a status, right? So I will see many files in red, right? Yes. So, are they in the staging area?
+
+00:35:03.960 --> 00:35:09.960
+No. When we make… get out, we are staging this file, and that will be our…
+
+00:35:11.172 --> 00:35:19.172
+And, for example, if I do git commit. So, does the commit contain all red and green files, or…? No, only that file. The student area, right? So your good basics are good.
+
+00:35:19.647 --> 00:35:21.647
+But intermediate needs some work.
+
+00:35:26.420 --> 00:35:29.420
+You prepared really, really well, I know, for the interview, right? But…
+
+00:35:29.573 --> 00:35:33.573
+memorization or preparation won't help, actually, at least, right?
+
+00:35:33.705 --> 00:35:35.705
+So… but it's good.
+
+00:35:35.763 --> 00:35:37.763
+But… better.
+
+00:35:39.940 --> 00:35:45.940
+at least you are passing. Almost.
+
+00:35:46.236 --> 00:35:52.236
+Right, let's, uh, get us done container… I did ask you some questions about the…
+
+00:35:52.389 --> 00:35:55.389
+containers already, right? So let's not go into that.
+
+00:35:56.543 --> 00:35:59.543
+Let's talk about CICD, I mean, like…
+
+00:36:01.663 --> 00:36:03.663
+let's say your feedback application, right? How would you…
+
+00:36:03.796 --> 00:36:08.796
+How can you deploy this? Okay, let's say you have two laptops, right? Mm-hmm.
+
+00:36:09.756 --> 00:36:16.756
+When here and went here. Uh, this laptop has… when two… this laptop has Windows, and you already have tested your FastAPI application.
+
+00:36:17.457 --> 00:36:22.457
+on Windows, right? How can you run the same application on the other machine?
+
+00:36:22.899 --> 00:36:27.899
+So, we use CICD, CI for… Let's say…
+
+00:36:28.293 --> 00:36:30.293
+without CACBL, when you do it?
+
+00:36:30.606 --> 00:36:32.606
+We have to deploy.
+
+00:36:33.228 --> 00:36:38.228
+So, everyone can access… when we deployed an application, everyone can access… But how?
+
+00:36:39.984 --> 00:36:43.984
+Yeah, deployment is correct, right? You have to deploy it at a half. First, we have, uh, two…
+
+00:36:43.852 --> 00:36:45.852
+build a platform.
+
+00:36:47.014 --> 00:36:51.014
+Will Dimesh? Yes, and then we tested, and then we deployed it.
+
+00:36:51.070 --> 00:36:54.070
+Yes. Okay, so for example, let's say…
+
+00:36:55.669 --> 00:37:00.669
+Assume you have the Dockerfile, right? Assume. So you build the image. Yes, we built it in.
+
+00:37:00.883 --> 00:37:02.883
+And then how do you trust?
+
+00:37:03.132 --> 00:37:05.132
+Using, uh…
+
+00:37:06.042 --> 00:37:12.042
+the CI. Let's forget CI, right? Without CI, you can also do something, everything, right?
+
+00:37:12.524 --> 00:37:14.524
+So let's say you have the image, right? Yeah.
+
+00:37:15.135 --> 00:37:20.135
+Uh, you have the image here on this computer, right? So, for example, when you run docker build command, you have the image here.
+
+00:37:20.113 --> 00:37:22.113
+Now, this is the other component.
+
+00:37:23.602 --> 00:37:26.602
+Now, for example, you have done building damage. Now, what are the steps remaining to…
+
+00:37:27.213 --> 00:37:31.213
+We have to test before and analyze before. How do you test?
+
+00:37:32.126 --> 00:37:34.126
+After building the image?
+
+00:37:35.223 --> 00:37:46.223
+Using the container. Okay, you run the container, right? Yeah, run it. Then you test. Done. Okay, let's say everything is tested, done here, right? Yeah. Now is the time to actually move the application here, right? Yeah. So, how do you do that?
+
+00:37:46.173 --> 00:37:49.173
+We deploy it using…
+
+00:37:55.453 --> 00:37:57.453
+You can use, uh, API.
+
+00:37:57.953 --> 00:38:02.953
+to deploy it. Okay, API, like, for example, any example, can you give me an example?
+
+00:38:03.734 --> 00:38:05.734
+What API can you use to deploy it?
+
+00:38:07.157 --> 00:38:09.157
+In this past the FBIOs.
+
+00:38:09.261 --> 00:38:11.261
+Mmm… no.
+
+00:38:12.656 --> 00:38:14.656
+I mean, you can, but…
+
+00:38:14.855 --> 00:38:17.855
+then the question would be, like, what would you do in the API to deploy?
+
+00:38:18.511 --> 00:38:22.511
+Like, based on what we have learned, let's say, from that…
+
+00:38:23.196 --> 00:38:34.196
+How would you reply? Image is really… you can run the container, you have tested it, everything is good, right? Yes. Next steps. How do we… We deploy it to the server, so everyone can…
+
+00:38:34.583 --> 00:38:36.583
+axis.
+
+00:38:37.252 --> 00:38:40.252
+Yes, but you're saying we deployed, so I'm asking how…
+
+00:38:40.458 --> 00:38:42.458
+Like, for example,
+
+00:38:42.994 --> 00:38:46.994
+On a high level, you are completely correct, high level, right? Yeah.
+
+00:38:47.169 --> 00:38:50.169
+But actually, because you are DevOps, you need to know how.
+
+00:38:50.413 --> 00:38:52.413
+So, that's not how.
+
+00:39:11.012 --> 00:39:17.012
+I guess? I don't remember. Do you remember SSH, right? SSH, yeah, but, uh, secured.
+
+00:39:17.036 --> 00:39:22.036
+This is a protocol to support. Why do we use it?
+
+00:39:22.964 --> 00:39:24.964
+She was, uh, to secure the…
+
+00:39:26.490 --> 00:39:28.490
+the connection.
+
+00:39:29.434 --> 00:39:31.434
+But what do we use it for, like…
+
+00:39:31.560 --> 00:39:33.560
+What is the benefit of using SSH?
+
+00:39:35.322 --> 00:39:38.322
+For security-only connection.
+
+00:39:39.194 --> 00:39:43.194
+for security, not so many things, right? We have, like, encryption network terms, you have…
+
+00:39:43.437 --> 00:39:48.437
+public key typography, you have digital certificates. What is the benefit of specifically SSH?
+
+00:39:48.902 --> 00:39:50.902
+What does… Yeah. Run.
+
+00:39:51.780 --> 00:39:54.780
+Um, the commands. Commands? Pier?
+
+00:39:55.450 --> 00:39:59.450
+As they should, yeah, on the PC. In the PC, or remotely? Remote?
+
+00:40:00.408 --> 00:40:02.408
+forms. And on someone else's PC.
+
+00:40:03.266 --> 00:40:06.266
+Someone asked me… Someone asked, but…
+
+00:40:07.317 --> 00:40:12.317
+So SSH is used to form remote connections, right? So you can run commands…
+
+00:40:12.448 --> 00:40:16.448
+some difference. This is right, what you've said, right? I just typed you out.
+
+00:40:16.864 --> 00:40:18.864
+Okay, so, for example,
+
+00:40:19.518 --> 00:40:23.518
+Can you not just access and then just, uh…
+
+00:40:24.001 --> 00:40:29.001
+And just git clone your project and run it, or maybe just build the image there and run the container there, you deploy it.
+
+00:40:30.777 --> 00:40:36.777
+What's right? Like, for example, the same way you run the application on Windows, same way you can run it on Linux, just git clone,
+
+00:40:37.125 --> 00:40:39.125
+Docker build, and when they continue.
+
+00:40:41.183 --> 00:40:45.183
+So you can, right? Yeah. So I was asking something like that, like, what would you do?
+
+00:40:45.792 --> 00:40:49.792
+Now, because it's too much commands, too much efforts, right, how would CIC be
+
+00:40:49.795 --> 00:40:51.795
+help you.
+
+00:40:52.633 --> 00:40:57.633
+That's right. What is, like, what is the benefit of CIC? Uh, it's, uh, the CI, uh…
+
+00:40:58.193 --> 00:41:01.193
+send… it's automatically test the code.
+
+00:41:02.561 --> 00:41:04.561
+And the CD, it's, um…
+
+00:41:06.210 --> 00:41:11.210
+render codes. Don't rely on memorization, right? Just concepts, right?
+
+00:41:11.456 --> 00:41:16.456
+Alright, so now this is the thing… It helps that the container to test and, um…
+
+00:41:16.439 --> 00:41:21.439
+Automatically test for automation. Yeah, yeah, it is for automation, right?
+
+00:41:21.565 --> 00:41:23.565
+Yeah, so… so…
+
+00:41:23.621 --> 00:41:25.621
+Imagine.
+
+00:41:25.812 --> 00:41:28.812
+If you are able to tell someone about CICD currently, right?
+
+00:41:29.256 --> 00:41:32.256
+Although it's not 100% correctors,
+
+00:41:32.909 --> 00:41:36.909
+But then, if you're not able to tell about, like, how to manually deploy,
+
+00:41:37.547 --> 00:41:39.547
+then automatically this is considered wrong.
+
+00:41:40.340 --> 00:41:54.340
+The city for deploying. No, no, you said, you know, but I'm just telling you, right? In interviews, for example, if you tell the further steps that are dependent on the previous steps, let's say you jump to the next step, that you say is correct, right? What you say is correct, for example. But the previous step is not…
+
+00:41:54.408 --> 00:41:56.408
+Correct. Automatically,
+
+00:41:57.336 --> 00:42:03.336
+Because there's a hierarchy, right? So automatically, every right answer is discarded, because that depends.
+
+00:42:03.786 --> 00:42:07.786
+like, as mentioned would be, for example, that you know high level, very high level, right?
+
+00:42:08.068 --> 00:42:12.068
+But anyways, uh, I took a lot of your time, right? 45 minutes, I think.
+
+00:42:12.415 --> 00:42:15.415
+Uh, so as soon as that, uh, thank you, uh…
+
+00:42:16.292 --> 00:42:22.292
+So just, uh, all of the things that we have put here, we can actually use for revising. You are, by the way, you're not going to…
+
+00:42:23.526 --> 00:42:26.526
+to full Swahila and only Arubais are going, right? Yeah.
+
+00:42:27.149 --> 00:42:29.149
+So, which is, I think, a…
+
+00:42:29.370 --> 00:42:31.370
+a good thing for you, also?
+
+00:42:31.345 --> 00:42:33.345
+Because this is not the…
+
+00:42:33.895 --> 00:42:36.895
+So, otherwise it will be huge. Yeah. You know?
+
+00:42:37.509 --> 00:42:41.509
+Anyway, so best of luck, and then, uh, just please send who's next?
+

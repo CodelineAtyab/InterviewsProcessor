@@ -1,0 +1,813 @@
+WEBVTT
+
+
+00:00:01.745 --> 00:00:03.745
+Okay, so…
+
+00:00:03.876 --> 00:00:07.876
+Just, uh, have a quick one, 15-20 minutes, hopefully.
+
+00:00:08.033 --> 00:00:11.033
+Um, it's usually going a bit longer.
+
+00:00:11.941 --> 00:00:14.941
+We are going to just see some, like, discuss some Python basics,
+
+00:00:15.723 --> 00:00:24.723
+networking basics, Linux basics, Docker basics, deployment basics, things like that, right? And then there's also, like, intermediate things, some things are…
+
+00:00:25.328 --> 00:00:27.328
+Very advanced, right? So I'll quickly jump in.
+
+00:00:27.497 --> 00:00:29.497
+And I will give you something.
+
+00:00:37.899 --> 00:00:40.899
+Uh, now you don't have to remember the syntax, or…
+
+00:00:41.154 --> 00:00:45.154
+Don't have to worry about each and everything. I just want to know…
+
+00:00:45.681 --> 00:00:48.681
+your logic, right? So, given this area of numbers…
+
+00:00:50.440 --> 00:00:53.440
+Um, I want you to…
+
+00:00:53.874 --> 00:00:56.874
+Replace all of the numbers with their square.
+
+00:00:57.084 --> 00:01:02.084
+sparse. Like, for example, 5 becomes 25, 3 become 9.
+
+00:01:02.362 --> 00:01:04.362
+So, how would you do that in Python?
+
+00:01:05.036 --> 00:01:09.036
+In Python? Yes, you can use loops, you can use lists, you can use anything you like.
+
+00:01:10.354 --> 00:01:17.354
+I don't… I don't… shall they write all the code, or just one statement that's… Whatever you like, you can… you can discuss the logic.
+
+00:01:18.146 --> 00:01:21.146
+Write some code, just discuss the logic, whatever you like.
+
+00:01:22.543 --> 00:01:24.543
+Okay, it's power… power too, yeah.
+
+00:01:24.524 --> 00:01:26.524
+25 years, bottom.
+
+00:01:26.627 --> 00:01:28.627
+Um…
+
+00:01:29.083 --> 00:01:31.083
+However, its main star.
+
+00:01:32.118 --> 00:01:39.118
+Uh, we are not concerned about the mathematics, right? Logic. So you have to change… replace the list.
+
+00:01:39.378 --> 00:01:45.378
+like, uh, like, for example, this should become 64, this should become 25, this should become 9.
+
+00:01:45.523 --> 00:01:51.523
+Replace the elements. Same it, but before or after the 8?
+
+00:01:51.527 --> 00:01:53.527
+you know, I'd start to…
+
+00:01:54.291 --> 00:01:58.291
+Okay, then…
+
+00:01:59.138 --> 00:02:01.138
+But this is…
+
+00:02:01.350 --> 00:02:03.350
+Yes, I know it's hard-coded here.
+
+00:02:03.939 --> 00:02:05.939
+But a user can give you any number, right?
+
+00:02:06.810 --> 00:02:08.810
+So, the user can give you any number.
+
+00:02:09.733 --> 00:02:12.733
+It can be any number at all. Like, it can be, maybe, it's 2.
+
+00:02:13.707 --> 00:02:17.707
+But I remember that, that, uh, we had that, uh…
+
+00:02:18.650 --> 00:02:21.650
+It's called the task tickets. We have 10 hours.
+
+00:02:21.930 --> 00:02:24.930
+barrels.
+
+00:02:27.542 --> 00:02:29.542
+Something's called bar.
+
+00:02:29.672 --> 00:02:31.672
+Chuck Bashi.
+
+00:02:32.448 --> 00:02:35.448
+Uh, let's say, don't worry about libraries, right?
+
+00:02:36.252 --> 00:02:38.252
+not the libraries, I mean the…
+
+00:02:38.627 --> 00:02:43.627
+That is one task you've got… that is, like, one link we join. There is a lot of tasks
+
+00:02:44.301 --> 00:02:52.301
+mathematical tasks, how we can write… how we can write multiple in Python, how we can write division. Well, multiple is fine. See, you're… this is fine, this will work, but…
+
+00:02:52.616 --> 00:02:56.616
+The logic of processing the list in Python, actually. Because here,
+
+00:02:56.984 --> 00:03:00.984
+How would you use loops? Like, how would you process each and every element?
+
+00:03:00.859 --> 00:03:02.859
+Each number can be any number.
+
+00:03:03.586 --> 00:03:06.586
+So, how would you replace it in this list?
+
+00:03:06.759 --> 00:03:09.759
+Right? We just need to update the list.
+
+00:03:10.231 --> 00:03:12.231
+not create a new one, update the list.
+
+00:03:12.435 --> 00:03:14.435
+So, how would you… how would you do that?
+
+00:03:15.268 --> 00:03:17.268
+No issues.
+
+00:03:17.322 --> 00:03:19.322
+So, um…
+
+00:03:22.139 --> 00:03:24.139
+Mr. Select, let's move forward.
+
+00:03:24.718 --> 00:03:26.718
+So… okay.
+
+00:03:27.259 --> 00:03:29.259
+Uh, let's say…
+
+00:03:30.262 --> 00:03:32.262
+Uh, you are building a student management system.
+
+00:03:33.398 --> 00:03:35.398
+Right? And uh…
+
+00:03:36.796 --> 00:03:40.796
+As a school owner, a person wants to use your application to add students.
+
+00:03:41.570 --> 00:03:43.570
+add students, right?
+
+00:03:45.114 --> 00:03:48.114
+And you have two choices. You can use a dictionary or a list.
+
+00:03:48.953 --> 00:03:53.953
+Or a list to store students, right? Which one would you use? And why?
+
+00:03:54.557 --> 00:04:00.557
+Yeah, like, for example, you can use a dictionary or a list to store student information.
+
+00:04:01.186 --> 00:04:07.186
+Right? So, would you prefer using a dictionary over a list, or would you prefer using a list over a dictionary?
+
+00:04:07.677 --> 00:04:09.677
+In this situation.
+
+00:04:10.130 --> 00:04:13.130
+Uh, okay, dictionary, right?
+
+00:04:13.004 --> 00:04:15.004
+So… Thank you.
+
+00:04:15.709 --> 00:04:20.709
+Okay, okay. So what is the benefit dictionary gives you here?
+
+00:04:21.466 --> 00:04:23.466
+For example, why not use a list key?
+
+00:04:27.142 --> 00:04:38.142
+The list that's giving you just a set of words for dictionary, there is some information, for example, that you need to… Oh, no, no, I can do something like this, see.
+
+00:04:38.147 --> 00:04:43.147
+So I have a list, right? So I can have a list of tuples, for example, student ID comes here,
+
+00:04:43.937 --> 00:04:45.937
+name comes here, then comma, then I can do…
+
+00:04:46.076 --> 00:04:48.076
+You mean like this?
+
+00:04:48.198 --> 00:04:52.198
+Uh, you can use the list, right? Yes. But what would you prefer, dictionary or list? Lists.
+
+00:04:53.447 --> 00:04:55.447
+If we write some details in the list?
+
+00:04:56.295 --> 00:04:58.295
+For example, the name, age, ID,
+
+00:04:58.477 --> 00:05:04.477
+For example, you get some information in the list, so I prefer to make a list. So, why? Because we can change the list.
+
+00:05:05.322 --> 00:05:07.322
+Uh, can we change the direction?
+
+00:05:07.694 --> 00:05:09.694
+Nope.
+
+00:05:09.675 --> 00:05:11.675
+Okay, so…
+
+00:05:11.748 --> 00:05:14.748
+Uh, like, I… so if we… okay.
+
+00:05:15.617 --> 00:05:17.617
+One moment, change…
+
+00:05:19.244 --> 00:05:21.244
+dictate. Okay, let's move forward.
+
+00:05:23.445 --> 00:05:26.445
+Okay, let's say your application is working great, right?
+
+00:05:27.022 --> 00:05:29.022
+Uh, but when I rerun your application,
+
+00:05:29.231 --> 00:05:31.231
+I lose all of the data.
+
+00:05:31.845 --> 00:05:35.845
+Because I'm storing, like, for example, I'm storing student information in the list, right?
+
+00:05:36.038 --> 00:05:38.038
+So I can see the information also.
+
+00:05:38.495 --> 00:05:40.495
+But when I close your application,
+
+00:05:41.121 --> 00:05:43.121
+And if I re-run your application…
+
+00:05:44.200 --> 00:05:46.200
+Would the students' data would still be there, or not?
+
+00:05:47.023 --> 00:05:51.023
+Again, I didn't interrupt you. Yeah, yeah. So, for example, this is a list, right? Yes.
+
+00:05:51.867 --> 00:05:56.867
+Uh, when I use… let's say I'm a school owner, so I'm using your PY file.
+
+00:05:57.278 --> 00:06:03.278
+So your PY file asks, like, enter student information. Yes. So I will enter. So it saves to the list, right?
+
+00:06:03.383 --> 00:06:05.383
+And I can view, also, view.
+
+00:06:05.842 --> 00:06:07.842
+presenters where it displays all. Yes.
+
+00:06:07.935 --> 00:06:09.935
+Let's say I exit your application.
+
+00:06:10.763 --> 00:06:12.763
+Okay. And then I run it again.
+
+00:06:14.517 --> 00:06:18.517
+Right? Okay. So, can I still get the student data that I stored?
+
+00:06:18.808 --> 00:06:24.808
+Before I close it, I'll save it, it will be short, but if I didn't save it, it will…
+
+00:06:25.505 --> 00:06:29.505
+So you need to upload it again. Yeah, so how will you save it?
+
+00:06:29.686 --> 00:06:32.686
+What's your logic for saving a student's data?
+
+00:06:33.216 --> 00:06:36.216
+After I run. Ctrl-S.
+
+00:06:37.182 --> 00:06:40.182
+And then when you run, uh, I think, uh, there is, uh…
+
+00:06:41.056 --> 00:06:44.056
+The receiver will show down that there is table.
+
+00:06:45.066 --> 00:06:48.066
+Uh, sorry, table? Stable, just like Table, if I save it…
+
+00:06:48.508 --> 00:06:54.508
+Okay. Uh, like, are you talking about… okay, first we store it in a list, and also stored it where?
+
+00:06:55.273 --> 00:07:02.273
+I didn't get it. Instead of list tables, table that, Annie, student name, student IDs, student…
+
+00:07:03.075 --> 00:07:05.075
+Do we have table in Python?
+
+00:07:06.203 --> 00:07:08.203
+Like, without using any libraries.
+
+00:07:09.266 --> 00:07:12.266
+Without using any libraries, no. Okay, let's say you use…
+
+00:07:13.063 --> 00:07:16.063
+data frame, right? Yes. Let's say you store it in a table.
+
+00:07:17.807 --> 00:07:19.807
+Yeah, sorry.
+
+00:07:20.765 --> 00:07:23.765
+Yeah, okay, let's say DataFrame, right? Let's say you store it in a table.
+
+00:07:24.178 --> 00:07:26.178
+Still, if I close your program,
+
+00:07:27.028 --> 00:07:30.028
+Exit your application and run it again until the table is lost.
+
+00:07:30.017 --> 00:07:32.017
+I need to save it.
+
+00:07:32.342 --> 00:07:37.342
+somewhere. What should I do? Is there any option to keep the data persistent?
+
+00:07:41.484 --> 00:07:45.484
+Any option, so not just one. There are many options. You can just give one.
+
+00:07:47.229 --> 00:07:52.229
+We've seen it before we close it, it should be seen. Yes, but save it like we are… like, for example… Like a fly.
+
+00:07:52.728 --> 00:07:57.728
+Fine rate, yeah, so save it to a file. So, what would you prefer? Like,
+
+00:07:58.149 --> 00:08:04.149
+before… when we are closing the application, right? Should we store everything to the file at that point,
+
+00:08:04.471 --> 00:08:09.471
+Or should we keep on stewarding to the file while we are inserting the student records, Adi?
+
+00:08:11.630 --> 00:08:14.630
+like, what would be your strategy of saving?
+
+00:08:15.661 --> 00:08:18.661
+When the person is exiting the application, at that time, you will save everything?
+
+00:08:19.965 --> 00:08:25.965
+Or when the application… Step by step. Step by step. So, when he adds, then you save, right? Add safe, add save, add save. So if…
+
+00:08:25.961 --> 00:08:27.961
+Anytime I close,
+
+00:08:28.343 --> 00:08:32.343
+The point that I have closed it, I've already seen the hollow note.
+
+00:08:32.976 --> 00:08:36.976
+Okay, let's say I exit, right? And that is saved in the file. Yes.
+
+00:08:36.841 --> 00:08:38.841
+When I run the application again,
+
+00:08:39.803 --> 00:08:41.803
+Uh, so how would it load the data?
+
+00:08:42.456 --> 00:08:45.456
+back. It has to reload the data, right?
+
+00:08:46.333 --> 00:08:48.333
+So, how can you do that?
+
+00:08:49.553 --> 00:08:51.553
+Just concepts, right? Don't worry about syntax.
+
+00:08:52.395 --> 00:08:57.395
+You mean, uh, same data that I saved before I bring it back again?
+
+00:08:58.399 --> 00:09:02.399
+If I have it as a file, I would open the file, it would show me the data that I have saved before.
+
+00:09:02.778 --> 00:09:07.778
+Yes, yes, like, for example, if you open the file, it will show you, right? Yes. But your program needs to…
+
+00:09:08.923 --> 00:09:11.923
+needs it, right? Not us. Like, for example, I can see it.
+
+00:09:12.339 --> 00:09:15.339
+But how can your program use the data now from the file?
+
+00:09:16.536 --> 00:09:18.536
+program use data. Yeah.
+
+00:09:19.221 --> 00:09:23.221
+If I save it as a… I… if I have, uh, blanket…
+
+00:09:23.889 --> 00:09:26.889
+let's say it's TXT… see, data.txt, right? Let's say data.
+
+00:09:27.512 --> 00:09:34.512
+DX3. This is the file. I call it. It's like a function, I call it a function. Okay. Do you remember? I know, but…
+
+00:09:34.684 --> 00:09:37.684
+Is… is data functioning in Python to actually…
+
+00:09:38.193 --> 00:09:41.193
+Load data from the file. Before, when I…
+
+00:09:41.939 --> 00:09:45.939
+When I put the data, if I already kept this statement as a function,
+
+00:09:46.873 --> 00:09:48.873
+Just I need to call it, so it's to bring back the data.
+
+00:09:49.011 --> 00:09:51.011
+No need to rewrite it again.
+
+00:09:51.387 --> 00:09:56.387
+Okay, so, like, just need to understand, like, what would that function do, which is loading the data?
+
+00:09:57.322 --> 00:09:59.322
+What does that function do? Like…
+
+00:10:00.247 --> 00:10:03.247
+How do you load the file into the application?
+
+00:10:07.521 --> 00:10:10.521
+Uh, yeah, name of the… but there are many functions, right?
+
+00:10:11.554 --> 00:10:19.554
+Like, there are many functions, so… What I… would I write it before, I write it again. So, for example, if I do…
+
+00:10:19.956 --> 00:10:22.956
+diff… for example, Radier.
+
+00:10:23.421 --> 00:10:28.421
+And then here I write some code, and then when I close this, when I open another…
+
+00:10:28.881 --> 00:10:33.881
+When I want to take this data from this file to another file, I just call this…
+
+00:10:34.376 --> 00:10:36.376
+statement to others, so it will…
+
+00:10:37.221 --> 00:10:41.221
+Is this a git command, something like that? Like, this diff?
+
+00:10:41.815 --> 00:10:43.815
+Uh, what does this div do, Hadir?
+
+00:10:44.169 --> 00:10:46.169
+I would just like…
+
+00:10:46.283 --> 00:10:50.283
+Like, just, like, a phi name. I have…
+
+00:10:50.727 --> 00:10:59.727
+Okay. Okay. No, no, no, yeah, that's what I understand. Let's make it… let's, uh, I mean, rephrase the question, right? Maybe.
+
+00:10:59.918 --> 00:11:01.918
+How do you write to a file in Python?
+
+00:11:03.133 --> 00:11:06.133
+How can you write a string in a file?
+
+00:11:06.188 --> 00:11:08.188
+In Python.
+
+00:11:09.009 --> 00:11:14.009
+Yes, any… anything to a file. You need to write something to a file. Hello World, let's say. How can you do that?
+
+00:11:15.430 --> 00:11:20.430
+Yeah, then, like, write what… like, I don't want to…
+
+00:11:20.754 --> 00:11:23.754
+Yeah, don't worry about the exact names, but…
+
+00:11:23.816 --> 00:11:28.816
+conceptual, right? Like, uh, how do you… how do you actually…
+
+00:11:28.964 --> 00:11:34.964
+See if something to the fight. Is there something like that in Python? If there is, like,
+
+00:11:36.114 --> 00:11:38.114
+What does it do? How does it work, actually?
+
+00:11:38.803 --> 00:11:42.803
+save something in Python? Uh, using Python? Save something to a file.
+
+00:11:43.676 --> 00:11:45.676
+using Python, right?
+
+00:11:45.772 --> 00:11:47.772
+Perfect, yeah.
+
+00:11:48.472 --> 00:11:55.472
+That's good to understand. Uh, like, uh, for example, I have data.txt, right? I opened the program? Yes. I need to save Hello World.
+
+00:11:56.047 --> 00:12:01.047
+is, uh, programmatically. So you have a Python script. What would you do
+
+00:12:02.240 --> 00:12:04.240
+to say something to that data.txt file.
+
+00:12:06.704 --> 00:12:11.704
+I need to save hello world. So, what would be the code, for example? How would the code look like, actually?
+
+00:12:12.640 --> 00:12:14.640
+To say hello world to a file.
+
+00:12:15.222 --> 00:12:21.222
+Okay, so you open the data.txt file manually, or through Python?
+
+00:12:22.639 --> 00:12:24.639
+CMD, if we can update it… Okay, okay.
+
+00:12:25.504 --> 00:12:29.504
+I can open… open it by the CMD. I got that file that I have saved,
+
+00:12:30.621 --> 00:12:40.621
+The title of CMD, and open code. We'll open the file, then we can make some change at the same time. It's already shown in the…
+
+00:12:40.872 --> 00:12:49.872
+Right, not right, left side, there is, like, some… a lot of fire that I haven't hooked before. Okay, no sure. So, Lex move, uh, because time is short, right? So, let's…
+
+00:12:50.816 --> 00:12:55.816
+move to, let's say, some networking basics, right? Like, for example, in Python, you can create an application, right?
+
+00:12:56.229 --> 00:13:01.229
+Uh, that application, you know, can be a client application, can be a server application, remember?
+
+00:13:02.064 --> 00:13:05.064
+So, what is the difference between a client application?
+
+00:13:06.259 --> 00:13:08.259
+And a server application. Correct me, server.
+
+00:13:09.359 --> 00:13:13.359
+something, uh, it's do for me. For example, Google is a server.
+
+00:13:13.668 --> 00:13:19.668
+My clients will be, I'm client, I'm like, yeah, example is good, right? So, for example,
+
+00:13:20.181 --> 00:13:22.181
+Uh, is it possible
+
+00:13:22.903 --> 00:13:25.903
+for Google to send you a request first.
+
+00:13:27.146 --> 00:13:29.146
+Or should… or can only you…
+
+00:13:30.290 --> 00:13:33.290
+So, for example, you want to access Google.com, right? Yes.
+
+00:13:33.710 --> 00:13:38.710
+So, of course, you initiate the request first, right? Yes. Is it possible for Google to initiate the request to you?
+
+00:13:39.023 --> 00:13:41.023
+Is it possible or not? No.
+
+00:13:41.225 --> 00:13:43.225
+What's it?
+
+00:13:43.386 --> 00:13:45.386
+Uh, what about webhooks?
+
+00:13:46.225 --> 00:13:49.225
+webhook. Webhook? What is a webhook?
+
+00:13:50.486 --> 00:13:52.486
+I don't know, like, what pop up.
+
+00:13:57.294 --> 00:14:00.294
+Let's talk about…
+
+00:14:00.157 --> 00:14:02.157
+If you want to…
+
+00:14:02.346 --> 00:14:05.346
+access Google, you need to know the address, right?
+
+00:14:06.939 --> 00:14:08.939
+address of Google? Address, yeah. So, what is the…
+
+00:14:09.523 --> 00:14:11.523
+let's say I want to access…
+
+00:14:13.417 --> 00:14:16.417
+Google. So, what is the address of Google, actually?
+
+00:14:17.049 --> 00:14:20.049
+We all know, right, it's, like, what do you put in the browser?
+
+00:14:20.821 --> 00:14:29.821
+the IP address, you mean? Okay, let's IP address, right? Let's talk about IP address. Although we do google.com, which translates to IP address, right? What is an IP address?
+
+00:14:31.982 --> 00:14:39.982
+I don't know how to explain it, but I know, because I'm a telecom engineer. Just concepts, right? Just concepts.
+
+00:14:40.434 --> 00:14:47.434
+like, uh, for example, this… Like, each phone or any, uh, laptop, it have, like, serial number.
+
+00:14:48.290 --> 00:14:54.290
+Okay, it has an IP address. You are saying each device has an IP address? Yeah, it's different IP address. Port.
+
+00:14:54.992 --> 00:15:03.992
+So, what's the… you also have port. Yes. Many times you will see port with the IP address, right? Yes, yes. So, what is the difference between, like, how do they work together?
+
+00:15:04.065 --> 00:15:06.065
+What is the relationship?
+
+00:15:05.947 --> 00:15:10.947
+of IP address with the port. Uh, IP address, it's the, like, network.
+
+00:15:11.879 --> 00:15:13.879
+Address? Address, but the…
+
+00:15:14.023 --> 00:15:16.023
+Put that, uh, for…
+
+00:15:16.111 --> 00:15:18.111
+For example, if I want to share you…
+
+00:15:18.416 --> 00:15:20.416
+For you, uh, something?
+
+00:15:20.858 --> 00:15:25.858
+me and you will write, same IP address, but the port, me,
+
+00:15:26.225 --> 00:15:28.225
+like, for example, 21 or 22.
+
+00:15:29.587 --> 00:15:36.587
+Okay. So it's differential. Okay, okay, so… Address will be seen, port can be different, right? Yes. Okay, so, for example, let's say…
+
+00:15:37.181 --> 00:15:42.181
+This is the computer. It is running 3 applications. App 1, app 2, app 3, right? Yes.
+
+00:15:42.803 --> 00:15:46.803
+So, can… can more than one application use the same port?
+
+00:15:47.606 --> 00:15:51.606
+Yes, they can use the same port, but uh… So, more than one applications can use the same port, right?
+
+00:15:52.022 --> 00:15:54.022
+Okay.
+
+00:15:58.062 --> 00:16:00.062
+on the same machine, right?
+
+00:16:00.847 --> 00:16:03.847
+On the same machine, more than one application can use the same port. Yes.
+
+00:16:09.176 --> 00:16:11.176
+Sorry, it's UNC…
+
+00:16:14.691 --> 00:16:18.691
+Okay. Uh, let's talk about, uh, like, what is a virtual machine?
+
+00:16:18.747 --> 00:16:20.747
+Well, what do you think about a virtual machine?
+
+00:16:21.081 --> 00:16:23.081
+Okay, some application.
+
+00:16:23.186 --> 00:16:25.186
+Rocket application.
+
+00:16:25.587 --> 00:16:28.587
+So we… you mean help? How?
+
+00:16:29.241 --> 00:16:41.241
+How can you create, let's say, a virtual machine? We upload, uh, we download the Oracle. It is, uh, Oracle, this is a virtual machine. Virtual books, let's say, yeah. Yes, Virtual Joint Box. And then we can access what, uh…
+
+00:16:41.952 --> 00:16:46.952
+What type of food we want, what we want, like clinics. Okay. Uh, open up.
+
+00:16:47.912 --> 00:16:50.912
+And then we can create our own. It's like…
+
+00:16:51.288 --> 00:17:01.288
+Device and side effects. Okay. We have windows, insiders, we have, like, Linux. What is the difference between a virtual machine and a Docker container?
+
+00:17:02.487 --> 00:17:05.487
+virtual machine. Android worker container. Uh…
+
+00:17:06.401 --> 00:17:11.401
+Dog roots in a container, so we can… we can open, for example, one project.
+
+00:17:12.467 --> 00:17:17.467
+that that project, uh, instead of downloading the whole… too much… a lot of apps,
+
+00:17:17.570 --> 00:17:19.570
+We can just run it.
+
+00:17:20.616 --> 00:17:25.616
+I get your point, I understand. There's a… Yeah, but the version machine that we can…
+
+00:17:25.706 --> 00:17:27.706
+carry it on our own.
+
+00:17:29.578 --> 00:17:31.578
+So, uh, like, uh, I mean…
+
+00:17:32.880 --> 00:17:34.880
+Can we not do everything in the virtual machine?
+
+00:17:35.824 --> 00:17:38.824
+Because whatever we are doing in the container,
+
+00:17:40.457 --> 00:17:43.457
+We can do the same thing in the virtual machine, right? Yes.
+
+00:17:44.176 --> 00:17:52.176
+then why container? Uh, like, yes, I understand your point, like, you were saying, so there's not… Because it's easier, and it's, uh, take less time.
+
+00:17:53.025 --> 00:18:05.025
+And, uh, it's, uh… You think writing Dockerfile and everything, Docker Compose is easy, versus just installing Ubuntu and just…
+
+00:18:05.686 --> 00:18:08.686
+But I got your point, somehow. There's a small thing, it's okay.
+
+00:18:09.509 --> 00:18:15.509
+I got your point. I will tell you about it later, right? Like, I'm just putting this so we can revise certain things.
+
+00:18:16.808 --> 00:18:18.808
+So, we…
+
+00:18:27.963 --> 00:18:29.963
+Okay, uh…
+
+00:18:32.861 --> 00:18:35.861
+get, right? We have practiced a lot of Git.
+
+00:18:36.760 --> 00:18:39.760
+Uh, what is a… what is a branch in Git, and…
+
+00:18:40.669 --> 00:18:43.669
+How does a branch relate to commit? What is the relationship between a branch and a commit?
+
+00:18:44.318 --> 00:18:46.318
+Brian, can you comment? Committee.
+
+00:18:46.239 --> 00:18:49.239
+branch, it's, like, 3. We have, like…
+
+00:18:49.967 --> 00:18:53.967
+Okay. A lot of branches. We work in different, but in one…
+
+00:18:55.375 --> 00:19:00.375
+One main branch. Main branch operators. Branch?
+
+00:19:00.821 --> 00:19:03.821
+And, uh, comment, it's like staging area.
+
+00:19:04.637 --> 00:19:11.637
+That we can save? Yes, Summit is like a staging. Commit is a staging area, or is like a staging area there? Staging.
+
+00:19:11.745 --> 00:19:13.745
+It's a staging area, okay.
+
+00:19:20.371 --> 00:19:24.371
+So, there's no difference between a staging area and a commentary.
+
+00:19:24.453 --> 00:19:29.453
+Yes. Okay. Uh, I think that's… uh, yeah, last thing, sorry. Yeah, AI agents, right?
+
+00:19:29.550 --> 00:19:34.550
+Just simple, like, what do you think about eA agents? Like, what is an AI agent versus LLM?
+
+00:19:37.183 --> 00:19:40.183
+Like, for example, what is the difference between ChatGPT? Uh-huh.
+
+00:19:40.614 --> 00:19:42.614
+And an AI agent.
+
+00:19:45.145 --> 00:19:47.145
+Seems to… shit.
+
+00:19:52.287 --> 00:19:55.287
+AI agent, I think you can create your…
+
+00:19:55.266 --> 00:19:57.266
+like ChatGPT bio.
+
+00:19:57.923 --> 00:20:01.923
+Great foot. Chatwood. Okay, okay.
+
+00:20:02.107 --> 00:20:05.107
+Okay, thank you, Vadr. I think time is already…
+
+00:20:05.837 --> 00:20:09.837
+flow, right? Uh, now, next is… let me…
+

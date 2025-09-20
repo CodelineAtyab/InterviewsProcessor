@@ -1,0 +1,1644 @@
+WEBVTT
+
+
+00:00:02.950 --> 00:00:04.950
+Okay, so to fool?
+
+00:00:05.916 --> 00:00:10.916
+This is… hopefully, this is just a quick interview. We're taking trouble. 20 minutes.
+
+00:00:11.044 --> 00:00:13.044
+Usually it's taking long.
+
+00:00:14.029 --> 00:00:17.029
+But I will try it. Uh, we will just, uh…
+
+00:00:17.663 --> 00:00:22.663
+I would just ask some Python basics or networking basics.
+
+00:00:23.132 --> 00:00:26.132
+Linux, Git, and Docker Basics. Okay.
+
+00:00:27.480 --> 00:00:30.480
+And things, some small things really deploy not, right?
+
+00:00:31.375 --> 00:00:34.375
+So, let's quickly jump into the pattern basics, right? Yeah.
+
+00:00:37.019 --> 00:00:43.019
+Uh, no need to memorize anything, no need to, like, worry about the syntax at all, right? Just, uh, kind of…
+
+00:00:43.469 --> 00:00:48.469
+Uh, either your logic, or either yes or no. Kind of questions, right? Okay. So…
+
+00:00:48.949 --> 00:00:50.949
+Just take your time, look at this question.
+
+00:00:51.127 --> 00:00:57.127
+You can see that L equal to… this list has 1, 2, 3, 3 numbers, right? Yeah.
+
+00:00:57.112 --> 00:00:59.112
+And this is a function. Yeah.
+
+00:01:00.193 --> 00:01:05.193
+So, you pass this list in this function. Yeah. I should find the odd number? No, no, no.
+
+00:01:05.349 --> 00:01:07.349
+So you pass this list
+
+00:01:07.689 --> 00:01:09.689
+In this function.
+
+00:01:10.147 --> 00:01:12.147
+And then you print the list, right?
+
+00:01:12.599 --> 00:01:14.599
+After you call the function, then you print the list.
+
+00:01:15.608 --> 00:01:17.608
+Now, what would be the output?
+
+00:01:17.828 --> 00:01:19.828
+of the sprint statement.
+
+00:01:20.068 --> 00:01:22.068
+If the function is this…
+
+00:01:24.362 --> 00:01:27.362
+So now I have to add this list, right?
+
+00:01:27.549 --> 00:01:31.549
+It's already here. No, it's just, uh, what would be the output?
+
+00:01:31.763 --> 00:01:33.763
+of the sprinter statement, actually.
+
+00:01:34.186 --> 00:01:37.186
+Yeah, which… let me just, uh…
+
+00:01:37.436 --> 00:01:42.436
+Now, this is the function, so at… this is the definition of the function, right? Okay.
+
+00:01:42.407 --> 00:01:44.407
+And you are calling this function here.
+
+00:01:44.717 --> 00:01:46.717
+what would be the output of this printer still?
+
+00:01:48.332 --> 00:01:50.332
+You can just write the output.
+
+00:01:50.665 --> 00:01:52.665
+Or you can just tell the output, like, whatever the output was.
+
+00:01:54.091 --> 00:01:56.091
+It will be the full list.
+
+00:01:56.433 --> 00:01:58.433
+Okay, so, okay, can you write?
+
+00:01:58.878 --> 00:02:00.878
+Here's just one, two, two.
+
+00:02:00.845 --> 00:02:02.845
+Not too.
+
+00:02:02.956 --> 00:02:04.956
+Yeah, you asked me.
+
+00:02:05.037 --> 00:02:07.037
+Hi. Okay.
+
+00:02:07.506 --> 00:02:09.506
+Done? Yeah.
+
+00:02:11.522 --> 00:02:14.522
+Okay. But your voice is, uh, different?
+
+00:02:15.333 --> 00:02:21.333
+So, that's why you can… just take it easy, just take a look at it, right? You can stick with your answer, you can change the answer,
+
+00:02:22.035 --> 00:02:30.035
+Uh, I might try to confuse you. Yes, I might try to confuse you like the fool, are you sure, right? So don't get confused. Just stick to your answer, right?
+
+00:02:30.520 --> 00:02:37.520
+So, uh, just look at it, and if you think it's good, uh, we can move to the next one. If you think it's wrong,
+
+00:02:37.505 --> 00:02:39.505
+Then we can… then you can try again.
+
+00:02:39.997 --> 00:02:44.997
+Uh, but I might tell you, it's wrong. You can try again, doesn't mean it's wrong.
+
+00:02:45.651 --> 00:02:48.651
+Friday and Friday, yeah. This comes first, right?
+
+00:02:48.919 --> 00:02:54.919
+We start from here. Yeah, let's say this is defined. Let's say this is… this comes first, this is defined. Okay.
+
+00:02:55.270 --> 00:03:00.270
+Then, line number one. Line number two, three, and four, right? Or let's say line number 10, 11, 12.
+
+00:03:00.892 --> 00:03:02.892
+So, the output here.
+
+00:03:03.794 --> 00:03:05.794
+Which you already have written.
+
+00:03:09.053 --> 00:03:13.053
+Yeah. Okay, so let's move to the next one.
+
+00:03:13.039 --> 00:03:15.039
+Good.
+
+00:03:17.280 --> 00:03:20.280
+Now, this is just an array of numbers, right?
+
+00:03:20.972 --> 00:03:22.972
+Just numbers. Um…
+
+00:03:24.564 --> 00:03:26.564
+I just want to reverse the numbers.
+
+00:03:28.684 --> 00:03:32.684
+Right? So, what would be your logic for reversing the numbers?
+
+00:03:33.070 --> 00:03:35.070
+You can use any logic that you like.
+
+00:03:51.863 --> 00:03:54.863
+I forgot it was… we start from minus 1.
+
+00:03:55.189 --> 00:03:57.189
+So it starts from the opposite.
+
+00:03:57.164 --> 00:04:06.164
+I didn't revise it. Yes, no, it's fine. You can just tell me the project. So, minus 1 means the last number. Yeah, the last number. Then minus 2. Yeah, minus 2.
+
+00:04:06.407 --> 00:04:10.407
+So, I want to, uh, reverse the list, so…
+
+00:04:11.044 --> 00:04:13.044
+Uh, how can you reverse the list?
+
+00:04:13.808 --> 00:04:18.808
+Yes, you can access the last element minus 1, you can access the last element right 0, but I want 1 to be here.
+
+00:04:19.490 --> 00:04:21.490
+to be 2 here, 3 here, 4 here, 5 here.
+
+00:04:21.496 --> 00:04:23.496
+Yeah, yeah, I admit that.
+
+00:04:25.399 --> 00:04:30.399
+I don't really remember stuff. But you can, like, just share your logic, like, what would you do?
+
+00:04:30.606 --> 00:04:32.606
+There's no need to remember the code.
+
+00:04:32.714 --> 00:04:34.714
+like, what would you do in this scenario?
+
+00:04:37.227 --> 00:04:39.227
+We will rearrange it, starting from the end.
+
+00:04:39.678 --> 00:04:41.678
+Like, minus 1, minus 2.
+
+00:04:42.057 --> 00:04:44.057
+Okay, nice. Yeah, tool here.
+
+00:04:45.295 --> 00:04:47.295
+Yeah, the visual work, you're right. Yeah.
+
+00:04:47.809 --> 00:04:54.809
+Uh, you have to rearrange, but do you remember swapping, like, uh, how would you… okay, uh, let's… I will just give you one more thing, right?
+
+00:04:55.302 --> 00:04:57.302
+Here is, for example, let's say.
+
+00:04:58.248 --> 00:05:03.248
+You have, uh, A equal to 5, let's say, and B equal to 1, right? Yes.
+
+00:05:03.720 --> 00:05:07.720
+So, this A is 5, and it's a B is 1. Forget about the list, right? Let's say this is 1.
+
+00:05:08.731 --> 00:05:10.731
+Your logic is correct for rear engine.
+
+00:05:11.758 --> 00:05:13.758
+So, let's say ASYB is 1.
+
+00:05:13.882 --> 00:05:15.882
+So, how can you make
+
+00:05:15.953 --> 00:05:17.953
+A1 and B5.
+
+00:05:18.919 --> 00:05:20.919
+just two numbers, right? What would be your logic for this?
+
+00:05:20.889 --> 00:05:22.889
+Programmatically.
+
+00:05:39.277 --> 00:05:41.277
+We rewrite it with the opposite.
+
+00:05:42.048 --> 00:05:45.048
+You can use any… anything you like, like variables or anything.
+
+00:05:45.792 --> 00:05:47.792
+just, like, you can do A equal to B, right?
+
+00:05:48.331 --> 00:05:50.331
+be equal to A, you can write it. Yeah, yeah.
+
+00:05:56.426 --> 00:05:58.426
+S5ism.
+
+00:06:02.208 --> 00:06:04.208
+Yeah, we rewrite it, but the opposite.
+
+00:06:04.303 --> 00:06:06.303
+So, eh?
+
+00:06:06.176 --> 00:06:08.176
+will be…
+
+00:06:09.162 --> 00:06:14.162
+equals to V, and V will be equals to A. Okay. And we will define which A, what's A.
+
+00:06:14.180 --> 00:06:21.180
+Now, let's say it's defined, right? A is 5, B is 1. So, when you do A equal to B, right? So, A becomes 1.
+
+00:06:22.538 --> 00:06:24.538
+So, A become the third ones.
+
+00:06:24.744 --> 00:06:29.744
+Now, when you do B equal to A, so A is A was 1 already, A became 1 already.
+
+00:06:29.911 --> 00:06:31.911
+So B will also be 1.
+
+00:06:33.093 --> 00:06:35.093
+5 is lost.
+
+00:06:39.498 --> 00:06:42.498
+You can use as many variables as you like, by the way, your choice.
+
+00:06:45.034 --> 00:06:47.034
+Okay? And, uh…
+
+00:06:47.833 --> 00:06:49.833
+And…
+
+00:06:50.741 --> 00:06:53.741
+And, uh, V is not equal to…
+
+00:06:57.416 --> 00:07:00.416
+And B is not equal to A, then we rewrite it.
+
+00:07:01.129 --> 00:07:07.129
+B equals to… B is never equal to A, let's say it. B is 1, A's 5, right? So this will always be true.
+
+00:07:08.556 --> 00:07:13.556
+So, yep, like… but the problem is, as soon as you write… as soon as you write
+
+00:07:14.248 --> 00:07:16.248
+B into A, the value of A is lost.
+
+00:07:18.065 --> 00:07:22.065
+Can you do something, so… It's A equals to B?
+
+00:07:22.670 --> 00:07:24.670
+2B, here will be 1.
+
+00:07:25.527 --> 00:07:27.527
+I will give you a hint, right? No need for if-else.
+
+00:07:28.749 --> 00:07:32.749
+There's no need for refills. This is a hint. So, try something else.
+
+00:07:35.910 --> 00:07:43.910
+I didn't revise the codes, I only revised the definitions, the explanations. It's been a while, eh? Definition will not work. See, just…
+
+00:07:44.516 --> 00:07:46.516
+your concepts, or your, uh…
+
+00:07:46.572 --> 00:07:49.572
+your concepts and your logical work in the interviews.
+
+00:07:51.272 --> 00:07:57.272
+Because, uh, if you don't remember any definition, totally no problem. You can just tell me what you think.
+
+00:08:00.553 --> 00:08:14.553
+We just think about right programmatically, as soon as you do this, you lose 5, right? Yes. Now, A will become 1, and when you do B equal to A, B will also… B is also 1. Yeah, yeah. Although you tried to do B5, but unfortunately, because this statement already executed.
+
+00:08:15.431 --> 00:08:20.431
+Oh, uh, can we write it in a way we redefine it? A is equal to…
+
+00:08:20.615 --> 00:08:23.615
+One, and B is equal to 5.
+
+00:08:23.795 --> 00:08:26.795
+So this is just like you are defining it, just like I defined it, right?
+
+00:08:28.124 --> 00:08:35.124
+Uh, now remember, this can be any number input by the user. It can be 10, 15, 100, any number. Okay. So your logic to swap the numbers.
+
+00:08:36.192 --> 00:08:41.192
+Right? Because if you write A equal to 1 and B equal to 5, they will always remain 1 and 5.
+
+00:08:41.774 --> 00:08:48.774
+But let's say a user is giving you input A equal to you don't know. Yeah. So add both numbers.
+
+00:08:51.376 --> 00:08:53.376
+Hint is, you can use as many variables as you like.
+
+00:09:07.158 --> 00:09:09.158
+It can't be expected to be.
+
+00:09:28.073 --> 00:09:30.073
+No, we don't use OR tool, you know.
+
+00:09:30.673 --> 00:09:36.673
+If you use OR, uh, OR, what will OR do? Like, for example,
+
+00:09:37.183 --> 00:09:39.183
+B or A, or, like…
+
+00:09:40.171 --> 00:09:42.171
+Well, what is in your mind?
+
+00:09:43.473 --> 00:09:45.473
+Okay, I will try.
+
+00:09:45.610 --> 00:09:47.610
+Uh, A?
+
+00:09:49.337 --> 00:09:51.337
+equals methadone 2.
+
+00:09:51.995 --> 00:09:54.995
+5 of V equals to 5.
+
+00:09:55.918 --> 00:09:57.918
+If… oh, I don't use if condition?
+
+00:09:58.208 --> 00:10:03.208
+You can use anything you like, but maybe… Is it 5 or vertical 5?
+
+00:10:03.916 --> 00:10:09.916
+But because it's, uh, it can be… right now it's 5, yeah, so let's work with 5 or 1 right now. Okay.
+
+00:10:13.696 --> 00:10:16.696
+I will give you a hint, like, when you do A equal to B,
+
+00:10:16.675 --> 00:10:18.675
+The value of A is lost, right?
+
+00:10:19.190 --> 00:10:22.190
+So why don't you save the value of A first, somewhere?
+
+00:10:23.366 --> 00:10:26.366
+And then swap, and then recover the building. I define it.
+
+00:10:27.656 --> 00:10:31.656
+First, I'll define A is equal to 5.
+
+00:10:33.693 --> 00:10:35.693
+It is already 5, and B is already 1.
+
+00:10:36.748 --> 00:10:40.748
+0… A is defined already, B is already defined.
+
+00:10:44.570 --> 00:10:46.570
+Think about it, take your time. Take a minute.
+
+00:11:05.569 --> 00:11:08.569
+It would be equals to be if A is equals…
+
+00:11:08.443 --> 00:11:10.443
+This is printed.
+
+00:11:10.576 --> 00:11:12.576
+A is equal to B.
+
+00:11:13.928 --> 00:11:15.928
+then it will be…
+
+00:11:18.684 --> 00:11:20.684
+feeling the V equals to A.
+
+00:11:21.453 --> 00:11:23.453
+It'll be changed.
+
+00:11:32.551 --> 00:11:39.551
+Okay, let's move forward, right? So, let's say… let's skip Python altogether.
+
+00:11:39.415 --> 00:11:41.415
+Let us jump to, uh…
+
+00:11:42.305 --> 00:11:50.305
+Some other things, like, some more interesting things is, uh, for example, we have been, uh, we have been working on APIs, you know? Yeah. A lot.
+
+00:11:50.492 --> 00:11:52.492
+Plus, they feel like… Yeah.
+
+00:11:53.293 --> 00:11:55.293
+We've been working on APIs a lot, so, uh…
+
+00:11:57.616 --> 00:11:59.616
+And, um…
+
+00:12:00.250 --> 00:12:03.250
+If you remember, we knew… we did discuss about
+
+00:12:03.646 --> 00:12:05.646
+A REST API, do we remember that or not?
+
+00:12:05.646 --> 00:12:07.646
+Recipient. API?
+
+00:12:08.601 --> 00:12:14.601
+Once only, like, a few. Yes, APIs, we have revised a lot of time, the REST APIs a few times. I remember the first API…
+
+00:12:15.202 --> 00:12:22.202
+there is the client and the server who will accept and respond. Okay, let's say… let's talk about API, right?
+
+00:12:22.373 --> 00:12:24.373
+you build an API. Yeah.
+
+00:12:24.451 --> 00:12:26.451
+How would you test the API?
+
+00:12:27.474 --> 00:12:29.474
+First, we will, uh…
+
+00:12:30.590 --> 00:12:32.590
+There is a syntax for it. Mm-hmm.
+
+00:12:33.028 --> 00:12:39.028
+First API is like a program between two computers that can communicate. No, no, that I know, right? Yeah.
+
+00:12:39.409 --> 00:12:41.409
+Uh, but let's say you have…
+
+00:12:42.417 --> 00:12:44.417
+Python application positive here, right? It's running.
+
+00:12:45.173 --> 00:12:48.173
+How can you test the functions, the endpoints?
+
+00:12:49.035 --> 00:12:51.035
+like, what tools can you use to test
+
+00:12:51.869 --> 00:12:54.869
+libraries. Okay, like, for example,
+
+00:12:55.379 --> 00:13:00.379
+Like, when we sent requests… Let's say you build an application for, uh…
+
+00:13:01.669 --> 00:13:03.669
+For, uh, ROP, let's say, right?
+
+00:13:04.522 --> 00:13:08.522
+And people can actually log in complaints or reports, right? So that's how you build an API for ROP.
+
+00:13:09.802 --> 00:13:14.802
+Now, of course, when you build an API for ROP, ROP will exit, right? Yeah. So when ROP exits it,
+
+00:13:15.096 --> 00:13:18.096
+The people will send requests, they will see
+
+00:13:18.134 --> 00:13:24.134
+things, right? Yeah, yeah. Like, and similarly, users will send complaints, and they can also view complaints, right? Yeah.
+
+00:13:25.057 --> 00:13:27.057
+But before you move it to production,
+
+00:13:27.803 --> 00:13:32.803
+You also have to test it as developers, right? Yeah. Like, is my API working fine or not? Yeah. So how do you test it?
+
+00:13:33.949 --> 00:13:35.949
+Uh, if we will automatically get the response.
+
+00:13:36.877 --> 00:13:42.877
+When we'll send the request? Just test, uh, let's say you have to test if your API's functionalities are working fine or not.
+
+00:13:43.088 --> 00:13:45.088
+So, how will you do that?
+
+00:13:52.883 --> 00:13:56.883
+Anything, anything. It's not… it's not a definition that you have to remember.
+
+00:13:57.116 --> 00:13:59.116
+It's just like, what do you think about it?
+
+00:14:00.145 --> 00:14:02.145
+Just relax and tell what you think about it.
+
+00:14:05.220 --> 00:14:10.220
+Testing your APS input. Like, for example… Test per month. Yes, yes, but, like, how? What per month?
+
+00:14:10.211 --> 00:14:14.211
+Or not… don't tell the command, like, what will that command do?
+
+00:14:15.300 --> 00:14:21.300
+It will check the code. Okay. If everything is okay, it will automatically send the request.
+
+00:14:21.618 --> 00:14:26.618
+Then, first API, you will respond, will accept if it's correct, and respond.
+
+00:14:27.408 --> 00:14:29.408
+Okay, so the command you were talking about, where do you run that command?
+
+00:14:29.952 --> 00:14:32.952
+What? Uh, you said a command? Yeah. That will actually send…
+
+00:14:33.752 --> 00:14:35.752
+Where do you run the command?
+
+00:14:36.358 --> 00:14:38.358
+After which, what tool?
+
+00:14:38.517 --> 00:14:40.517
+Libraries.
+
+00:14:41.181 --> 00:14:50.181
+Uh, okay, library, so… Like, request library, for example, we do… Okay, okay. We put the request. GET request, and we put the URL.
+
+00:14:50.890 --> 00:14:53.890
+Okay. Yeah. So, okay.
+
+00:14:55.130 --> 00:15:02.130
+Yes, so for example, you have a Python script in which you are using requests, so you can put the URL, it will test the API. Yeah. Right? Nice.
+
+00:15:01.998 --> 00:15:03.998
+Which is fine. Which is good.
+
+00:15:04.135 --> 00:15:06.135
+Right, so requests…
+
+00:15:08.832 --> 00:15:14.832
+Any other thing in your mind? Like, how you can test it besides requests, if there's something else, let me know.
+
+00:15:15.527 --> 00:15:17.527
+But this is… this is fine, this is good.
+
+00:15:18.686 --> 00:15:20.686
+You can use requests to test, right?
+
+00:15:22.464 --> 00:15:24.464
+We build, uh, an image.
+
+00:15:25.472 --> 00:15:27.472
+Uh, like a…
+
+00:15:27.455 --> 00:15:29.455
+like, using Docker? Yeah.
+
+00:15:32.093 --> 00:15:35.093
+Yeah, it's more about, like, testing the functionality.
+
+00:15:35.599 --> 00:15:40.599
+It's not like testing the application will work or not, right? Application will work.
+
+00:15:41.679 --> 00:15:46.679
+Like, for example, requests can actually test quality of function, right? Any other tool that can call the function?
+
+00:15:47.955 --> 00:15:49.955
+that you have on your Windows,
+
+00:15:49.937 --> 00:15:51.937
+by default, or…
+
+00:15:52.517 --> 00:15:54.517
+Anything you remember downloading? Something?
+
+00:16:02.670 --> 00:16:04.670
+Like, for example, recently you have been doing tickets, right?
+
+00:16:05.356 --> 00:16:08.356
+So as soon as you run your Fast API. Yeah. So where do you test?
+
+00:16:09.675 --> 00:16:12.675
+application, when you run the application, then you test it, right? So where do you test it?
+
+00:16:13.010 --> 00:16:18.010
+Immediately, as soon as you run the FastAP application. Immediately, how do you see it's working? Where?
+
+00:16:18.461 --> 00:16:26.461
+We're in it locally in my computer when we work on VS Code. Yeah, so when you run… Python. Yes, it runs in VS Code, right? But where do you see…
+
+00:16:27.236 --> 00:16:29.236
+the API test the API.
+
+00:16:29.570 --> 00:16:31.570
+the output, the terminal?
+
+00:16:31.917 --> 00:16:33.917
+like, uh…
+
+00:16:34.417 --> 00:16:37.417
+For example, response. Where do you see the responses?
+
+00:16:42.768 --> 00:16:44.768
+browser?
+
+00:16:46.669 --> 00:16:55.669
+You don't use Chrome or Firefox or anything? I do, yeah, for GitHub. Browser cannot send a request? It sends a request, and the output is at this point.
+
+00:16:55.752 --> 00:16:57.752
+Yes, so you know it, right? Yeah.
+
+00:16:57.731 --> 00:16:59.731
+post-trim?
+
+00:17:00.132 --> 00:17:02.132
+Yeah.
+
+00:17:02.635 --> 00:17:04.635
+It's fine.
+
+00:17:04.944 --> 00:17:10.944
+I know… I know you know the browser. Yeah, browser is where we send the requests. Yeah. Even when we work, when we do…
+
+00:17:12.216 --> 00:17:17.216
+get, put, delete, update, it's all about sending requests, that's right. Uh, how can you send?
+
+00:17:17.343 --> 00:17:22.343
+Okay, GET request can be sent using the browser, right? Yeah. How can you send a POST request?
+
+00:17:24.135 --> 00:17:27.135
+Uh, because by default, the browser can only send GET requests.
+
+00:17:27.792 --> 00:17:37.792
+How do you send proofs? Like, command, when we do get to .post? Post.post. Yeah, at… Oh, yeah, yeah, so here, yes, you're right. Here, you can do it, right? Any other tool that can do it?
+
+00:17:38.032 --> 00:17:45.032
+Any other tool? Broker's browser can just, by default, send GET requests, right? Yeah. But requests can.
+
+00:17:45.296 --> 00:17:49.296
+Send post also. Any other tool that can send post requests that we have covered.
+
+00:17:49.271 --> 00:17:51.271
+If you don't remember the tool,
+
+00:17:51.648 --> 00:17:55.648
+Like, what does the tool do, or options? There might be something you remember.
+
+00:17:59.806 --> 00:18:01.806
+Will Smith?
+
+00:18:03.591 --> 00:18:05.591
+Bushman? No?
+
+00:18:05.740 --> 00:18:07.740
+Postman can send GET…
+
+00:18:08.339 --> 00:18:19.339
+post. Yeah, put, delete, update. Right. Yeah. No issues. I mentioned at this. Yeah, no, I was mentioning, like, for example, browser can send GET, right? Yeah.
+
+00:18:19.276 --> 00:18:22.276
+requests can, yeah, like, for example, but Postman,
+
+00:18:23.284 --> 00:18:28.284
+Do you think the browser… yes, by default, the browser sounds good. Yeah, lying.
+
+00:18:29.409 --> 00:18:32.409
+But is it possible for the browser to send a POST request, or not?
+
+00:18:32.696 --> 00:18:35.696
+Yes or no? To send a post request? Not good.
+
+00:18:36.169 --> 00:18:38.169
+Post. Is it possible?
+
+00:18:38.700 --> 00:18:40.700
+Just a yes or no, Percival or not?
+
+00:18:40.937 --> 00:18:46.937
+Yes. Possum, right? Yes. Okay, so… which is… and delete also.
+
+00:18:47.177 --> 00:18:52.177
+Yeah, it's Kennedy. Everything, right? Okay, nice, good.
+
+00:18:52.458 --> 00:18:57.458
+Otherwise, how would you see the application working? Rated browser can option?
+
+00:18:57.670 --> 00:19:09.670
+When we are talking about, like, requests, responses, and everything, right? Like, for example, uh, you are running fast API on your computer, right? FastAPI application on your computer.
+
+00:19:10.005 --> 00:19:17.005
+Yeah. Imagine you are running 3 fast DPI applications on your computer. 3. Okay. Right, so the scenario is something like this.
+
+00:19:19.128 --> 00:19:21.128
+It doesn't work all together at the same time.
+
+00:19:23.202 --> 00:19:28.202
+First, can it work all together at the same time? For example, 3… you… let's say you have 3 VS codes go back, right?
+
+00:19:28.699 --> 00:19:33.699
+So, can you read 3 with an application at the same time? Yes. Yes, you can, right? Uh…
+
+00:19:33.784 --> 00:19:35.784
+Can all of the applications
+
+00:19:37.720 --> 00:19:40.720
+Does all of the… okay, so all of the application must have
+
+00:19:40.856 --> 00:19:42.856
+unique ports, or…
+
+00:19:43.058 --> 00:19:46.058
+At least one or more can have the same port.
+
+00:19:46.031 --> 00:19:48.031
+like, for example,
+
+00:19:48.620 --> 00:19:51.620
+It is here. Let's say this is 1990.
+
+00:19:52.809 --> 00:19:57.809
+But let's say… It's kind of similar. Okay, so… so this is your same machine, right? Yes.
+
+00:19:58.159 --> 00:20:01.159
+It has 3 applications running. 1, 2, and 3, right? Yeah.
+
+00:20:01.670 --> 00:20:03.670
+Is it possible for, uh…
+
+00:20:03.807 --> 00:20:05.807
+Uh, is it a must?
+
+00:20:06.391 --> 00:20:09.391
+For all applications to have
+
+00:20:10.225 --> 00:20:15.225
+a unique port, or can more than one affliction have the same port? Can more than… Can have the same port, yeah.
+
+00:20:15.200 --> 00:20:17.200
+Okay.
+
+00:20:21.628 --> 00:20:24.628
+Okay, so, uh, time is, I think, almost
+
+00:20:25.039 --> 00:20:30.039
+almost… I think over already, but we'll just quickly jump to the next.
+
+00:20:30.018 --> 00:20:32.018
+Okay, so to full…
+
+00:20:34.694 --> 00:20:36.694
+We were talking about ports, right? Like… Yes.
+
+00:20:37.553 --> 00:20:39.553
+Imagine this is my computer, right?
+
+00:20:39.875 --> 00:20:42.875
+Yes. I want to reach out to…
+
+00:20:43.238 --> 00:20:45.238
+this API.
+
+00:20:46.467 --> 00:20:48.467
+Uh, and you see that you can use requests, right?
+
+00:20:48.647 --> 00:20:55.647
+You said you can use requests to send a request, like, I can use requests library to send a request here, right? In the requests,
+
+00:20:56.432 --> 00:20:58.432
+In the URL. In the URL? Yes.
+
+00:21:00.435 --> 00:21:03.435
+what… what do I need to know in order to send a request?
+
+00:21:03.900 --> 00:21:09.900
+the EPA. Report of the host, uh… the host, uh, the host port?
+
+00:21:09.973 --> 00:21:12.973
+And I have to know the container.
+
+00:21:13.898 --> 00:21:17.898
+Or the other part, port, so I can access the app.
+
+00:21:18.169 --> 00:21:24.169
+Uh, like, for example, yes, okay, I need to know the port, right? But what else? A very important thing, right? Like, for example,
+
+00:21:26.824 --> 00:21:31.824
+If someone wants to… if you are ordering something, right? So, they cannot deliver you until they know?
+
+00:21:32.205 --> 00:21:36.205
+The education. The location or the address, right? Yeah. So, for example…
+
+00:21:36.869 --> 00:21:40.869
+what do I need to know? Yes, I need to know the port, but there's one more important thing that I need to know.
+
+00:21:41.137 --> 00:21:44.137
+Otherwise, I cannot reach out to your computer. What is that thing?
+
+00:21:44.638 --> 00:21:48.638
+The IP? Yeah. IP address? Yes, yes, yes. IP address, right.
+
+00:21:49.563 --> 00:21:51.563
+And there are 4 types of IP addresses.
+
+00:21:51.762 --> 00:22:00.762
+the… the OneLife location is the… the public one. Yes, that I will not ask, you know, because yesterday I asked. Yeah. The interview will change.
+
+00:22:01.127 --> 00:22:03.127
+That I will not ask.
+
+00:22:03.298 --> 00:22:09.298
+No issues. But you are right. Yeah, yeah. Public, private, and… I've said before. It's food, right?
+
+00:22:09.843 --> 00:22:11.843
+Okay, so…
+
+00:22:12.319 --> 00:22:14.319
+Uh, let's talk about… I mean…
+
+00:22:15.524 --> 00:22:21.524
+Uh, I know we have discussed DNS, DHCP, right, NAT, everything, right? So…
+
+00:22:22.352 --> 00:22:25.352
+Uh, do you remember anything about what is a DNS server?
+
+00:22:25.673 --> 00:22:27.673
+DNS?? DNS2.
+
+00:22:28.892 --> 00:22:34.892
+The deployment? Uh… yes, it is related to everything, not just deployment, but…
+
+00:22:35.559 --> 00:22:38.559
+sort of left everything. Do you remember what a DNS server is?
+
+00:22:39.636 --> 00:22:41.636
+Yeah, I see.
+
+00:22:42.795 --> 00:22:45.795
+CSD. CICD.
+
+00:22:45.841 --> 00:22:48.841
+No, no, CICD is different. Yeah, very straight.
+
+00:22:49.834 --> 00:22:51.834
+So, and do you remember…
+
+00:22:52.145 --> 00:22:55.145
+Anything about the DHCP?
+
+00:22:55.015 --> 00:22:57.015
+server.
+
+00:22:58.188 --> 00:23:00.188
+or DHCP client. Okay.
+
+00:23:00.304 --> 00:23:08.304
+Uh, let's talk about… let's talk about usage private IP address, right? Yeah. What is the difference between a public and a private IP address?
+
+00:23:09.448 --> 00:23:20.448
+Public IP address is like, uh… it can… it can be seen on internet, like the home. As I remember once you gave us example, like, the private will be the number of rooms in the home.
+
+00:23:21.013 --> 00:23:24.013
+Like, the inside the network. Yeah, that's good, right?
+
+00:23:25.001 --> 00:23:29.001
+But the same example, I showed you something else also. N80, network address translation, right?
+
+00:23:29.210 --> 00:23:31.210
+So, who, who…
+
+00:23:32.268 --> 00:23:34.268
+Who assigns private IP addresses to?
+
+00:23:35.101 --> 00:23:38.101
+your computers. What is the device that assigns?
+
+00:23:38.433 --> 00:23:40.433
+the private IP addresses to your computer.
+
+00:23:41.574 --> 00:23:45.574
+D and S? I don't know. You don't have to remember the name, like, I mean…
+
+00:23:47.478 --> 00:23:52.478
+Is it possible for a device to have more than one… to have also a public IP address and also a private IP address?
+
+00:23:52.653 --> 00:23:54.653
+Is it possible? Yes.
+
+00:23:54.697 --> 00:23:57.697
+to have both a public also and a private also, right?
+
+00:23:57.730 --> 00:23:59.730
+So, an example?
+
+00:24:00.251 --> 00:24:02.251
+of such a device.
+
+00:24:02.457 --> 00:24:04.457
+Even if you don't remember the name any…
+
+00:24:04.458 --> 00:24:06.458
+high-level example.
+
+00:24:10.142 --> 00:24:15.142
+Uh, it can happen where they keep the public for users, and the private for…
+
+00:24:15.758 --> 00:24:18.758
+Internally. Who keeps it, like…
+
+00:24:19.671 --> 00:24:21.671
+Do you think ISP keeps it, do you think…
+
+00:24:22.238 --> 00:24:26.238
+Like, Arito is keeping it… all you're talking about the private IP addresses, right?
+
+00:24:26.829 --> 00:24:28.829
+Will this work… will it workers?
+
+00:24:29.096 --> 00:24:31.096
+The developers.
+
+00:24:31.812 --> 00:24:33.812
+Okay, okay. So…
+
+00:24:36.617 --> 00:24:38.617
+But you know about the private IP addresses, but…
+
+00:24:42.270 --> 00:24:45.270
+who assigns the private IP addresses is actually one thing.
+
+00:24:46.298 --> 00:24:48.298
+So…
+
+00:24:49.031 --> 00:24:51.031
+More important to learn the concept, then?
+
+00:24:51.739 --> 00:24:53.739
+learn the definition, right? But it's okay.
+
+00:24:53.789 --> 00:24:56.789
+you're partially right. I will accept partially right.
+
+00:24:57.433 --> 00:24:59.433
+Okay, let's talk about…
+
+00:24:59.658 --> 00:25:05.658
+Uh… if I write 3 things, let's say, here, right? For example, if I write…
+
+00:25:06.322 --> 00:25:08.322
+Post.
+
+00:25:08.403 --> 00:25:10.403
+Versus client.
+
+00:25:10.937 --> 00:25:12.937
+Versus server, right?
+
+00:25:15.077 --> 00:25:17.077
+Uh, so, what is a host?
+
+00:25:17.525 --> 00:25:24.525
+a client or a server, right? Specifically, I'm interested in host. What is a host? Host is, like, my computer. Okay.
+
+00:25:24.699 --> 00:25:27.699
+And where it has my port?
+
+00:25:28.742 --> 00:25:32.742
+Okay. Of my computer, we get it from the host, and then…
+
+00:25:33.444 --> 00:25:36.444
+Uh, clients will send the request. The client is not a computer?
+
+00:25:37.235 --> 00:25:39.235
+like, server is not a complete role?
+
+00:25:42.013 --> 00:25:44.013
+Host is, like, the number or the ID.
+
+00:25:44.506 --> 00:25:49.506
+Host is, like, the number on IP. Uh, like, for any example coming in your mind?
+
+00:25:50.463 --> 00:25:53.463
+Okay, let's talk about the process server, right? Server.
+
+00:25:54.535 --> 00:25:56.535
+So, is server not a computer?
+
+00:25:57.700 --> 00:26:02.700
+Server is a computer. Then post… and what is the difference between post?
+
+00:26:03.220 --> 00:26:06.220
+Surfer receives the requests.
+
+00:26:08.012 --> 00:26:21.012
+And who's? Like, this is the main part, then client will send their request from the host, so they know who sent it, and server will accept it and respond. So server is also boost, you are saying?
+
+00:26:21.821 --> 00:26:24.821
+That server is also host and client is also host, both are hosts.
+
+00:26:26.021 --> 00:26:28.021
+Yeah. Are you sure?
+
+00:26:29.301 --> 00:26:33.301
+Plus, it's, like, the main part, but then client will send…
+
+00:26:33.360 --> 00:26:36.360
+Various climate change? Like, what is client?
+
+00:26:37.322 --> 00:26:40.322
+Who will send the request? But, so where is it?
+
+00:26:40.821 --> 00:26:46.821
+Next, the browser. Uh, so… Yeah, so yeah, it's located in whose? And server also?
+
+00:26:48.554 --> 00:26:50.554
+Like, this server also located in the host?
+
+00:26:54.838 --> 00:26:56.838
+Yeah, it will… respond.
+
+00:26:57.165 --> 00:27:02.165
+Yeah, I got it. Yes, yeah, it responds, right? But is it located in the host also? So…
+
+00:27:05.293 --> 00:27:09.293
+No server. Uh, but client is located in the host, right?
+
+00:27:10.086 --> 00:27:17.086
+Host is the computer, client is located in the computer, right? Yeah. Server is not located in the computer. It is also located on the computer. You just need to…
+
+00:27:17.462 --> 00:27:20.462
+I'm confused and stuff.
+
+00:27:21.476 --> 00:27:23.476
+Uh, let's… okay, let's… let me be clear, right? Yeah.
+
+00:27:24.567 --> 00:27:31.567
+Server application and client application, right? Okay. So, now let's talk about server application. Yeah. Is the server application located in the host?
+
+00:27:32.154 --> 00:27:34.154
+Or not. Yes.
+
+00:27:34.858 --> 00:27:36.858
+So they know the request came from where?
+
+00:27:39.806 --> 00:27:51.806
+Oh, sorry, I didn't get the last one. So, they know from which host the request came. Came in, okay, so server is located, you're saying, right? Client. Client application is also located in the host, right?
+
+00:27:51.638 --> 00:27:53.638
+Yeah, and you're correct.
+
+00:27:54.389 --> 00:28:05.389
+You confused me. I just want to make sure you know the concepts and you're not memorizing, that's why. So, when someone confuses you, stick to your point. Yeah. The better you laugh, right? Like, what I've seen, of course.
+
+00:28:05.517 --> 00:28:14.517
+So, like, you can say, of course, if we don't have the host, we are the applications. Yeah, from host sentences. So don't get confused for that, right?
+
+00:28:15.363 --> 00:28:17.363
+That's good, so…
+
+00:28:25.958 --> 00:28:27.958
+Uh, already 11, right?
+
+00:28:28.756 --> 00:28:30.756
+Let's jump to Git quickly. Git. Okay.
+
+00:28:31.544 --> 00:28:33.544
+Okay, so…
+
+00:28:36.531 --> 00:28:38.531
+Uh, okay. So, for example,
+
+00:28:39.019 --> 00:28:41.019
+In Git, is it possible?
+
+00:28:43.142 --> 00:28:47.142
+to… like, for example, you have the main branch in Git, right? I will write it here.
+
+00:28:47.698 --> 00:28:49.698
+This is your main branch.
+
+00:28:53.016 --> 00:28:57.016
+And if… if I… can I create…
+
+00:28:57.453 --> 00:28:59.453
+a new branch from me.
+
+00:29:00.060 --> 00:29:06.060
+Yeah, it should be the feature branch. Let's say it's feature branch, right? Cool. Which is exactly like main, right? Yeah, copy. Okay.
+
+00:29:07.753 --> 00:29:13.753
+Uh, you know that there are many commits in the main branch, right? Yeah. You will get the same commits, of course, here.
+
+00:29:15.157 --> 00:29:17.157
+Is it possible for me,
+
+00:29:17.808 --> 00:29:20.808
+To create a feature branch with some of the main commits, not all.
+
+00:29:22.021 --> 00:29:26.021
+Some of them in comments. Yeah, because when we'll get a copy, we can't edit in it.
+
+00:29:26.993 --> 00:29:38.993
+And if there is a conflict, we can resolve it, and then… No, not conflict. Let's say I'm creating a new feature branch. This is F1, right? Yeah. Let's say I want to create F2, but I don't want to exactly replicate the main branch.
+
+00:29:39.083 --> 00:29:44.083
+I just want half of the commits, like, first two only, from the big branch.
+
+00:29:44.580 --> 00:29:46.580
+How can I do that?
+
+00:29:47.343 --> 00:29:51.343
+We create a feature branch of these two details only.
+
+00:29:52.314 --> 00:29:56.314
+Like, for example, when you create a feature branch, what happens? You copy all of the commits, right?
+
+00:29:57.012 --> 00:30:00.012
+I don't want to copy all, I just want to copy the first two, that's it.
+
+00:30:00.962 --> 00:30:02.962
+Right? So…
+
+00:30:03.033 --> 00:30:05.033
+I'm not asking for commands.
+
+00:30:05.502 --> 00:30:07.502
+just your thoughts, like, how can it be done?
+
+00:30:12.062 --> 00:30:16.062
+Or can it be done? Or it… because there are certain things not allowed by Git.
+
+00:30:16.968 --> 00:30:19.968
+So, is it… Yeah, it can be done. It can be done, okay. Yeah. Then?
+
+00:30:20.808 --> 00:30:22.808
+How do you think it would be possible?
+
+00:30:33.370 --> 00:30:36.370
+We create a feature branch for this only.
+
+00:30:38.332 --> 00:30:40.332
+Uh, for… for this only?
+
+00:30:40.690 --> 00:30:42.690
+Yeah? How? Like, uh…
+
+00:30:44.923 --> 00:30:49.923
+like, how, like, I should… if I… if I delegate I want to create a feature branch for this,
+
+00:30:51.101 --> 00:30:55.101
+Imagine there are 1 million commits. Let's say there are 1 million commits, right?
+
+00:30:55.078 --> 00:30:57.078
+I just want…
+
+00:30:58.010 --> 00:31:00.010
+50,000, till 50,000, first 50,000.
+
+00:31:00.324 --> 00:31:02.324
+So, of course, I did not tell Git to…
+
+00:31:02.851 --> 00:31:05.851
+all of the components, like, I need this, this, this, this, right? Yeah. So…
+
+00:31:06.497 --> 00:31:09.497
+Theoretically, what should… what can I tell get?
+
+00:31:10.586 --> 00:31:13.586
+So it can actually create from the beginning till that point.
+
+00:31:14.935 --> 00:31:16.935
+Not asking for commands, what do you think?
+
+00:31:17.883 --> 00:31:19.883
+Actually, you can do here.
+
+00:31:20.526 --> 00:31:26.526
+We specify it, like, if we will pull it, we pull the… that specific folder only.
+
+00:31:27.342 --> 00:31:33.342
+What we need. Let's say people mean, right? Yeah. So, pull main means, like, every company. Yeah, every step. So, um…
+
+00:31:34.031 --> 00:31:36.031
+what you're seeing is pool-specific?
+
+00:31:37.001 --> 00:31:39.001
+Like, it's specific portrait.
+
+00:31:41.887 --> 00:31:47.887
+But here, we need to create a new branch. Yes, new branch? With only half of the commits, let's say.
+
+00:31:49.627 --> 00:31:51.627
+Let's say there are 4, right? Yeah, 40 branch.
+
+00:31:52.598 --> 00:31:57.598
+Uh, yeah, so, for example, you do… let's say you do git branch, right? Yes.
+
+00:31:57.837 --> 00:32:02.837
+or you can create the branch. Yeah. But by default, it will copy that branch, right? Yes.
+
+00:32:02.998 --> 00:32:04.998
+But, uh, for example,
+
+00:32:05.881 --> 00:32:09.881
+Before you create the branch, what should you do in the mail before you create the branch?
+
+00:32:11.361 --> 00:32:13.361
+that it should just create till that commit.
+
+00:32:17.793 --> 00:32:20.793
+Before we create the branch, usually we pull.
+
+00:32:21.975 --> 00:32:29.975
+Yes, you pull right, but you have everything now. Yeah, but you'll get everything. Yes, then you just create a branch, because if you create a branch, by default, it would be a full copy.
+
+00:32:31.569 --> 00:32:33.569
+Can you do something? Yeah, we can specify.
+
+00:32:34.398 --> 00:32:43.398
+Okay. Like, instead of doing minus B and we create both, we only open one of it, and we specify the ticket or the ID of that.
+
+00:32:44.401 --> 00:32:46.401
+of what we need. No?
+
+00:32:47.291 --> 00:32:49.291
+like, for example, when you create a branch,
+
+00:32:49.645 --> 00:32:55.645
+It looks at the current state of the main branch, right? Yeah. Can you do something with the current state of the main branch before you create the branch?
+
+00:32:56.322 --> 00:32:58.322
+So it just creates from that point.
+
+00:33:01.137 --> 00:33:05.137
+First, there is a way. Yeah, is it not possible, or is it possible?
+
+00:33:05.574 --> 00:33:11.574
+This is possible, yeah. There's a way, like, how… just tell me the workflow, no need for the command.
+
+00:33:12.431 --> 00:33:15.431
+But I'm telling you, you cannot just do something while creating the branch.
+
+00:33:16.872 --> 00:33:19.872
+Right? Like, before you create the branch, then you can do something.
+
+00:33:21.179 --> 00:33:25.179
+Of course, there is a command. Yeah, where's, uh, like, what…
+
+00:33:26.091 --> 00:33:28.091
+Okay, I will help you out, right? So, let's say you are in the main country.
+
+00:33:28.729 --> 00:33:30.729
+there's so many comments, right? Yes.
+
+00:33:30.715 --> 00:33:32.715
+So, before you create a new branch,
+
+00:33:33.828 --> 00:33:35.828
+How do you tell Git that…
+
+00:33:38.218 --> 00:33:40.218
+Oh, okay, let… tell me about what is a head.
+
+00:33:40.982 --> 00:33:44.982
+pointer in GitHub. What? Head pointer. Head. Head pointer.
+
+00:33:46.725 --> 00:33:52.725
+Right, for example, you might have seen multiple times when you do git status or git log, you would see head written.
+
+00:33:53.585 --> 00:33:55.585
+The Dragon site, do you know about it?
+
+00:33:56.995 --> 00:33:58.995
+Like, the main…? Uh, for every.
+
+00:33:58.937 --> 00:34:00.937
+branch, there's, like, a head.
+
+00:34:01.495 --> 00:34:03.495
+But what does it… what does it do?
+
+00:34:03.681 --> 00:34:05.681
+What is the purpose of a head pointer?
+
+00:34:07.400 --> 00:34:09.400
+So, you thought I will ask definitions of Git?
+
+00:34:10.254 --> 00:34:17.254
+No, the process, like, example… Yeah, yesterday, yeah, interview… interview will, uh, change.
+
+00:34:17.949 --> 00:34:28.949
+Yeah. Um, if somebody… But usually, like, basically, in general… yeah, no, no, my level is the same, it's not very difficult questions. If you… if you tell someone the interview, right? Yes.
+
+00:34:28.940 --> 00:34:30.940
+I will realize that
+
+00:34:56.748 --> 00:35:00.748
+It's okay. I will… I'm just, like, uh…
+
+00:35:01.684 --> 00:35:03.684
+This is Dynamics, so I've written sometimes.
+
+00:35:04.391 --> 00:35:09.391
+But the questions are from the topic, but questions can be anything that comes up. Please don't answer, yeah.
+
+00:35:09.485 --> 00:35:11.485
+Right? So…
+
+00:35:12.036 --> 00:35:16.036
+Uh, okay. Uh, let us jump to, uh…
+
+00:35:18.505 --> 00:35:21.505
+Should I jump to Docker, or should we just do one more good question?
+
+00:35:22.408 --> 00:35:25.408
+I think it's times too much, right? So let's jump to Docker, right?
+
+00:35:29.322 --> 00:35:31.322
+So…
+
+00:35:32.115 --> 00:35:34.115
+let's say you have written an application,
+
+00:35:35.910 --> 00:35:37.910
+fast API application using Python, right?
+
+00:35:38.260 --> 00:35:40.260
+So…
+
+00:35:40.320 --> 00:35:43.320
+How would you write the Dockerfile for that application? Like,
+
+00:35:43.940 --> 00:35:45.940
+You don't have to remember everything, but…
+
+00:35:46.339 --> 00:35:50.339
+Uh, what is the workflow? What should that Dockerfile do step-by-step?
+
+00:35:50.921 --> 00:35:52.921
+Just the workflow. Uh…
+
+00:35:53.900 --> 00:36:06.900
+First, we create the Docker file. Do you need the command docker-compose.ym? Just, like, inside Dockerfile, you instruct Docker, right? Okay. What would be the instructions? For example, we have Python application and SQL.
+
+00:36:07.037 --> 00:36:11.037
+We will write, uh, we will keep them together in the Dockerfile.
+
+00:36:11.596 --> 00:36:14.596
+That is Doppler Compose, I think, what you're talking about.
+
+00:36:15.222 --> 00:36:17.222
+Docker Composer? Yes, Dockerfiles.
+
+00:36:17.943 --> 00:36:20.943
+What is the difference between Dockerfile and Docker Compose?
+
+00:36:21.579 --> 00:36:23.579
+Dockerfile is, uh…
+
+00:36:23.937 --> 00:36:25.937
+Where we store the data.
+
+00:36:26.299 --> 00:36:31.299
+Uh, is it Docker file where we store the data, or image of Docker? Docker image?
+
+00:36:32.107 --> 00:36:36.107
+Where we store the data. No, Docker volume. Uh, volume. Yeah.
+
+00:36:37.185 --> 00:36:42.185
+Okay, okay, I got it. Yeah, volume also… Yeah, so image is like a receipt, it can be…
+
+00:36:42.575 --> 00:36:45.575
+I remember you also gave us this example of…
+
+00:36:46.886 --> 00:36:49.886
+cook this will be the container.
+
+00:36:49.951 --> 00:36:51.951
+And the image will be the…
+
+00:36:52.402 --> 00:36:54.402
+image will be. A receipt.
+
+00:36:54.537 --> 00:37:01.537
+Uh, okay, I got it. So, yes, you know the concepts, right? But actually, when it comes to applying the concepts, right, so I'm talking about it, right?
+
+00:37:02.967 --> 00:37:05.967
+What is the concept of containerizing the application, right?
+
+00:37:06.655 --> 00:37:11.655
+So it can be used everywhere, exactly the same. Okay, let's repeat the question, right? So, for example…
+
+00:37:12.043 --> 00:37:21.043
+you have a fast API application. Yes. What does Fast API application has? It has, uh… it has some source code, .py files, it has a requirements.txt files, right?
+
+00:37:22.162 --> 00:37:24.162
+Uh, you have, uh…
+
+00:37:24.366 --> 00:37:32.366
+Um, you also need PIP to install packages and whatnot, right? Now, you have to write a Dockerfile for it. No need to remember the commands or anything.
+
+00:37:32.644 --> 00:37:36.644
+like, in… in… what will you tell Docker? Like, how can Docker build the image?
+
+00:37:36.745 --> 00:37:38.745
+What would be your instructions?
+
+00:37:39.050 --> 00:37:44.050
+Remember when I told you about… think about a virtual machine and your computer, and give commands, right?
+
+00:37:45.125 --> 00:37:47.125
+So, yeah. Yes.
+
+00:37:55.569 --> 00:37:58.569
+First, we will get the latest update from GitHub.
+
+00:37:58.682 --> 00:38:00.682
+It will take out the…
+
+00:38:02.087 --> 00:38:06.087
+The data? I think you're confusing it with the… with Jenkins.
+
+00:38:07.372 --> 00:38:09.372
+Jenka actually gets the data split.
+
+00:38:10.253 --> 00:38:13.253
+Dockerfile, actually. What would you write in the Dockerfile?
+
+00:38:14.701 --> 00:38:16.701
+for your… to containerize your…
+
+00:38:16.877 --> 00:38:18.877
+first API application.
+
+00:38:23.875 --> 00:38:27.875
+And you do not know that we will, yeah, we will build it.
+
+00:38:28.021 --> 00:38:32.021
+Yes, yes, we'll build it later, right? But what will be right?
+
+00:38:32.998 --> 00:38:35.998
+Because I know every… yesterday, yeah, yesterday, everyone…
+
+00:38:36.210 --> 00:38:44.210
+told the process about, like, Dockerfile image and containers, but today it's about… Okay, for example, we have two services, SQL and Python application. Yeah.
+
+00:38:44.295 --> 00:38:49.295
+These two will be inside the Docker file. Dockerfile or Docker Compose file?
+
+00:38:50.042 --> 00:38:54.042
+Dockerfile… Docker Compose will be at the end when we want to start it up.
+
+00:38:54.488 --> 00:39:00.488
+Docker Compose.yml, true. The Dockerfile command is docker compose.
+
+00:39:00.690 --> 00:39:05.690
+Okay, no choice. Let's move to deployment, right? Uh, some basic things about deployment.
+
+00:39:05.761 --> 00:39:08.761
+Uh, uh, okay, so, for example,
+
+00:39:09.958 --> 00:39:13.958
+We have been building a CICD pipeline, right? Yeah. Okay, let's forget about CICD pipeline, right?
+
+00:39:16.001 --> 00:39:19.001
+Uh, your first TPE application is running on your computer, right?
+
+00:39:19.199 --> 00:39:21.199
+you want to run it on Ubuntu.
+
+00:39:22.020 --> 00:39:24.020
+what would we do? What would be your steps?
+
+00:39:26.396 --> 00:39:31.396
+We will have to deploy it as the last step, so we can use it from anywhere. So, how would you do it?
+
+00:39:31.505 --> 00:39:36.505
+For example, right now, you have two machines, right? Yes. On one machine, your FastAPI application is running, right?
+
+00:39:36.679 --> 00:39:39.679
+You just have to run the same application on the other machine,
+
+00:39:39.775 --> 00:39:41.775
+what would be your approach?
+
+00:39:42.298 --> 00:39:45.298
+Not my approach, your approach. Yeah, these tips? Your approach.
+
+00:39:45.651 --> 00:39:47.651
+your steps, verbal steps.
+
+00:39:48.481 --> 00:39:52.481
+How would you… how would you… First, we would write the codes.
+
+00:39:52.546 --> 00:39:54.546
+Raghdi? Kutz?
+
+00:39:54.691 --> 00:40:01.691
+I remember that, what you have explained. No, no, forget about CIC.
+
+00:40:02.030 --> 00:40:09.030
+Forget about it. Just a very simple scenario, right? Yeah. You have two laptops, one is… We have to build an image.
+
+00:40:10.139 --> 00:40:14.139
+Docker… Okay, okay. Yeah, Docker. Let's say you build an image, then. Yeah.
+
+00:40:15.286 --> 00:40:24.286
+Then we will deploy it, we will… we will check if it is running successfully, then we will deploy it so it can be used anywhere. Yes, but deploy how?
+
+00:40:25.461 --> 00:40:32.461
+Like, deployment is actually what I'm trying to understand. Rolling out the process. Yeah. No, no, for example, you have two computers, right? Yeah.
+
+00:40:32.522 --> 00:40:35.522
+On 1TMR, your app is running, you build a Docker image,
+
+00:40:36.279 --> 00:40:39.279
+After building the Docker image, do you push it somewhere, or…?
+
+00:40:39.780 --> 00:40:41.780
+Perfect. Yes.
+
+00:40:42.443 --> 00:40:45.443
+Was it? Yeah. Okay, let's say push it. Now what?
+
+00:40:46.234 --> 00:40:48.234
+Now, how do I run the application in the Linux?
+
+00:40:48.538 --> 00:40:50.538
+laptop, Ubuntu laptop.
+
+00:40:50.847 --> 00:40:52.847
+Next to steps, right, after pushing.
+
+00:41:00.539 --> 00:41:02.539
+We take it from Linux.
+
+00:41:03.830 --> 00:41:06.830
+Oh, like, I'm not asking about the commands, just, uh, like, uh…
+
+00:41:07.841 --> 00:41:10.841
+You can just think of something imaginary and tell me, like, this is how…
+
+00:41:17.925 --> 00:41:21.925
+Okay, let's talk about… because, uh, we already have crossed, I mean, almost…
+
+00:41:22.663 --> 00:41:29.663
+14 minutes, right? AI Agents was remaining, right? So, large language model, you have used ChatGPT, Anthropic, everything, right, for example?
+
+00:41:29.840 --> 00:41:31.840
+I will just ask, uh, something.
+
+00:41:32.622 --> 00:41:34.622
+Can? Okay.
+
+00:41:36.716 --> 00:41:38.716
+An AI agent, right?
+
+00:41:39.657 --> 00:41:41.657
+You know, it can perform actions.
+
+00:41:42.394 --> 00:41:45.394
+Right? Is it possible?
+
+00:41:45.659 --> 00:41:47.659
+For an AI agent,
+
+00:41:48.653 --> 00:41:50.653
+2…
+
+00:41:53.283 --> 00:41:56.283
+Use other reagents. But anyways, because of that, I haven't covered that.
+
+00:41:57.133 --> 00:42:01.133
+So I'll not ask you that, right? Okay, is it possible for an EI agent
+
+00:42:01.594 --> 00:42:03.594
+to call your first API application.
+
+00:42:05.143 --> 00:42:10.143
+AI agent? Call your first API application. No, but LLM can do it.
+
+00:42:11.331 --> 00:42:19.331
+LLM, how can LLM do it? Uh, it can… it is like, uh, ChatGPT. It can write quotes, it can access, it gives us the process.
+
+00:42:19.282 --> 00:42:22.282
+But can it send a… okay, so…
+
+00:42:22.584 --> 00:42:25.584
+But AI Agent is not for complex data.
+
+00:42:25.800 --> 00:42:28.800
+It is, like, only chatbot, basic things.
+
+00:42:29.872 --> 00:42:35.872
+So… but LLM is also, like, for complex data, it can even write codes, uh, long process.
+
+00:42:37.758 --> 00:42:43.758
+Thank you. Uh, send, uh, I think Sundus was next.
+
+00:42:45.078 --> 00:42:48.078
+Let me save the transcript first.
+

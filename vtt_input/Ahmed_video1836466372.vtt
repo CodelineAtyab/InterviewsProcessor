@@ -1,0 +1,3198 @@
+WEBVTT
+
+
+00:00:01.056 --> 00:00:03.056
+Uh, hopefully, so…
+
+00:00:01.370 --> 00:00:07.370
+Uh, hopefully we'll keep just, uh, spectators within 20 minutes or so.
+
+00:00:03.198 --> 00:00:08.198
+20 minutes, hopefully, right? Yeah, 20 minutes, cool. Yeah, my micros are perfect.
+
+00:00:07.700 --> 00:00:15.700
+Yeah, you've been just hoping to get in. Are you surviving? The most important thing? How's your bank?
+
+00:00:09.500 --> 00:00:15.500
+Maybe you are in an advantage because I just… Yeah, you've been there. I just want to just get done with it. Are you surviving? The most important thing? How's your back?
+
+00:00:15.950 --> 00:00:24.950
+That's what you want. So, in this interview, uh, like, we will just focus on a few things, like part of this, right?
+
+00:00:16.120 --> 00:00:20.120
+That's what's wrong. So, in this interview, I had, like,
+
+00:00:20.759 --> 00:00:27.759
+Just, uh, focus on a few things, like Python Basics, some intermediate things, networking, you have Linux, Git,
+
+00:00:28.756 --> 00:00:37.756
+Docker, things related to deployment, right? Inshallah. So, maybe I'll just skip maybe a few basic things, because maybe you know basics, right? Inshallah. Just jump to some, uh, some…
+
+00:00:28.939 --> 00:00:37.939
+Inshallah. So, maybe I can just skip maybe a few basic things here, maybe no basics, right? Inshallah.
+
+00:00:37.873 --> 00:00:42.873
+things that will cover all of the basics, maybe, right? So, let's say you have a list, right?
+
+00:00:38.201 --> 00:00:43.201
+things that we cover, all of the basics, maybe, right? So you have on this, right?
+
+00:00:43.082 --> 00:00:45.082
+with the… okay.
+
+00:00:43.298 --> 00:00:45.298
+with, uh… Okay.
+
+00:00:46.059 --> 00:00:48.059
+Uh…
+
+00:00:46.228 --> 00:00:53.228
+Uh… when we play planning poker, have you seen when we play planning poker? The numbers appear, right? Yeah, there are some numbers.
+
+00:00:48.482 --> 00:00:57.482
+When we create planning for graph, you see? When we click planning poker, the numbers appear, right? Yeah, there are some numbers appearing. And the number appears, like, something like this, like 0, 1.
+
+00:00:53.259 --> 00:00:57.259
+And the number appears, like, something like this, like, 0, 1.
+
+00:00:57.335 --> 00:01:01.335
+Yeah, and for example, then you have one, then two, then three, then…
+
+00:00:57.712 --> 00:01:01.712
+Okay. And, for example, then you have funds that do, then three, then…
+
+00:01:01.596 --> 00:01:03.596
+5, then 8.
+
+00:01:02.152 --> 00:01:04.152
+Like, 5 to 8, then 21.
+
+00:01:04.069 --> 00:01:06.069
+than 21. Gotcha. Right?
+
+00:01:05.032 --> 00:01:07.032
+Got it. Great. So…
+
+00:01:06.584 --> 00:01:09.584
+So, if you see what's actually happening,
+
+00:01:07.253 --> 00:01:09.253
+If you see what's actually happening,
+
+00:01:10.382 --> 00:01:12.382
+is you're actually…
+
+00:01:10.591 --> 00:01:12.591
+is you're actually…
+
+00:01:12.368 --> 00:01:23.368
+adding. Yeah, the two previous numbers, and getting the one. Then again, you add two previous numbers, you get the third. Exactly. Then again, you add the two previous, you get three, right? Then you add these two, you get 5, right?
+
+00:01:12.585 --> 00:01:14.585
+Yeah.
+
+00:01:15.719 --> 00:01:21.719
+two previous numbers, then getting the one done. Again, you add two previous numbers, you get the… Exactly. Then again, you add the two previous, you get 3.
+
+00:01:21.583 --> 00:01:23.583
+Yeah.
+
+00:01:23.558 --> 00:01:25.558
+And you add 5 or 3 in bed.
+
+00:01:23.961 --> 00:01:25.961
+and you add 5 or 3, you get 8.
+
+00:01:26.310 --> 00:01:28.310
+And then you add 8 plus…
+
+00:01:26.473 --> 00:01:28.473
+And then you had 8 plus…
+
+00:01:28.891 --> 00:01:30.891
+5, and you get… Okay.
+
+00:01:29.226 --> 00:01:31.226
+5 and even 13. Okay.
+
+00:01:31.624 --> 00:01:35.624
+And then you add 13 plus 8, you get 21, right? Got it. So…
+
+00:01:31.832 --> 00:01:35.832
+And then you add 13 plus 8, you get 25, right? Got it. So…
+
+00:01:37.809 --> 00:01:50.809
+No need to, like, worry about the syntax, if you want to write, you can write. If you just want to discuss, you can discuss. I'll discuss better for me. What would be your logic to generate this kind of a sequence, given?
+
+00:01:38.167 --> 00:01:51.167
+Uh, just no need to, like, worry about the syntax, if you want to write, you can write if you just want to discuss, you can discuss. I'll discuss with them for me. What would be your logic to generate this kind of a sequence, given?
+
+00:01:50.796 --> 00:01:52.796
+Given that you already have ZMand 1.
+
+00:01:50.997 --> 00:01:52.997
+Given that you already have Z vendor.
+
+00:01:53.644 --> 00:01:56.644
+Given that I already have…
+
+00:01:54.225 --> 00:02:05.225
+Given that I already have… You already have the first two numbers, right? Okay. Equal to zero, let's say, and be equal to 1, already given to you, right? Now, what would be your logic? You can make use of loops, you can do anything you like.
+
+00:01:57.499 --> 00:02:04.499
+Okay. E equal to 0, that's say, and B equal to 1 already given to it, right? Now, what would be on the J? You can make use of boom, you can…
+
+00:02:04.354 --> 00:02:09.354
+Anything you might do actually create the sequence and just stop when it's triggered.
+
+00:02:05.222 --> 00:02:09.222
+to actually generate this sequence and just stop when it's still given.
+
+00:02:09.303 --> 00:02:12.303
+So, the first thing that came to mind…
+
+00:02:09.492 --> 00:02:12.492
+So, the first thing that came to mind…
+
+00:02:12.392 --> 00:02:14.392
+is, uh…
+
+00:02:12.591 --> 00:02:14.591
+is, uh…
+
+00:02:14.862 --> 00:02:18.862
+I'll have, uh, I'll define N as a number.
+
+00:02:15.028 --> 00:02:22.028
+I'll have, uh, I'll define N as a number, then after that, I'll make N plus 1,
+
+00:02:19.519 --> 00:02:22.519
+Then, after that, I'll make N plus 1.
+
+00:02:22.375 --> 00:02:24.375
+End plus B or plus 1?
+
+00:02:22.753 --> 00:02:24.753
+And plus B or plus 1?
+
+00:02:25.118 --> 00:02:29.118
+N plus B. Sorry, I'll make it N plus B.
+
+00:02:25.340 --> 00:02:29.340
+N plus B. So, yeah, I'll make it N plus B.
+
+00:02:29.733 --> 00:02:36.733
+Oh yeah, so I'm trying to imagine right now how… You can also write if you want to. Yeah. For example, what you are trying to do is… and… and…
+
+00:02:30.256 --> 00:02:36.256
+I'm trying to imagine right now how… Yeah. For example, what you are trying to do is…
+
+00:02:37.009 --> 00:02:42.009
+set N to A here, then you do N plus, uh, let's say B, right?
+
+00:02:37.206 --> 00:02:42.206
+And you said N20, then you do N plus, let's say, P, right?
+
+00:02:42.033 --> 00:02:46.033
+Yeah. So, whatever, like, let's say, for example,
+
+00:02:42.413 --> 00:02:46.413
+Yeah. So, whatever, like, let's say, for example,
+
+00:02:47.203 --> 00:02:49.203
+We have, uh…
+
+00:02:47.660 --> 00:02:50.660
+We have, uh… you said we already have zero and one.
+
+00:02:49.121 --> 00:02:52.121
+You said we already have zero and one, right?
+
+00:02:50.678 --> 00:02:54.678
+Then, we will, like…
+
+00:02:52.990 --> 00:02:54.990
+Then, we will, like…
+
+00:02:54.885 --> 00:02:56.885
+We add the number…
+
+00:02:55.228 --> 00:02:57.228
+We add the number…
+
+00:02:56.982 --> 00:03:02.982
+means you add the number you want one. Yes. You add 0 and 1, you want… Yeah, exactly. I got one. Where would you store one? So, can I…
+
+00:02:57.283 --> 00:03:03.283
+If you add the number equivalent. Yeah. Yeah, exactly. I go 20. So, can I…
+
+00:03:03.625 --> 00:03:06.625
+Can I loop? Can I loop, and uh…
+
+00:03:03.904 --> 00:03:06.904
+Like, can I loop? Can I loop, and uh…
+
+00:03:07.459 --> 00:03:10.459
+How can I explain this? You can run the loop? Yeah.
+
+00:03:08.745 --> 00:03:10.745
+How can I explain this? You can run the route? Yeah.
+
+00:03:10.596 --> 00:03:12.596
+1, 2, 3, 4, 5…
+
+00:03:10.728 --> 00:03:12.728
+Right.
+
+00:03:13.320 --> 00:03:21.320
+1, 2, 3, 4, 5, 6 times. Yeah. You can run the loop 6 times. Let's say it's running 6 times. Okay. You just need to print.
+
+00:03:13.368 --> 00:03:21.368
+1, 2, 3, 4, 5, 6 strings. Yeah. You can run the loop 6 strings. Let's say it's running 6 strings. Okay. You just need to print.
+
+00:03:22.078 --> 00:03:27.078
+You just need to print, let's say, one first, then two firsts, then three, five, eight, twenty. Gotcha, okay.
+
+00:03:22.421 --> 00:03:26.421
+You just need to print, let's say, one first, then two first, then three, five, eight, and…
+
+00:03:26.516 --> 00:03:28.516
+Got it, okay?
+
+00:03:28.404 --> 00:03:32.404
+So… And take your time. Like, take 2 minutes, think about, right? And then…
+
+00:03:28.595 --> 00:03:32.595
+Take 2 minutes, think about it, right?
+
+00:03:32.961 --> 00:03:37.961
+And you can even write, or draw, whatever you like.
+
+00:03:33.127 --> 00:03:36.127
+And you can even write? Yeah.
+
+00:03:36.276 --> 00:03:38.276
+Or draw, or whatever you like.
+
+00:03:38.268 --> 00:03:40.268
+Okay, so…
+
+00:03:38.611 --> 00:03:40.611
+Okay.
+
+00:03:48.528 --> 00:03:50.528
+Can you import that?
+
+00:03:48.872 --> 00:03:50.872
+tend to be important, huh?
+
+00:03:51.515 --> 00:03:53.515
+That's not an option?
+
+00:03:51.770 --> 00:03:53.770
+That's not an option.
+
+00:03:55.716 --> 00:03:57.716
+So…
+
+00:03:56.098 --> 00:03:58.098
+So…
+
+00:04:00.213 --> 00:04:03.213
+I'm going to have…
+
+00:04:01.802 --> 00:04:03.802
+I'm trying to have…
+
+00:04:03.696 --> 00:04:05.696
+An answer that's clear.
+
+00:04:04.009 --> 00:04:06.009
+And answer, that's clear.
+
+00:04:06.528 --> 00:04:08.528
+Just nail it.
+
+00:04:47.500 --> 00:04:54.500
+So, Mr. What I'll do is number, first of all, like, let's say, starting with 1, it'll be 1 plus B, and uh…
+
+00:04:47.690 --> 00:04:51.690
+Um, so what I'll do is each number, first of all, like, let's say, starting with 1,
+
+00:04:51.762 --> 00:04:55.762
+It'll be 1 plus B, and uh… then we'll…
+
+00:04:54.561 --> 00:04:57.561
+then we'll… can we loop and, like…
+
+00:04:55.926 --> 00:04:57.926
+Can we loop and, like,
+
+00:04:58.876 --> 00:05:00.876
+I'm trying to think of the right word for each…
+
+00:04:59.290 --> 00:05:01.290
+I'm trying to think of the right word for each name.
+
+00:05:00.856 --> 00:05:02.856
+like, let's say, for example, one,
+
+00:05:01.169 --> 00:05:03.169
+like, let's say, for example, one…
+
+00:05:03.539 --> 00:05:13.539
+It'll be added… will add one to this, then we'll add one to this, and going on. So, is the correct word, is looping? Like, loops, right? Yeah, a loop the list, but uh…
+
+00:05:04.297 --> 00:05:12.297
+It'll be added… we'll add one to this, and we'll add one to this, and going on. So, is the correct word, is looping? Like, loops? Yeah, I'll loop the list.
+
+00:05:12.411 --> 00:05:14.411
+But, uh…
+
+00:05:15.215 --> 00:05:34.215
+Or maybe you can just generate the next number. Loop is fixed, so it will run 6 times. Yeah, it'll run 6 times, that's all. The hint is, is you can also try to upgrade these. Like, for example… I can upgrade, yeah, like, so let's add C, you mean, like, add… No, no, like, for example, A0 and B is 1, right? Yeah. And you already have N also. Yeah. So, what you can do is, when you move forward… Yeah.
+
+00:05:15.335 --> 00:05:17.335
+Or maybe you can just generate the next number.
+
+00:05:18.004 --> 00:05:24.004
+Yeah, it'll run 6 times, that's what… The hint is, is you can also try to upgrade these.
+
+00:05:24.647 --> 00:05:30.647
+I can upgrade… yeah, so let's add C, you mean, like, adding… No, like, for example, A is 0 means 1, right? Yeah. And you already have N also.
+
+00:05:31.414 --> 00:05:34.414
+Yeah, so what you can do is, when you move forward… Yeah.
+
+00:05:34.441 --> 00:05:36.441
+Think about it, right? So when you move forward,
+
+00:05:34.630 --> 00:05:36.630
+think about it, right? So when you move forward,
+
+00:05:37.108 --> 00:05:46.108
+So, automatically, A becomes 1 now, and B become 1. Yeah. And when you move forward again, so now A becomes 1 and B become 2, then it's forward, so… Yeah. Yeah, so…
+
+00:05:37.415 --> 00:05:46.415
+So, automatically, A becomes 1 now, and B become one. Yeah. And when you move forward again, so now A becomes 1 and B become 2. Yeah, becomes 2. Yeah, yeah, so…
+
+00:05:46.753 --> 00:05:58.753
+Is there anything coming in your mind? Like, I know, see, this question is actually, uh, solved best when you actually try it out. Exactly, that's… I'm trying… So, I will give you another one, right? Okay. Forget about it. Yes, I will give you another one.
+
+00:05:47.233 --> 00:05:55.233
+Is there anything coming in your mind? You know, see, this question is actually, uh, solved best when you actually… Exactly, that's… I'm trying…
+
+00:05:55.891 --> 00:05:58.891
+Okay.
+
+00:05:59.435 --> 00:06:02.435
+So, the other one is this. Let's say you have, uh…
+
+00:05:59.735 --> 00:06:02.735
+So, the other one is this. Let's say you have, uh…
+
+00:06:03.155 --> 00:06:05.155
+B, uh, 3?
+
+00:06:03.545 --> 00:06:10.545
+2, 3, and 4, 1, and 6, and let's say 1 and 3, right?
+
+00:06:05.866 --> 00:06:10.866
+And… and space, and let's say 1 and 3, space.
+
+00:06:10.430 --> 00:06:12.430
+Okay.
+
+00:06:10.827 --> 00:06:12.827
+Okay.
+
+00:06:12.946 --> 00:06:15.946
+There's something called Target. Yeah.
+
+00:06:13.298 --> 00:06:16.298
+There's something for target. Yeah.
+
+00:06:17.479 --> 00:06:19.479
+And I think we are supposed to have done it.
+
+00:06:17.793 --> 00:06:19.793
+I think we are responsible for have done that.
+
+00:06:19.599 --> 00:06:23.599
+Back in the days, and let's say target is 5, right? Okay.
+
+00:06:19.938 --> 00:06:23.938
+Back in the days, yeah. That's your target is fun, right? Okay.
+
+00:06:23.599 --> 00:06:25.599
+So,
+
+00:06:23.777 --> 00:06:25.777
+So,
+
+00:06:25.584 --> 00:06:27.584
+Uh…
+
+00:06:28.096 --> 00:06:30.096
+need your logic.
+
+00:06:28.404 --> 00:06:30.404
+need your logic. Yeah.
+
+00:06:30.975 --> 00:06:33.975
+to figure out which two numbers you can add to…
+
+00:06:31.173 --> 00:06:34.173
+to figure out which two numbers you can add to…
+
+00:06:34.590 --> 00:06:40.590
+which two numbers we can add to get 5? You get 5, but as soon as you find those two numbers, you print those two numbers.
+
+00:06:34.912 --> 00:06:40.912
+which two numbers we can add to get 5? We got 5, but as soon as you find those two numbers, you print those two.
+
+00:06:41.278 --> 00:06:43.278
+Can't we add all of those and divide them?
+
+00:06:41.611 --> 00:06:43.611
+Can't we add all of those and divide them?
+
+00:06:43.460 --> 00:06:45.460
+like, uh…
+
+00:06:43.897 --> 00:06:45.897
+like, uh…
+
+00:06:46.178 --> 00:06:50.178
+Like, for example, fiber, for example. The output will look like this. Let me show you the output.
+
+00:06:46.269 --> 00:06:50.269
+Like, for example, right? For example, the output will look like this.
+
+00:06:51.192 --> 00:06:53.192
+Output will look like this, like, two, uh…
+
+00:06:51.471 --> 00:06:53.471
+output will look like this, like two, uh…
+
+00:06:53.909 --> 00:06:57.909
+2 and 3. Okay. And 4 and 1?
+
+00:06:54.226 --> 00:06:58.226
+to entry. Okay. And 4 and 1.
+
+00:06:58.102 --> 00:07:00.102
+And that's it, just too.
+
+00:07:00.096 --> 00:07:02.096
+So, output will…
+
+00:07:01.277 --> 00:07:03.277
+outputable.
+
+00:07:02.829 --> 00:07:04.829
+give you 2 and 3 and 2 and 1.
+
+00:07:03.252 --> 00:07:05.252
+give you 2 and 3 and 4 and 1.
+
+00:07:05.695 --> 00:07:10.695
+If you want an order, because if you had 2 and 3, plus 5, if you had 4 and 1 and… It'll become 5.
+
+00:07:06.121 --> 00:07:11.121
+If you want in a stream or not, because if you had 2 and 3, it becomes 5. Yeah, it'll become 5.
+
+00:07:10.771 --> 00:07:12.771
+But…
+
+00:07:10.974 --> 00:07:12.974
+But…
+
+00:07:13.126 --> 00:07:18.126
+Yeah, just two numbers. It should not be more than two. It cannot be 3 plus 1 plus 1. Yeah.
+
+00:07:14.510 --> 00:07:18.510
+Just two numbers, yeah, true numbers. So nothing more than two, it cannot be 3 plus 1 plus 1. Yeah.
+
+00:07:18.799 --> 00:07:23.799
+So, the only thing you need to note is you have to scan the list,
+
+00:07:19.126 --> 00:07:24.126
+Got it, got it. So, the only thing you need to do is, you have to scan the list
+
+00:07:24.477 --> 00:07:27.477
+Okay? To get 5. And as soon as…
+
+00:07:24.894 --> 00:07:27.894
+Okay? To get 5. And as soon as…
+
+00:07:27.700 --> 00:07:29.700
+two numbers matches 5, you plant it.
+
+00:07:28.010 --> 00:07:30.010
+two numbers matches 5, you get it.
+
+00:07:30.161 --> 00:07:32.161
+reasonably. Okay, so…
+
+00:07:30.488 --> 00:07:32.488
+Okay, so…
+
+00:07:33.152 --> 00:07:35.152
+So it's just… we add…
+
+00:07:33.350 --> 00:07:35.350
+So it's just, like, we add…
+
+00:07:35.512 --> 00:07:43.512
+two numbers, then, like, let's say, for example, 2 and 3, and we get 5. So, but you want to know what… What would the condition, like, what would be the condition, actually?
+
+00:07:36.278 --> 00:07:42.278
+two numbers, then, like, let's say, for example, 2 and 3, and we get 5. So, but you want to know what the condition, like…
+
+00:07:43.170 --> 00:07:47.170
+If? If… yeah, it'll be an if statement. If, uh…
+
+00:07:43.958 --> 00:07:46.958
+Yeah, if… yeah, it'll be… if statement, if, uh…
+
+00:07:47.828 --> 00:07:51.828
+And if, uh, your index is right, yeah, indexes, so…
+
+00:07:49.281 --> 00:07:52.281
+If, uh… Yeah, indexes, so…
+
+00:07:53.373 --> 00:07:55.373
+let's say if…
+
+00:07:53.708 --> 00:07:55.708
+let's say if…
+
+00:07:56.224 --> 00:08:01.224
+0. Okay, let's start with the first number, right? So you start with the first number here. Yeah, which is 2.
+
+00:07:56.304 --> 00:08:01.304
+zero. Okay, let's start with the first one, right? So you start with the first number. Yeah, which is 2.
+
+00:08:01.624 --> 00:08:05.624
+But in the index at zero. Yes. Yeah. Then how will you run the… run it?
+
+00:08:01.887 --> 00:08:03.887
+But in the index, it's zero. Yes. Yeah.
+
+00:08:03.887 --> 00:08:05.887
+then how will you run the… run it?
+
+00:08:06.524 --> 00:08:10.524
+I just want to, like, understand the logic of printing with the peers.
+
+00:08:07.169 --> 00:08:11.169
+I just want to, like, understand the logic of printing the beers.
+
+00:08:12.764 --> 00:08:15.764
+let's say if, uh…
+
+00:08:13.010 --> 00:08:16.010
+let's say if, uh…
+
+00:08:17.178 --> 00:08:22.178
+trying to generate the right words. You don't need the right terminology, right?
+
+00:08:18.374 --> 00:08:21.374
+science and read the right words. You don't need the right terminology, right?
+
+00:08:22.370 --> 00:08:24.370
+Okay, let's…
+
+00:08:24.993 --> 00:08:29.993
+And you can take your time, you can think about it, don't… don't… don't be worried, right? Just think about it.
+
+00:08:26.120 --> 00:08:28.120
+Do you take your time to think about it, to…
+
+00:08:28.394 --> 00:08:30.394
+Don't be worried, wait, just think about it.
+
+00:08:32.330 --> 00:08:34.330
+thinking about it a little bit.
+
+00:08:32.588 --> 00:08:34.588
+thinking of ways.
+
+00:08:46.482 --> 00:08:52.482
+We're not supposed to define anything right now, right? Yeah, but I can tell you… so, for example, when you start here… Yeah.
+
+00:08:46.955 --> 00:08:52.955
+We're not supposed to define anything like that, right? Yeah, but I… so, for example, when you start here… Yeah.
+
+00:08:53.668 --> 00:09:00.668
+you are going to run the loop how many times? 1, 2, 3, 4, 5, 6, 6 times only. Yeah. Why? Because…
+
+00:08:53.858 --> 00:09:00.858
+you are going to run the loop how many times? 1, 2, 3, 4, 5, 6… 6 times only. Yeah. Why?
+
+00:09:01.122 --> 00:09:06.122
+When… when you, uh, when you look at this item, automatically you are going to compare it with the next.
+
+00:09:01.696 --> 00:09:07.696
+When you, uh, when you look at this item, automatically you're going to compare it with the test. Yeah, exactly, that's…
+
+00:09:06.774 --> 00:09:10.774
+Yeah, exactly, that's… So now, using this project, how can you actually figure out…
+
+00:09:08.137 --> 00:09:11.137
+So now, using this logic, how can you actually figure out…
+
+00:09:11.300 --> 00:09:14.300
+Just if condition is needed present. Yeah, so…
+
+00:09:11.704 --> 00:09:14.704
+just if condition is needed, right? Yeah, so…
+
+00:09:15.443 --> 00:09:23.443
+Yeah, that's… that's the thing in my mind, because, you know, yeah.
+
+00:09:15.713 --> 00:09:24.713
+Figure out, like, where I stood, or what? Yeah, that's the thing in my mind, because, you know, when it comes… yeah, so here, for example…
+
+00:09:23.871 --> 00:09:26.871
+It's, uh, this has been cut.
+
+00:09:25.492 --> 00:09:28.492
+is, uh, this is going to happen. Let's say 4. Yeah.
+
+00:09:26.931 --> 00:09:28.931
+let's say 4. Yeah.
+
+00:09:29.935 --> 00:09:33.935
+Um, and I will say… let's say I, right, is the index. Yeah.
+
+00:09:30.419 --> 00:09:34.419
+I would say… let's say I, right?
+
+00:09:34.407 --> 00:09:36.407
+In…
+
+00:09:36.839 --> 00:09:38.839
+change…
+
+00:09:40.319 --> 00:09:42.319
+And this is… let's say there's L, yeah?
+
+00:09:42.895 --> 00:09:46.895
+And for I and range, uh, length of L.
+
+00:09:47.264 --> 00:09:49.264
+Okay.
+
+00:09:49.457 --> 00:09:51.457
+Right? And length of L minus 1, so…
+
+00:09:49.738 --> 00:09:51.738
+Right, and let the fail-minus control.
+
+00:09:51.731 --> 00:10:02.731
+So, I will be… I will become zero automatically the first time, then I will become 1, 1, then I will become 2, I will become 3, and it will stop at 4, 5, right? Yeah, it will stop here.
+
+00:09:52.449 --> 00:10:00.449
+disruption. So, I will be… I will become zero automatically the first time, then I will become 1, then I will become 2, I will become the thing, and it will stop.
+
+00:10:00.763 --> 00:10:02.763
+At 4, 5. Yeah, let us stop here.
+
+00:10:03.353 --> 00:10:05.353
+Uh, it's fine. Yeah, so here…
+
+00:10:03.513 --> 00:10:05.513
+That's fine. Yeah, so… Yeah.
+
+00:10:06.593 --> 00:10:08.593
+Uh, now here you have…
+
+00:10:06.752 --> 00:10:08.752
+Uh, now here you have…
+
+00:10:08.988 --> 00:10:10.988
+If you do L, I,
+
+00:10:09.413 --> 00:10:11.413
+If you do L, I,
+
+00:10:11.801 --> 00:10:20.801
+Yeah. Here, so you get automatically too. Yeah, I'll get two. If you do I plus 1, you get 3 automatically, right? Yeah, totally. So, like, uh, what would be the formula to actually
+
+00:10:12.212 --> 00:10:18.212
+Yeah. Yeah, so you get automatically 2. Yeah, I'll get two. If you do I plus one, you get 3. Yeah, so… so…
+
+00:10:18.837 --> 00:10:20.837
+like, uh, what would be the formula to actually
+
+00:10:21.185 --> 00:10:29.185
+Like, what would be the condition if, like, what would be the condition? I, and then just to clarify, for I and range of…
+
+00:10:21.971 --> 00:10:24.971
+Like, what would be the condition?
+
+00:10:25.499 --> 00:10:29.499
+I… just to clarify, for I in range of…
+
+00:10:29.771 --> 00:10:36.771
+You just have to fill this condition. This is correct, this is correct, now here. So, I refers to, like, uh… Index. The index.
+
+00:10:30.094 --> 00:10:37.094
+You just have to find this condition. So, I refers to, like, the index.
+
+00:10:37.954 --> 00:10:40.954
+So… If you have L0, it means to first element.
+
+00:10:38.330 --> 00:10:40.330
+So… If you have L0, plus 2.
+
+00:10:40.395 --> 00:10:42.395
+Perfect. Okay, so…
+
+00:10:40.827 --> 00:10:45.827
+Okay, so… and 0… It means first element, right? Yeah. So…
+
+00:10:43.243 --> 00:10:45.243
+It means first order. Yeah.
+
+00:10:45.230 --> 00:10:47.230
+So… Yeah.
+
+00:10:46.155 --> 00:10:48.155
+Yeah. L…
+
+00:10:47.871 --> 00:10:50.871
+And… So after effort to input, yeah.
+
+00:10:48.536 --> 00:10:50.536
+So after F, what do you put here?
+
+00:10:50.655 --> 00:10:52.655
+I'll put…
+
+00:10:50.851 --> 00:10:52.851
+I'll put…
+
+00:10:57.542 --> 00:11:02.542
+I just want to put 2 plus 3, but I'm trying… Is this LI, so you put LI?
+
+00:10:57.796 --> 00:11:02.796
+I just want to put two mini… 2 plus 3, but I'm trying. So you put LI?
+
+00:11:03.128 --> 00:11:07.128
+L, and I, inside I. Yeah. Plus…
+
+00:11:03.400 --> 00:11:05.400
+L and I?
+
+00:11:05.625 --> 00:11:07.625
+So, you know? Yeah. Plus…
+
+00:11:08.052 --> 00:11:10.052
+L, I minus 1. I minus 1, sorry.
+
+00:11:08.343 --> 00:11:10.343
+L, I minus 1. I-13.
+
+00:11:10.391 --> 00:11:12.391
+Inside the brackets, i plus 1.
+
+00:11:10.525 --> 00:11:12.525
+Sorry, sorry, the buckets, I need this one.
+
+00:11:12.357 --> 00:11:17.357
+Uh, I? This one. This one. Now, let's say you have this, right? Okay. Now, this is 2 and 3.
+
+00:11:12.673 --> 00:11:17.673
+Aye? This one. Now, let's say you have this, right? Okay. Now, this is 283.
+
+00:11:17.580 --> 00:11:19.580
+Yeah. And now compare it with what, like…
+
+00:11:17.882 --> 00:11:19.882
+Yeah. And now compare it with what, like…
+
+00:11:20.324 --> 00:11:23.324
+You also have the variables here. Yeah, yeah.
+
+00:11:20.531 --> 00:11:24.531
+You're going… you also have the variable here. Yeah, yeah. So…
+
+00:11:23.309 --> 00:11:25.309
+So…
+
+00:11:25.464 --> 00:11:30.464
+Double equal to, or greater than, or what, like… Double equal to, okay, yes, put double equal to a number.
+
+00:11:25.684 --> 00:11:27.684
+double equal to, or greater than what?
+
+00:11:28.749 --> 00:11:30.749
+put double equal to, yes, put double equal to.
+
+00:11:32.442 --> 00:11:34.442
+And double equal to the…
+
+00:11:32.561 --> 00:11:34.561
+And double equal to the…
+
+00:11:35.022 --> 00:11:37.022
+5. The target? Which is target.
+
+00:11:35.152 --> 00:11:37.152
+Five, the target, which is the target?
+
+00:11:38.888 --> 00:11:41.888
+And if it matches, if it's true, for example, then you print what?
+
+00:11:39.141 --> 00:11:42.141
+And if it mentions, for example, then you predict what?
+
+00:11:42.677 --> 00:11:44.677
+So here, right print?
+
+00:11:42.966 --> 00:11:44.966
+It's not here, right, Brent?
+
+00:11:45.455 --> 00:11:48.455
+But what footprint? What will be the variables that you will print?
+
+00:11:45.520 --> 00:11:47.520
+But what fully do to the variable?
+
+00:11:53.372 --> 00:11:59.372
+Is it the target, or…? We have to print the numbers, like… Yeah, this and this.
+
+00:11:53.806 --> 00:11:59.806
+Is it the target? No, wait. We have to print the numbers, like, this and this.
+
+00:12:00.181 --> 00:12:02.181
+So, print 2 and 3? Yeah.
+
+00:12:00.444 --> 00:12:02.444
+So, print 2 and 3? Yeah.
+
+00:12:03.295 --> 00:12:07.295
+No, no, but, like, 2 and 3, you cannot hard-code it, right? Yeah. So…
+
+00:12:03.583 --> 00:12:07.583
+No, no, but, like, 2 or 3, you cannot hardcode it, right? Yeah, so…
+
+00:12:09.804 --> 00:12:11.804
+Uh, you already have…
+
+00:12:10.357 --> 00:12:13.357
+Uh, you already have done it. Yeah. Think about it.
+
+00:12:22.835 --> 00:12:24.835
+Can I do, uh, yeah.
+
+00:12:23.239 --> 00:12:25.239
+Can I do… yeah.
+
+00:12:24.941 --> 00:12:26.941
+Just tell me, give me ideas.
+
+00:12:25.220 --> 00:12:27.220
+Just tell me and give me ideas.
+
+00:12:27.099 --> 00:12:30.099
+Yes. So, are you afraid of it.
+
+00:12:29.110 --> 00:12:31.110
+So, I refers to the…
+
+00:12:30.729 --> 00:12:34.729
+You already have 10X, which is zero, yeah.
+
+00:12:31.836 --> 00:12:34.836
+You already have index, which is zero, yeah.
+
+00:12:34.704 --> 00:12:36.704
+So…
+
+00:12:34.790 --> 00:12:36.790
+So…
+
+00:12:41.419 --> 00:12:46.419
+Should I write L, which is… Right, right, right, L, and then, in the square brackets, what will come?
+
+00:12:41.512 --> 00:12:46.512
+Should they write L, which is… and then in the Scribe package, what will come?
+
+00:12:47.464 --> 00:12:51.464
+to lower, like, index, right? Zero?
+
+00:12:47.687 --> 00:12:51.687
+Two, uh, newer, like, index, right? Zero.
+
+00:12:52.183 --> 00:12:56.183
+But you cannot write the number, you can… you have to use the variables here. I have to use the variable, which is…
+
+00:12:52.653 --> 00:12:56.653
+No, no, no. You have to use the variable the same. I have to use the variable, which is…
+
+00:12:56.804 --> 00:13:00.804
+I right now. Yeah. So I… I can…
+
+00:12:57.200 --> 00:13:04.200
+I right now. Yeah. I 0, means 2, right? So I even put here. I plus, yeah, I… like, you're just printing, right? Yeah.
+
+00:13:01.610 --> 00:13:04.610
+I plus, yeah, I… like, I just put them right here.
+
+00:13:04.809 --> 00:13:06.809
+So, I plus…
+
+00:13:04.990 --> 00:13:06.990
+So, I plus…
+
+00:13:06.914 --> 00:13:08.914
+If you write 1, it becomes 3 automatically.
+
+00:13:06.963 --> 00:13:08.963
+If you write 1, it becomes 3 automatically.
+
+00:13:09.037 --> 00:13:14.037
+two… no, not two anymore, like, it will become three. Because, uh, 3 is the next number.
+
+00:13:09.607 --> 00:13:12.607
+not to any good, like, it will become 3.
+
+00:13:12.605 --> 00:13:14.605
+So, the next number.
+
+00:13:15.412 --> 00:13:17.412
+So, I just select index, right?
+
+00:13:15.988 --> 00:13:19.988
+So it's just like the index, right? Yeah. So one.
+
+00:13:17.396 --> 00:13:19.396
+Yeah, so one?
+
+00:13:20.145 --> 00:13:25.145
+Now, this… you are… you have to pay printing. You are printing 3 now. Yeah. But you also need to print 2 also.
+
+00:13:20.386 --> 00:13:25.386
+Now, this… you are… you have to… Yeah, yeah. You are putting freedom. Yeah. But you also need to print tools.
+
+00:13:26.324 --> 00:13:28.324
+I need to plant two. Can I also…
+
+00:13:26.875 --> 00:13:31.875
+I need to… can I… yes, just put comma… Yeah.
+
+00:13:28.485 --> 00:13:32.485
+It's just a comma and… Yeah, plus?
+
+00:13:32.144 --> 00:13:36.144
+Plus, or…? Uh, no need for plus, just fine, just printed.
+
+00:13:35.981 --> 00:13:37.981
+Directly.
+
+00:13:41.604 --> 00:13:43.604
+Plus… okay. Two?
+
+00:13:42.019 --> 00:13:44.019
+Let's… okay.
+
+00:13:43.667 --> 00:13:45.667
+Uh, no.
+
+00:13:43.953 --> 00:13:45.953
+Uh, no.
+
+00:13:46.848 --> 00:13:49.848
+If you write 1, it will again become 3. Yeah. But we need 2.
+
+00:13:46.975 --> 00:13:49.975
+If you write 1, it will again become 3. Yeah. But we need 2.
+
+00:13:50.267 --> 00:13:52.267
+Zero. Yeah, do, right?
+
+00:13:50.432 --> 00:13:52.432
+Zilli. Yeah, two, right?
+
+00:13:53.455 --> 00:13:57.455
+Or you can just completely remove plus, you know, because plus zero is nothing. Yeah, exactly.
+
+00:13:53.867 --> 00:13:59.867
+Or… or you would just completely remove plus, you know, but plus you use nothing. Yeah, exactly. So, just like, you know, so…
+
+00:13:57.801 --> 00:13:59.801
+Just, yeah, zero.
+
+00:14:00.102 --> 00:14:06.102
+Because I… I mean, by default equal to this. So, yeah, there's a pretty… okay.
+
+00:14:00.580 --> 00:14:06.580
+Because I… So, yeah, no, this is… right? Okay.
+
+00:14:06.244 --> 00:14:10.244
+So, let's… okay, let's see how you are designing.
+
+00:14:07.117 --> 00:14:17.117
+So, let's move… okay, let's see everything we're designing, and anonymous feedback system, right? Okay. Yeah. So people actually may…
+
+00:14:11.353 --> 00:14:15.353
+Yeah, and anonymous feedback system, right? Okay. You see recognis factors that we do, right? Yeah.
+
+00:14:15.192 --> 00:14:17.192
+People actually, uh…
+
+00:14:17.270 --> 00:14:20.270
+your client needs an application sheet.
+
+00:14:17.585 --> 00:14:20.585
+your client needs an application,
+
+00:14:20.654 --> 00:14:25.654
+Where you can actually use it to get feedback, a lot of feedback, right? The client needs feedback.
+
+00:14:21.321 --> 00:14:32.321
+Where you can actually use it to get feedback, a lot of feedback. The client needs an application to get feedback. Get feedback, okay. So, for example, it tells you, can you please create your application for me?
+
+00:14:25.913 --> 00:14:32.913
+So, for example, it tells you, Amit, can you please create an application for me? Okay.
+
+00:14:32.573 --> 00:14:34.573
+Okay. Uh, and…
+
+00:14:33.986 --> 00:14:36.986
+Uh, and, uh, just give me a Python application.
+
+00:14:35.211 --> 00:14:37.211
+Uh, just give me a final application.
+
+00:14:37.055 --> 00:14:42.055
+that I can actually share with people, so they can actually give their feedback. Okay.
+
+00:14:37.333 --> 00:14:42.333
+that they can actually share with people so they can actually get their feedback, okay?
+
+00:14:43.130 --> 00:14:45.130
+But now, the thing is that, because they're…
+
+00:14:43.408 --> 00:14:45.408
+But now, the thing is that, because we are…
+
+00:14:46.436 --> 00:14:49.436
+There are so many people, even with hundreds.
+
+00:14:46.875 --> 00:14:49.875
+There are so many people, you can agree, right? There are hundreds.
+
+00:14:50.278 --> 00:14:53.278
+So there is traffic. So, yeah, let's say there's traffic right here.
+
+00:14:50.539 --> 00:14:53.539
+So that is the traffic. So, yeah, that's a piece of traffic.
+
+00:14:53.374 --> 00:14:55.374
+You have to strobe all of the feedback.
+
+00:14:53.511 --> 00:14:55.511
+You have to extrude all of the feedback.
+
+00:14:56.309 --> 00:14:59.309
+Okay. But the only two options you have is that they're understood, right?
+
+00:14:56.540 --> 00:14:59.540
+Quickly. The only two options you have is either a list or a notch, right?
+
+00:15:00.177 --> 00:15:02.177
+either a list or a chicken.
+
+00:15:00.452 --> 00:15:04.452
+either a list or a dictionary, right? So, which one would you choose?
+
+00:15:02.297 --> 00:15:04.297
+So, which one would you choose?
+
+00:15:04.761 --> 00:15:09.761
+If, let's say, if there are too many feedbacks coming in, and you have to restore it,
+
+00:15:05.744 --> 00:15:08.744
+If, let's say, if there are too many feedbacks coming in,
+
+00:15:09.309 --> 00:15:11.309
+After a student, super fast.
+
+00:15:10.074 --> 00:15:12.074
+super fast, so…
+
+00:15:11.775 --> 00:15:14.775
+So, would you choose a list, or would you choose a dictionary?
+
+00:15:12.542 --> 00:15:14.542
+Would you choose a list, or would you choose a dictionary?
+
+00:15:16.240 --> 00:15:21.240
+You told me, just to clarify, you told me that, uh, like, there is lots of
+
+00:15:16.544 --> 00:15:18.544
+You told me to clarify.
+
+00:15:18.984 --> 00:15:20.984
+told me that, uh, like, there is lots of
+
+00:15:20.962 --> 00:15:22.962
+Traffic, uh…
+
+00:15:21.182 --> 00:15:23.182
+traffic, and uh…
+
+00:15:24.062 --> 00:15:26.062
+like, the client wants…
+
+00:15:24.431 --> 00:15:26.431
+like, the client wants…
+
+00:15:26.765 --> 00:15:32.765
+just feedbacks from, like, this. Don't worry about AI, this is… imagine you had… you have a proper setup,
+
+00:15:27.092 --> 00:15:33.092
+just feedbacks from, like, don't worry about… Yeah, you are having a lot of data.
+
+00:15:33.124 --> 00:15:35.124
+Continues.
+
+00:15:33.316 --> 00:15:35.316
+Yeah, continuously, as I change it, like…
+
+00:15:35.330 --> 00:15:39.330
+Am I going to change the data? Is it, like… not right now. Right now,
+
+00:15:35.450 --> 00:15:39.450
+Am I going to change this data? Is it, like… Not right now. Right now?
+
+00:15:39.393 --> 00:15:42.393
+The question is simply just, would you prefer…
+
+00:15:40.578 --> 00:15:43.578
+The question is simply just, would you prefer… would you prefer?
+
+00:15:42.991 --> 00:15:44.991
+We prefer storing it in a dictionary?
+
+00:15:44.511 --> 00:15:49.511
+Storing it in a dictionary, or others? Can I ask one more question? What type of data is it?
+
+00:15:45.839 --> 00:15:49.839
+or a list. Can I ask one more question? What type of data is it? You said just a string. A string.
+
+00:15:49.482 --> 00:15:54.482
+Street. Feedback is just a street, right? Yeah, yeah. So, yes, of course.
+
+00:15:51.280 --> 00:15:54.280
+Feedback is just a string, right? Yeah, yeah. So, yes, of course,
+
+00:15:54.955 --> 00:15:56.955
+With the string, you can have the username also. Yeah.
+
+00:15:55.107 --> 00:15:59.107
+The string, you can have the username also. Yeah. Or email, right? I'll use a dictionary.
+
+00:15:57.148 --> 00:15:59.148
+I use a dictionary.
+
+00:15:59.826 --> 00:16:01.826
+Oh, yeah. What would be the reason for using a dictionary?
+
+00:15:59.974 --> 00:16:01.974
+What are the reason for using…
+
+00:16:02.556 --> 00:16:05.556
+Um, because they will be, like, a key value,
+
+00:16:02.853 --> 00:16:05.853
+Um, because they would be, like, a key value.
+
+00:16:06.270 --> 00:16:10.270
+That's, uh… how can I explain this? For a dictionary,
+
+00:16:06.563 --> 00:16:10.563
+That's, uh… how can I explain… for a dictionary?
+
+00:16:10.233 --> 00:16:15.233
+Because you're not just storing, you know, like, numbers, you're storing data.
+
+00:16:11.372 --> 00:16:15.372
+Because you're not just storing, you know, like, numbers, you're storing data.
+
+00:16:15.340 --> 00:16:17.340
+So…
+
+00:16:15.600 --> 00:16:17.600
+So…
+
+00:16:18.216 --> 00:16:27.216
+But where is storing the data, right? Yeah. Please remember, you are storing very fast. Yeah. You are not reading very fast, you are storing more. I'm storing very fast, and you are not reading, but you can also read
+
+00:16:18.501 --> 00:16:27.501
+But you're storing the data, right? Because remember, you're storing very fast, but you're not dealing with very fast. So, our story verifies. First, we do not complete, but you can also need
+
+00:16:27.385 --> 00:16:29.385
+If you want, but reading is…
+
+00:16:27.794 --> 00:16:29.794
+If you want my greediness,
+
+00:16:29.992 --> 00:16:34.992
+Uh, something that is rarely people do in that system, but people store a lot, so…
+
+00:16:30.679 --> 00:16:33.679
+Uh, something that is… rarely people do here in that system.
+
+00:16:33.555 --> 00:16:35.555
+But people are still remote, so…
+
+00:16:35.763 --> 00:16:44.763
+And let's say you use dictionary, because you can actually define… Yeah, you can define, you have a K-value and all of those things. Yeah. But you told me since it's, uh…
+
+00:16:35.982 --> 00:16:41.982
+And let's say you use dictionary because you can actually define… Yeah, you can define… you have a key value and none of those things.
+
+00:16:42.153 --> 00:16:45.153
+Yeah. But, uh, you told me since it's, uh…
+
+00:16:44.755 --> 00:16:47.755
+Trolling rapidly, yeah. So…
+
+00:16:46.089 --> 00:16:48.089
+student here. So…
+
+00:16:48.213 --> 00:16:59.213
+It's fine, you can stick with the author also. Sometimes I will… I'll say, I'm trying… I'm sticking with the answer, but I can try to confuse you, but don't get confused, right? Forgot to talk. So, yeah, are you sure…
+
+00:16:49.006 --> 00:16:57.006
+Sometimes I will try to confuse. We are sticking with the answer, but I'm trying to confuse you? Yeah, don't get confused, right?
+
+00:16:57.719 --> 00:16:59.719
+Gotcha, doctor.
+
+00:16:59.844 --> 00:17:03.844
+I'll go with that. I'll show you go with the… I will say something about it.
+
+00:17:00.112 --> 00:17:04.112
+I'll go in the direction.
+
+00:17:04.066 --> 00:17:06.066
+I'll go with the dictionary. Okay.
+
+00:17:04.308 --> 00:17:09.308
+I'll go with the dictionary. Okay, so now, let's say…
+
+00:17:06.290 --> 00:17:08.290
+So, now, yeah?
+
+00:17:08.858 --> 00:17:10.858
+supplication.
+
+00:17:09.612 --> 00:17:12.612
+this application that you have developed, right? Okay.
+
+00:17:11.838 --> 00:17:17.838
+Okay? If someone exits your application exits, right?
+
+00:17:12.607 --> 00:17:17.607
+you are storing, let's say, in a dictionary. Okay. If someone exits your application, exits, like,
+
+00:17:18.126 --> 00:17:20.126
+Alternative, yeah. Great.
+
+00:17:18.209 --> 00:17:20.209
+Yeah.
+
+00:17:21.080 --> 00:17:26.080
+And then reruns the application here. So, of course, there's no data. Do you think the data will…
+
+00:17:21.102 --> 00:17:23.102
+And then rerun the certification. Yeah.
+
+00:17:23.594 --> 00:17:27.594
+Of course, there's good data. Do you think the data will still be there, or do you think…
+
+00:17:26.358 --> 00:17:30.358
+Or do you think the dictionary will be empty when you re-run the application?
+
+00:17:27.684 --> 00:17:30.684
+when you re-run that picture.
+
+00:17:32.642 --> 00:17:37.642
+When I arrive on the application… Yes. Because you are just storing an additional… Yeah, I'm storing in headaches.
+
+00:17:33.065 --> 00:17:38.065
+Yes, because you were just talking about the idea of selling it at yourself.
+
+00:17:38.418 --> 00:17:40.418
+You define a dictionary, store it? Yeah.
+
+00:17:38.707 --> 00:17:40.707
+define it externally, store it? Yeah.
+
+00:17:40.951 --> 00:17:45.951
+Exit the application. It's not running anymore. Yeah. And then you again start
+
+00:17:41.261 --> 00:17:44.261
+Excerpt application. Start running anyway. Yeah.
+
+00:17:44.259 --> 00:17:46.259
+And you can't start
+
+00:17:45.797 --> 00:17:47.797
+Application point. Yeah.
+
+00:17:46.956 --> 00:17:48.956
+Yeah, just like…
+
+00:17:48.374 --> 00:17:58.374
+Just like if you are playing a game and you save them, if you forget to save the mission and you close the game. If I don't save the mission and I try to come back to it, let me speak when it comes to the gaming, though.
+
+00:17:49.926 --> 00:17:52.926
+If you are playing a game and you see them. If you forget to send permission…
+
+00:17:53.738 --> 00:17:58.738
+If I don't see permission and I try to come back to it, let me speak when it comes to gaming time.
+
+00:17:59.516 --> 00:18:05.516
+If it's not seen, then it's not seen. Of course you cannot look. Yeah, I cannot load it one second.
+
+00:17:59.705 --> 00:18:08.705
+If it's not saved, then it's not there. Of course, you cannot load it. Yeah, I cannot load it once I close. Now, think about dictionary users, right? Yeah. So, when you run, at that time, you define it, actually. Yeah.
+
+00:18:05.868 --> 00:18:08.868
+So, at that time, the defined prediction? Yeah.
+
+00:18:09.515 --> 00:18:11.515
+While it's running, people are adding it, right? But when it exists…
+
+00:18:09.839 --> 00:18:11.839
+Why don't people understand, right? But when it actually keeps…
+
+00:18:11.747 --> 00:18:16.747
+That's not safe, no, I cannot go back. Right, so when you run it again, again, everything will be empty, or…?
+
+00:18:12.029 --> 00:18:17.029
+Sorry, so when you run it against, so again, everything would be empty, or…
+
+00:18:17.765 --> 00:18:24.765
+Would you get the old data? I'll get the Python script that's… yeah. Yeah. Yes, you have the Python script. Yeah, I'll just have the… Do you have the data, the feedbacks?
+
+00:18:17.967 --> 00:18:24.967
+But you get the old data. I'll get the finance script that's… yeah. Yes, you have the… yeah, I'll just have the… Do you have to get other feedbacks?
+
+00:18:25.432 --> 00:18:27.432
+The feedbacks that people have… If it's not safe,
+
+00:18:25.906 --> 00:18:29.906
+the feedbacks that people are… if it's not saved, then no. Yeah. It was saved in dictionary.
+
+00:18:27.685 --> 00:18:29.685
+Yeah, it was saved in between.
+
+00:18:29.812 --> 00:18:31.812
+Okay, but when you exit your application…
+
+00:18:30.112 --> 00:18:32.112
+Okay, but when you exit your application…
+
+00:18:32.813 --> 00:18:42.813
+Right? So, where is the dictionary? When you exit the application, right? But it'll be saved as a key value if… as a value. Yeah, in the dictionary. In the dictionary itself. But let's say you exit the Python script, exit.
+
+00:18:33.192 --> 00:18:43.192
+Right? Yeah. But it will be saved as a key value if I'm just… As a value. Yeah. In the dictionary. In the dictionary itself. But let's say you exit the Python script, exit.
+
+00:18:43.474 --> 00:18:48.474
+Then it's not saved. Because when you close dictionary post where, like, it disappears, or…?
+
+00:18:43.694 --> 00:18:48.694
+Then it's not secret. It disappears, or…?
+
+00:18:48.876 --> 00:18:50.876
+It disappears, right?
+
+00:18:49.216 --> 00:18:51.216
+disappears, right?
+
+00:18:51.381 --> 00:19:02.381
+No, no, you smiling made me rethink what I had to do. So, yeah, I think it'll disappear. Disappear, right? Yeah, so when you run the application again, you have an empty tree, right or wrong.
+
+00:18:51.873 --> 00:18:57.873
+See, now, now you smiling made me rethink what I had to do. So, yeah, I think it'll disappear.
+
+00:18:58.832 --> 00:19:02.832
+Yeah. You have an entity? Yeah.
+
+00:19:03.081 --> 00:19:07.081
+So… Are you sure it's right? Now you're convincing me!
+
+00:19:03.188 --> 00:19:07.188
+So… No, you're convincing me!
+
+00:19:07.689 --> 00:19:12.689
+Right. Okay, that's really right. Okay, yes, you're right. Okay. So…
+
+00:19:07.700 --> 00:19:11.700
+Great. Okay. Absolutely, okay. Okay.
+
+00:19:12.641 --> 00:19:17.641
+So, uh, so I need a wheel. Okay. To actually make sure the data persists.
+
+00:19:13.531 --> 00:19:19.531
+Uh, so I need a V, okay, to actually make sure the data persists. I don't lose it when I exit it.
+
+00:19:17.893 --> 00:19:19.893
+I don't lose it when I exit it.
+
+00:19:20.300 --> 00:19:23.300
+I need to… I containerize the whole, like, uh…
+
+00:19:20.490 --> 00:19:23.490
+I need to, like, containerized recording, like, uh…
+
+00:19:24.488 --> 00:19:26.488
+Application? Yeah. So, actually,
+
+00:19:24.640 --> 00:19:26.640
+Yeah. So actually…
+
+00:19:27.258 --> 00:19:33.258
+Even if you remove the container, or you rerun the container again, still you… the same problem, right?
+
+00:19:27.727 --> 00:19:29.727
+Even if you remove the container, yeah.
+
+00:19:29.724 --> 00:19:31.724
+When you read in the continuity,
+
+00:19:31.824 --> 00:19:33.824
+still the same problem.
+
+00:19:34.468 --> 00:19:39.468
+I need to make sure if I stop the application and run it again, I have the data store.
+
+00:19:34.796 --> 00:19:39.796
+I need to make sure… if I stop the application and run it again, I have the data stopped.
+
+00:19:40.466 --> 00:19:48.466
+Or, if you are continuing the application, if I remove the container… But that's not where volumes come in, like… Yes, definitely. Yeah, that's where…
+
+00:19:40.870 --> 00:19:43.870
+Or, if you are criticizing the application, if I remove the container?
+
+00:19:44.750 --> 00:19:48.750
+But that's not where volumes come in. Yeah, that's…
+
+00:19:48.723 --> 00:19:53.723
+Now, Amat, what we have done is… Yeah, I've went away from Python. Yeah.
+
+00:19:48.868 --> 00:19:55.868
+Now, Amat, what you have done is… Yeah, I've went away from a pipe nerve. You actually gave the right answer. Yeah.
+
+00:19:54.054 --> 00:19:56.054
+You actually give the right answer. Yeah.
+
+00:19:56.016 --> 00:19:59.016
+of an advanced topic, actually, right? Oh…
+
+00:19:56.252 --> 00:19:59.252
+Oh.
+
+00:19:59.192 --> 00:20:05.192
+I was not supposed to do that. Okay. Which means you understand the concept pretty well. Yeah.
+
+00:19:59.745 --> 00:20:03.745
+I was not supposed to do that.
+
+00:20:03.619 --> 00:20:05.619
+Which means you have to start the concept for you.
+
+00:20:06.084 --> 00:20:11.084
+Uh, what I'm trying to do is, uh, let's say you have no containers. Nothing yet.
+
+00:20:06.537 --> 00:20:14.537
+Uh, what I'm trying to do is, uh, let's say there are no containers or nothing, right? Nothing at all. Nothing at all. Okay. Actually, I will write this, uh, because, uh…
+
+00:20:12.015 --> 00:20:14.015
+Okay, thanks for having me back to the sun.
+
+00:20:16.963 --> 00:20:18.963
+volume for persistency, so I don't forget for you. Yeah.
+
+00:20:17.349 --> 00:20:19.349
+So I don't forget that.
+
+00:20:20.009 --> 00:20:22.009
+So I don't ask you again. Hmm.
+
+00:20:20.564 --> 00:20:22.564
+so I don't ask you again.
+
+00:20:24.887 --> 00:20:32.887
+So what… you want it to be synced. You want this? So, what I'll do… Just simply… Yeah.
+
+00:20:24.988 --> 00:20:31.988
+Okay, so… so what… you want it to be saved. You want this… so what I'll do, just simply right-click your semantic dictionary, right? Yeah.
+
+00:20:31.997 --> 00:20:38.997
+Uh, but if you exit then, it's not there anymore. Yeah. So, what can you use to make it permanent?
+
+00:20:33.070 --> 00:20:39.070
+But if you exert them, it's not there anymore. Yeah. So, what can you use to make it permanent?
+
+00:20:39.368 --> 00:20:50.368
+Like, Gitav will make your heart be so strong PY. But actually, people… You mean the whole data itself. Uh, feedbacks, like a string. Yeah, the feedback. So, where should I store those strings, actually?
+
+00:20:40.218 --> 00:20:48.218
+You mentioned the whole data itself. Yeah, channel strings, right?
+
+00:20:48.327 --> 00:20:50.327
+So, where should I store those strings?
+
+00:20:51.444 --> 00:20:59.444
+I guess it's in the dictionary, like, but dictionary got clear, so… if you push Python code, empty dictionary goes there, right? Yeah. The dictionary logic goes there, not the…
+
+00:20:51.739 --> 00:20:54.739
+Yes, it's a little shady, but make sure you get closer.
+
+00:20:55.569 --> 00:20:59.569
+If you push Python code, empty dictionary goes there, right? Yeah. The chain logic goes there, not the…
+
+00:21:00.093 --> 00:21:09.093
+better doesn't go there, right? I'm now switching to GitHub, I'm trying to say, commit and stage it and all of those things, but… That is, that is your source code, right? Yeah. But, uh…
+
+00:21:00.516 --> 00:21:09.516
+I'm now switching to GitHub, I'm trying to say, commit and stage it and all of those things, but uh…
+
+00:21:09.199 --> 00:21:11.199
+For the code to be there,
+
+00:21:09.331 --> 00:21:11.331
+For the code to be there,
+
+00:21:12.396 --> 00:21:16.396
+I'm trying to think… not for data. For the data to be there.
+
+00:21:12.494 --> 00:21:16.494
+I'm trying to think graphical data for the data to be there.
+
+00:21:17.680 --> 00:21:19.680
+And it has nothing to do with grit up, let's say, like, if you're… Yeah.
+
+00:21:17.973 --> 00:21:19.973
+And it has nothing to do with the… Yeah.
+
+00:21:19.971 --> 00:21:21.971
+It has to do with Python itself?
+
+00:21:20.165 --> 00:21:22.165
+It has to do with Python itself?
+
+00:21:22.604 --> 00:21:25.604
+Python is running an application, Python is storing the data in a dictionary,
+
+00:21:22.827 --> 00:21:25.827
+Python is running an application, Python is storing the data in history.
+
+00:21:26.251 --> 00:21:29.251
+But when you exit, it resets the data.
+
+00:21:26.664 --> 00:21:29.664
+But when you exit, it presets the data.
+
+00:21:29.663 --> 00:21:32.663
+When you redone it, there's nothing? Yeah. So, how can you…
+
+00:21:30.003 --> 00:21:33.003
+When you read them, there's nothing? Yeah. So, how can you…
+
+00:21:32.923 --> 00:21:34.923
+What can you do in Python?
+
+00:21:33.078 --> 00:21:35.078
+What can you do in Python?
+
+00:21:35.830 --> 00:21:40.830
+So, before it exits, it doesn't forget the data, and when it runs again, it remembers the data.
+
+00:21:36.000 --> 00:21:41.000
+So, before it exits, it doesn't forget the data, and when it runs again, it remembers the data.
+
+00:21:41.598 --> 00:21:46.598
+Can you use something thinking about the environment? I don't know if that… Yes, you can… just whatever is coming in your mind, just tell me.
+
+00:21:41.761 --> 00:21:46.761
+Can you use my own thinking about the environmental end of that? Yes, you can, just whatever's coming in.
+
+00:21:46.658 --> 00:21:48.658
+Think about… ah…
+
+00:21:47.150 --> 00:21:49.150
+Think of a lot.
+
+00:21:49.403 --> 00:21:51.403
+Persistent driven for a minute.
+
+00:21:49.435 --> 00:21:51.435
+Persistent data, like permanent storage.
+
+00:21:52.876 --> 00:22:02.876
+I just saved the file, that's what… yeah, that's… I'm trying to overcomplicate things. I'm trying to go, yeah, I just saved the file. Yeah, that's, you know, I'm going in.
+
+00:21:52.891 --> 00:22:02.891
+I just see it defined. That's what you hear, that's… I'm trying to overcomplicate things. I'm trying to go… yeah, I just saved the fire. Yeah, that's… you know, I'm going…
+
+00:22:03.214 --> 00:22:06.214
+I'm overthinking it. Yes, you will save 25, right? And when you…
+
+00:22:03.499 --> 00:22:06.499
+I'm overthinking this. When you…
+
+00:22:06.894 --> 00:22:10.894
+When you exit the application, file is still there. Yeah, the file is there. When you rerun the application, then…
+
+00:22:07.272 --> 00:22:11.272
+Are you feeling that privilege then?
+
+00:22:11.172 --> 00:22:15.172
+What will you do? I'll just load that file. Load that file, and load the dictionary, right? Yeah.
+
+00:22:11.544 --> 00:22:15.544
+What will you do? I'll just note that part. Yeah.
+
+00:22:15.818 --> 00:22:24.818
+Sorry for overcomplicating. My mind went too far. I started to think about containerization, getting GitHub, which is you covered the hard ones. Yeah.
+
+00:22:17.339 --> 00:22:19.339
+Sorry for overcomplicating that, my mind went…
+
+00:22:19.910 --> 00:22:24.910
+But I still have to think about containerization, getting data, which is you covered there.
+
+00:22:24.785 --> 00:22:27.785
+The question I haven't asked, I forgot to ask from anyone, right?
+
+00:22:27.888 --> 00:22:29.888
+So, okay, so you say…
+
+00:22:28.234 --> 00:22:30.234
+So, okay, so…
+
+00:22:30.254 --> 00:22:34.254
+Which is good. Uh, but for example, let's say…
+
+00:22:30.676 --> 00:22:34.676
+Which is good, right? Uh, but for example, let's say…
+
+00:22:34.572 --> 00:22:36.572
+The feedback application. Mm-hmm.
+
+00:22:34.759 --> 00:22:36.759
+Uh, the feedback application? Mm-hmm.
+
+00:22:37.343 --> 00:22:40.343
+is, uh, actually…
+
+00:22:40.699 --> 00:22:45.699
+you have all of the things stored in file now, right? Yeah. The person, the user has to…
+
+00:22:44.264 --> 00:22:46.264
+The person that you would have to…
+
+00:22:46.355 --> 00:22:48.355
+has to actually, you know,
+
+00:22:46.582 --> 00:22:48.582
+It has to actually, you know…
+
+00:22:49.482 --> 00:22:51.482
+generate a report out of it.
+
+00:22:49.750 --> 00:22:51.750
+Uh, January 34 government.
+
+00:22:51.800 --> 00:22:57.800
+Or, uh, not even report, forget about the report also. The problem with filing is, for example, let's say,
+
+00:22:55.307 --> 00:22:59.307
+The problem with tiniveness, for example, let's say the system, this system.
+
+00:22:58.340 --> 00:23:07.340
+The system, his system, he has a power outage issue at his home, he has used to that ignition at his home, right? And he's receiving feedback, and your Python application is right into a PI, right? Yeah.
+
+00:22:59.697 --> 00:23:03.697
+Yes, a power outage issue. ES restricted applicant, that is on, right?
+
+00:23:04.632 --> 00:23:07.632
+And he's receiving feedback, and your positive feedback. Yeah.
+
+00:23:07.789 --> 00:23:10.789
+But sometimes his computers shut down because of power outage.
+
+00:23:08.107 --> 00:23:11.107
+Sometimes, some people don't shut down.
+
+00:23:11.898 --> 00:23:13.898
+And half of the text is written to a file,
+
+00:23:12.028 --> 00:23:14.028
+And half of the text is written to a file.
+
+00:23:14.439 --> 00:23:20.439
+It is corrupt. Okay. Right? Is there any better solution than filing that makes sure the data is always
+
+00:23:14.585 --> 00:23:16.585
+It is corrupt. Okay.
+
+00:23:16.597 --> 00:23:18.597
+Is there any better solution than filing?
+
+00:23:18.771 --> 00:23:20.771
+That makes sure the data is always
+
+00:23:20.557 --> 00:23:22.557
+Uh, in a corrective state.
+
+00:23:23.132 --> 00:23:31.132
+I'm thinking, since you're saying that there is a power… Any other subject than filing, like filing? Yeah. Yeah, we'll file it. There is Getting GitHub.
+
+00:23:23.352 --> 00:23:31.352
+I'm thinking, since you're saying that there is… Yeah, we'll find it. There is Git and GitHub.
+
+00:23:31.384 --> 00:23:36.384
+So… Or source code management, right? Yeah, for source code. But you're talking about the data itself. Yeah. Right?
+
+00:23:31.777 --> 00:23:36.777
+So… Yeah, full source code. But you're talking about the data itself, right?
+
+00:23:36.702 --> 00:23:41.702
+data. We are talking about the data itself, so… Another thing… yeah, you have studied it, by the way.
+
+00:23:37.194 --> 00:23:40.194
+you're talking about the data itself, so…
+
+00:23:40.201 --> 00:23:42.201
+that you have strictly weather.
+
+00:23:42.086 --> 00:23:47.086
+For two weeks. Is it Docker? You know, for two weeks you have storage? For 2 weeks, yeah.
+
+00:23:42.281 --> 00:23:47.281
+for two weeks ago. Is it Docker? For two weeks, yeah. For two weeks.
+
+00:23:47.743 --> 00:23:53.743
+when I have this notated. Uh, so we're going to Skola and what they gave us? Fatma al-Nohari.
+
+00:23:47.950 --> 00:23:50.950
+Uh, so we're going to…
+
+00:23:51.145 --> 00:23:54.145
+So, and they gave us a fuck?
+
+00:23:53.738 --> 00:23:55.738
+Told you what?
+
+00:23:55.957 --> 00:24:00.957
+Yeah, I took. We've studied about SQ.
+
+00:23:56.235 --> 00:24:01.235
+Yeah, I took… we studied about escape process.
+
+00:24:02.040 --> 00:24:08.040
+Database? Yeah, finding versus database, I remember, but uh… So why do we say versus? Because it's the other option. Yeah.
+
+00:24:02.328 --> 00:24:08.328
+So why do we say versus because it's another option. Yeah.
+
+00:24:08.829 --> 00:24:11.829
+So, I created a database using a
+
+00:24:09.077 --> 00:24:12.077
+So, I created a database using a…
+
+00:24:12.425 --> 00:24:17.425
+Doesn't matter, let's say you create your database. Okay. Like, when you create a database, where do you actually create a database? Where?
+
+00:24:13.105 --> 00:24:17.105
+It doesn't matter. Okay.
+
+00:24:17.542 --> 00:24:22.542
+Is database a server application, or…?
+
+00:24:19.090 --> 00:24:23.090
+We are creating a database. Is database a server application, or…?
+
+00:24:24.238 --> 00:24:31.238
+Is database a server application? You have used Microsoft SQL, right? Yeah. So, is Microsoft SQL database server application or a client application?
+
+00:24:24.714 --> 00:24:29.714
+That is Microsoft SQL, right? Yeah. So, is Microsoft SQL database?
+
+00:24:29.665 --> 00:24:31.665
+Thermo application recliner.
+
+00:24:34.471 --> 00:24:36.471
+So…
+
+00:24:34.852 --> 00:24:36.852
+So… that's okay.
+
+00:24:40.089 --> 00:24:47.089
+But it's a cell phone application, because you save the data there, and whenever the client needs something, it'll be, like,
+
+00:24:40.424 --> 00:24:47.424
+You can save the data there, and whenever the client needs something, it'll be, like,
+
+00:24:47.320 --> 00:24:49.320
+push to them, get it.
+
+00:24:47.624 --> 00:24:49.624
+push to them.
+
+00:24:50.358 --> 00:24:52.358
+Like, you read? Yeah…
+
+00:24:50.717 --> 00:24:52.717
+accurate? Yeah.
+
+00:24:52.740 --> 00:24:55.740
+So, who runs the QD, the server or the community?
+
+00:24:52.802 --> 00:24:55.802
+When you're… so, who runs the QT? The server or the client?
+
+00:24:56.621 --> 00:24:58.621
+the server. Uh, the server was the key?
+
+00:24:56.984 --> 00:24:58.984
+This is… quickly?
+
+00:24:59.652 --> 00:25:01.652
+Who gives the data back?
+
+00:24:59.689 --> 00:25:01.689
+And who gives the data back?
+
+00:25:01.803 --> 00:25:06.803
+No, no. That's, that's…
+
+00:25:02.231 --> 00:25:09.231
+No, no, the, yeah, it's the El Garcia. That's sort of measures. Okay.
+
+00:25:07.114 --> 00:25:09.114
+Okay, so…
+
+00:25:09.277 --> 00:25:11.277
+So, great.
+
+00:25:09.843 --> 00:25:11.843
+So, right, uh…
+
+00:25:11.286 --> 00:25:13.286
+server.
+
+00:25:11.845 --> 00:25:13.845
+server? What?
+
+00:25:14.846 --> 00:25:16.846
+Oh, good. Okay, so…
+
+00:25:15.216 --> 00:25:17.216
+Okay, so, I think…
+
+00:25:17.274 --> 00:25:26.274
+When we are talking about client server, let's talk about client and servers, right? Okay, so what is the different… like, what is the difference between a client application and a server application?
+
+00:25:17.305 --> 00:25:26.305
+When we are talking about climate server, let's talk about Cloud Server, right? Okay, so what is the difference, like, what is the difference between a client application and a server application?
+
+00:25:26.981 --> 00:25:36.981
+The client gives requests, the server fulfills those requests. Ken, is it possible for the server to initiate a request and not the client? Is it possible?
+
+00:25:27.496 --> 00:25:36.496
+the client gives questions, the server fulfills those requests. Ken, is it possible for the server to initiate a request and not the client?
+
+00:25:36.692 --> 00:25:38.692
+Is it possible? Like, yes or no?
+
+00:25:37.911 --> 00:25:42.911
+Like, yes or no? Is it possible for the server to send a request to a client?
+
+00:25:39.847 --> 00:25:41.847
+Is it possible for the server to…
+
+00:25:43.691 --> 00:25:45.691
+By nature, right? Like, by…
+
+00:25:43.900 --> 00:25:45.900
+By nature, right? Like, by…
+
+00:25:45.768 --> 00:25:47.768
+Based on servers. Mm-hmm.
+
+00:25:46.009 --> 00:25:48.009
+based on server's nature?
+
+00:25:48.577 --> 00:25:50.577
+Can it initiate a request to initiate, right?
+
+00:25:48.622 --> 00:25:55.622
+Can it initiate a request? Initiate, right? Initiate a request, let's say, a missing pile or something like this? No, not a request. Like, send a request to a client.
+
+00:25:50.776 --> 00:25:55.776
+initiate our course, let's say a missing file or something like this? No, because…
+
+00:25:55.635 --> 00:25:57.635
+Can server do that? Yes or no?
+
+00:25:56.030 --> 00:25:58.030
+And so we're good to hear from you.
+
+00:25:57.620 --> 00:25:59.620
+Very simple. Yes?
+
+00:25:58.000 --> 00:26:00.000
+Yes?
+
+00:25:59.883 --> 00:26:04.883
+Yes, okay. But not sure, yes. That's the thing. Yeah. Yeah. So…
+
+00:26:00.238 --> 00:26:03.238
+Yes, okay. But not sure of this. That's the thing.
+
+00:26:03.437 --> 00:26:05.437
+Yeah. So…
+
+00:26:04.863 --> 00:26:06.863
+Not as sure, yes. Yeah.
+
+00:26:05.429 --> 00:26:07.429
+I'm not gonna show you something. Yeah.
+
+00:26:07.135 --> 00:26:09.135
+server.
+
+00:26:07.539 --> 00:26:09.539
+a server?
+
+00:26:12.670 --> 00:26:15.670
+I'm just… The server is used to store data, so I don't think…
+
+00:26:13.037 --> 00:26:16.037
+The server is used to store data, so I don't think…
+
+00:26:17.074 --> 00:26:19.074
+It's capable of sending requests.
+
+00:26:17.259 --> 00:26:19.259
+It's capable of sending requests.
+
+00:26:19.999 --> 00:26:25.999
+It receives requests and acts based on those requests. What about the hybrid applications?
+
+00:26:20.180 --> 00:26:24.180
+Okay? It receives requests and acts based on those requests.
+
+00:26:24.147 --> 00:26:26.147
+What about the hybrid application?
+
+00:26:26.645 --> 00:26:33.645
+Hybrid applications such as, like, uh, let's say… I'm not calling it a server, not calling it a client itself. So it could be a notification, right?
+
+00:26:27.111 --> 00:26:32.111
+Hybrid applications such as, like, uh, let's say, I'm not calling it a server, I'm not calling it a…
+
+00:26:32.204 --> 00:26:34.204
+So it could be a notification, right?
+
+00:26:33.896 --> 00:26:35.896
+Because, like, for example… okay.
+
+00:26:34.063 --> 00:26:36.063
+He just, like…
+
+00:26:36.004 --> 00:26:38.004
+you're talking about webhooks. Yeah.
+
+00:26:36.251 --> 00:26:38.251
+Yeah, right?
+
+00:26:37.978 --> 00:26:39.978
+So, what is a webhook?
+
+00:26:38.360 --> 00:26:40.360
+So, what is a webhook?
+
+00:26:41.113 --> 00:26:43.113
+Uh…
+
+00:26:46.576 --> 00:26:48.576
+Okay, let's say you have a server application, right?
+
+00:26:46.856 --> 00:26:48.856
+Okay, actually, you have a server finish, thank you.
+
+00:26:49.405 --> 00:26:54.405
+You can actually add webhooks. Yeah. You can add webhooks, yeah. So…
+
+00:26:49.607 --> 00:26:54.607
+you can actually add webhoops. Yeah. So, you can add webhooks, yeah. So…
+
+00:26:55.277 --> 00:26:59.277
+This adds capability to the server to send.
+
+00:26:55.500 --> 00:26:59.500
+This adds capability to server 2nd.
+
+00:27:00.446 --> 00:27:05.446
+to send, like, requests, a request to another, uh, like, let's say GitHub and Docker.
+
+00:27:00.777 --> 00:27:05.777
+to send, like, requests, a request to another, uh, like, let's say GitHub and Docker.
+
+00:27:06.133 --> 00:27:08.133
+Good. This is the…
+
+00:27:06.214 --> 00:27:10.214
+Yeah, this is the thing. Let's take example, right? Yeah.
+
+00:27:08.333 --> 00:27:10.333
+So, yeah. Yeah.
+
+00:27:10.377 --> 00:27:16.377
+Yeah, so initiate requests. This time, right? So, it's not capable use it, right? Yeah. So in the moment's case.
+
+00:27:10.890 --> 00:27:12.890
+It's been shared requests.
+
+00:27:13.782 --> 00:27:16.782
+It's not capable easily, right?
+
+00:27:17.067 --> 00:27:20.067
+certain capabilities, service is not capable of certain capabilities.
+
+00:27:17.830 --> 00:27:19.830
+It's not capable, server is not capable of sending requests, right? But…
+
+00:27:20.298 --> 00:27:26.298
+Because yes, again, I'd go back to the data, so… Okay. Okay, so I've removed it. Okay.
+
+00:27:20.641 --> 00:27:23.641
+If you asked again, I'd go back to the third time.
+
+00:27:23.595 --> 00:27:26.595
+Okay, thank you. Okay.
+
+00:27:27.050 --> 00:27:30.050
+You are right, like, service is not capable of sending requests, but…
+
+00:27:27.308 --> 00:27:30.308
+You are right, like, service, but…
+
+00:27:30.443 --> 00:27:33.443
+For example, if the server sends a request, does it…
+
+00:27:30.851 --> 00:27:33.851
+For example, if the server sends a request, does it…
+
+00:27:34.597 --> 00:27:36.597
+Staya Server, or something else, is the question, actually.
+
+00:27:34.757 --> 00:27:36.757
+steer server, it becomes a bit of separation.
+
+00:27:37.676 --> 00:27:41.676
+It doesn't… The server serves, right? Yeah, it serves. So…
+
+00:27:37.841 --> 00:27:40.841
+It doesn't… The server serves right click. Yeah,
+
+00:27:41.504 --> 00:27:43.504
+So, is it considered the hybrid?
+
+00:27:41.596 --> 00:27:43.596
+Let's considered the hybrid.
+
+00:27:44.092 --> 00:27:46.092
+Yep, yeah, yeah, hybrid, right?
+
+00:27:44.261 --> 00:27:46.261
+Yep. Yeah, yeah, okay, great.
+
+00:27:47.016 --> 00:27:49.016
+So, now, let's talk about WebEx. Okay.
+
+00:27:47.212 --> 00:27:49.212
+So, now, let's talk about web apps. Okay.
+
+00:27:52.016 --> 00:27:54.016
+what are actually web?
+
+00:27:53.022 --> 00:27:56.022
+what are actually groups versus APIs?
+
+00:27:53.986 --> 00:27:55.986
+Uh, versus APIs.
+
+00:27:56.498 --> 00:27:58.498
+webhooks? What is APIs?
+
+00:27:56.727 --> 00:28:01.727
+Webhooks? So, when it comes to webhooks, let's say, for example,
+
+00:27:59.009 --> 00:28:02.009
+So, when it comes to webhooks, let's say, for example,
+
+00:28:01.591 --> 00:28:03.591
+We have, uh…
+
+00:28:02.007 --> 00:28:04.007
+We have, uh…
+
+00:28:04.080 --> 00:28:08.080
+like, we containerized the whole project, and we have…
+
+00:28:04.175 --> 00:28:10.175
+like, we continually hunt projects, and we have, like… I mean, generally speaking.
+
+00:28:08.483 --> 00:28:12.483
+Like, generally speaking, forgot about categorizing, forget about the project.
+
+00:28:10.812 --> 00:28:12.812
+Forget about criticizing, forget about the project.
+
+00:28:13.129 --> 00:28:18.129
+Okay. What is an EPA endpoint?
+
+00:28:13.164 --> 00:28:18.164
+Just as, like, let's start with, is it… Okay. What is an API endpoint, right?
+
+00:28:18.981 --> 00:28:20.981
+APIs connecting to, like, let's say,
+
+00:28:19.170 --> 00:28:21.170
+APIs connecting to, like, let's say…
+
+00:28:21.526 --> 00:28:24.526
+applications together, yeah.
+
+00:28:21.774 --> 00:28:24.774
+applications together. Yeah.
+
+00:28:24.498 --> 00:28:27.498
+it could be an AI agent connected to a website,
+
+00:28:25.047 --> 00:28:28.047
+it could be an AI agent connected to a website,
+
+00:28:27.990 --> 00:28:31.990
+or it's… It's a service client itself, like, when it comes to APIs.
+
+00:28:31.671 --> 00:28:33.671
+When it comes to… if it's a client connecting with someone.
+
+00:28:31.962 --> 00:28:33.962
+a client connecting with server.
+
+00:28:34.202 --> 00:28:38.202
+When it's APIs, or… it can be two servers connected together.
+
+00:28:34.598 --> 00:28:38.598
+It can be to surpass, connected together.
+
+00:28:38.908 --> 00:28:41.908
+Or can a server send a request? How can it connect? No, no.
+
+00:28:39.245 --> 00:28:42.245
+Or can a service dentist, how can it, can you know?
+
+00:28:42.742 --> 00:28:45.742
+Yeah, coming back. So it's a client and a sub.
+
+00:28:43.806 --> 00:28:45.806
+Yeah, coming back. So, it's a client answer.
+
+00:28:46.047 --> 00:28:48.047
+Yeah, it's a client embassy.
+
+00:28:46.289 --> 00:28:49.289
+Yeah, yeah, it's a client in a CR. So, APIs, right? Yeah.
+
+00:28:48.204 --> 00:28:54.204
+So API, right? Yeah. So now, what is? Some people call it reverse APIs. Yeah, so…
+
+00:28:49.745 --> 00:28:54.745
+So now, what is webhooks? Some people call it reverse APIs, right? Yeah, so webhook…
+
+00:28:54.772 --> 00:28:57.772
+Webhook is, uh… it adds the ability…
+
+00:28:55.456 --> 00:28:57.456
+the… it adds the ability
+
+00:28:58.757 --> 00:29:03.757
+phrase it in a way that I don't go… You can't even give exemplars, right?
+
+00:28:58.765 --> 00:29:03.765
+to phrase it in a way that I don't go to… You know, people didn't give examples.
+
+00:29:04.507 --> 00:29:08.507
+The example that comes to mind is whenever I make a change in, like, for example,
+
+00:29:04.567 --> 00:29:13.567
+The example that comes to mind is whenever I make a change in, like, for example, for a code in GitHub, that's connected, then in Docker,
+
+00:29:08.734 --> 00:29:10.734
+for a code in GitHub.
+
+00:29:11.214 --> 00:29:14.214
+that's connect… then, uh, in Duka…
+
+00:29:15.633 --> 00:29:21.633
+It'll take those, uh, changes, it can implement them, it can pass or fail. I'm trying to…
+
+00:29:16.050 --> 00:29:18.050
+it'll take those, uh…
+
+00:29:18.068 --> 00:29:22.068
+changes, it can implement them, it can pass or fail. I'm trying to…
+
+00:29:22.982 --> 00:29:34.982
+No, no, I understand. Yeah, I'm trying to phrase it in a way that's not overcomplicated. No, I understand. Yeah. So I got some idea, it's okay. Let's move to… because we haven't discussed it too much, but let's, uh, let's move, right? Okay, so, uh…
+
+00:29:23.410 --> 00:29:33.410
+No, no, I… Yeah, I'm trying to phrase it in a way that's not overcomplicated. No question. So I want some ideas, okay? Let's move to… because we haven't discussed it too much, but let's, uh, let's move, right?
+
+00:29:33.396 --> 00:29:35.396
+Okay, so, uh…
+
+00:29:35.355 --> 00:29:38.355
+You have seen this a lot of times, my mother, right? Like, uh…
+
+00:29:35.472 --> 00:29:37.472
+You have seen this a lot of times, right?
+
+00:29:37.867 --> 00:29:41.867
+like, uh, you've seen this underscore, underscore name.
+
+00:29:39.638 --> 00:29:41.638
+You have seen this underscore underscore name.
+
+00:29:42.645 --> 00:29:44.645
+Okay.
+
+00:29:42.951 --> 00:29:44.951
+Okay?
+
+00:29:44.784 --> 00:29:46.784
+equal to equal to underscond mean.
+
+00:29:45.081 --> 00:29:47.081
+equal to equal to underscore just to mean.
+
+00:29:47.869 --> 00:29:52.869
+in many Python scripts, right? Okay, yeah. Do you remember anything over it? Like, what does it do if…
+
+00:29:48.076 --> 00:29:53.076
+invented by those good for you. Okay, yeah.
+
+00:29:53.955 --> 00:30:01.955
+Like, when is it true, when is it false? Let's say you have A.PY, having this, right? So, if I run A.PY, if I run A.PY,
+
+00:29:54.621 --> 00:29:57.621
+Like, when… when is it true? When is it false? Let's say you have A.P.
+
+00:29:58.051 --> 00:30:01.051
+Okay, having the spring. So, if I run D.P.
+
+00:30:02.566 --> 00:30:04.566
+Would this be true or false?
+
+00:30:03.134 --> 00:30:05.134
+what does it be true or false?
+
+00:30:04.751 --> 00:30:06.751
+Can I just…
+
+00:30:12.003 --> 00:30:15.003
+Is this filing? Uh…
+
+00:30:13.066 --> 00:30:15.066
+Is this filing?
+
+00:30:15.652 --> 00:30:19.652
+No, no, this is just, uh, in the Python code, you might have seen this multiple times.
+
+00:30:16.439 --> 00:30:19.439
+being able to just, uh, in the Python code, you might have seen this, but…
+
+00:30:21.565 --> 00:30:27.565
+We're just want to move, move. Your time is sharper. Sure, yeah. Almost we are out of the time. Okay, let's go to, uh…
+
+00:30:21.970 --> 00:30:25.970
+We're just one time.
+
+00:30:26.077 --> 00:30:28.077
+So, let's go to, uh…
+
+00:30:27.896 --> 00:30:29.896
+Let's just go ahead.
+
+00:30:28.291 --> 00:30:30.291
+Let's just… oh, yeah.
+
+00:30:30.773 --> 00:30:36.773
+Uh, what is the difference between a public IP address? When we talk about client servers, right? Yeah. So…
+
+00:30:31.113 --> 00:30:36.113
+Uh, what is the difference between a public IP address? When we talk about client servers, yeah?
+
+00:30:37.000 --> 00:30:40.000
+So, what is the relationship between a nuclear juice and a proton?
+
+00:30:37.859 --> 00:30:39.859
+What is the relationship between an IP address and the port?
+
+00:30:40.233 --> 00:30:48.233
+Public IP address? No, not public. IP address and port. Port is, like, the source itself, the IP address is, uh…
+
+00:30:41.201 --> 00:30:44.201
+public IP address? IP address and phone.
+
+00:30:44.598 --> 00:30:48.598
+Port is, like, the source itself, the IP address is, uh…
+
+00:30:48.738 --> 00:30:50.738
+Not the source? No, no, wait.
+
+00:30:49.259 --> 00:30:51.259
+No, no, wait.
+
+00:30:51.967 --> 00:30:57.967
+The IP address and the course forward, like, for, like, let's say…
+
+00:30:53.337 --> 00:30:58.337
+The IP address is also more like the… for, like, let's say…
+
+00:30:59.660 --> 00:31:01.660
+I'm trying to…
+
+00:30:59.849 --> 00:31:01.849
+I'm trying to, uh…
+
+00:31:08.886 --> 00:31:10.886
+It was a sport.
+
+00:31:11.484 --> 00:31:14.484
+Sport to support… Okay, let's…
+
+00:31:14.504 --> 00:31:16.504
+Okay, let's take it this way. Yeah.
+
+00:31:14.908 --> 00:31:20.908
+Take it this way, right? Yeah. You have heard about public versus private educators, right? What is the difference between those?
+
+00:31:16.798 --> 00:31:20.798
+Uh, you have heard about public versus private network, right? What is the difference?
+
+00:31:21.503 --> 00:31:23.503
+Public is accessible to, like, let's say,
+
+00:31:21.594 --> 00:31:23.594
+public is accessible to, like, let's say…
+
+00:31:24.149 --> 00:31:30.149
+It's accessible to everyone, and uh… why if it's not accessible. Okay, nice, nice, right? So now, uh…
+
+00:31:24.284 --> 00:31:28.284
+it's accessible to everyone, and the project's not accessible.
+
+00:31:29.314 --> 00:31:33.314
+So now, uh, let's say it's accessible. Okay.
+
+00:31:30.255 --> 00:31:33.255
+let's say it's accessible, okay, then…
+
+00:31:34.349 --> 00:31:41.349
+sometimes you see people often mention the point with IP address. Yeah. In case that two years, 188043, like, what does that do, specifically?
+
+00:31:34.362 --> 00:31:41.362
+Sometimes you see people also mention the port with the IP address. Yeah. What does that do? Yes, 880p443, like, what does that do specifically?
+
+00:31:42.187 --> 00:31:44.187
+When it goes to server, what does it do? What is the benefit of having it?
+
+00:31:42.454 --> 00:31:44.454
+When it goes to throw, what does it do? What is the benefit of having?
+
+00:31:44.695 --> 00:31:46.695
+apart. It's like…
+
+00:31:45.591 --> 00:31:49.591
+It's, like, many people are connected, it's like…
+
+00:31:47.586 --> 00:31:49.586
+many people are connected, it's like…
+
+00:31:49.920 --> 00:31:53.920
+How can I explain? Many people are connected, or…
+
+00:31:50.234 --> 00:31:54.234
+Many people are connected, or, uh…
+
+00:31:54.786 --> 00:31:56.786
+For example, uh…
+
+00:31:55.027 --> 00:31:57.027
+For example, uh…
+
+00:31:58.307 --> 00:32:03.307
+your server is running multiple applications. Yeah, it's running multiple applications. For each one, there is a unique…
+
+00:31:58.613 --> 00:32:03.613
+your server implementing multiple applications. Yeah, so running multiple applications. For each one, there's a…
+
+00:32:04.018 --> 00:32:06.018
+Poor port, yeah. Okay, is it possible for…
+
+00:32:04.198 --> 00:32:06.198
+Point, yeah. Is it possible for…
+
+00:32:06.736 --> 00:32:13.736
+two… two applications, more than one application, running on the same server, like, on the same machine, to have the same IP, have the same port.
+
+00:32:06.956 --> 00:32:13.956
+two… two applications, more than one application, running on the same server, like, on the same machine, to have the same IP, have the same code.
+
+00:32:14.083 --> 00:32:16.083
+have the same… yeah.
+
+00:32:14.420 --> 00:32:16.420
+have the same point.
+
+00:32:17.295 --> 00:32:22.295
+When it comes to IP, I think it's possible, but port, I'm not entirely sure. Yeah, yes or no?
+
+00:32:17.577 --> 00:32:22.577
+When it comes to IP, I think it's possible, but port, I'm not entirely sure.
+
+00:32:22.593 --> 00:32:24.593
+No. Like…
+
+00:32:22.871 --> 00:32:27.871
+No. Like, uh, sorry. So, you are saying that…
+
+00:32:25.356 --> 00:32:28.356
+Sorry, I forgot. So, you are saying that…
+
+00:32:29.396 --> 00:32:32.396
+two, uh, two different applications?
+
+00:32:29.532 --> 00:32:32.532
+two, uh, two different applications?
+
+00:32:33.980 --> 00:32:35.980
+can have a…
+
+00:32:34.156 --> 00:32:36.156
+can… can have a…
+
+00:32:35.931 --> 00:32:37.931
+different, uh, it's gonna have the same code?
+
+00:32:36.282 --> 00:32:38.282
+different… I was gonna have the same thing?
+
+00:32:39.578 --> 00:32:42.578
+Two different applications on the same server. In the same server?
+
+00:32:39.987 --> 00:32:42.987
+Two different applications on the same server. On the same server?
+
+00:32:42.767 --> 00:32:47.767
+that have the same code or not? I… no, they don't have the same code. But a machine can have more than one IP address?
+
+00:32:42.946 --> 00:32:47.946
+can have the same code or not? I… no, they don't have the same code, but a machine can have more than 20 pairs?
+
+00:32:48.226 --> 00:32:53.226
+Yeah, let's say, for example, when you have Ubunto, and you have, uh…
+
+00:32:48.246 --> 00:32:51.246
+Yeah, let's say, for example, when you have Ubunto,
+
+00:32:51.468 --> 00:32:53.468
+And, uh, you have, uh…
+
+00:32:54.211 --> 00:32:56.211
+like, it's a virtual machine,
+
+00:32:54.286 --> 00:32:56.286
+like, it's a virtual machine.
+
+00:32:56.474 --> 00:33:06.474
+But virtual machines, separate machine, yeah, but inside the virtual machine… yeah, that's… yeah, that's neatly different, yeah. But can… can a machine have more than one IP address as the… is a valid question.
+
+00:32:57.204 --> 00:33:05.204
+Yeah, but inside the virtual machine, yeah, that's it, yeah, that's completely different, yeah. But can… can a machine have more than one network?
+
+00:33:06.251 --> 00:33:08.251
+Yes, it's possible.
+
+00:33:07.244 --> 00:33:13.244
+Yes, it's possible. Because, see, like, it's a virtual machine, so the main, like,
+
+00:33:08.357 --> 00:33:13.357
+Yeah, because, see, like, it's a virtual machine, so the main, like,
+
+00:33:13.595 --> 00:33:16.595
+the… but it's virtual, right? Yeah.
+
+00:33:14.781 --> 00:33:16.781
+the… But usually it's commercial, right?
+
+00:33:17.790 --> 00:33:20.790
+you think there are two IPs, but actually it's a virtually separate machine.
+
+00:33:17.986 --> 00:33:20.986
+You think there are two IPs, but actually it's a virtually separate machine.
+
+00:33:21.496 --> 00:33:26.496
+So, I handle when we were, like, taking Linux, like… Okay, you…
+
+00:33:22.176 --> 00:33:24.176
+So there's what I remember when I moved it, like…
+
+00:33:24.719 --> 00:33:26.719
+taking Linux? Like, okay, you…
+
+00:33:26.767 --> 00:33:28.767
+You have a PC, right? Yeah.
+
+00:33:27.053 --> 00:33:29.053
+you have a piece of greed. Yeah.
+
+00:33:29.424 --> 00:33:32.424
+Yeah, I just… do you have both Ethernet and Wi-Fi card?
+
+00:33:29.714 --> 00:33:32.714
+Yeah, I just… Do you have both Ethernet and Wi-Fi card?
+
+00:33:33.456 --> 00:33:35.456
+Yes, the PC has, like… Yeah, so…
+
+00:33:33.510 --> 00:33:35.510
+Yes, the PC has, like, VSO.
+
+00:33:35.281 --> 00:33:37.281
+I don't know, but…
+
+00:33:35.638 --> 00:33:37.638
+I don't know, but…
+
+00:33:38.161 --> 00:33:41.161
+If you try to connect both Ethernet and Wi-Fi together… Yeah.
+
+00:33:38.356 --> 00:33:41.356
+If you try to connect both Ethernet and Piper together, yeah,
+
+00:33:41.231 --> 00:33:44.231
+And do you have two different IP addresses, or same?
+
+00:33:41.599 --> 00:33:44.599
+And we have two different IP addresses, or same?
+
+00:33:44.868 --> 00:33:46.868
+It's the same, because it's coming from the same…
+
+00:33:45.324 --> 00:33:47.324
+It's the same, because it's coming from the same…
+
+00:33:48.381 --> 00:33:53.381
+No, no, only for that PC. For that PC, do we have two different IP addresses, or…? No, it's just the same, it's just, yeah, the same.
+
+00:33:48.436 --> 00:33:53.436
+No, no, only for that PC. For that PC, do we have two different IP addresses, or no, it's just the same, just the same.
+
+00:33:53.607 --> 00:33:55.607
+Right, so this is, uh…
+
+00:33:54.227 --> 00:33:56.227
+services, y'all…
+
+00:33:56.001 --> 00:33:58.001
+if we call that… okay.
+
+00:33:56.182 --> 00:33:58.182
+Wait for that.
+
+00:33:57.878 --> 00:33:59.878
+So…
+
+00:33:58.301 --> 00:34:00.301
+So…
+
+00:34:01.494 --> 00:34:03.494
+Warm IP.
+
+00:34:03.826 --> 00:34:05.826
+per system, right?
+
+00:34:06.647 --> 00:34:12.647
+Okay, let's talk about quickly, let's jump to a few more things. Like, uh, for example…
+
+00:34:06.997 --> 00:34:09.997
+Okay, let's talk about completely, let's jump to, um…
+
+00:34:10.468 --> 00:34:12.468
+A few more things. Thank God.
+
+00:34:13.772 --> 00:34:19.772
+Docker? Okay, let's do first Git, right? Because we have been using a Git a lot, right? Yeah. So what is a…
+
+00:34:14.118 --> 00:34:18.118
+Okay, let's do first look at, because we have been using a bit of a lot.
+
+00:34:18.217 --> 00:34:20.217
+So, what is a…
+
+00:34:23.571 --> 00:34:25.571
+Yeah.
+
+00:34:25.546 --> 00:34:27.546
+What is a version control system?
+
+00:34:25.791 --> 00:34:27.791
+What does immersion performance say?
+
+00:34:27.637 --> 00:34:36.637
+Virgin Control System? Yeah, it's, uh… but Git… is Git a version control system, or is it something else? No, Git and GitHub are both function control systems.
+
+00:34:28.875 --> 00:34:36.875
+We'll just control system, yeah. It's, uh… is Git a virtual monitoring system, or is it something else? No, Git and GitHub are both function control systems.
+
+00:34:37.476 --> 00:34:39.476
+GitHub also? Like, uh…
+
+00:34:37.720 --> 00:34:39.720
+Like, uh…
+
+00:34:40.113 --> 00:34:43.113
+Did you see it? No, uh…
+
+00:34:40.519 --> 00:34:46.519
+Do you see it? Okay, so I will try to see. No, no, uh, get is a version control system, okay? And GitHub is do… do what?
+
+00:34:47.279 --> 00:34:52.279
+It saves in a cloud, like… Oh, yeah. Uh…
+
+00:34:47.495 --> 00:34:51.495
+it saves in a cloud, like, yeah.
+
+00:34:54.318 --> 00:34:56.318
+like, uh, for example, if…
+
+00:34:54.620 --> 00:34:56.620
+like, uh, for example, if…
+
+00:34:56.560 --> 00:35:00.560
+more than one of… more than one team members, they are working on the same file. Yeah.
+
+00:34:56.903 --> 00:35:00.903
+More than one team members, they're working on the same file. Yeah.
+
+00:35:00.586 --> 00:35:02.586
+Right? And both of them…
+
+00:35:00.787 --> 00:35:02.787
+And both of them…
+
+00:35:03.454 --> 00:35:06.454
+are using… are on the same branch, main branch. Okay.
+
+00:35:03.624 --> 00:35:06.624
+are using, uh, are on the same branch you mean, right? Okay.
+
+00:35:06.465 --> 00:35:08.465
+And, uh…
+
+00:35:07.382 --> 00:35:09.382
+And, uh, uh…
+
+00:35:09.072 --> 00:35:12.072
+If both of them push together. To the mean.
+
+00:35:11.551 --> 00:35:14.551
+to the me. So, the first person that pushed
+
+00:35:12.265 --> 00:35:14.265
+So, the first person that pushed
+
+00:35:14.856 --> 00:35:16.856
+That push is, like…
+
+00:35:14.897 --> 00:35:16.897
+That push, like, uh…
+
+00:35:17.705 --> 00:35:23.705
+Let's say he pushed A pushed first. Yeah, so the second person will face a conflict, then he will have to…
+
+00:35:18.045 --> 00:35:24.045
+Yeah. Yeah, so the second person will face a conflict, then he will have to…
+
+00:35:23.906 --> 00:35:25.906
+Like, get, uh…
+
+00:35:24.195 --> 00:35:26.195
+like, get, uh…
+
+00:35:26.174 --> 00:35:36.174
+do, like, get pulled, okay, to get, like, the newest update, because two people cannot push it to me at the same time. There'll be conflict. And then how do you solve conflicts, etc?
+
+00:35:26.652 --> 00:35:33.652
+to get, like, the newest update, because two people cannot push it at me at the same time.
+
+00:35:33.865 --> 00:35:35.865
+And then, how do you solve it?
+
+00:35:36.117 --> 00:35:40.117
+How we solve conflicts? Uh, you just…
+
+00:35:37.150 --> 00:35:40.150
+How you solve conflicts. You just literally speak and click.
+
+00:35:41.128 --> 00:35:51.128
+generally, the idea behind solving one flips. So… Yeah, we're speaking about getting… Do you see your change and his change both together? No, you see his change. His change, and… and also…
+
+00:35:41.446 --> 00:35:43.446
+Generally, the idea being sort of chips.
+
+00:35:44.289 --> 00:35:49.289
+You were speaking about getting it. Obviously, your change has changed both together? No, you see his change.
+
+00:35:49.447 --> 00:35:55.447
+And also, the addition changes that you can have settings? Yeah, it's there, but you'll have to…
+
+00:35:51.244 --> 00:35:55.244
+The additional change that you have is, like, receptors? Yeah, it's there, but you'll have…
+
+00:35:55.758 --> 00:36:05.758
+to pull, then you'll have to commit once again. Yes, but when we pull, yeah, for example, then I can see his change, of course, right? Yeah, yeah. But I… can I also see my change? The new change? No, it's not there.
+
+00:35:55.779 --> 00:35:58.779
+to pull, then you'll have to commit once again.
+
+00:35:59.160 --> 00:36:06.160
+Yeah, yeah. But I… can I also see my change? The new change? No, it's all good.
+
+00:36:06.016 --> 00:36:08.016
+Okay, so…
+
+00:36:07.879 --> 00:36:11.879
+So, but then you have to go and you come back to merging. Yeah.
+
+00:36:08.652 --> 00:36:11.652
+But then you have to do a new commit to merge, and resolve the container, right?
+
+00:36:12.402 --> 00:36:14.402
+So…
+
+00:36:16.835 --> 00:36:18.835
+Okay, next week we'll talk about, like, uh…
+
+00:36:17.249 --> 00:36:19.249
+Should we talk about, like, uh…
+
+00:36:19.153 --> 00:36:25.153
+two or three questions remaining quickly. I'll do it. Just like, just like you have…
+
+00:36:19.698 --> 00:36:24.698
+two or three questions. Just like, just like…
+
+00:36:24.781 --> 00:36:26.781
+You've got the concept of…
+
+00:36:25.637 --> 00:36:29.637
+The concept of branch or staging area, commit, and get, right? Let's not talk about that.
+
+00:36:30.332 --> 00:36:36.332
+Uh, when you talk about Docker, you have the concept of a Docker file, image, and a container, right? Yes, so how do they relate to each other?
+
+00:36:30.477 --> 00:36:36.477
+So, how do you relate to each other?
+
+00:36:36.777 --> 00:36:41.777
+So you start with the Dockerfile, like, whenever you record… there's a code, Python will…
+
+00:36:37.859 --> 00:36:41.859
+So you're stuck in the docket fire, like, whenever you record… there's a code, Python…
+
+00:36:42.110 --> 00:36:47.110
+Could you… like, add the Dockerfile, then you'll have, uh…
+
+00:36:42.440 --> 00:36:45.440
+Could you want… you, like, add the Dockerfile?
+
+00:36:45.525 --> 00:36:47.525
+then you'll have, uh…
+
+00:36:48.243 --> 00:36:53.243
+like, uh, in Docker, like, you create an image, which is…
+
+00:36:48.633 --> 00:36:54.633
+like, in Docker, like, you create an image, which is a blueprint.
+
+00:36:54.088 --> 00:36:58.088
+a blueprint. It has all the, like, let's say, for example, the Python
+
+00:36:55.581 --> 00:36:58.581
+It has all the, like, let's say, for example, the Python
+
+00:36:58.712 --> 00:37:02.712
+all of the things needed, the dependencies, the Python, uh… Yes.
+
+00:36:58.950 --> 00:37:02.950
+all of the things needed, the dependencies, the Python, uh…
+
+00:37:03.126 --> 00:37:05.126
+what's that called? The…
+
+00:37:03.243 --> 00:37:05.243
+What's that called? We…
+
+00:37:05.488 --> 00:37:08.488
+The Virgin, all of those things, and uh…
+
+00:37:05.817 --> 00:37:08.817
+The version of those things, and uh…
+
+00:37:09.446 --> 00:37:11.446
+Yeah. And then what is the content?
+
+00:37:09.449 --> 00:37:11.449
+Yeah, and then what is the container, then?
+
+00:37:11.672 --> 00:37:13.672
+The container is the project itself.
+
+00:37:11.850 --> 00:37:13.850
+The container is the project itself.
+
+00:37:13.838 --> 00:37:18.838
+So, can I… can I run more than one… so I can run a container based on the image, right?
+
+00:37:14.006 --> 00:37:19.006
+So, can I… can another important one… so I can run a tentatively based on the image, right?
+
+00:37:20.157 --> 00:37:23.157
+double run, and I need to give the image to run the… The image is a necessity.
+
+00:37:20.459 --> 00:37:23.459
+The image isn't necessary.
+
+00:37:23.576 --> 00:37:28.576
+Can I run more than one container for the same image? Yeah, you can do that. You can do that, right? Yeah.
+
+00:37:24.851 --> 00:37:27.851
+Can I run more than one containers? Yeah, you can do that.
+
+00:37:28.119 --> 00:37:30.119
+Yeah. So…
+
+00:37:28.689 --> 00:37:30.689
+So…
+
+00:37:32.214 --> 00:37:34.214
+Okay, can I…
+
+00:37:32.704 --> 00:37:34.704
+Okay, can I…
+
+00:37:34.775 --> 00:37:36.775
+Uh, can it run?
+
+00:37:34.792 --> 00:37:36.792
+Uh, can it run?
+
+00:37:37.019 --> 00:37:41.019
+two containers from the same image on the same ports.
+
+00:37:37.373 --> 00:37:41.373
+two containers from the same image on the same ports.
+
+00:37:42.330 --> 00:37:45.330
+external ports. We're going back to ports.
+
+00:37:42.541 --> 00:37:45.541
+We're going back to politics.
+
+00:37:46.326 --> 00:37:51.326
+Like, for example, when you run the Docker container, you mentioned ports, right? Yeah. Left-hand side, right-hand side. Do different containers?
+
+00:37:46.651 --> 00:37:51.651
+So, like, for example, when you run the program, did you mention portrait? Yeah. Left and side, right? Two different containers?
+
+00:37:52.164 --> 00:37:56.164
+Yeah. For example, let's say we're talking about, yeah, two different containers.
+
+00:37:52.486 --> 00:37:56.486
+Yeah, for example, let's say we're talking about, yeah, two different containers.
+
+00:37:56.278 --> 00:38:00.278
+Same image, let's say image 1 is here, right? Okay.
+
+00:37:56.538 --> 00:37:58.538
+Same image, you know, see it.
+
+00:37:58.405 --> 00:38:00.405
+image, one is… Fuck yeah.
+
+00:38:00.667 --> 00:38:02.667
+And I'm running…
+
+00:38:00.902 --> 00:38:02.902
+And I'm running…
+
+00:38:03.304 --> 00:38:05.304
+two containers, Docker run, Docker run.
+
+00:38:03.685 --> 00:38:05.685
+two containers, Docker and Docker.
+
+00:38:05.535 --> 00:38:10.535
+Two different containers. Yes, dash P here, let's say, because both are…
+
+00:38:06.387 --> 00:38:09.387
+Two different sessions. Yeah, Stash P here, let's see.
+
+00:38:09.448 --> 00:38:11.448
+Because Utah.
+
+00:38:12.002 --> 00:38:18.002
+I will do 8080 here, and inside, let's say, this is, uh, let's say this is 8888.
+
+00:38:12.118 --> 00:38:18.118
+I will do 8080 here, and inside, let's say, this is, uh, let's say this is 8888.
+
+00:38:18.863 --> 00:38:24.863
+And inside, this is 9999F, right? Like, wait a minute, these are both same. Okay.
+
+00:38:18.978 --> 00:38:20.978
+So, this is… 9, 9.
+
+00:38:21.323 --> 00:38:25.323
+These are both the same. Okay.
+
+00:38:25.096 --> 00:38:27.096
+these both are different, so…
+
+00:38:26.291 --> 00:38:29.291
+these boots are different. So, just take a look at it, take your time.
+
+00:38:27.082 --> 00:38:29.082
+Just take a look at it, take your time.
+
+00:38:29.063 --> 00:38:31.063
+And is it possible or not?
+
+00:38:29.399 --> 00:38:31.399
+And is it possible or not?
+
+00:38:34.006 --> 00:38:44.006
+One image for two… Someone? Trick someone tell you I asked this question? No, uh, actually, no, sorry, but I phased, actually. No one told me about it. They spoke about a few things, but no, this one.
+
+00:38:34.402 --> 00:38:40.402
+One image for two different… Someone tell me I asked this question. No, uh, actually, no, but I didn't mean it actually…
+
+00:38:41.408 --> 00:38:44.408
+No one tells me about this. They spoke about a few things, but not the same.
+
+00:38:44.944 --> 00:38:46.944
+Uh… no, no, just take a look at it.
+
+00:38:45.276 --> 00:38:47.276
+Uh… no, no, just take a look at it.
+
+00:38:47.766 --> 00:38:50.766
+take… take out some time, just a few seconds, right? And…
+
+00:38:48.235 --> 00:38:50.235
+Take out some time, just a few seconds, right?
+
+00:38:50.966 --> 00:38:55.966
+You know my concern is not if it's possible or not.
+
+00:38:51.565 --> 00:39:04.565
+You know, my concern is not if it's possible or not, but if there is one image for two different containers, not the same container, right? Is it within the same container, or two different… No, no, two different containers from the same image.
+
+00:38:56.570 --> 00:39:00.570
+But if there is one image for two different containers, not the same container, right?
+
+00:39:00.938 --> 00:39:04.938
+Is it within the same container, or two different containers? No, two different containers from the same image.
+
+00:39:04.584 --> 00:39:11.584
+From running Docker Run commands two times. Okay, so are we using command, you give the name of the iterator? Yeah, yeah. If I'm running two times.
+
+00:39:05.864 --> 00:39:11.864
+Okay, so are we using… you give the name of the address? Yes, yeah. I'm doing it two times.
+
+00:39:12.018 --> 00:39:18.018
+Let's say you have two CMDs, right? So Docker and Docker and same image. Yeah. But ports are like this, so…
+
+00:39:12.072 --> 00:39:14.072
+let's say you have two… Yeah.
+
+00:39:14.059 --> 00:39:16.059
+Docker and Docker and same imagery. Yeah.
+
+00:39:16.320 --> 00:39:22.320
+But groups are like this. So, uh, left-hand side port is same, right-hand sideboard is different. Yeah, so it's possible.
+
+00:39:19.147 --> 00:39:22.147
+Uh, left-hand checkport is same, right-hand checkport is different. Yeah, so it's possible.
+
+00:39:22.223 --> 00:39:24.223
+Yeah, right? So…
+
+00:39:22.353 --> 00:39:24.353
+Yeah. Alright, so…
+
+00:39:26.707 --> 00:39:35.707
+my mind went away to the call Compose and all of those things, because speaking about two different containers, that's what came to mind, so… That's right. Okay, so…
+
+00:39:27.460 --> 00:39:30.460
+my mind went over to Doc Compose and all of those things, because…
+
+00:39:30.644 --> 00:39:33.644
+Speaking about two different containers, that's what came to my concern.
+
+00:39:36.603 --> 00:39:38.603
+Do you see any benefit of having a CICD pipeline?
+
+00:39:36.670 --> 00:39:38.670
+Do you see any benefit of having a CICT pipeline?
+
+00:39:39.678 --> 00:39:45.678
+Yeah. What do you think is the benefit of it? So, when it comes to CI-CD, it's like, for automation.
+
+00:39:39.975 --> 00:39:45.975
+Yeah, uh, what do you think is the benefit? So, when it comes to CIECD, it's like, for automation.
+
+00:39:45.767 --> 00:39:47.767
+Yeah, like, automating projects.
+
+00:39:46.076 --> 00:39:48.076
+Yep, like, automating projects.
+
+00:39:48.117 --> 00:39:50.117
+that's the main goal of them.
+
+00:39:48.427 --> 00:39:50.427
+that's the main goal of them.
+
+00:39:50.258 --> 00:39:55.258
+And, uh, also, CICD. What is the benefit of automation? What do we…
+
+00:39:50.577 --> 00:39:55.577
+And, uh, also CICD. What is the benefit of our commission? What do we…
+
+00:39:56.098 --> 00:40:03.098
+You don't actually need, like, lots of coding for that. Lots of commands, maybe? Yeah, no lots of commands, it'll just, like, automate
+
+00:39:56.582 --> 00:40:02.582
+You don't need, like, lots of coding for that. Lots of commands? Yeah, no lots of commands, it'll just, like,
+
+00:40:02.670 --> 00:40:04.670
+automate everything.
+
+00:40:03.821 --> 00:40:07.821
+We have everything, yeah. Okay, nice, nice split, right? Yeah. Last thing. Yeah?
+
+00:40:06.015 --> 00:40:08.015
+Yeah. Last time. Yeah?
+
+00:40:08.142 --> 00:40:16.142
+just… Okay, just one final agency. Yeah. Uh, how does a large language model…
+
+00:40:08.587 --> 00:40:18.587
+Just, uh, 2 minutes later. Okay. Just one final thing. AI agents, right? Yeah. Uh, what… how does a large language model is different from an AI agent, right? Like, uh…
+
+00:40:16.220 --> 00:40:18.220
+is different from any agent.
+
+00:40:19.040 --> 00:40:22.040
+that you have any ideas? Yeah.
+
+00:40:19.064 --> 00:40:23.064
+You have ChatGPT, and then you have an AI agent, right? Yeah. Uh, what is…
+
+00:40:22.373 --> 00:40:26.373
+Uh, what is that thing that any agent can do that LLM cannot do?
+
+00:40:24.090 --> 00:40:26.090
+that thing that EA agent can do, that LLM cannot.
+
+00:40:28.483 --> 00:40:31.483
+Repetitive tasks, like, uh…
+
+00:40:28.679 --> 00:40:32.679
+repetitive tasks, like, uh… or my…
+
+00:40:32.712 --> 00:40:35.712
+Yeah, you can, like, uh…
+
+00:40:33.942 --> 00:40:35.942
+Yeah, you can, like, uh…
+
+00:40:37.597 --> 00:40:39.597
+Can I say…
+
+00:40:42.783 --> 00:40:44.783
+So, LLM versus AI agents.
+
+00:40:42.839 --> 00:40:44.839
+So, LLM versus AI agents here.
+
+00:40:44.843 --> 00:40:46.843
+AI agents can do everything.
+
+00:40:45.023 --> 00:40:47.023
+AI agents can do everything.
+
+00:40:46.830 --> 00:40:48.830
+That's, like, uh…
+
+00:40:47.004 --> 00:40:49.004
+That's, like, uh…
+
+00:40:49.520 --> 00:40:51.520
+Can they… can they make any pay equal?
+
+00:40:49.723 --> 00:40:51.723
+Can they… can they make any recall?
+
+00:40:52.212 --> 00:40:55.212
+It's just… no. Can they…
+
+00:40:52.579 --> 00:40:58.579
+He said, no. Can they… They can generate how, like, how you can do it.
+
+00:40:55.741 --> 00:40:58.741
+They can generate how, like, how you can do it.
+
+00:40:59.276 --> 00:41:07.276
+But they cannot do it. Nice. Okay, thank you, Hamil. Thanks, sir. I appreciate it. Should I leave the meeting? Yeah, sure, just stop the recording. I will save the transcript.
+
+00:40:59.559 --> 00:41:04.559
+But they cannot do it. Okay, thank you, Emma. Thanks, Emma, I appreciate it. Should I leave the meeting? Yeah, sure.
+
+00:41:05.025 --> 00:41:07.025
+Thanks, sir.
+

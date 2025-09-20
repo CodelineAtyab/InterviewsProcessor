@@ -1,0 +1,1596 @@
+WEBVTT
+
+
+00:00:03.940 --> 00:00:06.940
+Yeah, I saw, you know, yeah, and we are going to just, yeah,
+
+00:00:07.425 --> 00:00:14.425
+Just going to see a few things. For example, Python Basics, networking, Linux good Docker deployment that we have done, right?
+
+00:00:15.101 --> 00:00:18.101
+So, I might have skipped some very basic questions, but there are…
+
+00:00:19.259 --> 00:00:22.259
+It also asks. So, let's just start with some
+
+00:00:22.251 --> 00:00:24.251
+Both in BSX3, okay.
+
+00:00:25.017 --> 00:00:31.017
+Uh, and by the way, this is the simplest that you see right here, but anyways, it will become complex with time.
+
+00:00:31.839 --> 00:00:39.839
+So, A is 5 and B is 10, right? These are two just variables. I don't want you to be to use the exact syntax, I just want your logic, right? Like, how would you do it?
+
+00:00:41.020 --> 00:00:43.020
+So…
+
+00:00:43.157 --> 00:00:45.157
+I want to make B5 and A10.
+
+00:00:45.795 --> 00:00:47.795
+But remember, the numbers can be any numbers.
+
+00:00:48.292 --> 00:00:50.292
+This is coming from user input, right?
+
+00:00:50.779 --> 00:00:53.779
+Okay. So, whatever user inputs, I just have to swap it.
+
+00:00:54.206 --> 00:00:56.206
+It was from the variables?
+
+00:00:56.292 --> 00:01:01.292
+Yes, like, for example, you have seen games, and the games, sometimes…
+
+00:01:02.154 --> 00:01:06.154
+their enemy units, and you actually convert them to your units, right? Like, using some…
+
+00:01:07.343 --> 00:01:10.343
+device, or something, so actually swapping is the concept.
+
+00:01:11.136 --> 00:01:13.136
+So, B should hold the value of A,
+
+00:01:13.138 --> 00:01:15.138
+And A should hold the value of B.
+
+00:01:16.047 --> 00:01:19.047
+How can you do that? Okay, and you can do anything you like for now.
+
+00:01:19.638 --> 00:01:21.638
+point, so…
+
+00:01:22.861 --> 00:01:26.861
+From what I understand that we're changing there. We already do have the variables.
+
+00:01:27.461 --> 00:01:32.461
+Now, E equals 5, and B equals 10. So if we want to change the variables,
+
+00:01:32.974 --> 00:01:35.974
+Um, you can easily retain, use the return.
+
+00:01:37.067 --> 00:01:42.067
+Write or explain is fine, like… Yeah, like, we use the return.
+
+00:01:41.904 --> 00:01:43.904
+Okay, return? Yeah.
+
+00:01:43.998 --> 00:01:45.998
+So, return will change the value.
+
+00:01:45.933 --> 00:01:48.933
+Like, we change the value of the A to the value of B.
+
+00:01:49.524 --> 00:01:51.524
+Notion, and no printed. Doesn't do it.
+
+00:01:52.442 --> 00:01:57.442
+Let's say we are not using any function, right? Because from function, you return, right?
+
+00:01:58.110 --> 00:02:00.110
+You can use any variables you like.
+
+00:02:00.829 --> 00:02:02.829
+The only goal is that B should…
+
+00:02:03.175 --> 00:02:07.175
+Like, this is line 1, this is line 2, right? Okay. What can I do on line 3?
+
+00:02:07.540 --> 00:02:09.540
+that B becomes A.
+
+00:02:11.145 --> 00:02:22.145
+So, like, we said that, uh, we want air to become B. Yeah. So, A equals B. Yeah, right? And now, I want B to become A.
+
+00:02:22.228 --> 00:02:24.228
+be equal to this. Yes, January?
+
+00:02:24.188 --> 00:02:31.188
+Now there's a problem here, see? One is right, I get special, right? So, for example, A is 5, right? Yeah, and B is 10.
+
+00:02:31.378 --> 00:02:33.378
+When you do A equal to B,
+
+00:02:34.598 --> 00:02:36.598
+you… A becomes 1010. Yeah.
+
+00:02:37.248 --> 00:02:43.248
+But B's also 10 so far. Certainly. When you go down, when you do B equal to A, because A was already updated,
+
+00:02:43.993 --> 00:02:48.993
+It was updated here, right? So you lose the… You already have lost 5, right? Yeah, yeah.
+
+00:02:49.620 --> 00:02:51.620
+So, B also is not N, so both are 10, 10 years.
+
+00:02:52.278 --> 00:02:54.278
+Now, can we do something before?
+
+00:02:55.654 --> 00:03:03.654
+Before we assign A to B, can we do something so we don't lose 5, so we can assign that to B? Maybe we can create another variable? So, for example, we use X.
+
+00:03:04.624 --> 00:03:11.624
+Yeah, yeah, yeah. Yeah. So, the value that we don't want to lose, whatever, we'll give it to that variable. So, yes, please.
+
+00:03:11.766 --> 00:03:16.766
+Yep. And basically, then we change X, the value that we want, the number we get.
+
+00:03:17.187 --> 00:03:20.187
+Okay, then do you want to change something here, or…? Yeah, it'll be X.
+
+00:03:21.175 --> 00:03:23.175
+Yeah, nice feature.
+
+00:03:24.661 --> 00:03:27.661
+This is the easy swiping, right?
+
+00:03:28.986 --> 00:03:31.986
+So simply we changed here at the variables that we change the value of it here?
+
+00:03:32.699 --> 00:03:36.699
+You can do anything you like, but you cannot use an extra variable, let's say.
+
+00:03:37.301 --> 00:03:39.301
+Okay, for example, you have to do the same thing.
+
+00:03:39.401 --> 00:03:47.401
+Okay. The only limitation is you cannot use an extra width. Sometimes people have limitations. For example, if you're designing an application for elevator,
+
+00:03:48.430 --> 00:03:50.430
+So, the CPU and RAM are so small,
+
+00:03:51.217 --> 00:03:58.217
+that you cannot use libraries, right? So, for example, this is, like, in real life, you have restrictions sometimes for systems.
+
+00:03:58.361 --> 00:04:01.361
+So let's say the restriction is you cannot have
+
+00:04:01.628 --> 00:04:06.628
+a third variable. You have to work with just these two, just two, and still be able to serve it. Okay.
+
+00:04:07.461 --> 00:04:09.461
+Now, you can use any kind of logic you can think of.
+
+00:04:10.764 --> 00:04:13.764
+it's not a special library, nothing, totally your logic, it can be…
+
+00:04:14.464 --> 00:04:16.464
+some mathematical logic, something, hang on.
+
+00:04:18.839 --> 00:04:20.839
+Just take your time, think about it for a minute.
+
+00:04:32.588 --> 00:04:37.588
+So, like, can we use the if conditions, mister? Anything, yes. Everything is allowed, not an extra variable. Yeah.
+
+00:04:52.505 --> 00:04:54.505
+You can think of mathematical operations tools.
+
+00:04:55.760 --> 00:05:01.760
+mathematicals, like, I mean, the mathematics, simple mathematics might also work, yeah.
+
+00:05:03.859 --> 00:05:07.859
+You can just… but we don't want it to be turnly at the same value, or it's fine.
+
+00:05:08.770 --> 00:05:13.770
+Beacon… no, no, it shouldn't be the same. End result should be?
+
+00:05:14.816 --> 00:05:25.816
+B is the end result. In between, you can do B anything. You can make B15, 100, 20, whatever. The end result should be, like, once you are done with your algorithm. Okay, so when it comes to the mathematics, right, we can use that as a start.
+
+00:05:26.622 --> 00:05:31.622
+Uh, condition, what they collect their stuff. Yeah, like, we multiply the A, since it's
+
+00:05:31.563 --> 00:05:33.563
+since it's, uh…
+
+00:05:34.647 --> 00:05:37.647
+let's say AS5B5? Yeah, so we multiply it by 2.
+
+00:05:38.084 --> 00:05:40.084
+Uh, top, top.
+
+00:05:41.136 --> 00:05:43.136
+like, you multiply 10 by 2?
+
+00:05:43.895 --> 00:05:46.895
+Like, sorry, no, no, since it's 5, yeah? Yeah.
+
+00:05:48.156 --> 00:05:50.156
+500 by 2? Mm-hmm.
+
+00:05:50.562 --> 00:05:55.562
+Okay. Oh, but you don't… see, the numbers are not fixed. The number can be… user can give you anything.
+
+00:05:56.381 --> 00:06:03.381
+Your algorithm should be able to swap without using a third variable, but number can be anything. Yes, right now it's 5, but it can be 15.
+
+00:06:03.360 --> 00:06:05.360
+It can be 3.
+
+00:06:06.076 --> 00:06:11.076
+Right. So, general logic, actually, right? So you can figure… like, this is a general logic, right? Yeah, general logic.
+
+00:06:11.163 --> 00:06:13.163
+We'll work on any numbers.
+
+00:06:13.694 --> 00:06:16.694
+So, can you think of something… can you think of something using plus and minus?
+
+00:06:17.778 --> 00:06:23.778
+this address of technician or something. Yeah, so since we have… for example, we have 10, yeah? Yeah. You're assuming that A equals…
+
+00:06:24.334 --> 00:06:26.334
+be East, be Eastern.
+
+00:06:27.194 --> 00:06:34.194
+So we, uh, we use the… can you write A equal to first? A equal to? Let's say A. Yes, and anything else you want to…?
+
+00:06:34.513 --> 00:06:36.513
+And then A… Because if you do equal to B?
+
+00:06:37.213 --> 00:06:42.213
+5 is most. Five is lost. Immediately. How do you save 5? Using plus or minus? Minus.
+
+00:06:42.779 --> 00:06:47.779
+Like, what would you minus? Can you write here? So, like, we minus B.
+
+00:06:49.063 --> 00:06:54.063
+Okay, since it's 10. No, no, but it's here. If you go to the next line, A is gone.
+
+00:06:54.957 --> 00:06:56.957
+Okay, so we don't want to lose air.
+
+00:06:58.098 --> 00:07:04.098
+We don't want to lose, let's say, 5 here, right? If you do equal to B, A becomes 10, 10, so 5 is lost, right?
+
+00:07:04.302 --> 00:07:09.302
+So, using addition, subtraction, can you not, like, minus?
+
+00:07:10.073 --> 00:07:16.073
+If you minus minus what, either A or B, there's no other choice. Yeah. So what will you minus? B minus E?
+
+00:07:17.305 --> 00:07:19.305
+Okay, can you put BMSC here?
+
+00:07:20.319 --> 00:07:27.319
+So, if… sorry, E. It is… So, B10 minus 5 becomes 5, so A is distant 5.
+
+00:07:28.139 --> 00:07:30.139
+But A is still 5, we didn't change it. No, we didn't lose that thing.
+
+00:07:30.519 --> 00:07:32.519
+But we didn't change it also.
+
+00:07:32.619 --> 00:07:34.619
+We also have to swipe it, right? Yeah.
+
+00:07:35.663 --> 00:07:39.663
+So, you are very close, right? So, what can you do next?
+
+00:07:40.123 --> 00:07:42.123
+Okay. To give the value of
+
+00:07:42.217 --> 00:07:44.217
+See, A has the value of A.
+
+00:07:45.814 --> 00:07:47.814
+Can you make some change so it has the video
+
+00:07:48.904 --> 00:07:51.904
+So, for example, A has the value of B and A together?
+
+00:07:52.112 --> 00:07:54.112
+And we then gets the…
+
+00:07:54.441 --> 00:07:59.441
+evaluate out, and then… So, we can use, then, the plus. Okay.
+
+00:08:00.397 --> 00:08:02.397
+So since it's B2… Let's do B+, A, here. Yeah.
+
+00:08:02.784 --> 00:08:12.784
+like, let's just change the plus. Now, now, uh, 5 plus 10 is 15, right? Now, A becomes 15, it has both of the values, right? Okay, let's forget about A now. Okay, but 5 is not lost, it's…
+
+00:08:12.939 --> 00:08:14.939
+Uh, there are actually some… right?
+
+00:08:15.286 --> 00:08:19.286
+Okay, now let's go to B. Now, how do you assign B the value of A?
+
+00:08:19.717 --> 00:08:21.717
+P equal to? B equal to A.
+
+00:08:22.464 --> 00:08:24.464
+Yeah, the 8th, and then, then? What?
+
+00:08:25.094 --> 00:08:28.094
+minus plus what? Minus? It'll be minus 5.
+
+00:08:28.341 --> 00:08:30.341
+Because we want to…
+
+00:08:30.661 --> 00:08:32.661
+Yeah, we want to get the same, yeah?
+
+00:08:33.181 --> 00:08:35.181
+E-, uh, so, for example,
+
+00:08:35.528 --> 00:08:37.528
+B equal to A. Mm-hmm.
+
+00:08:38.159 --> 00:08:43.159
+minus A is already changed, A is now 15, right? 15, yeah. So, A minus, if you write B here,
+
+00:08:44.430 --> 00:08:52.430
+What will you get? 5. Right? So, B becomes 5. Now, next, next A… now, again, we have to update A. A is 15. Yeah. We have to make A10.
+
+00:08:53.067 --> 00:08:56.067
+So now A equal to A equal to… now what do we do? Okay.
+
+00:08:56.462 --> 00:08:58.462
+Since it's 5? Yeah.
+
+00:08:59.160 --> 00:09:01.160
+So, A equals to B.
+
+00:09:01.326 --> 00:09:03.326
+Okay, okay, right, Ray.
+
+00:09:04.319 --> 00:09:06.319
+Yeah? And B was actually…
+
+00:09:07.118 --> 00:09:09.118
+Phase 5 already, right? B is 5.55 here.
+
+00:09:09.706 --> 00:09:12.706
+And A is only 5. A is 15, 15, yeah.
+
+00:09:13.022 --> 00:09:15.022
+So since it's 5.15.
+
+00:09:16.066 --> 00:09:21.066
+And we went to the end result will be? We want A to have, uh, L.
+
+00:09:21.787 --> 00:09:23.787
+10. Phase 5.
+
+00:09:23.884 --> 00:09:25.884
+No, no. See…
+
+00:09:26.020 --> 00:09:28.020
+A is right now 15.
+
+00:09:28.360 --> 00:09:30.360
+Okay. These five. Mm-hmm.
+
+00:09:31.883 --> 00:09:33.883
+we want A to have only 10.
+
+00:09:34.268 --> 00:09:39.268
+It's gonna be minus. Yes, yeah, so… but do we minus from A, or do we minus from B?
+
+00:09:39.647 --> 00:09:42.647
+We minus it from, uh… no.
+
+00:09:42.623 --> 00:09:50.623
+15, yeah. No, no, this is nothing, because this… We are assigning to it, yeah. This executes later. First, this statement will execute, right?
+
+00:09:51.238 --> 00:09:55.238
+B is 5. A is 15. So A minus B, yes, right?
+
+00:09:55.428 --> 00:09:58.428
+Yeah. So, 15 minus 55.
+
+00:09:58.642 --> 00:10:00.642
+We have 10, 10, so you're soft.
+
+00:10:01.886 --> 00:10:05.886
+Gotcha. Without using the third variable. It's an approach, and this is a different approach, yeah?
+
+00:10:07.175 --> 00:10:14.175
+I'm just giving you an idea how… a basic question will look like. Now it will transform into the intermediate one, right? But this is not a still…
+
+00:10:14.374 --> 00:10:20.374
+Advanced, right? Advance is separate. But anyways, good joke. Like, I just give you hints, but you are able to do it, right? Thank you.
+
+00:10:20.545 --> 00:10:23.545
+Okay, let's do, uh, one more, mostly here.
+
+00:10:25.963 --> 00:10:29.963
+Uh, in this one, what I will do, I will give you, for example,
+
+00:10:30.311 --> 00:10:32.311
+a list…
+
+00:10:35.548 --> 00:10:37.548
+Yeah. Of numbers.
+
+00:10:39.147 --> 00:10:42.147
+And let's say these numbers are 1, 2…
+
+00:10:42.823 --> 00:10:44.823
+3… 4…
+
+00:10:46.402 --> 00:10:48.402
+5, 6, 7, 8…
+
+00:10:48.726 --> 00:10:51.726
+9, and 10. 1 till 10.
+
+00:10:51.842 --> 00:10:55.842
+Now, can you write, like, can you think of a logic?
+
+00:10:55.842 --> 00:10:57.842
+Where you scan this whole list.
+
+00:10:58.468 --> 00:11:00.468
+And…
+
+00:11:00.758 --> 00:11:02.758
+set all of the even numbers.
+
+00:11:03.360 --> 00:11:05.360
+On the left-hand side, and odd numbers on the right-hand side.
+
+00:11:07.047 --> 00:11:10.047
+Like, for example, 1 to 10, right? So the result should become…
+
+00:11:10.278 --> 00:11:12.278
+that a search should be something like this.
+
+00:11:12.780 --> 00:11:16.780
+For example, 2, 4, 6…
+
+00:11:17.106 --> 00:11:19.106
+8… 10.
+
+00:11:19.081 --> 00:11:21.081
+Let's say, even on the left-hand side, right?
+
+00:11:21.175 --> 00:11:23.175
+And then similarly, one…
+
+00:11:23.768 --> 00:11:25.768
+3, 5, 7, 9.
+
+00:11:28.566 --> 00:11:32.566
+Right, so automatically they shift to the left side, and they shift to the right side. So what would be your logic for this?
+
+00:11:32.804 --> 00:11:34.804
+Okay.
+
+00:11:37.529 --> 00:11:41.529
+Think about it, don't… don't hurry up, you know, just take 2 minutes, think about it then.
+
+00:12:51.997 --> 00:12:54.997
+So, what I'm thinking of the logic here…
+
+00:12:55.591 --> 00:12:57.591
+is that we use diff condition.
+
+00:12:58.130 --> 00:13:03.130
+I cannot see it. We use the if condition.
+
+00:13:03.108 --> 00:13:08.108
+So, when it comes to the odd and even numbers, there's a logic that we use this.
+
+00:13:08.384 --> 00:13:10.384
+Equal equals 2.
+
+00:13:10.972 --> 00:13:12.972
+More… more with? Yeah, more than 2.
+
+00:13:13.928 --> 00:13:17.928
+tool, yeah, yeah. So, now, we are assuming that this list is, I mean,
+
+00:13:18.622 --> 00:13:20.622
+assigned to X, for example. Yeah. So if…
+
+00:13:23.764 --> 00:13:30.764
+equals 2. But X is illustrate, so, like, index, like, index we are using, yeah, from first… so it's 1 from 2.
+
+00:13:30.708 --> 00:13:32.708
+Uh…
+
+00:13:33.285 --> 00:13:39.285
+Yeah. Does that index start from 1? No, 0. Yeah. So 0, 1, 2, 3, and how we're going to solve.
+
+00:13:39.912 --> 00:13:46.912
+Okay, yeah. So, but now, how would you… actually, yes, if… So this logic is just for identifying even in odd numbers, right? Yeah.
+
+00:13:47.604 --> 00:13:50.604
+But, for example, go now, if the index, for example, 0,
+
+00:13:50.684 --> 00:13:53.684
+It's multiplied by 2.
+
+00:13:54.226 --> 00:14:00.226
+and equals 0, okay? Okay, so it's an even number, so we put it on the right. Like, for example… It's 1, not 2.
+
+00:14:00.210 --> 00:14:05.210
+One more to one, yeah, more two, equal to equal to 0. Then it's even.
+
+00:14:05.279 --> 00:14:14.279
+Okay, so if it's even then… So, the first way of defining the even and odd numbers, yes. If a number is even, we sign it, we start from the starting.
+
+00:14:14.488 --> 00:14:18.488
+Okay. The right? Let's say this is odd, right? What do you do then?
+
+00:14:19.682 --> 00:14:21.682
+So it's body, yeah?
+
+00:14:21.789 --> 00:14:27.789
+Now, if the number that we assigned is equal to PV, it's… the result is old.
+
+00:14:28.504 --> 00:14:36.504
+So, the indexes will start from the zero. Okay. Because we are starting from the zero. Yes, but let's say you detected an odd number, right? Yeah. So, then what should we do?
+
+00:14:37.068 --> 00:14:40.068
+Because we have to move… like, see, we have to shift, also.
+
+00:14:40.085 --> 00:14:42.085
+Okay, we, like, plus we won.
+
+00:14:42.201 --> 00:14:46.201
+No, no, like, shift. Like, for example, one is here, see? Yeah.
+
+00:14:46.522 --> 00:14:49.522
+Like, for example, keep the even numbers on the left-hand side.
+
+00:14:49.588 --> 00:14:52.588
+And keep the order automatically on the right-hand side.
+
+00:14:52.870 --> 00:14:58.870
+So, for example, you detected one, right? So, would you just ignore it? Would you just, uh… what do you want to do with it?
+
+00:14:59.455 --> 00:15:06.455
+Do we keep it in the lifts that since it's out there? Okay, let's say you keep odd on the left and right. Then you detected an event. Now, what will you do with that?
+
+00:15:08.962 --> 00:15:14.962
+that based on the result, it will be shift again, like where? Yeah. Wherever you put it? Yeah, after the second number, yeah.
+
+00:15:15.588 --> 00:15:19.588
+based on its index. Uh, but it's already on the second, right? Yeah.
+
+00:15:21.102 --> 00:15:25.102
+So you just leave it here, right? Then you go direct to the integral in the portal, yeah.
+
+00:15:24.959 --> 00:15:26.959
+Now, what will you do with 3?
+
+00:15:27.069 --> 00:15:35.069
+Again, use the logic, the if condition… Yes, we know the… this is an odd number, right? Based on the logic, but what do we do after figuring out it's an odd number?
+
+00:15:35.585 --> 00:15:37.585
+Out of shift.
+
+00:15:38.454 --> 00:15:43.454
+Because even numbers should be on the left-hand side. All even numbers should be on the right-hand side, and all odds should be on the left.
+
+00:15:43.687 --> 00:15:48.687
+Okay. Order doesn't matter. One can be here also, one can be here. So, like, we're starting in reverse?
+
+00:15:49.143 --> 00:15:52.143
+It's not like reversing, mostly, like, it's actually…
+
+00:15:52.303 --> 00:15:54.303
+I'm gonna make use of swaps.
+
+00:15:54.514 --> 00:16:02.514
+Just giving you a hint, right? Like, for example, here you swap two numbers, here you can also swap two numbers, right, if you want. But, like, for example,
+
+00:16:03.216 --> 00:16:08.216
+How would you do it? Because you have to scan the list one by one, and keep doing things.
+
+00:16:08.201 --> 00:16:10.201
+Until you reach the end, right?
+
+00:16:11.181 --> 00:16:15.181
+So the logic is once we scan it, recognizing that's odd or even,
+
+00:16:16.025 --> 00:16:19.025
+Um, we assign it to a variable.
+
+00:16:19.522 --> 00:16:23.522
+Photoswapping, so it can start from the left to the right.
+
+00:16:27.332 --> 00:16:32.332
+Likewise append for adding that number? Okay, yes, again, again, sorry, I mean, I didn't… I was not concentrating, sorry.
+
+00:16:33.078 --> 00:16:36.078
+So, again, what it is… so, if we find an order element, what do we do?
+
+00:16:36.891 --> 00:16:41.891
+Which different for the indexing? Uh, append in what list? Like, where do I append?
+
+00:16:42.112 --> 00:16:50.112
+This list? List list, yeah. But a new list we created for the list. Yeah, so let's say we create a new list, right? Yeah. So, can you just open a new list?
+
+00:16:50.705 --> 00:16:52.705
+And let's say, if we find out
+
+00:16:53.362 --> 00:16:57.362
+an odd number, then… okay, first we found an odd number, right? So should we append or not?
+
+00:16:58.132 --> 00:17:02.132
+the order number. Yeah. Okay, append, right? Okay. One.
+
+00:17:03.167 --> 00:17:05.167
+Okay, then we formed an even number, then what should we do?
+
+00:17:06.037 --> 00:17:09.037
+It should be from the… the other side, yeah?
+
+00:17:09.332 --> 00:17:18.332
+Even though… but we are… if we run a loop, it is just, like, going like this. The same sequences, yeah. So, for example, we found two, two is even, right? Now…
+
+00:17:18.325 --> 00:17:20.325
+Should we append or not?
+
+00:17:21.337 --> 00:17:28.337
+No. Okay, let's move to the 33Z. 3's odd, right? So it should be fine. We can write 3, okay? Okay. Skip 4, then 5, 5.
+
+00:17:28.584 --> 00:17:31.584
+Yes, just keep on abandon 5 and 7.
+
+00:17:32.274 --> 00:17:34.274
+And then 9, right? Yeah.
+
+00:17:35.270 --> 00:17:38.270
+Uh, and then we skip, and then you're done. Done. Now what? No.
+
+00:17:38.744 --> 00:17:40.744
+Now, you have order numbers, but…
+
+00:17:41.542 --> 00:17:43.542
+We need to resort it like this.
+
+00:17:44.039 --> 00:17:47.039
+You have half of the result, actually.
+
+00:17:47.943 --> 00:17:52.943
+Okay, so we created another list. Okay, let's say for the even numbers, because let's create another list. Okay, now we start again.
+
+00:17:53.270 --> 00:17:58.270
+Again, skip. Skip even… so we will append even, right? Yep.
+
+00:17:59.106 --> 00:18:05.106
+First two, and then 4, then 5, 2, 4, and then 6, and direct hit 10. And 8, and 10.
+
+00:18:07.084 --> 00:18:14.084
+Yeah, okay, now you have… These lists are assigned to a new variable stake, so we sell, so I mean, yes. Yes, but now these are two lists, right? How do we make it like this?
+
+00:18:14.634 --> 00:18:17.634
+So we basically create, for example, two lists. It's A,
+
+00:18:18.467 --> 00:18:21.467
+But we have to merge this merge here, so we go print.
+
+00:18:22.026 --> 00:18:24.026
+Oh yes, you're right.
+
+00:18:25.377 --> 00:18:37.377
+Still, it will appear too little, but anyways, it's fine, so you… Yeah, you can also use plus in Python to append both. But this is fine, you know, I think it's, yeah, great.
+
+00:18:37.704 --> 00:18:39.704
+So…
+
+00:18:41.266 --> 00:18:43.266
+This is not bad, it's okay.
+
+00:18:43.977 --> 00:18:45.977
+Finally, you were able to figure out…
+
+00:18:48.918 --> 00:18:50.918
+Okay, let's talk about…
+
+00:18:51.711 --> 00:19:00.711
+Uh, a few more things. For example, even if you are… your hackathon project was with Park Studios Directs, right? Steven.
+
+00:19:00.690 --> 00:19:05.690
+Okay, let's say you are… okay, so you are getting too many readings from the sensors, right?
+
+00:19:05.791 --> 00:19:07.791
+Let's it.
+
+00:19:08.562 --> 00:19:11.562
+too many readings. Now, let's say you have too many sensors.
+
+00:19:12.573 --> 00:19:16.573
+So every sensor has a model… has some information, right? Like name,
+
+00:19:17.280 --> 00:19:19.280
+And then the reading, right, and timestamp.
+
+00:19:19.742 --> 00:19:22.742
+So, let's say you want to store
+
+00:19:23.460 --> 00:19:26.460
+this data. And you have just two choices.
+
+00:19:26.566 --> 00:19:28.566
+Are there a list or addiction?
+
+00:19:28.957 --> 00:19:30.957
+Okay, so what would you prefer?
+
+00:19:31.530 --> 00:19:34.530
+storing the sensor readings in a list for a dictionary.
+
+00:19:35.097 --> 00:19:37.097
+Okay. Uh…
+
+00:19:37.383 --> 00:19:40.383
+I think based on the data for that hackathon project.
+
+00:19:40.706 --> 00:19:42.706
+For example, we are having a…
+
+00:19:43.688 --> 00:19:52.688
+data for that… the errors that are coming. Just simple, simply a list for the train. You have to say list prediction. List, I would assume, I'll go with the approach of
+
+00:19:52.779 --> 00:19:57.779
+dictionary. Dictionary, yeah. Why did you say… Why dictionary? Because, uh…
+
+00:19:58.560 --> 00:20:02.560
+there are unique pairs, key pairs that call available, so I actually keep any pairs, yeah.
+
+00:20:02.830 --> 00:20:11.830
+So, each value would have a key which value would have a key. Which makes it look more verbose. More verbose. And they can recognize it, classify it easily.
+
+00:20:12.155 --> 00:20:14.155
+Yeah. So…
+
+00:20:16.487 --> 00:20:19.487
+This is good, it's good. Okay, now…
+
+00:20:21.907 --> 00:20:23.907
+What if there's…
+
+00:20:23.837 --> 00:20:26.837
+Because there's so many sensors, right? And some sensors, they…
+
+00:20:26.943 --> 00:20:28.943
+Continuously generate.
+
+00:20:28.925 --> 00:20:30.925
+let's say… data.
+
+00:20:31.830 --> 00:20:34.830
+For example, I mean, for example, there's a distance sensor,
+
+00:20:34.887 --> 00:20:37.887
+So, every distance is changing every time.
+
+00:20:38.546 --> 00:20:47.546
+Okay, for example, I'm actually, uh, I'm actually flying something, and there's a sensor, the distance which continuously changed, right? So your…
+
+00:20:47.620 --> 00:20:49.620
+Application is receiving…
+
+00:20:50.356 --> 00:20:52.356
+thousands of credits per second.
+
+00:20:53.743 --> 00:20:56.743
+Great. Okay, so would you like to store thousands of…
+
+00:20:57.078 --> 00:20:59.078
+records per second in the dictionary.
+
+00:20:59.610 --> 00:21:01.610
+Uh, or in a list.
+
+00:21:01.977 --> 00:21:05.977
+When it comes to just storing continuously, like, heavy store, okay.
+
+00:21:06.912 --> 00:21:11.912
+What do you prefer? In this approach, in this case, I think list is more suitable. Oh, why, like…
+
+00:21:11.973 --> 00:21:16.973
+Like, we have dictionary? Like, dictionary, because we are already saving the same amount, the same…
+
+00:21:17.266 --> 00:21:20.266
+Okay, we're creating the list of that thing.
+
+00:21:21.172 --> 00:21:27.172
+Yeah, yes. But I mean, dictionaries also can have multiple key characters, right? That could be a yes, but then why list?
+
+00:21:29.454 --> 00:21:32.454
+There should be a reason, right? There's truly a reason, yeah.
+
+00:21:33.925 --> 00:21:36.925
+Can we say, for example, for the same data?
+
+00:21:37.227 --> 00:21:40.227
+dictionary, because it's expanding more.
+
+00:21:41.187 --> 00:21:45.187
+You can, your choice here, what do you think? If you want to go for dictionary, then it's my dictionary here.
+
+00:21:46.924 --> 00:21:50.924
+Great search. Okay. Uh, if someone wants to access…
+
+00:21:52.328 --> 00:21:54.328
+Uh, some readings continuously, right?
+
+00:21:54.715 --> 00:21:59.715
+Like, for example, a client application like your simulator wants to access and show the reading.
+
+00:22:00.759 --> 00:22:03.759
+Very quickly. Like, 10,000 access per second.
+
+00:22:03.984 --> 00:22:10.984
+10,000 reads per second, right? So, in this case, what do you think would be suitable? Are you going to stick with the dictionary, or on this?
+
+00:22:12.787 --> 00:22:15.787
+Like, for example, there's a sensor, I know the ID of the sensor, right?
+
+00:22:15.838 --> 00:22:18.838
+I just need to see the reading of the sensor, so…
+
+00:22:19.454 --> 00:22:21.454
+If this is what I need,
+
+00:22:22.285 --> 00:22:26.285
+Uh, so what would be… what would perform better? A dictionary or a list?
+
+00:22:26.851 --> 00:22:29.851
+If you want to just see the specific thing of the…
+
+00:22:30.473 --> 00:22:33.473
+Yeah, I think list here, yeah. List, yeah, Azure? Yeah.
+
+00:22:33.602 --> 00:22:35.602
+Got it. So…
+
+00:22:39.654 --> 00:22:46.654
+Because we are exactly looking for some specific things here. So dictionary would be the hard… it's a list within the list you're looking for.
+
+00:22:46.723 --> 00:22:48.723
+Yeah. So…
+
+00:22:49.141 --> 00:22:51.141
+But if you think about it, uh…
+
+00:22:51.284 --> 00:22:58.284
+In Dictionary, you can just mention the ID, and you get immediately, right? But unless you start from beginning and keep searching.
+
+00:22:59.681 --> 00:23:01.681
+Until you find it, right? Yeah, but…
+
+00:23:01.902 --> 00:23:05.902
+isn't… isn't that easy? Because we do have the same information in Atlas.
+
+00:23:06.713 --> 00:23:11.713
+You have multiple devices, multiple sensors, right? Without giving all in this one list, and it is actually producing
+
+00:23:11.765 --> 00:23:14.765
+A lot of readings, right? Yeah. So, for example, you want to see…
+
+00:23:15.777 --> 00:23:18.777
+the reading of a specific device, because there are so many devices,
+
+00:23:19.547 --> 00:23:33.547
+In the list, you keep on… because you have to compare where is the ID, and then get the… That's what I thought in the first scenario, that you have a dictionary? I just directly get that specific information. Yeah, that's what the first… Yeah.
+
+00:23:33.465 --> 00:23:35.465
+So,
+
+00:23:36.098 --> 00:23:38.098
+Uh…
+
+00:23:38.757 --> 00:23:41.757
+Actually, yeah. Even so, actually, this…
+
+00:23:41.903 --> 00:23:43.903
+Here is about, uh…
+
+00:23:44.716 --> 00:23:47.716
+Just a simple question, right? Is, uh…
+
+00:23:49.481 --> 00:23:52.481
+a very simple scenario, right? Here is UHC.
+
+00:23:53.887 --> 00:23:55.887
+List is 123, right? Mm-hmm.
+
+00:23:56.099 --> 00:23:58.099
+And then you have…
+
+00:23:59.735 --> 00:24:02.735
+add numbers. Okay, this is a function.
+
+00:24:03.405 --> 00:24:07.405
+So, this function… in this function, I'm passing the list.
+
+00:24:08.483 --> 00:24:10.483
+Okay, great, and I'm… then I'm printing.
+
+00:24:11.562 --> 00:24:16.562
+the list, right? And you can ignore this, right? Okay. So, what would be the output?
+
+00:24:16.896 --> 00:24:18.896
+of L, if this is my function.
+
+00:24:21.047 --> 00:24:23.047
+This is the list, this is the function.
+
+00:24:23.258 --> 00:24:25.258
+What would be the output of…
+
+00:24:25.375 --> 00:24:27.375
+when we are theorizing this.
+
+00:24:28.529 --> 00:24:32.529
+Remember, I'm passing L inside the function, right? Okay.
+
+00:24:34.001 --> 00:24:36.001
+So, like, we assigned the list to these numbers.
+
+00:24:36.961 --> 00:24:39.961
+Yeah, you can just check. Remember the…
+
+00:24:40.213 --> 00:24:45.213
+Deep, deep cohopper discussion, right?
+
+00:24:54.493 --> 00:24:56.493
+No, so we're looking for the output?
+
+00:24:57.191 --> 00:25:05.191
+Or the logic, just what would be… what would it print here? What would, uh, print here, yeah, yes, here, okay? Not here. Assuming that this is the…
+
+00:25:06.005 --> 00:25:08.005
+Function. Function. Take your time.
+
+00:25:08.224 --> 00:25:10.224
+This is ICSIA equal, or what?
+
+00:25:11.324 --> 00:25:17.324
+This is… yeah. This is actually… no, this, like, forget about these ones. Okay, okay, I'm reading that one. Okay.
+
+00:25:18.667 --> 00:25:20.667
+Uh, CAN numbers?
+
+00:25:21.427 --> 00:25:23.427
+Diff.
+
+00:25:59.766 --> 00:26:01.766
+isn't it just… we are adding…
+
+00:26:03.668 --> 00:26:05.668
+this variable to the list.
+
+00:26:07.750 --> 00:26:12.750
+This is the definition of the function, right? Yeah. So, add numbers.
+
+00:26:13.300 --> 00:26:18.300
+This is the definition of the function. So, it receives a param… it receives an argument, right?
+
+00:26:18.944 --> 00:26:20.944
+And then it… then it does something, and then return.
+
+00:26:21.007 --> 00:26:23.007
+Yeah.
+
+00:26:23.513 --> 00:26:27.513
+Although we are not using any return value here, but actually, as we are passing through…
+
+00:26:28.625 --> 00:26:30.625
+So this was the list before, and then…
+
+00:26:31.595 --> 00:26:34.595
+After the function, it will become this.
+
+00:26:35.146 --> 00:26:37.146
+Uh, we're ignoring this.
+
+00:26:38.337 --> 00:26:44.337
+In the function, yes, it is this, right? Yeah. Now, what will happen when I print here? Okay. When I go outside of the function, and then I go to the next line.
+
+00:26:45.248 --> 00:26:49.248
+And then print. What do you think can happen? Okay.
+
+00:26:55.634 --> 00:26:57.634
+will be, Mr. I first list.
+
+00:26:58.173 --> 00:27:02.173
+No, yeah. Okay, for straightforward. For here, huge.
+
+00:27:02.653 --> 00:27:04.653
+When you print, it will be printl.
+
+00:27:04.577 --> 00:27:11.577
+So it will be 1. It will be this list. Like this right here, right? Yeah. 1, 2, 3, 4, 5, plus the 45.
+
+00:27:12.460 --> 00:27:16.460
+like, 1, 2, 3, 4, 5, right? Like this. Mm-hmm.
+
+00:27:18.347 --> 00:27:20.347
+So, uh… yeah.
+
+00:27:21.153 --> 00:27:25.153
+Okay, because we had… I think we are too much Python business, so already time is…
+
+00:27:25.437 --> 00:27:28.437
+Let's discuss some other ones, right? For example…
+
+00:27:29.447 --> 00:27:31.447
+Uh, let's talk about, uh…
+
+00:27:32.626 --> 00:27:35.626
+When you're managing your project, right? Working with a team.
+
+00:27:35.850 --> 00:27:37.850
+So you're using GET, right?
+
+00:27:38.652 --> 00:27:41.652
+is there any benefit that you see for the feature branch workflow, even?
+
+00:27:42.112 --> 00:27:44.112
+Definitely, Mr. because, um…
+
+00:27:45.100 --> 00:27:50.100
+Like, imagine we are working on a project, and everyone is pushing their changes into the main branch.
+
+00:27:50.212 --> 00:27:55.212
+So, basically, we destroyed the whole project. So no ones know who made these changes.
+
+00:27:56.351 --> 00:27:59.351
+When they approve these changes, and what have been changes?
+
+00:27:59.701 --> 00:28:12.701
+Even though we have all these comments. So, by using the workflow of get on GitHub, creating the feature branch for every work that has been done, every changes, so that we can know what changes have been done.
+
+00:28:13.214 --> 00:28:19.214
+Before we merge it to the main code or the production, we do have. Okay, that's right. So we prevent the…
+
+00:28:20.313 --> 00:28:23.313
+let's say the… basically, we're preventing the
+
+00:28:23.706 --> 00:28:26.706
+the eros, yeah. Before the deployment, too.
+
+00:28:27.197 --> 00:28:34.197
+So here is the importance of creating the feature function. Okay, okay, so, okay. So, I mean, is there any… any relationship between
+
+00:28:34.966 --> 00:28:36.966
+a branch and a stitching area.
+
+00:28:38.554 --> 00:28:41.554
+a branch on the same area, yeah, of course. So once we create a branch…
+
+00:28:42.012 --> 00:28:48.012
+We add the files to the staging area. That staging area is monitoring the changes that have been done.
+
+00:28:48.544 --> 00:28:51.544
+And these changes can be a combo push.
+
+00:28:51.658 --> 00:28:56.658
+for the approvals, before merging into that area, because…
+
+00:28:57.021 --> 00:28:59.021
+If we didn't add it to the staging area.
+
+00:28:59.223 --> 00:29:01.223
+We don't know the changes that have been done.
+
+00:29:01.569 --> 00:29:04.569
+Any changes, any push, I mean, in that code?
+
+00:29:05.082 --> 00:29:08.082
+Will didn't recognize it. Let's say, in the staging area,
+
+00:29:08.809 --> 00:29:11.809
+You have some files, right? Yeah. Uh, green history near you.
+
+00:29:12.910 --> 00:29:14.910
+Now, you were on the main branch.
+
+00:29:14.991 --> 00:29:17.991
+When you edit the files, right? It's in the staging area.
+
+00:29:18.199 --> 00:29:20.199
+Can I switch the branch without commit?
+
+00:29:20.867 --> 00:29:22.867
+Can I switch it to another feature branch?
+
+00:29:23.533 --> 00:29:26.533
+Without committing those changes in this situation, it can't be helped.
+
+00:29:27.466 --> 00:29:29.466
+We can switch, we can switch useful. And…
+
+00:29:30.005 --> 00:29:32.005
+let's say I switch to a branch called F1.
+
+00:29:33.390 --> 00:29:35.390
+if I do git commit…
+
+00:29:35.963 --> 00:29:38.963
+Without adding now, right? So would it work? Like, would it trim it?
+
+00:29:39.595 --> 00:29:43.595
+You mean it will be… commit the commit for the same file that we added?
+
+00:29:44.251 --> 00:29:46.251
+No, no, see, I was in the main, right? Yeah.
+
+00:29:46.941 --> 00:29:51.941
+I just added 7 files. I do get add, so now it's in the staging area.
+
+00:29:52.403 --> 00:29:54.403
+I didn't commit in main, right? Yeah.
+
+00:29:54.990 --> 00:29:56.990
+Then I switched to branch F1. Yeah.
+
+00:29:57.909 --> 00:29:59.909
+If I just tried git commit after switching,
+
+00:30:00.923 --> 00:30:04.923
+Would it commit to the churches in the staging area to F1? No, I don't think so.
+
+00:30:05.456 --> 00:30:13.456
+Because we need to, again, add it to that feature branch staging. Like, for example, once I go to the feature branch, then I have to add another, and then push it, right?
+
+00:30:14.300 --> 00:30:18.300
+Okay, so… yep. Do you think… okay.
+
+00:30:20.808 --> 00:30:23.808
+Let's, uh, because time is too short for it, it's too…
+
+00:30:30.686 --> 00:30:34.686
+Uh, so your application, right? That you'd recently containerized, right? So…
+
+00:30:37.192 --> 00:30:40.192
+you know about Dockerfile, image, and container, so it was…
+
+00:30:40.217 --> 00:30:42.217
+like, uh, what is the…
+
+00:30:42.480 --> 00:30:46.480
+a relationship between a Dockerfile, Dockerfile, and image.
+
+00:30:46.510 --> 00:30:50.510
+Okay. So basically, the Dockerfile contains that, uh…
+
+00:30:51.307 --> 00:30:55.307
+the working directory, the versions of the Python we are using, the…
+
+00:30:56.410 --> 00:30:59.410
+you know, the libraries, the five lines, the instructions that we have.
+
+00:30:59.508 --> 00:31:01.508
+Now, if we want to
+
+00:31:02.685 --> 00:31:05.685
+carried out our Docker container.
+
+00:31:06.013 --> 00:31:08.013
+So we use these images.
+
+00:31:09.276 --> 00:31:14.276
+Yeah, okay, yes. Oh, sorry, so yeah, there's, that's fine. So, Dockerfile is used to do what?
+
+00:31:14.570 --> 00:31:17.570
+Damon? Dockerfile, we just put our application.
+
+00:31:17.947 --> 00:31:24.947
+Okay. What's the version we are using, that one we would… in Dockerfile, Dockerfile, right? Now, the relationship of the image, we use these images.
+
+00:31:25.054 --> 00:31:29.054
+For the easy deployment. For the distribution, for that application.
+
+00:31:29.800 --> 00:31:37.800
+So, Dockerfile doesn't have anything to do with the image, Docker image? It doesn't have… I mean, it does have… it does have it, yeah. So, use Dockerfile to…
+
+00:31:38.091 --> 00:31:41.091
+Create images, create images, right, exactly. And then you use images too?
+
+00:31:41.749 --> 00:31:45.749
+deploy it on the distribution. And you can have more than one continuous of same image?
+
+00:31:47.055 --> 00:31:52.055
+more containers? Like, for example, usually we have one image, and from that image, we spin up one container, right? Exactly.
+
+00:31:52.815 --> 00:31:55.815
+Can we spin up another container using the same image, not a new one?
+
+00:31:56.793 --> 00:32:01.793
+See? So it's a wind image. Let's say one container, but that container is running. I didn't stop it. Yeah.
+
+00:32:02.607 --> 00:32:06.607
+I need to run another container without stopping the provision, but from the same image. Can I do that?
+
+00:32:07.365 --> 00:32:10.365
+I think we can, since we used the same dependencies,
+
+00:32:10.811 --> 00:32:12.811
+But carrying the same container… the images.
+
+00:32:14.032 --> 00:32:18.032
+So I can have 2- or 3-year… as many as I can as your containers.
+
+00:32:18.429 --> 00:32:20.429
+Okay, so for example, ARC,
+
+00:32:20.826 --> 00:32:25.826
+Now, let's say these are 3 containers, just imagine, right? Okay? Although these are APIs, but let's say containers.
+
+00:32:26.722 --> 00:32:31.722
+So, I spin up one container. When I run one container, of course, I mentioned ports, right?
+
+00:32:32.869 --> 00:32:36.869
+And then you say we can do this from the same image, we're gonna spin up another, right?
+
+00:32:36.870 --> 00:32:38.870
+So, let's say I spin up another container.
+
+00:32:39.752 --> 00:32:41.752
+Uh, can I use the SIM?
+
+00:32:42.548 --> 00:32:44.548
+ports that I used to. No, no, we're gonna change that.
+
+00:32:45.069 --> 00:32:50.069
+So… so… okay. Uh, let's say this is the case right here.
+
+00:32:52.059 --> 00:32:55.059
+merge down here. For example, you are doing
+
+00:32:55.880 --> 00:32:57.880
+image, let's say, is called…
+
+00:32:58.408 --> 00:33:01.408
+Uh, even app, right? There's the image.
+
+00:33:03.803 --> 00:33:05.803
+And I'm doing the docker run command, right?
+
+00:33:06.352 --> 00:33:09.352
+Docker run dash p, right?
+
+00:33:10.510 --> 00:33:14.510
+two times, in two terminals. So, I mean, into Docker 1-P, right?
+
+00:33:15.554 --> 00:33:17.554
+So, based on the same image, right, same…
+
+00:33:18.384 --> 00:33:20.384
+And let's say…
+
+00:33:21.528 --> 00:33:23.528
+my application is ex… my application…
+
+00:33:24.054 --> 00:33:28.054
+You have your fast API, or what… whatever application, you are… what port are you using?
+
+00:33:29.016 --> 00:33:32.016
+The port we are using? In Yorakatan project for your application?
+
+00:33:32.792 --> 00:33:35.792
+8,000. Yeah. Let's say you're using 8,000, right?
+
+00:33:36.272 --> 00:33:38.272
+So, what should I put here, right here?
+
+00:33:38.525 --> 00:33:41.525
+Okay, to run the same import mapping, port mapping, yeah, here.
+
+00:33:41.933 --> 00:33:45.933
+any valid, you can write any valid port mechanics. Uh, use this.
+
+00:33:49.660 --> 00:33:51.660
+So I'm just to get it right, you mean now we are using
+
+00:33:52.388 --> 00:33:55.388
+like port mapping. Remember, when we run the container?
+
+00:33:56.476 --> 00:33:58.476
+We specify external, internal port. Yeah.
+
+00:33:58.765 --> 00:34:03.765
+So, what would be the external port, and what would be the internal? And for the same, for the other one.
+
+00:34:04.199 --> 00:34:10.199
+External, internal. Any valid port, generate. Remember, your application is running on port 8000, right?
+
+00:34:11.866 --> 00:34:15.866
+to just recognize the… Describe the ports, just the mapping.
+
+00:34:16.552 --> 00:34:18.552
+But, uh, a valid mapping.
+
+00:34:19.509 --> 00:34:21.509
+You mean the port that we are using?
+
+00:34:22.580 --> 00:34:28.580
+Pork, you already told me, right? 8,000. But, uh, it's a local host, like, for example, you're using it. Because, uh…
+
+00:34:28.975 --> 00:34:31.975
+When… if you… you're saying we can run two containers, right?
+
+00:34:32.103 --> 00:34:34.103
+But they should not use this input.
+
+00:34:34.930 --> 00:34:40.930
+You see it, right? So we change… So how do we… yes, how do we change the block? Yeah, that's assuming the first one is H00. Okay.
+
+00:34:41.761 --> 00:34:44.761
+Okay, 8,000 to 8,000, and the second, for example, is 0.
+
+00:34:45.384 --> 00:34:48.384
+And on the right-hand side, like, column,
+
+00:34:49.371 --> 00:34:51.371
+On the right-hand side, what would be the pool?
+
+00:34:51.849 --> 00:34:53.849
+the code of, for example, Lindell.
+
+00:34:54.134 --> 00:34:57.134
+Yeah, the ports? Because there's host port and…
+
+00:34:57.647 --> 00:35:00.647
+the container port, right? Yeah. So what would be the container port here?
+
+00:35:03.599 --> 00:35:08.599
+This is the host port. This is what your PC will, like, your computer will open, right? Your Docker will open.
+
+00:35:08.959 --> 00:35:10.959
+But what is the container port?
+
+00:35:11.171 --> 00:35:14.171
+your application port will be here, right?
+
+00:35:15.057 --> 00:35:18.057
+like, your application put 8,000, right? So, 8,000 here?
+
+00:35:19.091 --> 00:35:22.091
+Okay. Can we… can we write 8,000 here also?
+
+00:35:23.375 --> 00:35:25.375
+Yeah, because the same application, yeah? Yeah, right.
+
+00:35:26.086 --> 00:35:28.086
+And do you think this is a valid configuration?
+
+00:35:31.316 --> 00:35:35.316
+Remember, see, these two commands are running on the same PC.
+
+00:35:35.751 --> 00:35:37.751
+in different terminals only.
+
+00:35:39.143 --> 00:35:41.143
+Right, same image, not two different images, right?
+
+00:35:42.770 --> 00:35:44.770
+I don't think so. No?
+
+00:35:45.034 --> 00:35:47.034
+Okay, so…
+
+00:35:48.330 --> 00:35:50.330
+Okay.
+
+00:35:51.072 --> 00:35:53.072
+It's fine, you were a bit confused, but this is good.
+
+00:35:53.931 --> 00:35:57.931
+I got the idea, but I didn't… the sequences when it comes… No, no, this is good, yeah.
+
+00:35:58.596 --> 00:36:03.596
+Like, it runs, but you're confused. Yeah. You say, I don't think so, but it's actually… it works.
+
+00:36:04.478 --> 00:36:10.478
+It works, but that's why I think of what, like, how it will recognize. If I tell you, are you sure? Maybe…
+
+00:36:10.450 --> 00:36:12.450
+I just want to make sure you're not…
+
+00:36:13.664 --> 00:36:21.664
+you are not confused in the concept, right? I'm not… So you gotta stick to your… Yeah, I'm gonna stick to that one, but the thing is that I'm thinking… now I'm questioning myself, like…
+
+00:36:22.371 --> 00:36:24.371
+That's fine. Because since the port is same.
+
+00:36:24.462 --> 00:36:26.462
+Okay, we changed the port, yeah?
+
+00:36:26.854 --> 00:36:30.854
+So one is, like, you change the port successfully, which is good, right? Yeah.
+
+00:36:31.751 --> 00:36:40.751
+And this is correct. Yeah. And this is the… this is also correct, okay, okay, because… And you also stayed the… inside the container, but then you said it's wrong.
+
+00:36:41.242 --> 00:36:46.242
+Like, I don't think so. I got confused here. Okay.
+
+00:36:46.509 --> 00:36:51.509
+But let's move to… I mean, a deployment, right? Let's, uh… I mean…
+
+00:36:52.590 --> 00:36:55.590
+you are deploying, you have two machines, right? Like, for example,
+
+00:36:55.646 --> 00:36:59.646
+from Windows, you have to… you have to move your application from Windows 2.
+
+00:37:00.771 --> 00:37:02.771
+Ubuntu, Ubuntu, however you do that manually, right?
+
+00:37:03.083 --> 00:37:05.083
+Randomly. Okay, um…
+
+00:37:05.508 --> 00:37:07.508
+Like, we are using the virtual machine.
+
+00:37:07.896 --> 00:37:11.896
+Anything you'd like. Yeah, we are using the VM, for example, and uh…
+
+00:37:12.802 --> 00:37:14.802
+Since we are using the Docker Compose,
+
+00:37:15.769 --> 00:37:17.769
+Here it comes to the Port October Compose, like, we are real.
+
+00:37:18.105 --> 00:37:20.105
+We can run our application.
+
+00:37:21.094 --> 00:37:25.094
+I mean, whatever that operating system was.
+
+00:37:25.115 --> 00:37:30.115
+Yeah, so, for example, what you're saying is, uh… okay, let's forget about everything.
+
+00:37:30.317 --> 00:37:35.317
+Uh, let's say you just have two computers, you have to just move from one place to another, manually how you would do it.
+
+00:37:35.862 --> 00:37:41.862
+Like, for example, you were saying, I will containerize it, right? Containerize it, yeah. So, for example, okay, let's say you build an image, now what?
+
+00:37:43.325 --> 00:37:49.325
+Second step? Okay, once we build the image, we move to the second, uh, the step, we…
+
+00:37:49.188 --> 00:37:51.188
+We move to that, uh…
+
+00:37:51.182 --> 00:37:53.182
+What do we do with the image?
+
+00:37:54.913 --> 00:37:57.913
+No, you have to… I think so. See, now, images on your windows, right? Yeah.
+
+00:37:59.332 --> 00:38:04.332
+But you have to actually… you have Linux here, right? Ubuntu. So you have to run your application here, the same application.
+
+00:38:04.657 --> 00:38:06.657
+Currently, what you have done is just…
+
+00:38:06.768 --> 00:38:12.768
+write a Docker Dockerfile and have an image, right? Yeah. Now, next step would be, we push it to the Looker Hub, okay?
+
+00:38:13.524 --> 00:38:23.524
+And then, next extra step, yeah, so we use the virtual machine, the training. Okay, okay, let's say virtual machine is another laptop, right? Yeah, yeah. There, what will you do now? We use the commands of that, uh…
+
+00:38:24.354 --> 00:38:26.354
+Okay, the darker image that we pushed in Docker Hub.
+
+00:38:27.113 --> 00:38:34.113
+So, commercials like Docker pull, Docker pull, yeah? Now you have the image, right? Yeah, we have the image. Now, what will you do with the image? So we'll do that image.
+
+00:38:34.714 --> 00:38:39.714
+we missed it, and they use the commands, for example, run. The same commands, right? Yeah.
+
+00:38:39.952 --> 00:38:45.952
+Then Docker Compose. So this is how you move, right? Okay. Do you see any benefits of CICD?
+
+00:38:46.629 --> 00:38:52.629
+When you can do manually, right? Any benefits of CICD pipeline using Jenkins that we have discussed, of course, because, uh…
+
+00:38:53.958 --> 00:38:56.958
+like, for example, now, this is how I'm doing it all in manually. Yeah, okay.
+
+00:38:57.329 --> 00:39:04.329
+Once we use this CI and CCD, which is continuous integration and continuous deployment on Delivery,
+
+00:39:04.565 --> 00:39:06.565
+We are automating this process.
+
+00:39:07.331 --> 00:39:14.331
+So once we push the code, the changes, it comes to the stage of the CI pipeline, it checks that the code is
+
+00:39:15.416 --> 00:39:21.416
+I mean, alignable with that, uh, changes we created. Yeah. Then it comes to the part of the CD.
+
+00:39:22.244 --> 00:39:27.244
+checks that it works, the changes. I mean, there is no issue with that code rechanging, the project.
+
+00:39:27.606 --> 00:39:29.606
+So, we automated all these processes.
+
+00:39:30.265 --> 00:39:33.265
+Any benefits of automating this? Like…
+
+00:39:33.250 --> 00:39:35.250
+What is the benefit of automating all of this?
+
+00:39:36.165 --> 00:39:39.165
+what problem were we facing before that?
+
+00:39:40.922 --> 00:39:50.922
+automated? Like, automation has some benefits, right? Of course, any one benefit you even think of costs, for example. Cost, time management, yes, time management, yeah.
+
+00:39:51.684 --> 00:39:57.684
+Finally, right, like, recently we just looked at an AI agent, right? So, how is it different from ChatGPT or LLM?
+
+00:39:58.206 --> 00:40:00.206
+Like, what is…
+
+00:40:00.467 --> 00:40:04.467
+What is a thing, anything you can mention, that agent can do that LLM cannot?
+
+00:40:05.228 --> 00:40:07.228
+For example, uh…
+
+00:40:08.236 --> 00:40:10.236
+ChatGPT, like, for example, you take DLLM,
+
+00:40:11.044 --> 00:40:13.044
+Something that… that…
+
+00:40:13.230 --> 00:40:16.230
+Agent can do, but ChatGPT cannot do.
+
+00:40:16.991 --> 00:40:18.991
+ChatGPT-5 cannot do.
+
+00:40:19.324 --> 00:40:21.324
+That agent can do.
+
+00:40:21.861 --> 00:40:24.861
+We can take, again, the example of the automation, for example.
+
+00:40:25.945 --> 00:40:27.945
+For what? Automation. Okay, okay.
+
+00:40:28.719 --> 00:40:36.719
+the agent that we create, for example. Yeah. We give them the commands, we use the ChatGPT within that agent, right? For example, yeah, and we use it
+
+00:40:36.618 --> 00:40:38.618
+for the automation of that process.
+
+00:40:38.692 --> 00:40:40.692
+Like, we're creating a chatbot.
+
+00:40:41.441 --> 00:40:48.441
+Now, chatbot is an LLM. Yeah. The chatbot we asked for, for example, it will give me the answer. Let's just send an email. Yeah, yeah, but it doesn't…
+
+00:40:49.213 --> 00:40:58.213
+It doesn't perform that action. The agent can use agentic AI, it will perform the actions. Here's the big difference.
+
+00:40:58.807 --> 00:41:02.807
+Good evening, thank you. I'm going to just, uh, save the transcript.
+

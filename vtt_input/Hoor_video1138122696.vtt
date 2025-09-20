@@ -1,0 +1,1923 @@
+WEBVTT
+
+
+00:00:03.094 --> 00:00:05.094
+Okay, cool, so…
+
+00:00:06.415 --> 00:00:08.415
+You already know, right, the basics in Java.
+
+00:00:08.479 --> 00:00:11.479
+So we are going to just, uh, cease, uh, cover some…
+
+00:00:12.370 --> 00:00:18.370
+cover, I will ask things related to Python Basics. Some intermediate concerts, networking,
+
+00:00:18.401 --> 00:00:20.401
+Let's get…
+
+00:00:20.716 --> 00:00:23.716
+broker visits, deployment basics, right?
+
+00:00:24.897 --> 00:00:27.897
+Uh, so if you are okay, we can jump directly to Python Basics.
+
+00:00:28.014 --> 00:00:33.014
+Right? And, uh, again, you don't need to remember any code, any syntax.
+
+00:00:33.863 --> 00:00:38.863
+Just your logic and concepts matters, right? Like I told you. So, I'll give you a problem.
+
+00:00:41.183 --> 00:00:45.183
+Uh, not this one yet, right? So this is a string. Not the first one?
+
+00:00:45.165 --> 00:00:47.165
+Let's get the second one.
+
+00:00:47.616 --> 00:00:49.616
+So, this is actually a strict rule.
+
+00:00:50.517 --> 00:00:54.517
+Okay. Um, I don't know, you can just do, like, a SQL to be here.
+
+00:00:55.328 --> 00:00:57.328
+Someday. Now, this…
+
+00:00:57.865 --> 00:01:00.865
+A string has, uh, many characters, string.
+
+00:01:02.445 --> 00:01:07.445
+I just want you to walk through your logic, which would directly count
+
+00:01:07.949 --> 00:01:09.949
+how many times?
+
+00:01:11.211 --> 00:01:13.211
+Each unique character appeared.
+
+00:01:13.819 --> 00:01:16.819
+For example, the output will seem to be like this.
+
+00:01:18.054 --> 00:01:20.054
+like, uh… E?
+
+00:01:20.746 --> 00:01:23.746
+appeared how many times? 1, 2, 3, right? 3 times.
+
+00:01:26.444 --> 00:01:28.444
+we appear to trials right?
+
+00:01:31.219 --> 00:01:34.219
+And, like, C appeared, 1, 2, 3 trips.
+
+00:01:35.194 --> 00:01:37.194
+And, uh,
+
+00:01:37.535 --> 00:01:39.535
+Uh, you also have Zed, right?
+
+00:01:39.633 --> 00:01:41.633
+Appear two times.
+
+00:01:41.616 --> 00:01:43.616
+X appeared just one time.
+
+00:01:45.697 --> 00:01:47.697
+And why appear just one time?
+
+00:01:50.179 --> 00:01:53.179
+So, like, this is called through the logic, like, how you would scan.
+
+00:01:53.454 --> 00:01:57.454
+Each navigator, and how we can count. Um, I will use count.
+
+00:01:57.407 --> 00:02:00.407
+Okay. For counting the repeated alphabets?
+
+00:02:00.609 --> 00:02:03.609
+Like, for example, I can say, for this trend,
+
+00:02:04.545 --> 00:02:06.545
+I have multiple of, um…
+
+00:02:07.393 --> 00:02:10.393
+Alphabets, I would write them as…
+
+00:02:11.513 --> 00:02:15.513
+Um, for example. Uh, let's do one thing, right? Let's take 2 minutes, right? Think about it first.
+
+00:02:15.568 --> 00:02:27.568
+Because if you immediately start discussing, then, uh… Because the first thing that appeared is counting. Yes, of course, counting is correct, right? Recompleted characters. Yep, yep. Yeah. So just think about it, like, how you would…
+
+00:02:27.816 --> 00:02:34.816
+scan from start to end and be done with the results, right? Just think about that approach. Uh, take 2-5 minutes, whatever you want, right?
+
+00:02:45.166 --> 00:02:47.166
+Um, sorry, Mr. I didn't understand this.
+
+00:02:47.381 --> 00:02:52.381
+What's this? EA, sorry. Y and Z. NZ, okay.
+
+00:03:35.800 --> 00:03:37.800
+Here.
+
+00:03:39.372 --> 00:03:41.372
+First of all, I have, um…
+
+00:03:44.970 --> 00:03:47.970
+This is, uh, alphabet, so this is string.
+
+00:03:48.452 --> 00:03:50.452
+And then, um…
+
+00:03:52.522 --> 00:03:54.522
+I will use…
+
+00:03:55.211 --> 00:03:57.211
+Do you want it to be repeated, or it counts only?
+
+00:03:58.550 --> 00:04:04.550
+like, just counts how many is are there, just count how many B's are there. But only the characters that are there. Like, for example,
+
+00:04:05.041 --> 00:04:11.041
+P is not there, and there's something like that there, right? Okay. It is just, uh…
+
+00:04:12.487 --> 00:04:19.487
+Which means we have to identify how many characters, unique characters, are there, and then the number of those repetitions.
+
+00:04:22.826 --> 00:04:25.826
+But you can share any logic you like. For example, you can just…
+
+00:04:26.599 --> 00:04:31.599
+Uh… no, no, I mean, you can just read it, and you can just print, maybe, the results.
+
+00:04:31.991 --> 00:04:33.991
+Or for the results somewhere else?
+
+00:04:34.550 --> 00:04:40.550
+You don't have to change anything here. Okay, I can print that. Yes, simple. Print, for example. Divide them.
+
+00:04:40.421 --> 00:04:45.421
+Anything? Alphabet? Anything. Character? I'm just answering now.
+
+00:04:46.390 --> 00:04:50.390
+Okay, now, you divide them into…? Yeah, I will divide them into each…
+
+00:04:51.251 --> 00:04:53.251
+the character switches.
+
+00:04:54.471 --> 00:04:59.471
+The characters, which is repeating, and I'll put, like, for example,
+
+00:04:59.766 --> 00:05:04.766
+X is equals to A, something like that, and for the… How do you find out characters which are repeated?
+
+00:05:05.449 --> 00:05:08.449
+Because you have to first find it out, right?
+
+00:05:08.798 --> 00:05:13.798
+I will count them. I will print, and then write the alphabet, and then count.
+
+00:05:14.992 --> 00:05:23.992
+Okay, so for example, you just scan the whole list? Yeah. So first you count A? Yes, and then I… Then you count B. And then I'll count C, and then D. The alphabet switch is given.
+
+00:05:23.848 --> 00:05:25.848
+I'll print all the alphabets given,
+
+00:05:25.958 --> 00:05:27.958
+would they count?
+
+00:05:28.867 --> 00:05:32.867
+Okay, like, 2012 for all the alphabets given with the…
+
+00:05:33.480 --> 00:05:36.480
+Let's say you have a count 0, right? So you start with A.
+
+00:05:37.746 --> 00:05:44.746
+It will start with 0, 1, 2, and then… Yes, for example, if you start with A, right? So let's say count is 1 now. A is 1, right? Yeah.
+
+00:05:44.614 --> 00:05:46.614
+And then you go to B.
+
+00:05:46.717 --> 00:05:48.717
+Then you just can be?
+
+00:05:49.378 --> 00:05:52.378
+No. Yeah, what is the condition to skip, for example, on?
+
+00:05:53.189 --> 00:05:56.189
+Like, how do you… I will go with the alphabets, printing them all.
+
+00:05:58.344 --> 00:06:01.344
+Okay, you print them all, then this is just the same string as a string.
+
+00:06:02.467 --> 00:06:04.467
+Like, all ABCD2Z? No. Then?
+
+00:06:04.777 --> 00:06:06.777
+I'll print the one that is given only.
+
+00:06:07.943 --> 00:06:12.943
+Okay, so that's what I'm talking about, right? Like, how… can you write, how would you print? Just print.
+
+00:06:13.819 --> 00:06:15.819
+Like, what do you… want to print?
+
+00:06:16.733 --> 00:06:21.733
+Because I don't… I don't actually get it, like, how do you know that A is repeated? What is the logic for that?
+
+00:06:21.990 --> 00:06:23.990
+Like, for example, I can't print.
+
+00:06:24.938 --> 00:06:26.938
+For example…
+
+00:06:29.752 --> 00:06:31.752
+Or, let's say…
+
+00:06:31.741 --> 00:06:33.741
+count? Hmm?
+
+00:06:33.896 --> 00:06:35.896
+A…
+
+00:06:42.505 --> 00:06:47.505
+Just, like, I know you have to count A, right? Yeah, it's counting. But you have to, you have to, uh…
+
+00:06:48.145 --> 00:06:51.145
+Can you suggest the logic, like, how would you count A?
+
+00:06:52.430 --> 00:06:55.430
+For example, like, uh, yes, let's say you can go for, okay,
+
+00:06:55.292 --> 00:06:57.292
+I will start from A, right?
+
+00:06:58.238 --> 00:07:00.238
+And then I will search the string for all is.
+
+00:07:00.349 --> 00:07:02.349
+Right, and it'll count.
+
+00:07:02.439 --> 00:07:07.439
+1 and 2, right? It will figure out directly how many is… It will figure out, right? Yeah. And then you will…
+
+00:07:08.250 --> 00:07:13.250
+pick B, but then if you do that, then you will pick C, D, E, F, G, H, all right.
+
+00:07:13.382 --> 00:07:18.382
+No. Uh, because then how would you know that there's no E here?
+
+00:07:18.551 --> 00:07:22.551
+Right, because, see, if you're picking up A first, then B first.
+
+00:07:22.821 --> 00:07:24.821
+D, A, B, C?
+
+00:07:25.789 --> 00:07:29.789
+Actually, sorry, so, for example… Yeah, let's say… let's say this is…
+
+00:07:31.193 --> 00:07:33.193
+ACD, right? We'll go to the next one.
+
+00:07:33.534 --> 00:07:40.534
+like, ACD, I remove B, because it is causing confusion. It's not in series, it can be any character, it can be Z here.
+
+00:07:40.631 --> 00:07:42.631
+I can't count the difference.
+
+00:07:42.891 --> 00:07:47.891
+Each alphabet, like, for example, between A and C, one step between…
+
+00:07:49.382 --> 00:07:54.382
+But what would… because we need to know how many times a character is repeated, right? If you count the difference,
+
+00:07:54.777 --> 00:07:56.777
+what is the benefit of continental difference?
+
+00:07:57.630 --> 00:08:00.630
+Right, so think about it. So, take your time.
+
+00:08:08.553 --> 00:08:12.553
+I remember the count, I remember the…
+
+00:08:13.195 --> 00:08:17.195
+Counter is correct, so you need a counter, right? But… I remember. But what else do you need?
+
+00:08:17.580 --> 00:08:21.580
+Besides the control. Like, do you need multiple controllers?
+
+00:08:22.067 --> 00:08:26.067
+Do you need… like, if you need multiple counters, then for each alphabet,
+
+00:08:26.971 --> 00:08:29.971
+But first, you have to know what alphabets are present, right?
+
+00:08:30.829 --> 00:08:34.829
+Or maybe you can just assume it was at all alphabets, and that's just count.
+
+00:08:35.350 --> 00:08:37.350
+So, for example,
+
+00:08:38.375 --> 00:08:50.375
+Right? Like, I'm just giving hints, so… Any solution, by the way, not the perfect… I'm not looking for a perfect solution. Okay. The thing that, logically, I'm just, uh, by understanding, I will use count.
+
+00:08:51.074 --> 00:08:53.074
+To count how many letters given as an A.
+
+00:08:53.595 --> 00:08:57.595
+And then for B, I'll come… But actually, just tell me the content logic, forget about the rest.
+
+00:08:57.980 --> 00:09:01.980
+Just need to know the counting logic, actually.
+
+00:09:02.450 --> 00:09:07.450
+Because A is here, and then A is here, then A is here, right? Yeah. Like, how do you count?
+
+00:09:07.932 --> 00:09:10.932
+simply, like, don't forget about the syntax, right? Just…
+
+00:09:11.394 --> 00:09:13.394
+scan. Like, you start from here.
+
+00:09:14.177 --> 00:09:17.177
+And you go 1, 2, 1, 2, 3, 4, 5, 6, 7, 8.
+
+00:09:17.799 --> 00:09:21.799
+Okay. While you are iterating… I can't mention, all the alphabets and exclude the ones who are…
+
+00:09:22.254 --> 00:09:24.254
+How do you do that? How will you do that?
+
+00:09:25.158 --> 00:09:27.158
+Like, let's say you start from 8, right?
+
+00:09:28.041 --> 00:09:33.041
+Because you will go from all over the beds, right? So let's say you start from A, then will you scan and do what?
+
+00:09:33.977 --> 00:09:35.977
+Scan and compare with E.
+
+00:09:36.082 --> 00:09:38.082
+it would be…
+
+00:09:38.305 --> 00:09:43.305
+And if… if A equal to equal to A, so then you count plus plus, like,
+
+00:09:44.336 --> 00:09:46.336
+Increase the count? Something like that.
+
+00:09:48.464 --> 00:09:50.464
+Easy, just go of choice. Yeah.
+
+00:09:51.759 --> 00:09:58.759
+Um, I prefer using count, and uh… We can, we can make it, uh, I can simplify it, just to reiterate.
+
+00:09:58.989 --> 00:10:00.989
+I mean, let's students in here.
+
+00:10:03.549 --> 00:10:09.549
+Right? Okay. What we will do is, uh, let's do something like this.
+
+00:10:10.716 --> 00:10:12.716
+But maybe, you know, I'll just give you this.
+
+00:10:15.457 --> 00:10:19.457
+And so, this is just a list of, uh…
+
+00:10:20.611 --> 00:10:22.611
+Like, you see, there's a list of enrollments here.
+
+00:10:23.369 --> 00:10:25.369
+So, for example, uh…
+
+00:10:25.436 --> 00:10:27.436
+We'll have, uh…
+
+00:10:29.559 --> 00:10:31.559
+numbers, uh, like…
+
+00:10:33.289 --> 00:10:36.289
+You start from 100. So, start from 10, right? Like, 9…
+
+00:10:36.539 --> 00:10:38.539
+8 is 7…
+
+00:10:38.798 --> 00:10:42.798
+6… 5… 4, 3, 2, 1, right?
+
+00:10:42.775 --> 00:10:44.775
+Okay.
+
+00:10:45.235 --> 00:10:47.235
+So, these are numbers from 1 to 10.
+
+00:10:47.757 --> 00:10:49.757
+One number is missing.
+
+00:10:50.137 --> 00:10:52.137
+Right now, there's no number missing.
+
+00:10:52.917 --> 00:10:54.917
+So actually, assume, let's say, you get a list.
+
+00:11:04.389 --> 00:11:08.389
+And one number is missing? 8, 8, like, 8 is missing, right? So forget about this one.
+
+00:11:08.906 --> 00:11:11.906
+So, let's say a user is going to give you a list, right?
+
+00:11:13.297 --> 00:11:18.297
+The list will always have number from 1 to 10, not anymore, not any worse. But there would be one number that is missing.
+
+00:11:19.623 --> 00:11:24.623
+what would be your logic to find out that number if you scan the list?
+
+00:11:25.141 --> 00:11:27.141
+00? Yeah.
+
+00:11:28.174 --> 00:11:30.174
+Like, uh, how can you write? I don't understand.
+
+00:11:31.710 --> 00:11:37.710
+So, again, what's your question? The question is, like, for example, you have numbers from 1 to 10, one number is missing.
+
+00:11:39.011 --> 00:11:49.011
+Descending, yes, but actually, it's actually… one number is missing. And anyone can be missing, but only one, not two numbers, only one is missing. How can you scan this whole list? I will give a range.
+
+00:11:50.627 --> 00:11:55.627
+I can region… give range of numbers from 1 to 10. Okay, then. And then…
+
+00:11:55.960 --> 00:12:02.960
+I will, um… Then what will you do? Now you have a full list, 1 to 10, right? Yes. And then you have a list with missing number. Now what we'll do?
+
+00:12:05.659 --> 00:12:08.659
+Something called with missing… something… missing…
+
+00:12:09.023 --> 00:12:15.023
+Uh, let's say we… you're not allowed to use any built-in function, right?
+
+00:12:15.850 --> 00:12:17.850
+We want to have our own logical.
+
+00:12:18.432 --> 00:12:23.432
+finding it. Now, what you have said is… you said, I will use range,
+
+00:12:23.534 --> 00:12:25.534
+And now, you have this…
+
+00:12:29.008 --> 00:12:31.008
+I will write on the range of this list.
+
+00:12:32.257 --> 00:12:34.257
+here's the range here, I'm writing it for you.
+
+00:12:35.820 --> 00:12:37.820
+Now, this is given, and this is you generated it, right?
+
+00:12:38.439 --> 00:12:42.439
+Now, what do you do? How do you figure out that 8 is missing? Like, what do you…
+
+00:12:43.126 --> 00:12:45.126
+Logically. I will let it count.
+
+00:12:45.404 --> 00:12:51.404
+the steps moving, minus one, minus one, minus one, and then we'll figure out that from 9 to 10, minus 2.
+
+00:12:52.939 --> 00:12:57.939
+Okay, okay, for example, let's say we start from here. We compare this element to this element.
+
+00:12:58.603 --> 00:13:05.603
+And then this element to this element? Are you talking about like this? No. Then keep moving forward? I'm saying that minus one, starting from…
+
+00:13:06.068 --> 00:13:09.068
+10 to 9 minus 1, then from 9 to 7,
+
+00:13:10.523 --> 00:13:12.523
+Something is missing. Missing more than one gap.
+
+00:13:13.359 --> 00:13:15.359
+Oh, what you're saying is you will subtract
+
+00:13:15.909 --> 00:13:20.909
+So, okay, so let's say here, right? You generated this one. Do you want to do this here, or here?
+
+00:13:21.919 --> 00:13:23.919
+The one you generated using range, this one?
+
+00:13:24.270 --> 00:13:26.270
+Or this one, the one original input.
+
+00:13:27.250 --> 00:13:29.250
+Where do you want to minus? Here or here?
+
+00:13:29.732 --> 00:13:34.732
+This is the output, this is what will… the answer will be 8.
+
+00:13:35.336 --> 00:13:37.336
+No, yeah, but you… I've generated here.
+
+00:13:38.151 --> 00:13:44.151
+But you said, I will use range, right, to generate? Yes. So, this is the range result, right? So, do you want to…
+
+00:13:44.680 --> 00:13:50.680
+minus here, like, do you want to consider this range, or do you want to consider the original input?
+
+00:13:50.855 --> 00:13:53.855
+when you do subtraction. For the range, I will use this.
+
+00:13:54.501 --> 00:13:59.501
+Yeah, for the range, you have this, right? Now, okay, let's minus, right? 10 minus 9 is 1. Okay.
+
+00:14:00.852 --> 00:14:02.852
+9 minus 8 is 1.
+
+00:14:02.951 --> 00:14:04.951
+all over, and then, like…
+
+00:14:04.940 --> 00:14:06.940
+Wisdom is a number? Nothing.
+
+00:14:07.560 --> 00:14:11.560
+Let's go up, right? Now here, we'll try. 10 minus 9 is 1.
+
+00:14:12.183 --> 00:14:16.183
+No, I will not give the syringe. I will say the range starts from 1-10.
+
+00:14:16.239 --> 00:14:19.239
+Lookit, they're trying to reverse it, like, 1 to 10. Or 10?
+
+00:14:20.176 --> 00:14:28.176
+dashed 1. So 10 to 1 is fine. It will go descending. Missing one number from the X, for example, you cannot call it X or something for the list.
+
+00:14:30.581 --> 00:14:33.581
+But when you use range, range never misses the number in between.
+
+00:14:33.717 --> 00:14:35.717
+Orange will give you the full.
+
+00:14:36.663 --> 00:14:44.663
+Oh, wait a minute, what you are saying over here, are you saying something like this? I'm just trying to understand. Let's say this is the district, so you're seeing, okay, range…
+
+00:14:46.749 --> 00:14:48.749
+Uh, maybe length of…
+
+00:14:49.446 --> 00:15:00.446
+list. So, for example, if how many items are there? Uh, there are 9 items, right? 1, 2, 3, 4, 5, 6, 7, 8, 9 items, right? So it will give you from, let's say, 0 to 9.
+
+00:15:01.278 --> 00:15:04.278
+or let's say 1 to… 1 to 10. 1 to 10, right? 1.
+
+00:15:04.788 --> 00:15:09.788
+2, 3, 4, 5, 6, 7, 4…
+
+00:15:11.526 --> 00:15:13.526
+8…
+
+00:15:14.453 --> 00:15:17.453
+9… 3, 4, 5, 6, 7, 9.
+
+00:15:19.093 --> 00:15:22.093
+Because the length is actually not 10, the length is 9.
+
+00:15:22.713 --> 00:15:25.713
+So, 3, and 9. This is what you'll get with this range.
+
+00:15:26.295 --> 00:15:30.295
+But how can you find the messenger? Uh, I can't do N-.
+
+00:15:31.753 --> 00:15:37.753
+Uh, you can do minus, of course, right? Uh, like, if you do minus 1, there will be one less. If you do plus 1, it will be 10.
+
+00:15:38.834 --> 00:15:40.834
+And then I'll do an equation.
+
+00:15:41.418 --> 00:15:44.418
+Yeah, like… I can do an equation for the…
+
+00:15:44.534 --> 00:15:46.534
+A number missing.
+
+00:15:47.298 --> 00:15:49.298
+Okay, like…
+
+00:15:49.281 --> 00:15:51.281
+Or I can do, you know, Homster?
+
+00:15:52.089 --> 00:15:54.089
+Yep. I can use cases of F.
+
+00:15:54.700 --> 00:15:58.700
+Okay, if, like, how? Okay. Like, for example, if…
+
+00:15:58.959 --> 00:16:01.959
+print was between from 1 to 10. Okay.
+
+00:16:01.940 --> 00:16:03.940
+Account?
+
+00:16:05.999 --> 00:16:08.999
+Or I can give, like, for example, from 1 to 5.
+
+00:16:09.451 --> 00:16:11.451
+to account the… the missing.
+
+00:16:12.294 --> 00:16:20.294
+But how do you guys… I need to… I know, why is that again? Everything is good, everything, what you're saying is good. You need counter? Yeah. You need…
+
+00:16:20.753 --> 00:16:22.753
+You can have… I'm just trying to…
+
+00:16:23.543 --> 00:16:26.543
+answer the question, um, without… Like, high levels.
+
+00:16:27.580 --> 00:16:32.580
+high-level solution. Accounting, or like, for example, in range, or I can do… use, for example, F,
+
+00:16:33.291 --> 00:16:37.291
+F-Loop by having different ranges? Yes.
+
+00:16:38.112 --> 00:16:44.112
+Yes. So, let's… okay, I understand. No issues. I will give you something that doesn't require any…
+
+00:16:44.656 --> 00:16:47.656
+like, uh, built-in functionality, right?
+
+00:16:47.635 --> 00:16:49.635
+So, for example,
+
+00:16:50.841 --> 00:16:53.841
+Let's do… let's do this, right? S equal to…
+
+00:16:55.202 --> 00:16:57.202
+Now here, let's hit…
+
+00:17:01.868 --> 00:17:04.868
+is repeated 3 times a week. B is repeated, let's say, 2 times.
+
+00:17:05.477 --> 00:17:09.477
+And if C is repeated two times, I'll take X is repeated 2 times.
+
+00:17:10.144 --> 00:17:12.144
+So that is one type present.
+
+00:17:12.877 --> 00:17:14.877
+So…
+
+00:17:17.185 --> 00:17:20.185
+For example, I was still… I was… I would still use count.
+
+00:17:20.406 --> 00:17:24.406
+Yeah, but actually this problem is different. For example, output should be…
+
+00:17:25.293 --> 00:17:27.293
+E, B, C, X, and Z.
+
+00:17:28.553 --> 00:17:30.553
+So it should ignore.
+
+00:17:31.465 --> 00:17:34.465
+The repeating. The repeating number. So, what would be your logic?
+
+00:17:35.777 --> 00:17:37.777
+To process this, in order to print this out.
+
+00:17:38.612 --> 00:17:41.612
+This is Toppin. Yeah, this is the output.
+
+00:17:42.273 --> 00:17:51.273
+So, for example, this is what print should display after processing this string, right? So, think about it, take time, take a minute.
+
+00:17:56.219 --> 00:17:59.219
+But I want to know, is just this one string, or…?
+
+00:18:00.235 --> 00:18:04.235
+This string, yeah. But if you want, you're going to consider a list also, your choice.
+
+00:18:35.272 --> 00:18:38.272
+If you want, we can do the rest, then we can come to it at the end, right?
+
+00:18:38.371 --> 00:18:40.371
+So…
+
+00:18:40.637 --> 00:18:45.637
+In the meantime, you don't think about the great data. So, for example, the list, right? Lists, you know Python lists.
+
+00:18:46.444 --> 00:18:51.444
+If, let's say, I have on this, like, this 1, 2, 3, and I have a tuple like this.
+
+00:18:53.518 --> 00:18:55.518
+4, 5, 6…
+
+00:18:55.983 --> 00:18:57.983
+Uh, is there any difference, or are these at the same?
+
+00:18:59.179 --> 00:19:01.179
+Um, yes.
+
+00:19:02.080 --> 00:19:04.080
+This one is, um, list.
+
+00:19:03.940 --> 00:19:06.940
+Good. And this one is tough, but the list…
+
+00:19:07.167 --> 00:19:09.167
+is, um…
+
+00:19:10.601 --> 00:19:12.601
+mutable, but this one is not muted.
+
+00:19:13.797 --> 00:19:15.797
+Okay, so, okay. So, mutable means…
+
+00:19:16.619 --> 00:19:18.619
+Like, container.
+
+00:19:19.541 --> 00:19:22.541
+Can't change. Immutable, cannot change? So, tuple cannot change, right? Yes.
+
+00:19:22.780 --> 00:19:24.780
+Like, for example, I cannot append to the token.
+
+00:19:25.285 --> 00:19:27.285
+Um…
+
+00:19:28.619 --> 00:19:31.619
+Ken. Can I append to the list?
+
+00:19:32.941 --> 00:19:35.941
+Or the top one? Like, dot append, like, can I add an item to a list?
+
+00:19:37.121 --> 00:19:40.121
+using DotaPENT, I can…
+
+00:19:40.625 --> 00:19:44.625
+You can. So, can I… can I do the same for the tuple?
+
+00:19:48.074 --> 00:19:52.074
+It's inevitable. Yeah, I cannot change, right? So, can I still do append.append?
+
+00:19:52.695 --> 00:19:54.695
+No? No, yes, you're right.
+
+00:19:55.361 --> 00:19:57.361
+Alright, so… good.
+
+00:19:58.247 --> 00:20:03.247
+Okay, let's say you're at Karthon application was, like, a digital twin, right?
+
+00:20:04.055 --> 00:20:06.055
+So, for example, you…
+
+00:20:06.349 --> 00:20:09.349
+someone, let's say I am sending you a request, right?
+
+00:20:09.892 --> 00:20:12.892
+to your API. And I'm actually giving you…
+
+00:20:13.704 --> 00:20:17.704
+a reading, like your IoT device actually gives you a reading.
+
+00:20:17.915 --> 00:20:19.915
+So, for example,
+
+00:20:20.779 --> 00:20:25.779
+I'm giving you a data, or a string, that has the name of the model of the ID, or I…
+
+00:20:26.158 --> 00:20:34.158
+And that has the… let's say it's a temperature sensor, right? If I'm continuously giving you temperature readings, for example, your API.
+
+00:20:34.944 --> 00:20:40.944
+or to your function, your Python function. Temperature rating for the API? Let's say there's a temperature sensor,
+
+00:20:41.191 --> 00:20:51.191
+in the car or somewhere, right? And sometimes it changes to 37, 36, 48, so they're reading strange. As soon as it's changed, I send you a request.
+
+00:20:51.304 --> 00:20:56.304
+with the data. Okay. And your Python function receives it, right? Okay.
+
+00:20:57.093 --> 00:21:00.093
+Now, because there are so many sensors…
+
+00:21:00.471 --> 00:21:02.471
+So you're receiving a lot of data?
+
+00:21:02.461 --> 00:21:04.461
+maybe a thousand…
+
+00:21:04.892 --> 00:21:06.892
+Okay, 1,000 reports per second.
+
+00:21:07.893 --> 00:21:12.893
+Right? Now, you have two options. You can either store this data in a list, or a dictionary.
+
+00:21:15.018 --> 00:21:17.018
+So, what would you prefer? A dictionary or a list?
+
+00:21:17.810 --> 00:21:22.810
+For a student, vast amount of data that is coming very fast. Dictionary.
+
+00:21:24.062 --> 00:21:36.062
+Excellent, right? So, what is your… why did you choose a dictionary group? Because it's more specific with the… Okay, like, you have more… it's verbals, right? Like, you have name, ID, and things like that. The list might be too long.
+
+00:21:36.815 --> 00:21:38.815
+Yep, okay. So, again, see,
+
+00:21:39.572 --> 00:21:42.572
+For example, my idea is to store the readings…
+
+00:21:43.297 --> 00:21:46.297
+So I have the history, but I'm not actually…
+
+00:21:46.437 --> 00:21:48.437
+accessing the readings,
+
+00:21:48.422 --> 00:21:50.422
+I'm accessing the readings rarely.
+
+00:21:50.750 --> 00:21:52.750
+Like, very rare. I want to just…
+
+00:21:53.650 --> 00:21:56.650
+check any reading. But the idea here is to store continuously.
+
+00:21:56.592 --> 00:22:00.592
+So if I'm storing continuously, and only accessing a few times,
+
+00:22:00.834 --> 00:22:06.834
+Should I still stick with the dictionary, or should I change…
+
+00:22:07.098 --> 00:22:11.098
+the dictionary to list. No, I would stick to the dictionary. Dictionary, okay.
+
+00:22:11.584 --> 00:22:13.584
+Okay, so…
+
+00:22:15.767 --> 00:22:17.767
+let's see… let's go for, uh…
+
+00:22:18.896 --> 00:22:20.896
+Do you remember accepting an anymore?
+
+00:22:21.005 --> 00:22:23.005
+Exception handling by them.
+
+00:22:23.940 --> 00:22:25.940
+Exception? And then try catch, try, exception.
+
+00:22:26.503 --> 00:22:28.503
+You remember? I bet, yes.
+
+00:22:31.176 --> 00:22:36.176
+Try and accept? Yeah. Okay, let's talk about, uh…
+
+00:22:37.040 --> 00:22:39.040
+Uh, you remember our environment variables?
+
+00:22:39.663 --> 00:22:42.663
+environment variables. Environment variables?
+
+00:22:42.768 --> 00:22:48.768
+Again, it's not about memorization, see, so I will not… I'm not scoring this. What's the question again? Yeah, of course, actually, for example…
+
+00:22:48.734 --> 00:22:50.734
+This is your application, right?
+
+00:22:50.936 --> 00:22:52.936
+And you are storing it in a dictionary.
+
+00:22:53.098 --> 00:22:55.098
+Okay. So…
+
+00:22:55.900 --> 00:22:58.900
+For example, a record comes in,
+
+00:22:59.201 --> 00:23:03.201
+And there's nothing in the ID, right? Like, ID is empty. It's invalid.
+
+00:23:04.403 --> 00:23:07.403
+But, because you have to store it in a dictionary,
+
+00:23:07.380 --> 00:23:09.380
+You need the ID.
+
+00:23:09.358 --> 00:23:11.358
+So, application will crash.
+
+00:23:12.014 --> 00:23:15.014
+if it receives no ID, right? So…
+
+00:23:15.159 --> 00:23:17.159
+So, for example, one week,
+
+00:23:17.140 --> 00:23:19.140
+avoid this crash is to
+
+00:23:20.027 --> 00:23:23.027
+Insert the recording for accept block. Let's try our next step.
+
+00:23:23.614 --> 00:23:26.614
+So if it fails, then you can do something about it, right?
+
+00:23:27.158 --> 00:23:33.158
+If any default happens? Yep. So the question is, like, how can you make your application resilient?
+
+00:23:34.478 --> 00:23:37.478
+So it doesn't crash and close, it keeps on working.
+
+00:23:38.070 --> 00:23:41.070
+And if something is wrong, for example, if you don't receive the ID,
+
+00:23:42.139 --> 00:23:45.139
+You can just put a temporary ID or anonymous ID or something.
+
+00:23:45.401 --> 00:23:48.401
+unique ID. You can generate it yourself and put it.
+
+00:23:49.320 --> 00:23:52.320
+So, see, this is a tree, so…
+
+00:23:52.718 --> 00:23:55.718
+try, and let's say this is your dictionary, right?
+
+00:23:55.974 --> 00:23:57.974
+And here is, let's say,
+
+00:23:58.519 --> 00:24:00.519
+Uh, here you need to put the ID now.
+
+00:24:00.822 --> 00:24:02.822
+ID can be whatever is incoming.
+
+00:24:03.031 --> 00:24:06.031
+let's say IDs A, B,01, right?
+
+00:24:07.358 --> 00:24:09.358
+And the value you are putting is…
+
+00:24:09.475 --> 00:24:11.475
+let's say something like…
+
+00:24:11.459 --> 00:24:13.459
+Something like…
+
+00:24:13.841 --> 00:24:15.841
+Reading?
+
+00:24:16.945 --> 00:24:22.945
+fallen, let's say, 37 degree Fahrenheit, for example. So, Celsius, right? And then comma.
+
+00:24:23.078 --> 00:24:25.078
+And then some other things, right? Come on.
+
+00:24:26.267 --> 00:24:28.267
+So, you are doing this, right?
+
+00:24:28.600 --> 00:24:30.600
+There's accept here.
+
+00:24:31.633 --> 00:24:33.633
+Now, if…
+
+00:24:34.844 --> 00:24:37.844
+When you are receiving data, right? If, let's say, there's no IT, it's empty.
+
+00:24:38.803 --> 00:24:41.803
+Okay. Then, of course, this statement will crash, right?
+
+00:24:42.561 --> 00:24:44.561
+So, you go into accept.
+
+00:24:44.795 --> 00:24:46.795
+So, what can you do in Accept?
+
+00:24:47.297 --> 00:24:49.297
+to handle this situation.
+
+00:24:49.962 --> 00:24:51.962
+You can do anything you like, by the way.
+
+00:24:52.972 --> 00:24:54.972
+Or do you just… if you do nothing, then…
+
+00:24:55.998 --> 00:24:58.998
+You will have a record with no ID, but people will not know, like,
+
+00:25:00.056 --> 00:25:04.056
+Because if you're restoring this to a file or database,
+
+00:25:04.531 --> 00:25:06.531
+You have to have an ID, right?
+
+00:25:06.679 --> 00:25:08.679
+So, if you… if you get…
+
+00:25:09.126 --> 00:25:12.126
+If you don't get any ID, what can you do by default here?
+
+00:25:12.521 --> 00:25:14.521
+Can you do something by default? Can you…
+
+00:25:14.896 --> 00:25:16.896
+Any approach of your choice.
+
+00:25:18.733 --> 00:25:21.733
+So, your application doesn't stop working, it keeps on running.
+
+00:25:25.702 --> 00:25:28.702
+Uh, you mean, what do I have to write in the accept?
+
+00:25:29.218 --> 00:25:31.218
+But what comes after exception?
+
+00:25:31.983 --> 00:25:33.983
+Yes, under Accept, maybe.
+
+00:25:34.744 --> 00:25:36.744
+What would you write in the Excel?
+
+00:25:38.451 --> 00:25:40.451
+If you want to change anything above, you can do it also.
+
+00:25:42.097 --> 00:25:44.097
+You can do anything you want. I will keep trying.
+
+00:25:45.599 --> 00:25:47.599
+Putting, um, more than one dictionary.
+
+00:25:48.932 --> 00:25:52.932
+I had. So, for example, let's say you received a record without an ID, right?
+
+00:25:53.819 --> 00:25:58.819
+So, it goes into accept because there was no ID. So, this was empty, so it goes into accept.
+
+00:25:58.878 --> 00:26:00.878
+then what will you do with D here?
+
+00:26:01.613 --> 00:26:03.613
+With this record, what will you do here in the accept?
+
+00:26:04.602 --> 00:26:08.602
+The student needs tonight, right? Can you give it an ID, somehow?
+
+00:26:10.988 --> 00:26:13.988
+Like, uh, or what would be your approach of ending it?
+
+00:26:14.512 --> 00:26:17.512
+Now, again, there's no right answer for it. There are many right answers for it.
+
+00:26:18.597 --> 00:26:20.597
+This question has many right answers, not just one.
+
+00:26:21.359 --> 00:26:23.359
+So you just need to tell your approach.
+
+00:26:36.596 --> 00:26:38.596
+Can we go to the next question?
+
+00:26:39.068 --> 00:26:41.068
+Yeah, sure. You can read.
+
+00:26:42.908 --> 00:26:44.908
+I'm just writing, so we can do a revision later.
+
+00:26:45.240 --> 00:26:47.240
+before a final…
+
+00:26:47.791 --> 00:26:50.791
+Okay, so let's go to the next one, right?
+
+00:26:52.011 --> 00:26:54.011
+You have been seeing, uh, I mean, the…
+
+00:26:54.966 --> 00:27:00.966
+No, that… one thing that will not help, right? Like, anyone, any team member is, uh…
+
+00:27:01.280 --> 00:27:04.280
+For example, the only conception logics will help, right?
+
+00:27:04.643 --> 00:27:08.643
+in any interviews here also. And the last two evaluations, it's the same.
+
+00:27:09.596 --> 00:27:11.596
+Even the last one is totally conceptual, man.
+
+00:27:12.040 --> 00:27:14.040
+not even, like, basic definition also.
+
+00:27:14.043 --> 00:27:16.043
+For example, tea.
+
+00:27:16.477 --> 00:27:18.477
+Uh, if I ask you…
+
+00:27:18.704 --> 00:27:23.704
+pool that, uh, you… we are… when we create a Python project, right?
+
+00:27:24.850 --> 00:27:27.850
+So we are actually creating a Python virtual environment.
+
+00:27:28.062 --> 00:27:30.062
+You have noticed, right? Now, for so long.
+
+00:27:30.241 --> 00:27:33.241
+So, do you see any benefit of that virtual environment?
+
+00:27:33.475 --> 00:27:35.475
+Um, yes.
+
+00:27:36.333 --> 00:27:40.333
+The virtual environment will help us to have a new operating system.
+
+00:27:40.973 --> 00:27:43.973
+That, um, works on a very heavy…
+
+00:27:45.452 --> 00:27:55.452
+Okay. I'm talking about the virtual… Python virtual environment, V-E-N-V. Oh, sorry. It's not that one, right? For the project. No, no, we're not virtual machine. The virtual environment?
+
+00:27:56.199 --> 00:28:00.199
+is, um, basically hidden, and um…
+
+00:28:01.105 --> 00:28:04.105
+testing, then API address?
+
+00:28:04.797 --> 00:28:08.797
+What is the benefit of having the virtual environment, actually, for the project?
+
+00:28:09.174 --> 00:28:11.174
+Um, it helps with, um…
+
+00:28:13.300 --> 00:28:17.300
+can say giving the, uh, information to the…
+
+00:28:17.838 --> 00:28:20.838
+server? Um…
+
+00:28:21.543 --> 00:28:26.543
+Maybe earlier, let's move to the other version, okay, virtual machines, right? Let's move to the virtual machine, right?
+
+00:28:26.515 --> 00:28:28.515
+So…
+
+00:28:29.537 --> 00:28:32.537
+What is the… what is the difference between a virtual machine?
+
+00:28:32.401 --> 00:28:34.401
+and a Docker container.
+
+00:28:34.442 --> 00:28:40.442
+Okay, a virtual machine is, um, as I said at the beginning, it's an operating system.
+
+00:28:40.874 --> 00:28:42.874
+So, it has…
+
+00:28:43.217 --> 00:28:45.217
+It's a… it has a high run.
+
+00:28:45.821 --> 00:28:47.821
+And it can be worked in…
+
+00:28:48.711 --> 00:28:51.711
+other laptops, Windows, and…
+
+00:28:52.056 --> 00:28:57.056
+Virtual machinery? Yes, virtual machine. The container, which is, um…
+
+00:28:58.722 --> 00:29:00.722
+We can say it.
+
+00:29:01.433 --> 00:29:04.433
+It contains all the images.
+
+00:29:05.689 --> 00:29:11.689
+That can be run? What, like, what is the difference between a virtual machine and a container, specifically?
+
+00:29:11.773 --> 00:29:16.773
+Like, uh, when you say virtual machine can be run on any operating system, which is correct. Okay.
+
+00:29:17.745 --> 00:29:22.745
+But can container not run on an interpreter? It can, it can't run on the, uh, virtual machine.
+
+00:29:23.613 --> 00:29:25.613
+Yes, like, continued… But it's easier.
+
+00:29:26.628 --> 00:29:32.628
+No, the daughter of the generalization is easier, can be working in any, um, PC.
+
+00:29:33.034 --> 00:29:42.034
+You can use it in NAPC, so it will help us also in, um… But virtual environment… virtual machine can also be run on any PC, right? Yeah, but it takes time.
+
+00:29:41.900 --> 00:29:46.900
+Okay, like, time-consuming. What you're saying is that it's time-consuming. And also, it might, um…
+
+00:29:48.215 --> 00:29:56.215
+have a higher ramp rather than using, uh… Yes, I understand. So, like, it uses high resources, what you're saying? Yes.
+
+00:29:57.210 --> 00:30:00.210
+And the container uses, like, less resources.
+
+00:30:02.204 --> 00:30:07.204
+High resources? Like, too much RAM, and too much, right? And it takes time, too.
+
+00:30:08.203 --> 00:30:12.203
+Right, and on the other hand, containers… I can use this in any PC.
+
+00:30:12.179 --> 00:30:14.179
+working on it.
+
+00:30:14.279 --> 00:30:16.279
+like, my own PC.
+
+00:30:17.349 --> 00:30:19.349
+Okay, so, uh…
+
+00:30:20.129 --> 00:30:28.129
+let's say you have to compute first, right? I've been asking this question for them. Uh, you have… you have your Windows laptop, and you have a Python application running, right?
+
+00:30:28.541 --> 00:30:30.541
+a fast GP application running.
+
+00:30:31.455 --> 00:30:34.455
+How can you move your application from this laptop?
+
+00:30:34.856 --> 00:30:36.856
+to another laptop running Ubuntu.
+
+00:30:36.994 --> 00:30:39.994
+Are you going to use any approach you like?
+
+00:30:40.602 --> 00:30:42.602
+Even how to open it together.
+
+00:30:42.619 --> 00:30:46.619
+deploy, kind of, like, moving, like, moving this application from here to…
+
+00:30:47.441 --> 00:30:49.441
+the other Ubuntu machine. By using Oracle.
+
+00:30:49.797 --> 00:30:51.797
+Yes?
+
+00:30:52.044 --> 00:31:01.044
+Or when? That's when, yes. When SAP? Oh, they have WinSCP, let's say you… And then, just so I can open it directly for the Windows and the Linux…
+
+00:31:01.265 --> 00:31:06.265
+Yeah, so let's say, let's say you open VinSCP, right? Yes. And now you have connected to?
+
+00:31:07.425 --> 00:31:10.425
+the open to that talk, right? Like, Ubuntu machine, so…
+
+00:31:10.962 --> 00:31:13.962
+You will see your project file here. Now, what will you do?
+
+00:31:14.176 --> 00:31:16.176
+You're going to copy the files there?
+
+00:31:16.976 --> 00:31:18.976
+Because you need to move the application.
+
+00:31:19.217 --> 00:31:24.217
+to Ubuntu, right? Yeah. So, when SCP is unique… Can I copy the files by having…
+
+00:31:24.282 --> 00:31:30.282
+The IP. Okay, yes, you're for the Windows and the… Any, any other good approach? Like, can you not use Git?
+
+00:31:31.208 --> 00:31:34.208
+I want to pit clone.
+
+00:31:34.544 --> 00:31:36.544
+Like, clone your project on Ubuntu.
+
+00:31:37.979 --> 00:31:40.979
+Like, you have this project here, right? You push the project to GitHub?
+
+00:31:42.013 --> 00:31:44.013
+So, can you not pull it on?
+
+00:31:44.937 --> 00:31:48.937
+I don't think so. Like, for example, you have a GitHub repo, right?
+
+00:31:49.872 --> 00:31:51.872
+So you push your project to GitHub from Windows.
+
+00:31:52.552 --> 00:31:59.552
+Now, on what do you… I prefer making the same thing that I said at the beginning. Same, SSH, like, you cannot pull… you cannot clone there.
+
+00:32:00.386 --> 00:32:03.386
+I can use the, um, the one.
+
+00:32:04.866 --> 00:32:06.866
+Let me see… Are you sure? Sure.
+
+00:32:07.101 --> 00:32:11.101
+Okay, maybe I'm not able to under, uh, clearly communicate my question.
+
+00:32:11.561 --> 00:32:14.561
+Uh, let's say you have to move… your application is running here.
+
+00:32:14.538 --> 00:32:16.538
+You have to run the application.
+
+00:32:16.792 --> 00:32:20.792
+on the other computer, which is running, Ubuntu. Okay. Right?
+
+00:32:21.530 --> 00:32:24.530
+You have pushed all of your code to GitHub already.
+
+00:32:25.124 --> 00:32:27.124
+Is it possible to…
+
+00:32:27.607 --> 00:32:30.607
+clone the repo, the same repo on the virtual machine.
+
+00:32:31.543 --> 00:32:33.543
+Is it possible, yes or no?
+
+00:32:35.894 --> 00:32:41.894
+Again? Like, for example, you push everything to GitHub, right? Okay. Now you have a new user. I'm using Windows, or by using… Windows, Windows, right. Okay.
+
+00:32:42.065 --> 00:32:45.065
+Now, you have Linux laptop, Ubuntu, right?
+
+00:32:46.207 --> 00:32:50.207
+You have… you have Git installed, of course, already there.
+
+00:32:51.003 --> 00:32:53.003
+Can you clone the trapua…
+
+00:32:53.068 --> 00:32:55.068
+jump over to…
+
+00:32:55.597 --> 00:32:57.597
+Is it possible or not?
+
+00:32:57.764 --> 00:33:01.764
+means, you know, I bring the air… Like Linux to the Linux.
+
+00:33:03.038 --> 00:33:05.038
+Yes. Yes, Rachel, yeah. So…
+
+00:33:05.520 --> 00:33:07.520
+But why did you stick to…
+
+00:33:08.567 --> 00:33:10.567
+Previously, you said no, it's not possible.
+
+00:33:11.744 --> 00:33:14.744
+No, that's very dangerous. You know, mistaken when you said…
+
+00:33:15.154 --> 00:33:27.154
+To open it together with the windows and the Linux, so you're saying… Not clone, I said cloned. Cloning, I thought you're saying cloning them, something I don't. Yeah, that's fine, that's why I wanted to figure out, right? Yes, I can. You can, right? Yeah. It's possible.
+
+00:33:27.398 --> 00:33:32.398
+So, once you have the app, then can you run it off, right? You can't wait.
+
+00:33:32.414 --> 00:33:34.414
+So this is manual deployment, right?
+
+00:33:35.637 --> 00:33:37.637
+I will… I will… I will take that as…
+
+00:33:37.821 --> 00:33:39.821
+My explanation was maybe not…
+
+00:33:39.877 --> 00:33:43.877
+sufficient, so I'm not writing it right, but your answer is correctly. Okay, this one.
+
+00:33:44.858 --> 00:33:47.858
+But manually, right? You can do that manually. Uh…
+
+00:33:49.144 --> 00:33:53.144
+Okay, if, if you… if I let… if I tell you, can you use Docker?
+
+00:33:54.178 --> 00:33:56.178
+to actually make this process a bit easier.
+
+00:33:56.022 --> 00:33:58.022
+like, running the application on Ubuntu.
+
+00:33:58.928 --> 00:34:05.928
+Can you… can you figure out how you can do that? Can you tell me? I can install Docker. Okay, let's say Docker is installed already, booth.
+
+00:34:07.904 --> 00:34:09.904
+What will you do there? What will we do here?
+
+00:34:11.390 --> 00:34:16.390
+What I will do with Linux and Windows? Yes, you have to move the application from here to here.
+
+00:34:16.598 --> 00:34:18.598
+You already have told me one approach.
+
+00:34:19.319 --> 00:34:23.319
+Yeah, no, the second approach is kind of, let's say, using Docker.
+
+00:34:24.920 --> 00:34:26.920
+So, do you have that in mind, the workflow?
+
+00:34:27.358 --> 00:34:29.358
+Uh, first of all, Docker.
+
+00:34:30.148 --> 00:34:32.148
+In Windows?
+
+00:34:32.244 --> 00:34:34.244
+plays a role in…
+
+00:34:35.501 --> 00:34:37.501
+in finding.
+
+00:34:38.008 --> 00:34:41.008
+Um, or let's say you're running an image with many containers.
+
+00:34:42.259 --> 00:34:44.259
+It will help in running, uh, an image.
+
+00:34:44.817 --> 00:34:47.817
+too many containers. Can you containerize your application?
+
+00:34:47.799 --> 00:34:49.799
+On Windows?
+
+00:34:51.278 --> 00:34:53.278
+Uh, and then somehow…
+
+00:34:54.444 --> 00:34:58.444
+use the same container on over to? Is there a process for that?
+
+00:34:59.459 --> 00:35:05.459
+You mean take the flight from Pomentu to… or from Linux? Windows to Uber. Windows to Windu, right. Windows 2.
+
+00:35:05.961 --> 00:35:08.961
+Ubuntu. Using Docker, to Docker.
+
+00:35:09.268 --> 00:35:14.268
+Using Docker, yes. You can, right? Yeah. So, how will you do that? Like, first…
+
+00:35:15.268 --> 00:35:22.268
+write Dockerfile, right? I… first of all, I'll install Docker. You'll install Docker, right? Yes. Then there's a Docker file for your application.
+
+00:35:22.966 --> 00:35:25.966
+Yeah. What is the relationship between the Dockerfile and that image?
+
+00:35:28.119 --> 00:35:30.119
+image, um…
+
+00:35:30.624 --> 00:35:37.624
+Docker image, like Dockerf? Well, specifically where and when… Like in Windows, Windows. In Windows, I'll use the… I'm having the Docker file.
+
+00:35:38.037 --> 00:35:44.037
+Which, uh, contains… Instructions. Instructions, okay. And then I'm having the, uh…
+
+00:35:45.603 --> 00:35:48.603
+Dockerfile, yes, and then I'll… I'll just write build.
+
+00:35:49.138 --> 00:35:52.138
+Dr. Bill? So you get… Then I'll compose the Docker?
+
+00:35:52.649 --> 00:35:56.649
+And afterwards, Docker Compose? No, no, first you build it, right? When you build, what happens?
+
+00:35:57.686 --> 00:36:00.686
+So… I have to build it, and then test it?
+
+00:36:01.452 --> 00:36:04.452
+like, when you build it, so you get something, right? After you build?
+
+00:36:04.859 --> 00:36:07.859
+When… if build is successful, so you get something, right?
+
+00:36:08.887 --> 00:36:10.887
+What do you get? What is the name of the image?
+
+00:36:12.194 --> 00:36:15.194
+proper image? I will… Is it Docker image or something else?
+
+00:36:15.587 --> 00:36:17.587
+If you… if you…
+
+00:36:18.046 --> 00:36:20.046
+do run the docker build command.
+
+00:36:20.180 --> 00:36:22.180
+And give it path of the Dockerfile.
+
+00:36:22.912 --> 00:36:25.912
+So that command builds, what, an image or a container?
+
+00:36:26.126 --> 00:36:28.126
+The image builds a container.
+
+00:36:28.332 --> 00:36:30.332
+No, so… And Dockerfile builds an image?
+
+00:36:31.447 --> 00:36:39.447
+Docker 5 is used to build an image? When I… yes, when I run the image, it directly goes to the container, like… Yes, when you run the image, that's fine, that's correct, right? Okay.
+
+00:36:40.415 --> 00:36:42.415
+But I'm asking about Dockerfile and image.
+
+00:36:43.168 --> 00:36:52.168
+the relationship… not image and container, right? Docker file? And the image, Docker image. Yes. Dockerfi wanted to have the image by Docker, by building the Docker. You're right.
+
+00:36:53.213 --> 00:36:56.213
+You're completely right, I don't know why you're getting confused.
+
+00:36:57.151 --> 00:37:00.151
+Sometimes I don't get your question directly, because you might… you could…
+
+00:37:01.221 --> 00:37:03.221
+But here, actually, you understood, right?
+
+00:37:03.951 --> 00:37:07.951
+You understood all of the things here, right? Yes. This finger won't believe this.
+
+00:37:08.401 --> 00:37:10.401
+No good.
+
+00:37:10.257 --> 00:37:12.257
+No, I will try.
+
+00:37:13.857 --> 00:37:15.857
+Uh, so now, let's say you have the image.
+
+00:37:16.254 --> 00:37:18.254
+Okay. Now, how can you…
+
+00:37:18.596 --> 00:37:20.596
+from the container on Ubuntu.
+
+00:37:20.840 --> 00:37:22.840
+You have the image available on Windows.
+
+00:37:24.977 --> 00:37:27.977
+On UberPro, of course, right? You have to move the application.
+
+00:37:28.373 --> 00:37:33.373
+Yeah. Um, of course, I will… first of all, I'll use, as I said,
+
+00:37:33.426 --> 00:37:35.426
+Open the both files.
+
+00:37:35.664 --> 00:37:38.664
+And, uh, when? When necessary. Yes?
+
+00:37:39.126 --> 00:37:41.126
+I'll open the window, and that'll open the Linux.
+
+00:37:41.278 --> 00:37:48.278
+Together, and I can, um, by installing first in Linux Docker… Let's say Docker is already installed, everything's ready, yeah.
+
+00:37:49.092 --> 00:37:53.092
+So I can move it there. Yes, how can you move? You have the Docker image on Windows.
+
+00:37:53.462 --> 00:37:55.462
+How can you move the image to?
+
+00:37:55.697 --> 00:37:58.697
+First of all, I want to see the website.
+
+00:37:59.191 --> 00:38:01.191
+Yes.
+
+00:38:01.643 --> 00:38:03.643
+Are you talking about Dockerb website, or something else?
+
+00:38:04.299 --> 00:38:07.299
+This was after deployment, I will use… I will put it in Docker Hall.
+
+00:38:07.361 --> 00:38:10.361
+But the thing is, um…
+
+00:38:15.525 --> 00:38:19.525
+everything you can see. So you have to move the image from Windows to Ubuntu.
+
+00:38:20.160 --> 00:38:22.160
+So, how can you do that?
+
+00:38:24.562 --> 00:38:29.562
+I can use… I can't see the iClip config, the IP address for you. Let's say you have everything.
+
+00:38:29.861 --> 00:38:31.861
+So, everything is there, too.
+
+00:38:32.716 --> 00:38:34.716
+You have IP, you have VNET CP, you have Docker installed.
+
+00:38:35.238 --> 00:38:38.238
+Now is the time to move the image from Windows 2.
+
+00:38:39.267 --> 00:38:43.267
+Uh, Ubuntu. So, what approach would you use? Everything is there.
+
+00:38:44.103 --> 00:38:47.103
+Just images, not really. So, how can you get the image?
+
+00:38:47.080 --> 00:38:49.080
+Yep.
+
+00:38:49.423 --> 00:38:51.423
+Yeah.
+
+00:38:52.348 --> 00:38:55.348
+So you push image to Docker app and pull from DockerUp.
+
+00:38:56.291 --> 00:39:00.291
+Yes, Dr. Happy. Right, well, and then, let's say now you have the image. Now, how would you run…
+
+00:39:00.306 --> 00:39:02.306
+application using the image.
+
+00:39:02.933 --> 00:39:04.933
+How would you run the container?
+
+00:39:05.361 --> 00:39:09.361
+I will use the… after running the image…
+
+00:39:09.926 --> 00:39:12.926
+It will happen, um… will appear there for me.
+
+00:39:13.341 --> 00:39:15.341
+the… I can use localhost?
+
+00:39:15.928 --> 00:39:20.928
+Or I can directly click… Yeah, yeah, you know, you know you are answering correctly, but you are actually skipping…
+
+00:39:21.259 --> 00:39:24.259
+Uh, some things and jump into the results, or either…
+
+00:39:24.782 --> 00:39:26.782
+Sticking to very basic things, and…
+
+00:39:26.768 --> 00:39:32.768
+So I… that's why it's taking time to… I'm trying to figure out whether you're right, Phil.
+
+00:39:34.462 --> 00:39:37.462
+Dockerfile.
+
+00:39:39.432 --> 00:39:42.432
+in the container, right? Manual deployment is…
+
+00:39:43.984 --> 00:39:45.984
+By using tokens. IFS.
+
+00:39:46.456 --> 00:39:48.456
+I was very worried, really.
+
+00:39:50.808 --> 00:39:53.808
+Uh, I don't deployment. I'm really worried, right, you know?
+
+00:39:55.798 --> 00:39:57.798
+But now, it's good. Now I'm not Fareed.
+
+00:39:58.739 --> 00:40:00.739
+I was really worried. You're about to fail, but now…
+
+00:40:01.804 --> 00:40:03.804
+You already passed anyways. Let's go. Next.
+
+00:40:04.040 --> 00:40:06.040
+Listen.
+
+00:40:06.116 --> 00:40:09.116
+Oh my god, okay.
+
+00:40:10.008 --> 00:40:13.008
+Manual deployment. Now, let's talk about CICD, right?
+
+00:40:13.200 --> 00:40:15.200
+And since you are talking about CICD a lot.
+
+00:40:15.324 --> 00:40:23.324
+So… I haven't talked yet. So, manual deploy… so all of this process that you told me, right? Okay. Like VinSCP, SSH…
+
+00:40:24.376 --> 00:40:28.376
+build image, run container, push Docker Hub, pull Docker Hub,
+
+00:40:29.238 --> 00:40:31.238
+All of these things are, like, manual steps. Yes.
+
+00:40:31.706 --> 00:40:35.706
+for deployment. Deployment means putting your application from one system to another,
+
+00:40:35.905 --> 00:40:37.905
+System that is live for 18.
+
+00:40:40.244 --> 00:40:46.244
+How can, like, how can you automate this? So I'm specifically talking about CICD.
+
+00:40:46.610 --> 00:40:50.610
+Is there any benefit that you see for CICD, or…
+
+00:40:50.761 --> 00:40:54.761
+Uh, do you think that manual deployment is, uh…
+
+00:40:55.945 --> 00:41:01.945
+If you compare measurement deployment versus CACD, what is the benefit, is the question.
+
+00:41:03.151 --> 00:41:08.151
+Testing and building the… and making the deployments easily. Is it easier, rather than manually.
+
+00:41:08.583 --> 00:41:10.583
+Does it save time? It does.
+
+00:41:10.932 --> 00:41:12.932
+A district. Deshifting.
+
+00:41:13.717 --> 00:41:15.717
+So, uh…
+
+00:41:16.223 --> 00:41:18.223
+Anyways, uh…
+
+00:41:18.330 --> 00:41:23.330
+We have been using, I mean, Git a lot, right? Git… I totally forgot about Git, right?
+
+00:41:23.657 --> 00:41:25.657
+So, we are using Git a lot. So…
+
+00:41:27.858 --> 00:41:30.858
+Did I just ask you about the staging area? I don't think so, really?
+
+00:41:31.475 --> 00:41:34.475
+So, can you tell me something about, like, is the staging area
+
+00:41:34.745 --> 00:41:36.745
+Related to a branch, or not.
+
+00:41:37.118 --> 00:41:40.118
+First of all, let me say it.
+
+00:41:40.242 --> 00:41:44.242
+Yeah. For the, uh, feature branches, we have…
+
+00:41:44.370 --> 00:41:46.370
+Um…
+
+00:41:47.475 --> 00:41:49.475
+The staging area comes…
+
+00:41:50.310 --> 00:41:53.310
+While doing changes, like adding…
+
+00:41:53.434 --> 00:41:55.434
+And, uh, just giving changes.
+
+00:41:56.146 --> 00:41:58.146
+It comes before the comet.
+
+00:41:58.669 --> 00:42:00.669
+Before the… Yeah. Go.
+
+00:42:00.852 --> 00:42:02.852
+And, uh, making branches becomes…
+
+00:42:02.863 --> 00:42:04.863
+You have to be before staging.
+
+00:42:04.939 --> 00:42:07.939
+Okay. So I have to do branch first, and then…
+
+00:42:08.105 --> 00:42:10.105
+Student. Yeah, staging.
+
+00:42:10.480 --> 00:42:14.480
+For example, when I initialize a new, new GitHub repo, right, Git repo.
+
+00:42:14.523 --> 00:42:16.523
+I only have the main branch, right?
+
+00:42:18.225 --> 00:42:22.225
+new. There's nothing inside. Let's say I put some files, 5 or 6 files.
+
+00:42:23.626 --> 00:42:27.626
+And if I put some files and I do get a status, you see there are 7 files.
+
+00:42:28.044 --> 00:42:30.044
+Are they in the staging area or not?
+
+00:42:33.284 --> 00:42:43.284
+Staging area, if I add the files. Then it goes to the staging area. Let's say you add the files, it appears in the staging area, right? That is what I want. Yes, green, right?
+
+00:42:44.524 --> 00:42:47.524
+While these files are in the staging area,
+
+00:42:48.558 --> 00:42:51.558
+Can I switch to a new branch? Can I make a new branch and switch to it?
+
+00:42:53.644 --> 00:42:59.644
+Is it… is it another… I was in the staging area? No, no, like, let's say staging area has some files now, right? You already get add.
+
+00:43:00.306 --> 00:43:02.306
+Now, next step…
+
+00:43:02.904 --> 00:43:04.904
+I switched to a new branch. Can I do that or not?
+
+00:43:06.227 --> 00:43:09.227
+Uh, depends. First, I have to see which branch I'm working on.
+
+00:43:09.346 --> 00:43:13.346
+let's say I just create a new brand, check out Dash B, feature branch. I created…
+
+00:43:13.931 --> 00:43:19.931
+Yes, I can shift on the wrong track, I can get checked out. Let's say I shift to a new branch, and then I do git commit.
+
+00:43:20.485 --> 00:43:23.485
+directly. So, what will commit have?
+
+00:43:23.749 --> 00:43:28.749
+All of the files… Just take the snapshot of what I've done, all what I've done.
+
+00:43:29.677 --> 00:43:31.677
+All are just the students.
+
+00:43:32.310 --> 00:43:36.310
+Just the staging material? If I did comment. If you commit? Yes. Will it just…
+
+00:43:37.104 --> 00:43:39.104
+Consider the staging area, or will it come at all?
+
+00:43:39.748 --> 00:43:43.748
+of the files. The staging area. The staging area, yeah, I do.
+
+00:43:44.087 --> 00:43:46.087
+Good.
+
+00:43:51.056 --> 00:43:53.056
+Now, do you see any benefits of having a featured branch workflow?
+
+00:43:54.509 --> 00:43:57.509
+The one that we are actually following for every technology.
+
+00:43:58.350 --> 00:44:01.350
+Like, produce the amount of conflict that happens in the branches.
+
+00:44:02.457 --> 00:44:05.457
+Okay. Okay, yes, like, yes, this is a good point.
+
+00:44:06.297 --> 00:44:11.297
+Uh, it reduces the chances of conflict, something, right? But eventually, you have a conflict at the very end.
+
+00:44:11.444 --> 00:44:14.444
+So, uh, anyways…
+
+00:44:15.427 --> 00:44:17.427
+We have to have too much time, 240.
+
+00:44:18.385 --> 00:44:20.385
+Um, we started.
+
+00:44:20.968 --> 00:44:22.968
+2.50, we started at 2.15.
+
+00:44:23.026 --> 00:44:26.026
+then let's get one of our news. Last question, right?
+
+00:44:26.081 --> 00:44:30.081
+just, uh, recently we… I showed you AI Agent, right? Yes.
+
+00:44:30.396 --> 00:44:35.396
+So now this is a simple question, because I'm asking everyone, and they must have told you, so please let me…
+
+00:44:35.387 --> 00:44:37.387
+You can just answer any way you'd like.
+
+00:44:37.642 --> 00:44:42.642
+So, you are using ChatGPT, right? Or using any other model, like…
+
+00:44:43.536 --> 00:44:45.536
+I'm using Claude. So, what…
+
+00:44:46.076 --> 00:44:49.076
+what… what is that thing that AI Agent can do?
+
+00:44:49.316 --> 00:44:51.316
+that a large language model cannot.
+
+00:44:52.320 --> 00:44:54.320
+Um, well, the…
+
+00:44:54.448 --> 00:44:56.448
+The large lung water limbs?
+
+00:44:56.583 --> 00:44:58.583
+It, uh, only have the…
+
+00:44:59.724 --> 00:45:02.724
+Analyzing data, let's say, or answering questions.
+
+00:45:03.002 --> 00:45:08.002
+What the AI agent would have the process, or say, let's say, an action.
+
+00:45:09.205 --> 00:45:11.205
+That happens. Okay, nice, thank you, Hur.
+
+00:45:12.360 --> 00:45:15.360
+Right, that's it. That's going to save the tunnel, yeah, definitely done.
+
+00:45:15.216 --> 00:45:17.216
+Of course, yes, but…
+
+00:45:17.602 --> 00:45:19.602
+Let me stop the recording.
+

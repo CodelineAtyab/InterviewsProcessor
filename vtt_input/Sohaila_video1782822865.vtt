@@ -1,0 +1,4596 @@
+WEBVTT
+
+
+00:00:03.743 --> 00:00:05.743
+So, uh, okay, so yeah, uh…
+
+00:00:04.063 --> 00:00:06.063
+So, uh, so…
+
+00:00:05.907 --> 00:00:07.907
+This is actually just, uh…
+
+00:00:06.230 --> 00:00:08.230
+This is actually just, uh…
+
+00:00:08.577 --> 00:00:11.577
+Um, you can think of it as, uh…
+
+00:00:12.351 --> 00:00:15.351
+the small one with the big one, kind of, but we will actually combine it.
+
+00:00:12.788 --> 00:00:15.788
+a smaller one with the big one, kind of, but we don't actually combine it.
+
+00:00:15.775 --> 00:00:17.775
+So…
+
+00:00:16.209 --> 00:00:18.209
+So…
+
+00:00:18.237 --> 00:00:26.237
+Python Basics, advanced Python, network basics, you have a Linux basics, Git Basics, Docker basics.
+
+00:00:19.187 --> 00:00:22.187
+Python B6, I want to network B6.
+
+00:00:22.693 --> 00:00:26.693
+basics, proper basics.
+
+00:00:27.088 --> 00:00:32.088
+deployment, some things about… small things about AI agents, since we have done much
+
+00:00:27.246 --> 00:00:32.246
+Some things, small things about the agents, since we haven't done much
+
+00:00:32.612 --> 00:00:35.612
+We haven't done much, right? So, let's a start, right? I'm going to…
+
+00:00:33.100 --> 00:00:36.100
+We haven't done much right. So, let's just start, right?
+
+00:00:37.825 --> 00:00:39.825
+Sometimes, you know, when we are playing games,
+
+00:00:38.347 --> 00:00:40.347
+Sometimes, you know, when we are playing teams,
+
+00:00:39.924 --> 00:00:45.924
+Yeah. So, uh, we actually keep sending backwards, packets, packets, packets, but sometimes there's something missing.
+
+00:00:41.038 --> 00:00:46.038
+Yep. So, we actually keep sending packets, packets, packets, packets, but sometimes there's something missing.
+
+00:00:46.387 --> 00:00:48.387
+So, uh…
+
+00:00:46.447 --> 00:00:48.447
+So, uh…
+
+00:00:48.369 --> 00:00:50.369
+the server actually doesn't care.
+
+00:00:48.634 --> 00:00:50.634
+The server ownership doesn't care.
+
+00:00:51.017 --> 00:00:57.017
+It doesn't wait for the acknowledgement, and it just… so that we lagged, actually. But then, if other tickets are coming up, so…
+
+00:00:51.170 --> 00:00:55.170
+It doesn't fit for the acknowledgement, and it just… so that reliability.
+
+00:00:55.374 --> 00:00:57.374
+But then, if other tickets are coming up soon.
+
+00:00:58.016 --> 00:01:03.016
+Uh, we see the game as non-smo. So, for example, whenever we play a game and it lags, right?
+
+00:00:58.490 --> 00:01:03.490
+Um, we see that he was not sold. So, for example, when we play a game, it lags, right?
+
+00:01:03.629 --> 00:01:07.629
+So it means the packets are not being transmitted to the server.
+
+00:01:03.755 --> 00:01:07.755
+So, it means the packets are not being transmitted to the server.
+
+00:01:07.790 --> 00:01:11.790
+for some reason, we don't know, but actually the packets go missing, for example.
+
+00:01:08.179 --> 00:01:12.179
+For some reason, we don't know, but actually the packet is still missing, for example.
+
+00:01:12.259 --> 00:01:14.259
+Yeah. Here's a scenario.
+
+00:01:14.527 --> 00:01:18.527
+You have numbers, right? Now, numbers will always be
+
+00:01:14.871 --> 00:01:18.871
+You have no more straight. The numbers will always be…
+
+00:01:18.793 --> 00:01:20.793
+From 1 to 10. Alright.
+
+00:01:19.316 --> 00:01:21.316
+from 1 to 10. Alright.
+
+00:01:21.946 --> 00:01:25.946
+And no number will repeat. It's not more than 10, it's not plus than…
+
+00:01:22.213 --> 00:01:28.213
+no number will repeat. It's not more than 10, it's not plus than 1, right? It's always 1 to 10, right?
+
+00:01:26.273 --> 00:01:28.273
+One, right?
+
+00:01:28.964 --> 00:01:30.964
+But there's one number missing.
+
+00:01:31.374 --> 00:01:34.374
+Yes, you can tell, right? But how would Python tell?
+
+00:01:31.687 --> 00:01:34.687
+Four.
+
+00:01:34.934 --> 00:01:37.934
+So, for example, yeah, for example, this list…
+
+00:01:35.338 --> 00:01:38.338
+So, for example. Oh, okay. For example, this, this…
+
+00:01:38.190 --> 00:01:45.190
+is going to go as an input, right? To your Python application. Don't worry about syntax or anything. Okay. What would be your logic?
+
+00:01:38.434 --> 00:01:40.434
+is going to go as an input, right?
+
+00:01:40.537 --> 00:01:45.537
+to your Python application. Don't worry about syntax or anything. Okay. What would be your logic?
+
+00:01:45.931 --> 00:01:48.931
+to find the missing number.
+
+00:01:46.201 --> 00:01:48.201
+To find the missing number.
+
+00:01:48.180 --> 00:01:50.180
+Maybe…
+
+00:01:49.813 --> 00:01:55.813
+Can I just say, Diane? Say it also? Yes, you can see it first. Yeah. Like, uh, the difference between each number is 1.
+
+00:01:50.223 --> 00:01:56.223
+Can I just say, Diane? Yeah, like, uh, the difference between each number is one.
+
+00:01:56.922 --> 00:01:58.922
+Yeah, one of them will be two.
+
+00:01:57.239 --> 00:01:59.239
+But, yeah, one of them will be to…
+
+00:02:00.368 --> 00:02:03.368
+Yeah, and it's ran for… it's 3 and 5.
+
+00:02:00.507 --> 00:02:06.507
+Uh, yes, like, for example, if 80x23… Yeah, 3 and 5, I will get minus 2, which you can convert to positive, it's 2, right?
+
+00:02:04.053 --> 00:02:06.053
+Again, fight the admitted many students to convert.
+
+00:02:06.907 --> 00:02:09.907
+Yeah. Which is a very nice approach, right?
+
+00:02:07.002 --> 00:02:10.002
+Yeah.
+
+00:02:10.279 --> 00:02:15.279
+Unless… But, mister, like, like, 1, 2, 3, 4, 5, 6, 7, 8, 9?
+
+00:02:10.640 --> 00:02:15.640
+Unless… But, Mr., like, like, 1, 2, 3, 4, 5, 6, 7, 8, 9?
+
+00:02:16.164 --> 00:02:20.164
+So, like, the next one… the next one will also be nice, so it will be 1 to 9 with the 4.
+
+00:02:16.175 --> 00:02:19.175
+So, like, the next one will also be nice, so it will be…
+
+00:02:20.606 --> 00:02:22.606
+No, no, see, for example, you start here, right?
+
+00:02:20.800 --> 00:02:25.800
+No, no, see, for example, you start here, right? Yeah. So, for example, first you compare these two numbers. Yeah.
+
+00:02:23.336 --> 00:02:28.336
+So, for example, first you compare these two numbers, right? Then you compare these two, then you keep going forward.
+
+00:02:27.835 --> 00:02:32.835
+So, of course, one… one… here you will spot…
+
+00:02:29.741 --> 00:02:32.741
+So, of course, one area you will spot
+
+00:02:32.769 --> 00:02:37.769
+Yeah. So you know that which number is missing, right? Yes. This is a good logic, but…
+
+00:02:34.149 --> 00:02:38.149
+Yep. So you mean to put your emergency room? Yes, the emergency, but…
+
+00:02:39.117 --> 00:02:41.117
+Now, the numbers are still promote.
+
+00:02:39.374 --> 00:02:44.374
+Now, the numbers are still from 1 to 10. Okay.
+
+00:02:42.402 --> 00:02:44.402
+So over 2 is 0, 7 is 0.
+
+00:02:44.737 --> 00:02:47.737
+And it's here, Su5 is here…
+
+00:02:45.911 --> 00:02:47.911
+5 to 2…
+
+00:02:49.046 --> 00:02:51.046
+Eat soon…
+
+00:02:51.262 --> 00:02:53.262
+What is… one is… well…
+
+00:02:51.300 --> 00:02:53.300
+1? 9?
+
+00:02:53.851 --> 00:02:55.851
+9… and… 6…
+
+00:02:54.154 --> 00:02:56.154
+Six.
+
+00:02:55.963 --> 00:02:57.963
+Thanks. So, Erin?
+
+00:02:58.127 --> 00:03:00.127
+transmissible.
+
+00:02:58.142 --> 00:03:01.142
+1, 2, 3, 3 is missing, so that's right at 3.
+
+00:03:02.721 --> 00:03:04.721
+What's missing?
+
+00:03:03.061 --> 00:03:05.061
+So what is it missing?
+
+00:03:04.924 --> 00:03:07.924
+Oh, sorry, where's the missing one, right? Now…
+
+00:03:05.202 --> 00:03:07.202
+Yeah.
+
+00:03:09.240 --> 00:03:12.240
+Now, the same thing, but it's not sorted.
+
+00:03:09.444 --> 00:03:12.444
+Now, the same thing, but it's not sorted.
+
+00:03:12.419 --> 00:03:14.419
+Yeah. So…
+
+00:03:12.988 --> 00:03:15.988
+Yeah. So, now what would be all logic to find missing number?
+
+00:03:14.662 --> 00:03:16.662
+Now, what we're logging the financing.
+
+00:03:18.583 --> 00:03:21.583
+Find them, sing from them. But it's always from 1 to 10, you know.
+
+00:03:19.007 --> 00:03:22.007
+But it's always someone to tell you.
+
+00:03:21.744 --> 00:03:23.744
+Numbers are from 1 to 10.
+
+00:03:22.194 --> 00:03:27.194
+The push arts from 1 to 10, although they're shuffle, right? Yeah. There's one missing, so how…
+
+00:03:24.157 --> 00:03:27.157
+Although they're shuffled, right? There's one missing, so how would you…
+
+00:03:31.363 --> 00:03:37.363
+Uh, I have something, but I don't know if it's, like… imaginary, or, like…
+
+00:03:31.870 --> 00:03:37.870
+Uh, I have something, but I don't know if it's, like, imaginary, or, like…
+
+00:03:38.438 --> 00:03:40.438
+You can tell. What's your… Like, the total of that?
+
+00:03:38.658 --> 00:03:40.658
+Like, the total of depths?
+
+00:03:40.514 --> 00:03:42.514
+It always will be the same.
+
+00:03:40.875 --> 00:03:42.875
+is always would be the same.
+
+00:03:42.737 --> 00:03:45.737
+No, no, you're right, you're right. Yeah.
+
+00:03:43.482 --> 00:03:48.482
+Like, for example, again, let's say you have to believe.
+
+00:03:46.443 --> 00:03:48.443
+Danny. Okay, let's say you have triple available.
+
+00:03:51.059 --> 00:03:55.059
+Yeah. One of the sake of simplicity? Imagine you have…
+
+00:03:51.425 --> 00:03:53.425
+Yeah. For the sake of some…
+
+00:03:54.047 --> 00:03:56.047
+Imagine if… 43.
+
+00:03:55.277 --> 00:03:57.277
+Like, 1, 2, 3, like, for example.
+
+00:03:56.246 --> 00:03:59.246
+Yes, very simple.
+
+00:03:57.384 --> 00:03:59.384
+1, 2, 3.
+
+00:03:59.799 --> 00:04:04.799
+This is the total. If you have 1, 2, 3, 4, 5, right? So let's say this…
+
+00:04:00.434 --> 00:04:05.434
+This is the total. If you have 1, 2, 3, 4, 5… Okay.
+
+00:04:05.095 --> 00:04:08.095
+1, 2, 3, 4, 5 is 15, I think? 5,
+
+00:04:06.398 --> 00:04:08.398
+5 is 15? 5 to 7.
+
+00:04:08.176 --> 00:04:11.176
+Alright, we can… we can very calculate the sum.
+
+00:04:11.295 --> 00:04:13.295
+I can go to the peninsula.
+
+00:04:11.729 --> 00:04:13.729
+I can go to the calculator.
+
+00:04:14.113 --> 00:04:17.113
+Maybe let's go for accuracy, right? Let's, uh…
+
+00:04:14.321 --> 00:04:17.321
+Maybe in that school food decoration, right? Okay. Let's go.
+
+00:04:17.797 --> 00:04:19.797
+Open up the literature, and I will just…
+
+00:04:20.620 --> 00:04:23.620
+some, all of them, right? So, for example,
+
+00:04:23.930 --> 00:04:27.930
+8765…
+
+00:04:29.833 --> 00:04:35.833
+55 years. 55, yes. How long do you know, right? Let's say you total me.
+
+00:04:32.000 --> 00:04:35.000
+55. What do you know, right? Let's…
+
+00:04:35.750 --> 00:04:39.750
+How will you find them in the second? Yeah. Uh, let's…
+
+00:04:35.779 --> 00:04:38.779
+Now, how will you find this? Yeah.
+
+00:04:39.521 --> 00:04:41.521
+Uh, I let… I let it, uh…
+
+00:04:39.821 --> 00:04:42.821
+take the…
+
+00:04:41.602 --> 00:04:43.602
+take the…
+
+00:04:44.094 --> 00:04:46.094
+Yeah, some of the oiler for that.
+
+00:04:44.127 --> 00:04:46.127
+So, yeah, some of the oiler for them.
+
+00:04:46.922 --> 00:04:49.922
+And then 55 minus the sum that it gets.
+
+00:04:46.927 --> 00:04:49.927
+And then 55 minus the sum that it gets.
+
+00:04:50.536 --> 00:04:52.536
+will be the number that was set. Very nice.
+
+00:04:50.567 --> 00:04:52.567
+will be the number that we see. Very nice.
+
+00:04:52.632 --> 00:04:54.632
+Nice.
+
+00:04:53.109 --> 00:04:55.109
+Nice.
+
+00:04:56.819 --> 00:04:58.819
+This is… this is very good.
+
+00:04:57.413 --> 00:04:59.413
+This is… this is very good. All right.
+
+00:04:59.982 --> 00:05:02.982
+Just one last.
+
+00:05:00.344 --> 00:05:02.344
+Just one last.
+
+00:05:05.595 --> 00:05:07.595
+Um, let's… or consider the same.
+
+00:05:05.943 --> 00:05:07.943
+Um, let's… or consider the same.
+
+00:05:07.754 --> 00:05:09.754
+All right. Let's error, right?
+
+00:05:08.104 --> 00:05:10.104
+All right.
+
+00:05:10.703 --> 00:05:18.703
+But numbers can be different, but right now, let's say, just assume the numbers are the same, but can be different, right? Now, it's not about the missing one, right? You have to find the maximum number.
+
+00:05:10.882 --> 00:05:18.882
+But numbers can be different, but right now, let's say, discussing the numbers are safe, it can be different, right? Okay. Now, let's talk about the missing one, right? You have to form the maximum number.
+
+00:05:19.496 --> 00:05:21.496
+Uh, in the list.
+
+00:05:19.782 --> 00:05:21.782
+Uh, nope.
+
+00:05:22.404 --> 00:05:25.404
+the maximum number in the list. And I don't know that this one for today.
+
+00:05:22.678 --> 00:05:25.678
+the maximum. And I didn't know that this one for today.
+
+00:05:26.276 --> 00:05:29.276
+There can be any numbers. There'll be any number? Just the maximum one.
+
+00:05:26.385 --> 00:05:29.385
+Can I be any number?
+
+00:05:29.360 --> 00:05:32.360
+the most maximum number. You have to find that one.
+
+00:05:29.618 --> 00:05:31.618
+most flexible.
+
+00:05:31.842 --> 00:05:33.842
+You have to find them. Uh…
+
+00:05:32.596 --> 00:05:37.596
+Uh… I forgot what we wrote exactly in the code AI.
+
+00:05:33.961 --> 00:05:37.961
+I forgot what we wrote exactly in the code, Yanni.
+
+00:05:37.591 --> 00:05:42.591
+Now I should just tell you a logic like you told the logic here, right? Just like, you know, maximum, minimum.
+
+00:05:38.143 --> 00:05:41.143
+the logic here, right?
+
+00:05:41.158 --> 00:05:43.158
+Nos, like, nos maximum minimum, right?
+
+00:05:43.939 --> 00:05:45.939
+Just mixing. Okay. Yeah.
+
+00:05:44.118 --> 00:05:46.118
+Just Smith. Okay.
+
+00:05:46.667 --> 00:05:49.667
+You just need to find the maximum number from here. Numbers can be any.
+
+00:05:58.993 --> 00:06:01.993
+I'm not sure, I just… I just don't want to say something wrong.
+
+00:05:59.301 --> 00:06:03.301
+I'm not sure, I just… I just don't want to say something. Bro, this is the… this is the difficult one.
+
+00:06:02.062 --> 00:06:04.062
+This is the difficult one.
+
+00:06:03.969 --> 00:06:07.969
+The one I give you now is the easiest one, which means you already have done it before.
+
+00:06:04.705 --> 00:06:07.705
+But when I give you an artist, which means you already have done it.
+
+00:06:07.913 --> 00:06:10.913
+This one?
+
+00:06:08.417 --> 00:06:10.417
+This one? Uh, the other ones are not…
+
+00:06:11.263 --> 00:06:14.263
+Those are… no. This one you haven't done before? Ever? No, this one.
+
+00:06:11.550 --> 00:06:14.550
+Those are… no. No, this one?
+
+00:06:14.640 --> 00:06:18.640
+You haven't done with the total, minus something? No, it's something related to coining.
+
+00:06:14.889 --> 00:06:18.889
+I noticed something related to coding.
+
+00:06:18.758 --> 00:06:22.758
+But you have done it, something like that. Uh, no.
+
+00:06:19.069 --> 00:06:23.069
+But you have been something like… Uh, no, um…
+
+00:06:23.476 --> 00:06:28.476
+No, but I know, right? Because there was a question I, like…
+
+00:06:23.709 --> 00:06:28.709
+I'll tell you later, I don't want it to be here. There was a question, like…
+
+00:06:28.816 --> 00:06:31.816
+Uh, about Brits, and there's one king and…
+
+00:06:29.137 --> 00:06:35.137
+footprints, and there's one king, and… So you have done it right, yeah. Not as coding, you know.
+
+00:06:32.000 --> 00:06:34.000
+you know…
+
+00:06:34.661 --> 00:06:37.661
+Not as coding as which one is the missing bracket.
+
+00:06:35.329 --> 00:06:37.329
+As, uh, which one is the missing bread?
+
+00:06:38.118 --> 00:06:43.118
+Yes. But unfortunately, in the interview… Unfortunately. In the interview, that will not help.
+
+00:06:38.595 --> 00:06:42.595
+Yeah. Unfortunately.
+
+00:06:42.895 --> 00:06:48.895
+that will not happen. No. No, but I did it by myself, and…
+
+00:06:43.564 --> 00:06:48.564
+Absolutely. No, but I did it by myself at the end. No, the visualization is very good, right?
+
+00:06:48.761 --> 00:06:56.761
+That will not help, because I will identify as soon as I… as you tell me the solution, I know you have done it previously, you're not sure. Now you have to.
+
+00:06:49.064 --> 00:06:57.064
+That will not help, because I will identify as soon as I… as you tell me the solution, I know if you have directly. Oh, okay.
+
+00:06:57.582 --> 00:07:02.582
+I think it makes sense. But I was surprised of this question, I didn't talk that. Not necessarily, I was amused.
+
+00:06:57.763 --> 00:07:02.763
+But I was surprised of this question. I didn't thought that it was really clear.
+
+00:07:03.692 --> 00:07:09.692
+So now we are disappointed. And if you… if you would answer this, I would totally look up, right?
+
+00:07:03.736 --> 00:07:09.736
+So now we are disappointed. This, I totally love it.
+
+00:07:09.980 --> 00:07:12.980
+This one? This one, right? Just find the maximum.
+
+00:07:10.301 --> 00:07:13.301
+This one? This one, right? This one at the beginning.
+
+00:07:13.103 --> 00:07:15.103
+Elementary.
+
+00:07:15.347 --> 00:07:17.347
+How would you do it?
+
+00:07:22.675 --> 00:07:25.675
+Anything, like… Can we compare, like, Python?
+
+00:07:23.122 --> 00:07:26.122
+Can we compare, like, from…
+
+00:07:26.357 --> 00:07:30.357
+Yeah, this is what I… yeah, this is what I did there.
+
+00:07:26.499 --> 00:07:30.499
+ThinkLogic like you… Yeah, this is what I did there. Yeah.
+
+00:07:30.754 --> 00:07:32.754
+But, I mean, can we compare, like, region?
+
+00:07:31.139 --> 00:07:33.139
+What, I mean, can we compare, like, each?
+
+00:07:33.095 --> 00:07:36.095
+indexes like this, yeah? Okay, let's say you can compare, right, then.
+
+00:07:33.592 --> 00:07:35.592
+indexes like this, Yanni. Okay, let's see…
+
+00:07:36.609 --> 00:07:38.609
+You can compare then. You can do anything you like.
+
+00:07:37.121 --> 00:07:39.121
+you could… you can do anything, right?
+
+00:07:39.566 --> 00:07:44.566
+Just don't use the built-in minimum accident, don't use the built-in, right? You cannot use the built-in, but…
+
+00:07:39.839 --> 00:07:44.839
+Okay, like, if we… Yeah, we cannot.
+
+00:07:44.542 --> 00:07:46.542
+Uh, you have to write your own logic.
+
+00:07:44.833 --> 00:07:46.833
+Uh, you have to write it on the budget.
+
+00:07:47.082 --> 00:07:49.082
+Uh, you can even scan it.
+
+00:07:47.221 --> 00:07:52.221
+Um, you can… you can scan all of the numbers, right? Yeah. And figure out the maximum, but how would you do it?
+
+00:07:49.527 --> 00:07:52.527
+Figure out the maximum, but how would you do it?
+
+00:07:54.923 --> 00:07:56.923
+Because you did it by yourself, right? So, with…
+
+00:07:55.316 --> 00:07:57.316
+Because you did it by yourself, right? Yeah.
+
+00:07:57.567 --> 00:08:00.567
+You just need time, and you can do it also yourself. So I can take my time.
+
+00:07:57.827 --> 00:08:00.827
+You just need time, and you can do it on Zoom. So I can take my time.
+
+00:08:01.173 --> 00:08:03.173
+Yeah, sure. I see. Sometimes.
+
+00:08:03.263 --> 00:08:05.263
+Think about it.
+
+00:08:23.272 --> 00:08:28.272
+And we cannot use the maximum answer. But if you need hint, I can give you a hint. Okay, let's…
+
+00:08:23.742 --> 00:08:25.742
+And you cannot use the maximum answer.
+
+00:08:26.600 --> 00:08:28.600
+Okay, what's it?
+
+00:08:28.567 --> 00:08:30.567
+You can assume both.
+
+00:08:28.988 --> 00:08:30.988
+You can assume…
+
+00:08:30.546 --> 00:08:32.546
+You can make assumptions, etc.
+
+00:08:30.955 --> 00:08:32.955
+You can make assumptions.
+
+00:08:33.189 --> 00:08:37.189
+That we have used this. Now, I want to say something. Like, for example, you can assume that
+
+00:08:33.741 --> 00:08:37.741
+that we have used this. Now, I want to say something…
+
+00:08:37.327 --> 00:08:39.327
+The first number is the maximum.
+
+00:08:38.001 --> 00:08:40.001
+forced to look at that difference.
+
+00:08:40.072 --> 00:08:46.072
+As you can just… Okay, if the first one is the maximum.
+
+00:08:40.198 --> 00:08:48.198
+Assume, just assume, right? And then write your logic. The first one is the maximum, so we can divide each index.
+
+00:08:46.372 --> 00:08:50.372
+So we can divide each index by the first one.
+
+00:08:48.707 --> 00:08:51.707
+By the first one, and the one that gets us one.
+
+00:08:50.828 --> 00:08:53.828
+And the one that gets us one will be the one, uh…
+
+00:08:51.749 --> 00:08:53.749
+will be somewhat, uh…
+
+00:08:54.049 --> 00:08:59.049
+I don't understand. Dividing index means, like, for example, let's assume… you assume 2 is the maximum, right?
+
+00:08:57.689 --> 00:09:01.689
+let's assume, because the maximum, right? Yeah, like, for example, F2.
+
+00:08:59.216 --> 00:09:01.216
+Yeah, for example, hopefully…
+
+00:09:01.450 --> 00:09:04.450
+Yeah. If 2 is the maximum.
+
+00:09:02.398 --> 00:09:04.398
+Yeah. If 2 is the maximum.
+
+00:09:05.597 --> 00:09:13.597
+Divided by 2, it will get us 1. So the one that get was 1, that will be the maximum, but for all of them, it will give us, like,
+
+00:09:05.633 --> 00:09:09.633
+divided by 2, it will get else 1. So, the one that get was 1.
+
+00:09:09.758 --> 00:09:13.758
+It will be the maximum, but for all of them, it will give us, like…
+
+00:09:13.628 --> 00:09:20.628
+0. Okay, let's say… assume this is the maximum, right? Now you have two. So you divide it by 2, you get 1.
+
+00:09:13.912 --> 00:09:15.912
+0.02.
+
+00:09:19.050 --> 00:09:21.050
+So you divide it by 2, that's 1.
+
+00:09:21.792 --> 00:09:23.792
+Then you move to the next number. Ah, it will not get one.
+
+00:09:22.149 --> 00:09:24.149
+No, it will not get one.
+
+00:09:24.560 --> 00:09:26.560
+Yeah, if you divide 7 by 2…
+
+00:09:24.615 --> 00:09:26.615
+Yeah. It'll be less.
+
+00:09:26.763 --> 00:09:30.763
+Yes, if you divide 7, uh, by… Actually, 7 is adding…
+
+00:09:27.899 --> 00:09:30.899
+Actually, Stephan, is there any…
+
+00:09:30.804 --> 00:09:37.804
+more… you get more, like… For example, like… 3.5, right? Oh, sorry, 3, 1, and 2.
+
+00:09:31.235 --> 00:09:35.235
+For example, like, 1, 2, 1, 3.
+
+00:09:35.980 --> 00:09:37.980
+Uh, sorry, 3, 1, and 2.
+
+00:09:37.967 --> 00:09:39.967
+let's assume this is the maximum.
+
+00:09:38.173 --> 00:09:51.173
+Let's assume this is the maximum. No, but maximum can also appear here, in between. But you… oh, okay, the assumption, I thought that we already know that this is… No, assuming, like, assuming doesn't mean it's the actual maximum, right? Okay, okay. Just assuming, right?
+
+00:09:40.264 --> 00:09:43.264
+No, the maximum can also appear here in between
+
+00:09:43.282 --> 00:09:47.282
+But you… oh, okay, the assumption, I thought that we already know that this is the…
+
+00:09:48.212 --> 00:09:51.212
+Um… Okay, okay.
+
+00:09:51.592 --> 00:09:53.592
+So you didn't bring the rotation.
+
+00:09:52.030 --> 00:09:57.030
+So you can build your logic. No, but this is what I… I just thought that I already know that this one is
+
+00:09:54.481 --> 00:09:57.481
+No, but this is what I thought. I just thought that I already know that this one is
+
+00:09:57.539 --> 00:09:59.539
+One more, one more, Henry. Can you…
+
+00:09:57.816 --> 00:09:59.816
+Can you…
+
+00:09:59.661 --> 00:10:01.661
+use comparison, actually.
+
+00:10:00.106 --> 00:10:02.106
+use comparison intriguing.
+
+00:10:01.849 --> 00:10:08.849
+Assume and compare, like, can you… Yeah, is it a comparison, yeah, like, between all of them, and the one that has…
+
+00:10:03.290 --> 00:10:09.290
+a Zoom and computer. Yeah, I thought of comparison, Yanni, like, between all of them, and the one that has
+
+00:10:09.638 --> 00:10:15.638
+the biggest… Okay, okay, let's say… let's say I will help you out, right? So, you compare 2 with 7.
+
+00:10:10.237 --> 00:10:14.237
+the biggest, you know,
+
+00:10:14.229 --> 00:10:16.229
+compared to Bitcoin.
+
+00:10:16.032 --> 00:10:21.032
+Okay, let's assume 2 is the maximum, right? Assume 2 is the maximum. Assume.
+
+00:10:17.152 --> 00:10:19.152
+For, um… Okay, let's just choose the team.
+
+00:10:19.393 --> 00:10:21.393
+As you twist the next one. Assume.
+
+00:10:21.253 --> 00:10:23.253
+Because you have to assume, right? No, right.
+
+00:10:21.586 --> 00:10:23.586
+Okay. No, no.
+
+00:10:24.314 --> 00:10:26.314
+Now come… you have to compare 2 with 2.
+
+00:10:24.705 --> 00:10:26.705
+Now come… you have to compare two with two.
+
+00:10:26.796 --> 00:10:28.796
+Oh, equal, don't worry about it.
+
+00:10:26.834 --> 00:10:30.834
+Okay. Compare 2 with 7.
+
+00:10:28.783 --> 00:10:30.783
+Uh, compared 2 with 7.
+
+00:10:31.188 --> 00:10:33.188
+Uh, like, compare means…
+
+00:10:31.360 --> 00:10:33.360
+uh, like, compare means.
+
+00:10:33.879 --> 00:10:35.879
+greater than or less than right? Yeah. S2…
+
+00:10:34.315 --> 00:10:36.315
+Due to the non-resistant, right? Yeah. It's two…
+
+00:10:36.375 --> 00:10:39.375
+Because maximum should never be less than anything, right?
+
+00:10:36.821 --> 00:10:39.821
+Because maximum should never be less than anything, right?
+
+00:10:39.749 --> 00:10:52.749
+Oh, yeah, yeah. So, it cannot be less than anything. So, for example, if you assume 2… Oh, okay, okay. No. So, when you will compare it, it will not get a minus. Uh, like, true or false, let's say, right? Less than.
+
+00:10:40.403 --> 00:10:42.403
+Oh, yeah, yeah. Okay. Uh-huh.
+
+00:10:43.299 --> 00:10:52.299
+It cannot be less than anything. So, for example, if you assume tool… Oh, okay, okay, okay. So, when you will compare it, it will not get a minus in the code.
+
+00:10:52.382 --> 00:10:57.382
+Okay. For example, if I move at 7? Yeah.
+
+00:10:53.179 --> 00:10:57.179
+Okay. So, for example, if I compare 2 with 7… Yeah.
+
+00:10:57.649 --> 00:10:59.649
+And maximum, I'm assuming, is 2.
+
+00:10:58.028 --> 00:11:00.028
+And maximizing this tool.
+
+00:10:59.733 --> 00:11:01.733
+So, is the maximum less than?
+
+00:11:00.097 --> 00:11:02.097
+So is the maximum less than?
+
+00:11:02.737 --> 00:11:08.737
+this number? Uh… No. If, for example, let's say, right now it's less, it should not be less.
+
+00:11:03.184 --> 00:11:10.184
+No. If, for example, let's say, right now it's less, it should not be less, but it says…
+
+00:11:09.609 --> 00:11:11.609
+Rich says, if it's less, then what should I do?
+
+00:11:10.162 --> 00:11:12.162
+If it's less, then what should I do?
+
+00:11:12.671 --> 00:11:17.671
+If it says it's voice. Yeah, if it's less, then what should I do? Because if it's true, I just move on.
+
+00:11:13.911 --> 00:11:17.911
+If it says it's false. Yeah, if it says, then what should I do? Because if it's true, I don't know what…
+
+00:11:18.134 --> 00:11:21.134
+I will just keep moving on, right? Until the… Until you find it.
+
+00:11:18.584 --> 00:11:21.584
+I would just keep moving on, right? Until you find it.
+
+00:11:21.334 --> 00:11:23.334
+Okay. Until the list finished, let's say, right?
+
+00:11:21.562 --> 00:11:23.562
+Okay. I think I'm gonna finish me today.
+
+00:11:23.755 --> 00:11:26.755
+So I keep moving on, but… but what if…
+
+00:11:24.212 --> 00:11:27.212
+Like, keep moving on. But what if…
+
+00:11:27.818 --> 00:11:35.818
+The maximum work number is less than the upcoming item, so… The maximum number is? Variable. Let's say you have a variable called max underscore none.
+
+00:11:28.150 --> 00:11:31.150
+The maximum work number is less than the upcoming item.
+
+00:11:31.032 --> 00:11:36.032
+So… The maximum number is less?
+
+00:11:35.805 --> 00:11:40.805
+Yeah. But max number… this variable is less than the upcoming item in the list, so…
+
+00:11:36.010 --> 00:11:41.010
+Yeah. But max number, this variable is less than the upcoming item in the list, so…
+
+00:11:41.013 --> 00:11:43.013
+What should you do with this variable?
+
+00:11:41.969 --> 00:11:43.969
+What should… what should you do with this variable?
+
+00:11:43.000 --> 00:11:45.000
+Excellent. Return faults.
+
+00:11:44.239 --> 00:11:47.239
+The 10 folks? Um, forces…
+
+00:11:46.326 --> 00:11:52.326
+Uh, false is… like, if it's false, then what do you do? It will complete, it will, it will, like, it will go also.
+
+00:11:47.672 --> 00:11:52.672
+Like, if I just lost them, what will you do? It will complete, it will, it will, like, it will go also.
+
+00:11:53.529 --> 00:11:58.529
+Yeah, actually, loop is fine. See, so you are scanning one by one numbers, right? Yeah.
+
+00:11:53.812 --> 00:11:58.812
+Like, he loop, you mean, mister? Maybe I didn't get you. Yeah.
+
+00:11:59.363 --> 00:12:03.363
+Can you tell me, like, how do… how will you compare, and what will you do? Just logical.
+
+00:11:59.743 --> 00:12:03.743
+Independent, how will you compare it, what will you do, just logically.
+
+00:12:04.297 --> 00:12:07.297
+So, what is your comparison logic, actually?
+
+00:12:04.739 --> 00:12:07.739
+So, what is your comparison initiative?
+
+00:12:08.470 --> 00:12:10.470
+Substruction.
+
+00:12:10.788 --> 00:12:15.788
+If it's less… if this one is less than this, so this one is bigger. So, for example, 2 minus 7?
+
+00:12:11.140 --> 00:12:16.140
+If it's less, if this one is less than this, so this one is bigger.
+
+00:12:16.378 --> 00:12:18.378
+Ugh, it's minus 5.
+
+00:12:17.055 --> 00:12:22.055
+Ugh, it's minus 5. Or let's say minus 5 or 5, right? 5 or 5. Then 5 would…
+
+00:12:19.333 --> 00:12:22.333
+Ministry of Hybrid. Five, okay.
+
+00:12:22.427 --> 00:12:24.427
+5 is the maximum?
+
+00:12:24.411 --> 00:12:26.411
+No, they're not, uh…
+
+00:12:24.804 --> 00:12:26.804
+No, they're not, uh…
+
+00:12:26.575 --> 00:12:29.575
+This one would be. If there is no minus, you mean?
+
+00:12:27.102 --> 00:12:30.102
+this one would be… if there is no minus, you mean?
+
+00:12:31.111 --> 00:12:35.111
+You got me? Okay, for example, yeah.
+
+00:12:32.541 --> 00:12:35.541
+You go to me? Ms. For example, yeah.
+
+00:12:35.225 --> 00:12:39.225
+Let's say if there's minus, right? So, meaning… meaning the assumption was wrong.
+
+00:12:36.404 --> 00:12:39.404
+let's say if there's minus, right? So, meaning… meaning the assumption was wrong.
+
+00:12:39.400 --> 00:12:44.400
+Okay. But if we don't have minors, then it's maximum, something like that, right?
+
+00:12:40.094 --> 00:12:44.094
+2 is not maximum, right? Okay. But if we don't have minus, then it's maximum, something like that, right?
+
+00:12:45.295 --> 00:12:53.295
+Again, say it again. Like, for example, what you're saying is, for example, if I get a negative integer, it means that, uh, it's… So it's less than that.
+
+00:12:45.909 --> 00:12:50.909
+Like, for example, what you're saying is, for example, if I get a negative… Yeah.
+
+00:12:50.962 --> 00:12:53.962
+things that, uh… This one is less than that.
+
+00:12:54.080 --> 00:12:58.080
+Okay. Which is the same thing, kind of, as true or false, right? Same thing.
+
+00:12:55.371 --> 00:12:58.371
+Which is the same thing, kind of folks might see. Yeah.
+
+00:12:58.650 --> 00:13:00.650
+Oh, yes, then what you do? What do you do?
+
+00:12:58.887 --> 00:13:00.887
+Yes, then what do you do? What do you do?
+
+00:13:01.162 --> 00:13:08.162
+Let's say you find… you find this is less than 7, and this is correct, right? So, this is how you can find… that's fine, right?
+
+00:13:01.922 --> 00:13:06.922
+let's say you find… you find this is less than 7, and this is correct, right? So this is how you can find it.
+
+00:13:09.067 --> 00:13:11.067
+After you find the inward, just move on, or, like…
+
+00:13:09.312 --> 00:13:11.312
+After you find the number, just move one order, right?
+
+00:13:11.594 --> 00:13:14.594
+Or stop and do something first, and then move on.
+
+00:13:12.767 --> 00:13:14.767
+to stop and do something first, and then move on.
+
+00:13:15.374 --> 00:13:22.374
+Okay, let's try it. Let's say, let's say… We have to compare the comparisons, maybe? Okay, let's say you find out 7S,
+
+00:13:15.756 --> 00:13:20.756
+Okay, let's try it. Let's say, let's say… We have to compare the comparisons, maybe?
+
+00:13:20.764 --> 00:13:22.764
+Okay, let's say you find out Candace.
+
+00:13:23.099 --> 00:13:27.099
+the maximum. The maximum, right? So, now 7 becomes the maximum. Now what?
+
+00:13:23.604 --> 00:13:27.604
+the maximum. The maximum, great. So, now 7 becomes the maximum. Now what?
+
+00:13:28.633 --> 00:13:32.633
+But 7 is not the maximum. It's not… It's not the maximum. Okay. 10 is the maximum.
+
+00:13:28.775 --> 00:13:32.775
+But 7 is not the maximum. It's not… it's not the max? Okay.
+
+00:13:32.940 --> 00:13:35.940
+No, we have to let it complete. Yes, right? Yeah.
+
+00:13:33.241 --> 00:13:35.241
+No, we have to let it complete.
+
+00:13:35.918 --> 00:13:37.918
+So, um…
+
+00:13:35.952 --> 00:13:37.952
+Yeah. So, um…
+
+00:13:38.817 --> 00:13:42.817
+loop, really? Of course, loop. We are just iterating on…
+
+00:13:39.137 --> 00:13:43.137
+loop, right? Of course, loop, we are able to loop. Yeah, so immediately it will…
+
+00:13:43.862 --> 00:13:46.862
+I don't know if we can do this, like, if…
+
+00:13:44.714 --> 00:13:48.714
+With our own… I don't know if we can do this, like, if we can compare all.
+
+00:13:47.282 --> 00:13:50.282
+And compare all the subtraction between them.
+
+00:13:48.675 --> 00:13:50.675
+the subtraction between them.
+
+00:13:51.330 --> 00:13:53.330
+Simplexity.
+
+00:13:51.373 --> 00:13:55.373
+Okay, for example, let's say, uh, you subtract this, right? Yeah.
+
+00:13:53.826 --> 00:13:55.826
+you subtract this rate. Yeah.
+
+00:13:55.541 --> 00:13:57.541
+Uh, you've changed, uh…
+
+00:13:56.304 --> 00:13:58.304
+You've changed, uh…
+
+00:13:58.504 --> 00:14:00.504
+Let's see, um…
+
+00:13:59.369 --> 00:14:05.369
+let's say you… or, for example, let's say, just imagine this is 12. Just imagine, right? Okay.
+
+00:14:00.601 --> 00:14:02.601
+That's a bullshit.
+
+00:14:02.763 --> 00:14:05.763
+just imagine there's 12… just imagine, right? Okay.
+
+00:14:05.718 --> 00:14:08.718
+This is the maximum, right? You compare…
+
+00:14:05.762 --> 00:14:07.762
+This is the maximum, right?
+
+00:14:08.479 --> 00:14:10.479
+you compare, you get, uh…
+
+00:14:09.731 --> 00:14:13.731
+You get, uh, plus positive, let's say, right? Yeah. Something. So…
+
+00:14:11.199 --> 00:14:13.199
+Plus, positive flip side, right? Yeah. Something?
+
+00:14:13.771 --> 00:14:17.771
+Then, you say, okay, 12 is the maximum. Then you go forward,
+
+00:14:13.830 --> 00:14:16.830
+So, then you say, okay, 12 is the maximum.
+
+00:14:17.501 --> 00:14:20.501
+Then you go forward, and then you compare what Plex 7 with 10.
+
+00:14:18.088 --> 00:14:20.088
+And then you compare, what, like, 7 with 10?
+
+00:14:20.991 --> 00:14:28.991
+like, for example, first you did these two, right? Then you do these two, then of course, you get minus, so… And also here I'll get plus 5.
+
+00:14:22.231 --> 00:14:26.231
+like, for example, first you did restore, right? Then you would do these two, then of course, you get
+
+00:14:26.454 --> 00:14:31.454
+minus, so… Also, here I'll get plus 5, and here 12 and 175.
+
+00:14:29.414 --> 00:14:31.414
+And here at 12… So you keep changing the maximum.
+
+00:14:31.608 --> 00:14:40.608
+Yeah, it's changing. You're not storing the maximum. You have to retain the maximum. We'll define this as either in A, B, anything.
+
+00:14:32.198 --> 00:14:34.198
+Yeah, it's changing, I got it.
+
+00:14:34.999 --> 00:14:40.999
+You're not storing the mix. You have to retain the message. Oh, we'll define this as, I don't know, NAP did anything.
+
+00:14:41.729 --> 00:14:43.729
+The differentiation between them.
+
+00:14:42.111 --> 00:14:44.111
+the differentiation between them.
+
+00:14:45.033 --> 00:14:48.033
+Yes, but this is… Yeah, but this is the logic, like, how?
+
+00:14:45.381 --> 00:14:48.381
+Yes, but this… Yeah, but this is the logic, like, how…
+
+00:14:48.262 --> 00:14:50.262
+This was the question, actually.
+
+00:14:48.300 --> 00:14:50.300
+This is the question.
+
+00:14:51.452 --> 00:14:54.452
+Yes, you are right. See, the core logic that you're putting is right, but
+
+00:14:51.916 --> 00:14:54.916
+Yes, you're right. Steve, the core logic that you're putting is right, but…
+
+00:14:54.905 --> 00:14:57.905
+Programmatically, how would you do it? Not in Python, but in any language.
+
+00:14:55.250 --> 00:14:58.250
+Programmatically, how would you do it? Not in Python, but in any language.
+
+00:14:59.182 --> 00:15:04.182
+Uh, I don't know if this is what you need to start, but, like, for example, that we can…
+
+00:14:59.657 --> 00:15:03.657
+Uh, I don't know if this is what you mean, Mr., but like, for example,
+
+00:15:04.142 --> 00:15:06.142
+that we can name this number.
+
+00:15:04.555 --> 00:15:13.555
+name this number. Like, for example, index 1 and index 2 minus that one. Let's say you have indexes, then what?
+
+00:15:07.078 --> 00:15:13.078
+Like, for example, index 1 and Index 2 minus that one.
+
+00:15:13.190 --> 00:15:15.190
+Yeah, then…
+
+00:15:14.151 --> 00:15:16.151
+Yeah, then, like, uh…
+
+00:15:15.178 --> 00:15:17.178
+like, uh…
+
+00:15:17.374 --> 00:15:19.374
+Like, for example, N.
+
+00:15:17.701 --> 00:15:19.701
+Like, for example, N.
+
+00:15:19.484 --> 00:15:24.484
+Uh, and it's the number that we are… here, I mean, this, like, minus 5.
+
+00:15:19.838 --> 00:15:24.838
+Uh, and it's the number that we are… here, I mean, this, like, minus 5.
+
+00:15:24.693 --> 00:15:26.693
+This is what we are taking, and N is…
+
+00:15:24.901 --> 00:15:29.901
+this is what we are taking, and N is subtracting the indexes.
+
+00:15:27.728 --> 00:15:29.728
+uh, subtracting the indexes.
+
+00:15:31.151 --> 00:15:35.151
+Make this tiny. Yep. I mean, I understand. Like, for example, if you…
+
+00:15:31.596 --> 00:15:35.596
+Like this money. Yep. I mean, I understand. Like, for example, if you…
+
+00:15:36.243 --> 00:15:43.243
+Uh, you can definitely define the logic. I trust you, right? Yeah, I just… I just don't know what exactly to make, but I just… You have to store…
+
+00:15:36.573 --> 00:15:42.573
+You can definitely define the logic. Yeah, I just, I just didn't know what exactly, right? But I just…
+
+00:15:42.990 --> 00:15:44.990
+the street.
+
+00:15:43.186 --> 00:15:46.186
+the state, because you're losing the state.
+
+00:15:46.012 --> 00:15:50.012
+Because you're losing the state. Because as soon as you move forward, you lose…
+
+00:15:46.661 --> 00:15:49.661
+Because as soon as you move forward, you lose…
+
+00:15:50.524 --> 00:15:53.524
+What is the maximum? Because, see, think about it, 12… 7, 12 is the maximum.
+
+00:15:50.765 --> 00:15:53.765
+towards the next loop? Because, see, think about it. 12… 7, 12th is the maximum.
+
+00:15:53.792 --> 00:15:55.792
+When you move forward now, 7 and 10.
+
+00:15:54.162 --> 00:15:56.162
+When you move forward now, 7 and 10.
+
+00:15:56.124 --> 00:16:02.124
+Automatically, what will happen, as soon as you see the minus, you will say, oh, I have the minus, which means 10 is the maximum.
+
+00:15:56.682 --> 00:15:59.682
+Automatically, what will happen as soon as you see the virus, you can say no.
+
+00:16:00.433 --> 00:16:02.433
+I have the master, which means 10 is the meeting.
+
+00:16:02.560 --> 00:16:07.560
+Although 12 was the maximum. Like, I assume, like, 12 will go for every one of them?
+
+00:16:02.921 --> 00:16:07.921
+Although 24 is the maximum. So, like, I assume, like, 12 will go for every one of them?
+
+00:16:08.729 --> 00:16:13.729
+And I, um… Now, this is what you have to think, right? The statement is like this one moves with me.
+
+00:16:09.087 --> 00:16:14.087
+And I, um… This is what you have to think about. The statement is like this one moves with me.
+
+00:16:13.943 --> 00:16:18.943
+If anything more than… more than five, or more than…
+
+00:16:15.071 --> 00:16:18.071
+Minus 5. If anything more than… more than 5?
+
+00:16:18.658 --> 00:16:20.658
+more than 5?
+
+00:16:19.515 --> 00:16:21.515
+Hi, I got your point. So, for example,
+
+00:16:20.801 --> 00:16:22.801
+So…
+
+00:16:22.631 --> 00:16:24.631
+So, do you store it somewhere? Like, what do you do?
+
+00:16:22.891 --> 00:16:24.891
+Do you steward something that would be doing?
+
+00:16:24.614 --> 00:16:26.614
+this result.
+
+00:16:24.972 --> 00:16:26.972
+this reserved.
+
+00:16:27.594 --> 00:16:29.594
+Like, minus 5 would you store it? Because… Yeah.
+
+00:16:27.930 --> 00:16:29.930
+Like, minus 5 produce 200, because… Yeah.
+
+00:16:29.964 --> 00:16:35.964
+Because I want to differentiate between all of those. Okay, let's say X equal to minus 5, right? Okay.
+
+00:16:31.068 --> 00:16:34.068
+Because they want to differentiate it between all of those.
+
+00:16:34.429 --> 00:16:36.429
+Okay.
+
+00:16:36.206 --> 00:16:39.206
+So, for example, x equal to minus 5 now. Oh, okay, good, okay.
+
+00:16:37.547 --> 00:16:39.547
+Oh, okay, okay, good.
+
+00:16:39.409 --> 00:16:42.409
+If… sorry, I'm sorry.
+
+00:16:40.396 --> 00:16:44.396
+if… sort of stuff. If, uh…
+
+00:16:42.705 --> 00:16:45.705
+If, uh, 7 minus 10.
+
+00:16:45.152 --> 00:16:47.152
+7 minus 10 is, uh…
+
+00:16:45.694 --> 00:16:47.694
+is, uh…
+
+00:16:47.646 --> 00:16:49.646
+Less than X,
+
+00:16:47.939 --> 00:16:49.939
+less than X?
+
+00:16:51.297 --> 00:16:56.297
+7 minus 10, huh? It's less than… Okay, okay. It's not… it's not the maximum. If it's, uh…
+
+00:16:51.411 --> 00:16:53.411
+It's less than, uh…
+
+00:16:53.834 --> 00:16:56.834
+It's not… it's not the maximum. If it's, uh…
+
+00:16:56.181 --> 00:17:05.181
+Now, good, very good, right? Yeah, so you are keeping this straight, right? But where's the number? In the end, once you are done, how would I know the number, the exact number? I would know the…
+
+00:16:56.920 --> 00:16:59.920
+Yes, we are keeping the street.
+
+00:17:00.478 --> 00:17:05.478
+But where's the number? In the end, once you're done, how would I know the number, the exact number? I would know the…
+
+00:17:05.952 --> 00:17:12.952
+Oh, okay. Your mathematical calculation, but here is the number. So, can you use another variable, please, to just store the number also?
+
+00:17:06.766 --> 00:17:09.766
+Oh, okay.
+
+00:17:10.208 --> 00:17:13.208
+Yes.
+
+00:17:13.853 --> 00:17:18.853
+beef. Yeah, just use anything. It's fine. You can right-click, for example, let's say…
+
+00:17:14.572 --> 00:17:16.572
+be.
+
+00:17:17.325 --> 00:17:20.325
+lead, for example. For example, let's say B. Yeah.
+
+00:17:19.196 --> 00:17:21.196
+be. Yeah. So…
+
+00:17:21.537 --> 00:17:24.537
+So… It is the number that is more than X.
+
+00:17:22.194 --> 00:17:24.194
+This is the number that is more than X.
+
+00:17:25.123 --> 00:17:28.123
+I think this one, yes, this one.
+
+00:17:25.453 --> 00:17:28.453
+I mean, isn't that? Yeah.
+
+00:17:28.965 --> 00:17:37.965
+Okay, that's fine. But this, I think, will work. Uh, although what I had in mind is, let's say you assume 2 is the maximum assume, right? And just simply compare.
+
+00:17:29.853 --> 00:17:31.853
+But this…
+
+00:17:32.791 --> 00:17:36.791
+Uh, although what I had in mind is, let's say you assume 2 is the maximum, assume, right?
+
+00:17:36.803 --> 00:17:38.803
+And just simply compute.
+
+00:17:41.189 --> 00:17:43.189
+2… if 2 is less than 7.
+
+00:17:41.581 --> 00:17:43.581
+2… F2 is less than 7.
+
+00:17:44.400 --> 00:17:47.400
+If whatever this, uh, let's say, A is…
+
+00:17:44.926 --> 00:17:47.926
+If whatever this, uh, let's say, A is…
+
+00:17:48.098 --> 00:17:54.098
+Who is it? FA, A should never be less than N1, right? Okay. But if it's less, update A.
+
+00:17:48.278 --> 00:17:51.278
+If A should never be less than anyone, right?
+
+00:17:51.859 --> 00:17:53.859
+Okay. But if it's less, update A.
+
+00:17:55.225 --> 00:18:00.225
+Okay. For example, see, if A is less than 7, then A becomes 7. That's simple, yeah, so…
+
+00:17:55.487 --> 00:18:00.487
+Okay. So, if A is less than 7, then A becomes 7. Oh, that's simple, yes.
+
+00:18:00.288 --> 00:18:03.288
+then we keep moving forward, right? Now, if A is less than 10,
+
+00:18:00.704 --> 00:18:03.704
+And we keep moving forward, right? Now, if pay is less than 10,
+
+00:18:03.623 --> 00:18:08.623
+A becomes 10. If A is less than 5, then it becomes 5, but it's not less.
+
+00:18:04.216 --> 00:18:09.216
+it becomes 10. If A is less than 5, then it becomes 5, or it's not less.
+
+00:18:09.248 --> 00:18:13.248
+No. Sorry. Then it will… 10 is not less than A, 10 is less than…
+
+00:18:09.282 --> 00:18:13.282
+Then it will… see, then it's not less than A, 10 is less than…
+
+00:18:13.772 --> 00:18:15.772
+Yeah, I agree with you, I agree with you.
+
+00:18:13.821 --> 00:18:15.821
+And then… I got your ideas working.
+
+00:18:16.718 --> 00:18:22.718
+Which is kind of the same thing with… No, but yours is, like, much simpler, because… No, no, yeah, but actually you got the logic, which is, like,
+
+00:18:16.834 --> 00:18:22.834
+It's, like, similar, but yours is, like, much simpler, because maybe…
+
+00:18:23.335 --> 00:18:25.335
+But it took some time, so…
+
+00:18:26.741 --> 00:18:30.741
+Okay, let's move. Things stick things. Yeah, yeah. No, this is good, really.
+
+00:18:26.776 --> 00:18:30.776
+Good things stick things. Yeah.
+
+00:18:31.395 --> 00:18:36.395
+Okay, now I will give you… let's talk about something. For example,
+
+00:18:31.735 --> 00:18:36.735
+Okay, now I will give you, you know, a lecture of something. For example,
+
+00:18:36.860 --> 00:18:38.860
+Uh, you are building an application.
+
+00:18:38.055 --> 00:18:40.055
+Uh, you're building an application. Okay. Right?
+
+00:18:39.587 --> 00:18:47.587
+A Python application, very simple. Okay. Nothing complex, right? Uh, you are actually… So you record the details in which to remind you?
+
+00:18:40.965 --> 00:18:47.965
+a Python application, very simple. Okay. Uh, you would actually… You said you record it? Do you want me to remind you?
+
+00:18:48.336 --> 00:18:51.336
+you know, yes, it's… it's already recording. Oh. Everything.
+
+00:18:48.924 --> 00:18:51.924
+Oh, okay.
+
+00:18:52.209 --> 00:18:56.209
+So, let's say you are building an application for a client,
+
+00:18:52.905 --> 00:18:56.905
+So, let's say you are building an application for a client,
+
+00:18:56.729 --> 00:18:58.729
+And the client…
+
+00:18:57.367 --> 00:18:59.367
+And the glide…
+
+00:18:58.670 --> 00:19:01.670
+needs something very simple calculator.
+
+00:19:00.102 --> 00:19:02.102
+needs something very simple calculator.
+
+00:19:01.808 --> 00:19:03.808
+Very simple, doesn't believe, right?
+
+00:19:04.033 --> 00:19:07.033
+So, your application has functions like SUM,
+
+00:19:04.487 --> 00:19:07.487
+So, your application has functions like SUM,
+
+00:19:07.195 --> 00:19:09.195
+differentiate or add, subtract.
+
+00:19:07.814 --> 00:19:10.814
+differentiate or add separate, what do you plan to pay.
+
+00:19:09.520 --> 00:19:12.520
+Multiply and divide. But the client also
+
+00:19:12.221 --> 00:19:15.221
+But the client also needs to stew all of the history.
+
+00:19:12.934 --> 00:19:14.934
+store all of the history.
+
+00:19:15.145 --> 00:19:17.145
+the calculations, right?
+
+00:19:15.422 --> 00:19:17.422
+Okay.
+
+00:19:18.385 --> 00:19:21.385
+Now, if you want to… and he also wants to know the time.
+
+00:19:18.543 --> 00:19:21.543
+Now, if you want to… and he also wants to know the time.
+
+00:19:22.154 --> 00:19:24.154
+Where he performed the calculation, right? Okay.
+
+00:19:22.434 --> 00:19:24.434
+will perform the conversion trip. Okay.
+
+00:19:24.655 --> 00:19:26.655
+I have the choices.
+
+00:19:24.800 --> 00:19:28.800
+Now, you have two choices. Either you can use a dictionary to store,
+
+00:19:27.123 --> 00:19:29.123
+Either you can use a dictionary to restore,
+
+00:19:29.414 --> 00:19:33.414
+Or you can use a list to store the history. Which one would you use?
+
+00:19:34.624 --> 00:19:36.624
+And bye.
+
+00:19:35.138 --> 00:19:37.138
+And why? Dictionary.
+
+00:19:37.410 --> 00:19:40.410
+Dictionary, okay. And what's the reason behind dictionary?
+
+00:19:37.804 --> 00:19:40.804
+dictionary over there. And what is the reason behind the dictionary?
+
+00:19:41.119 --> 00:19:44.119
+Because when we literary, it's like…
+
+00:19:41.452 --> 00:19:44.452
+Because when we do a dictionary, it's like…
+
+00:19:44.222 --> 00:19:47.222
+You evaluate, like, descriptor?
+
+00:19:44.708 --> 00:19:48.708
+much… I don't know what the word…
+
+00:19:47.700 --> 00:19:50.700
+descriptive? Verbos?
+
+00:19:48.946 --> 00:19:50.946
+I'm understanding the Arabic, huh?
+
+00:19:51.312 --> 00:19:56.312
+Yeah, like, what neat, like, it's… all of them are their list, it's, uh…
+
+00:19:51.750 --> 00:19:56.750
+Yeah, like, not neat, like, it's… it's… all of them are there. List, it's, uh…
+
+00:19:57.040 --> 00:20:01.040
+It does not mean if you have missed, it will be, like, more accurate, or you can…
+
+00:19:57.239 --> 00:20:01.239
+It does not mean if you have lists, it will be, like, more accurate, or you can…
+
+00:20:00.951 --> 00:20:07.951
+put a lot of things and everything. Okay, so, for example, but remember, see, because this is a calculator application,
+
+00:20:01.697 --> 00:20:03.697
+put a lot of things and everything.
+
+00:20:04.766 --> 00:20:08.766
+So, for example, but remember, see, because this is a calculator application,
+
+00:20:09.495 --> 00:20:12.495
+And the person is performing, like, hundreds of calculations.
+
+00:20:09.925 --> 00:20:12.925
+And the person is performing, like, hundreds of calculation
+
+00:20:12.719 --> 00:20:14.719
+per minute. And rates, right?
+
+00:20:13.059 --> 00:20:15.059
+per minute. Okay. Andreas, right?
+
+00:20:14.982 --> 00:20:16.982
+So…
+
+00:20:15.189 --> 00:20:17.189
+So…
+
+00:20:17.642 --> 00:20:24.642
+And you're storing hundreds of calculations, and imagine if there are many employees, so thousands of calculations,
+
+00:20:18.001 --> 00:20:23.001
+And you are storing hundreds of calculations, and imagine if there are many employees,
+
+00:20:23.173 --> 00:20:28.173
+So, thousands of calculations. Thousands of calculations per minute are happening.
+
+00:20:25.945 --> 00:20:27.945
+Thousands of calculations per minute are happening.
+
+00:20:28.158 --> 00:20:30.158
+Okay. Right? So…
+
+00:20:28.492 --> 00:20:30.492
+Okay. So…
+
+00:20:30.205 --> 00:20:34.205
+Do you still think storing it in a dictionary is a good idea?
+
+00:20:31.587 --> 00:20:34.587
+Are you still think the dictionary is a good idea?
+
+00:20:35.202 --> 00:20:38.202
+Do you think, yeah, the share is better than the rest.
+
+00:20:35.706 --> 00:20:39.706
+You think yes, sharing is better than the list? Better, better, right. So…
+
+00:20:38.151 --> 00:20:40.151
+Thank you.
+
+00:20:40.542 --> 00:20:43.542
+Okay, if I… let's say if I used a list.
+
+00:20:40.866 --> 00:20:43.866
+Okay, before I… let's say if I used understood.
+
+00:20:43.790 --> 00:20:47.790
+Do you think the list… storing in the list continuously
+
+00:20:43.830 --> 00:20:45.830
+Do you think the list…
+
+00:20:45.948 --> 00:20:47.948
+So, the list continuously.
+
+00:20:48.135 --> 00:20:50.135
+is much faster than storing in the dictionary.
+
+00:20:48.551 --> 00:20:50.551
+It's much faster than the stone in the dictionary.
+
+00:20:51.798 --> 00:20:53.798
+Uh, just your thoughts, like, what do you think?
+
+00:20:52.534 --> 00:20:54.534
+It's doing commercial equipment.
+
+00:20:54.000 --> 00:20:56.000
+No? Nope. Same?
+
+00:20:54.509 --> 00:20:56.509
+Yep. See?
+
+00:20:56.004 --> 00:20:58.004
+It's not the same.
+
+00:20:56.842 --> 00:20:58.842
+Yeah.
+
+00:21:02.266 --> 00:21:04.266
+Uh…
+
+00:21:04.377 --> 00:21:06.377
+If you want to…
+
+00:21:06.119 --> 00:21:10.119
+If you want to access a calculation for a specific time.
+
+00:21:07.823 --> 00:21:09.823
+access a calculation for a specific time.
+
+00:21:09.816 --> 00:21:11.816
+Right? So…
+
+00:21:11.478 --> 00:21:17.478
+So… the dictionary give you benefits. It won't take long.
+
+00:21:12.080 --> 00:21:17.080
+Would dictionary give you benefits, or would list… what would take long?
+
+00:21:19.122 --> 00:21:25.122
+let's say if you're using a list, or you… or on the same kind of application, you're using a dictionary.
+
+00:21:20.367 --> 00:21:22.367
+Let's say if this audio.
+
+00:21:22.803 --> 00:21:25.803
+Or, um, the same kind of application you're using at Dictionary.
+
+00:21:26.331 --> 00:21:29.331
+And you want to access the history, right?
+
+00:21:26.619 --> 00:21:29.619
+And you want to access the history, right?
+
+00:21:29.745 --> 00:21:32.745
+You just see what I did yesterday at 9pm.
+
+00:21:30.788 --> 00:21:32.788
+Just to see what I did yesterday.
+
+00:21:32.993 --> 00:21:34.993
+So, what would be frustration?
+
+00:21:33.335 --> 00:21:35.335
+So, what would be faster?
+
+00:21:35.901 --> 00:21:38.901
+In terms of accessing. Yeah, dictionary your list.
+
+00:21:36.252 --> 00:21:39.252
+In terms of access. Searching, manually.
+
+00:21:43.430 --> 00:21:45.430
+Uh-huh.
+
+00:21:43.794 --> 00:21:45.794
+Oh.
+
+00:21:47.649 --> 00:21:53.649
+Which, sorry, is the same that we did, like, when it has the menu, right?
+
+00:21:48.396 --> 00:21:52.396
+dictionary is the same that we did, like…
+
+00:21:52.283 --> 00:21:54.283
+when it has the menu, right?
+
+00:21:54.338 --> 00:21:59.338
+Okay. That one, I just want to make sure that the dictionary where I put, like, uh…
+
+00:21:54.693 --> 00:21:56.693
+That one? I just want to make sure that…
+
+00:21:57.499 --> 00:21:59.499
+The dictionary where… where we put, like, the…
+
+00:21:59.989 --> 00:22:02.989
+the menu of what we do, and then exit that one, or you…
+
+00:22:00.305 --> 00:22:03.305
+the menu of what we do, and then exit that one?
+
+00:22:03.377 --> 00:22:09.377
+Uh, but what is a dictionary? Tell me, what is a Python dictionary? Like, how does it look like?
+
+00:22:03.829 --> 00:22:08.829
+Now, important? Same as that one.
+
+00:22:10.948 --> 00:22:13.948
+Or you can just, if you don't want to explain, you can write, like, how does it look like?
+
+00:22:11.116 --> 00:22:14.116
+You can just… I'm explaining it right, like, I was…
+
+00:22:14.218 --> 00:22:17.218
+to that, like, conceptually, how does it look like? Dictionary?
+
+00:22:14.742 --> 00:22:16.742
+material, like, conceptually, how does it look?
+
+00:22:21.758 --> 00:22:24.758
+Just, uh, think about it, just take a minute.
+
+00:22:25.758 --> 00:22:27.758
+Salamu alayhum.
+
+00:22:26.164 --> 00:22:28.164
+So…
+
+00:22:30.155 --> 00:22:33.155
+We have our interviews are related to that.
+
+00:23:00.357 --> 00:23:02.357
+Yeah, sweetheart.
+
+00:23:03.332 --> 00:23:07.332
+List, you know, right? There's a list. So how does a dictionary look like, right?
+
+00:23:03.614 --> 00:23:07.614
+Yes, Mr.
+
+00:23:10.272 --> 00:23:12.272
+Okay, how does a tuple look?
+
+00:23:10.623 --> 00:23:12.623
+Okay, how does a tuple look like?
+
+00:23:13.146 --> 00:23:15.146
+Couple.
+
+00:23:14.759 --> 00:23:16.759
+Do you remember tuckles? Yeah.
+
+00:23:15.259 --> 00:23:17.259
+Yeah.
+
+00:23:16.871 --> 00:23:24.871
+Uh, it actually is like this. The only difference is, like, it has round brackets, right? For each one. What is the difference between a list and a tuple?
+
+00:23:17.966 --> 00:23:21.966
+It actually is like this. The only difference is, like, it has long brackets, right?
+
+00:23:22.028 --> 00:23:25.028
+For each one. What is the difference between…
+
+00:23:26.152 --> 00:23:29.152
+One is for numbers and one is… can be both for…
+
+00:23:26.191 --> 00:23:30.191
+Conceptually. It can be both for, like, one isn't take…
+
+00:23:29.972 --> 00:23:34.972
+Like, when is it to… I… whatever constraint, you can install in the top of it.
+
+00:23:30.913 --> 00:23:35.913
+I began to struggle both, like, whatever you're gonna store in the list, you're gonna store in trouble. Now, what is the difference?
+
+00:23:34.924 --> 00:23:36.924
+Now, what is the differences?
+
+00:23:38.019 --> 00:23:41.019
+You don't have to remember the specific terminology.
+
+00:23:38.319 --> 00:23:41.319
+You don't have to remember the specific terminology.
+
+00:23:41.919 --> 00:23:43.919
+conceptually, right? Just whatever you think.
+
+00:23:42.095 --> 00:23:44.095
+One such achievement. Everything.
+
+00:23:44.453 --> 00:23:49.453
+That's the difference. Yeah, I know, but I just don't say something wrong. Okay, uh, let's see…
+
+00:23:45.289 --> 00:23:48.289
+Yeah, I know, but I just don't say something wrong.
+
+00:23:50.176 --> 00:23:53.176
+When I use the word constant, right? Like, constant.
+
+00:23:51.398 --> 00:23:53.398
+When I use the word constant, right? Like, constant.
+
+00:23:53.694 --> 00:23:55.694
+Versus variable.
+
+00:23:54.044 --> 00:23:56.044
+versus medical.
+
+00:23:56.363 --> 00:23:59.363
+So, if I use the word constant versus a variable,
+
+00:23:56.561 --> 00:23:59.561
+So, if I use the word constant versus a variable,
+
+00:23:59.690 --> 00:24:01.690
+So what is the difference between these two words?
+
+00:24:00.018 --> 00:24:02.018
+So what is the difference between these two purchases?
+
+00:24:02.799 --> 00:24:04.799
+Conception. Constant?
+
+00:24:03.152 --> 00:24:05.152
+What section? Constant?
+
+00:24:04.889 --> 00:24:06.889
+end variable.
+
+00:24:08.149 --> 00:24:12.149
+something that changed, and the other one is something that's always the same.
+
+00:24:08.479 --> 00:24:12.479
+something to change, and the other one is something that's always the same thing.
+
+00:24:12.161 --> 00:24:14.161
+Yeah, so you know, right? Yeah.
+
+00:24:12.531 --> 00:24:14.531
+Yeah, so you know. Yeah.
+
+00:24:14.418 --> 00:24:16.418
+you know, but you are not able to explain.
+
+00:24:14.742 --> 00:24:16.742
+you do, but you're not able to explain.
+
+00:24:16.489 --> 00:24:19.489
+I just don't want to say something at all. No, no, you know.
+
+00:24:17.301 --> 00:24:19.301
+I just didn't say something.
+
+00:24:20.082 --> 00:24:25.082
+You know it. Tuples cannot change once they're defined, right? Lists can change.
+
+00:24:20.365 --> 00:24:25.365
+But truffles cannot change once they're defined, right? Lists can change.
+
+00:24:25.144 --> 00:24:31.144
+Yeah. So one is immutable, the other is mutable, right? Anyways, but I mean, I just need to…
+
+00:24:25.932 --> 00:24:27.932
+So, one is infiltrative, others…
+
+00:24:29.404 --> 00:24:34.404
+Anyways, but I need… I just need to make sure that you can understand, right, and you are capable.
+
+00:24:31.334 --> 00:24:34.334
+Make sure you can understand, right? And you are capable.
+
+00:24:34.956 --> 00:24:36.956
+Search, okay, let's go.
+
+00:24:37.564 --> 00:24:42.564
+if someone is not capable, then there's a real concern, then they need special attention, right?
+
+00:24:38.701 --> 00:24:42.701
+if someone is not given, then there's a bit of something really special.
+
+00:24:45.055 --> 00:24:47.055
+Okay, so…
+
+00:24:45.526 --> 00:24:47.526
+Okay, so…
+
+00:24:48.938 --> 00:24:52.938
+We were talking about your calculator application, right? Yeah. So, you take it for me.
+
+00:24:49.170 --> 00:24:58.170
+we were talking about your calculator application, right? Yeah. So, you will take it further. Okay. Now, if I'm running your… if I'm the client, I'm using your calculator application,
+
+00:24:53.490 --> 00:24:58.490
+Okay. Now, if I bring you a couple… if I'm the client using your calculator application,
+
+00:24:58.982 --> 00:25:03.982
+I'm performing calculations, you are storing it in, let's say, a dictionary, right? Okay.
+
+00:25:00.173 --> 00:25:04.173
+Addiction, right? Okay.
+
+00:25:04.149 --> 00:25:06.149
+When I exit your application,
+
+00:25:04.884 --> 00:25:06.884
+When you exit your position.
+
+00:25:07.785 --> 00:25:10.785
+Do I lose all the data on the history? No, no, no, it doesn't.
+
+00:25:08.045 --> 00:25:12.045
+We use all the data on the history? No, no, no, I just… I do not use that.
+
+00:25:11.667 --> 00:25:14.667
+So, if I read on your application again, how would I know?
+
+00:25:12.992 --> 00:25:14.992
+But it will… it will not keep running.
+
+00:25:15.828 --> 00:25:18.828
+No, it will not keep running. Let's say I exit it, right? Yeah. It stops.
+
+00:25:16.203 --> 00:25:18.203
+Next slide. Yeah.
+
+00:25:18.390 --> 00:25:21.390
+It just stops. Yeah. Like, say,
+
+00:25:19.690 --> 00:25:25.690
+Yeah. Let's say I reboot the computer, right? And then run your application again. Can I still see, check my history?
+
+00:25:22.004 --> 00:25:26.004
+I mean, can I still see, check my history?
+
+00:25:26.380 --> 00:25:30.380
+old calculations that I did.
+
+00:25:32.595 --> 00:25:34.595
+If you… if you push it, Vanny in…
+
+00:25:32.831 --> 00:25:34.831
+If you… if you push a scanning in…
+
+00:25:35.468 --> 00:25:37.468
+you will, you will get it there, yeah.
+
+00:25:35.578 --> 00:25:37.578
+you will… you will get it there.
+
+00:25:38.785 --> 00:25:47.785
+If I push it too? Yeah, like, to get, for example, hello. Okay, okay, so… Yes, okay, no, no, like, I… I want to make sure that everything…
+
+00:25:39.364 --> 00:25:44.364
+Yeah, like, to GitHub, for example. Okay, okay, so… This is what you mean.
+
+00:25:45.303 --> 00:25:48.303
+Yes, okay, no, no. But you have to make sure that everything…
+
+00:25:48.579 --> 00:25:53.579
+Can you make a comment for it in this meeting or something else? No, no, something else. So, for example,
+
+00:25:49.469 --> 00:25:52.469
+And you add a comment for it like this, you mean, or something else?
+
+00:25:52.446 --> 00:25:54.446
+For example…
+
+00:25:54.044 --> 00:25:58.044
+even if you put it… push it to GitHub, so that's your code, right?
+
+00:25:55.350 --> 00:25:58.350
+Even if you book it approved within the week, so that's your program.
+
+00:25:58.185 --> 00:26:02.185
+It's not the calculation data, right? So, for example, I'm…
+
+00:25:58.482 --> 00:26:00.482
+And the code, yeah.
+
+00:26:02.419 --> 00:26:07.419
+I have… I have performed many calculations. You are storing it in a dictionary, right? Yeah.
+
+00:26:02.804 --> 00:26:07.804
+I have… I have performed many calculations. You're storing it in a dictionary, right? Yeah.
+
+00:26:07.954 --> 00:26:11.954
+So, of course, when you stop your program, stop the application, exit it,
+
+00:26:08.244 --> 00:26:12.244
+So, of course, when you stop your program, stop duplication. Exit it.
+
+00:26:12.063 --> 00:26:14.063
+and run it again fresh.
+
+00:26:12.341 --> 00:26:14.341
+and run it again freshly.
+
+00:26:14.659 --> 00:26:19.659
+So, do you lose the data, or do you still have the calculation data? The one for contacts.
+
+00:26:15.018 --> 00:26:20.018
+So, do you lose the data, or do you still have… Well, it's like that, uh, the one for contacts.
+
+00:26:20.746 --> 00:26:26.746
+The one for? When we do the contacts number and the… Yeah, that's it, yeah. You can think about it like this, yeah.
+
+00:26:21.231 --> 00:26:26.231
+What's up? When we did the contacts number and the… Like that one?
+
+00:26:27.257 --> 00:26:32.257
+So, do I lose the data, or do I still have the data? Can I access the old data? You can access it.
+
+00:26:27.657 --> 00:26:32.657
+So, what's the data, or do I still have the data? Can I access the code? You can access it.
+
+00:26:32.414 --> 00:26:34.414
+Uh, from the dictionary?
+
+00:26:32.792 --> 00:26:34.792
+Uh, from the dictionary?
+
+00:26:34.904 --> 00:26:38.904
+Yeah. But when you run the application, dictionary is initialized again, like, it's empty.
+
+00:26:35.028 --> 00:26:39.028
+Yeah.
+
+00:26:42.160 --> 00:26:49.160
+Because you define, then you store it, then the person stores. As the… from the website, or as the window? Website, or from the… Or when you run it. From console CLI.
+
+00:26:42.400 --> 00:26:49.400
+As you define, then you store it, then the person stops. From the website, or as when… Website? Or when you run it?
+
+00:26:49.042 --> 00:26:51.042
+Both with whatever.
+
+00:26:49.289 --> 00:26:51.289
+both ways, whatever.
+
+00:26:52.347 --> 00:26:55.347
+You can actually… because think about it, you're in the…
+
+00:26:52.594 --> 00:26:55.594
+You can actually… because think already, when you run the application again,
+
+00:26:55.703 --> 00:26:57.703
+New York.
+
+00:26:55.826 --> 00:26:58.826
+Import… import time.
+
+00:26:57.810 --> 00:26:59.810
+Import time.
+
+00:26:59.254 --> 00:27:01.254
+initialized dictionary equal to empty.
+
+00:27:01.763 --> 00:27:03.763
+And then show the menu, for example.
+
+00:27:02.244 --> 00:27:04.244
+And then show the menu, for example.
+
+00:27:03.886 --> 00:27:05.886
+And then now, insert…
+
+00:27:04.219 --> 00:27:06.219
+And then now, insert.
+
+00:27:05.726 --> 00:27:10.726
+perform my calculation, press enter, then it stores to the dictionary. So the dictionary has nothing.
+
+00:27:06.440 --> 00:27:11.440
+You press enter, then it stores to the chains. So the picture has nothing.
+
+00:27:11.965 --> 00:27:13.965
+What about the old records?
+
+00:27:12.615 --> 00:27:14.615
+What about food reports?
+
+00:27:14.768 --> 00:27:17.768
+That we had. They are gone, right? I just want to say… ask you, like,
+
+00:27:15.325 --> 00:27:19.325
+I just wanted to ask you, like, are they going…
+
+00:27:17.751 --> 00:27:19.751
+Are they gone or not?
+
+00:27:22.251 --> 00:27:32.251
+You can say they're not gone, or you can say, yes, they can be done. I just feel that they are not going, but I don't, like, I don't know where exactly where I'll find it. Okay, no, sure.
+
+00:27:23.343 --> 00:27:29.343
+You can see they're normal. What you can say is… I just, I just feel that they are not going, but I don't, like…
+
+00:27:30.058 --> 00:27:32.058
+I don't know where exactly to… where I'll find it.
+
+00:27:32.826 --> 00:27:36.826
+Or if there is something that I should write it before, that… so I cannot lose…
+
+00:27:33.323 --> 00:27:37.323
+Or if there's something that I should write it before, that… so I cannot lose them?
+
+00:27:37.026 --> 00:27:43.026
+No, sure, I'm just writing these things so we can have a revision later. Anyways… Well, that means move forward.
+
+00:27:38.121 --> 00:27:41.121
+No, I'm just trying to explain so we can have a division that continues.
+
+00:27:41.461 --> 00:27:43.461
+So that means it's… it's wrong.
+
+00:27:44.579 --> 00:27:50.579
+No, no, if I write something, it doesn't always mean it's wrong. Oh, right. It can be partially correct also. So what I'm writing doesn't mean always is wrong.
+
+00:27:44.706 --> 00:27:48.706
+No, no, I like something that doesn't always mean it's wrong. Oh, right. It can be partially correct.
+
+00:27:50.941 --> 00:27:52.941
+Okay, so let's move forward.
+
+00:27:51.873 --> 00:27:53.873
+So, collection…
+
+00:27:54.184 --> 00:27:56.184
+Okay, so…
+
+00:27:54.636 --> 00:27:56.636
+Okay, so…
+
+00:27:56.390 --> 00:28:01.390
+your application, calculate your application, right?
+
+00:27:56.751 --> 00:28:01.751
+Uh, you have application, you have to submit your application, right?
+
+00:28:02.566 --> 00:28:06.566
+Can I not store, uh… can I store your dictionary to a file?
+
+00:28:03.030 --> 00:28:07.030
+Can I not store, uh… can I store your dictionary to a file?
+
+00:28:08.663 --> 00:28:10.663
+to a file using Python.
+
+00:28:09.240 --> 00:28:11.240
+looks like. Use it back then.
+
+00:28:11.084 --> 00:28:17.084
+Yeah. Uh, you can… I can… I think everything is possible.
+
+00:28:11.918 --> 00:28:16.918
+Yeah. I think everything is possible with you.
+
+00:28:17.930 --> 00:28:21.930
+Okay, how would you store your dictionary into a file in Python?
+
+00:28:19.294 --> 00:28:22.294
+Okay, how would you store your dictionary into a pipe?
+
+00:28:22.291 --> 00:28:24.291
+Conceptually speaking.
+
+00:28:22.666 --> 00:28:24.666
+Conceptually speak.
+
+00:28:25.730 --> 00:28:27.730
+by PDFI file.
+
+00:28:26.094 --> 00:28:28.094
+PDFI.
+
+00:28:27.939 --> 00:28:32.939
+file, let's say, TXT file, like, how… how do you keep the dictionary in the file?
+
+00:28:28.180 --> 00:28:33.180
+Like, how… how do you keep the picture in the file?
+
+00:28:34.334 --> 00:28:38.334
+What can you do in Python? No need to remember the specific syntax, but
+
+00:28:34.438 --> 00:28:38.438
+What can you do in Python? No need to remember the specific syntax, but…
+
+00:28:38.421 --> 00:28:40.421
+some things should come in place.
+
+00:28:38.732 --> 00:28:40.732
+some… some interesting advice.
+
+00:28:42.282 --> 00:28:45.282
+Remember filing, Sweden? Filing, we did filing.
+
+00:28:42.595 --> 00:28:45.595
+Filing? We did file it.
+
+00:28:45.274 --> 00:28:47.274
+A long time ago.
+
+00:28:48.184 --> 00:28:55.184
+Yeah, but I don't know what exactly we did. Okay, let's say you have a dictionary, right? With all of the calculations. Can you store it in a database?
+
+00:28:48.408 --> 00:28:53.408
+Yeah, but I don't know what exactly we did.
+
+00:28:53.717 --> 00:28:55.717
+Any student in the database?
+
+00:28:57.140 --> 00:28:59.140
+Yes. Yes?
+
+00:28:57.421 --> 00:29:02.421
+Yes. Yes, so… but you cannot store to a file. You can store, of course, right? But how?
+
+00:29:00.223 --> 00:29:09.223
+But you can understand profile, you can store your profile, right? Okay, this is what I mean, I know that it's possible, but I didn't know how exactly. This is what I meant. So, now…
+
+00:29:02.618 --> 00:29:08.618
+Okay, how… I mean, I know that it's forcible, but I didn't know how exactly. Okay, okay. This is what I meant. So, now…
+
+00:29:08.600 --> 00:29:10.600
+How would you store it in a database?
+
+00:29:09.102 --> 00:29:11.102
+How would you store it in a database?
+
+00:29:11.563 --> 00:29:13.563
+Forget about filing.
+
+00:29:17.041 --> 00:29:20.041
+what are the things that you want before you start a store into a database?
+
+00:29:17.220 --> 00:29:20.220
+What are the things that you want before you start a store into a database?
+
+00:29:23.220 --> 00:29:26.220
+I should save it.
+
+00:29:23.670 --> 00:29:26.670
+So I think Gityani? I should save it.
+
+00:29:27.088 --> 00:29:36.088
+Uh, say, for example, because then when you… yeah. You mean when, like, for one example… for example, when I push… For backup, let's say, as backup, yarnik? Data backup.
+
+00:29:27.605 --> 00:29:29.605
+see if, for example, because then when you…
+
+00:29:29.690 --> 00:29:34.690
+Oh, you mean when, when, like, for one example… for example, when I push for…
+
+00:29:34.895 --> 00:29:37.895
+as both Briani?
+
+00:29:37.022 --> 00:29:44.022
+Only the calculations backup itself. Ah, the calculation of the holding. Code is GitHub, right? Let's say, right? But actually, the data that is produced
+
+00:29:38.115 --> 00:29:44.115
+on the cancellation, not the coding. Yeah. Actually, the data that is produced.
+
+00:29:44.794 --> 00:29:48.794
+client's data. The client will use your application, so it produces logs,
+
+00:29:44.800 --> 00:29:48.800
+client status. The client will use your application, so it produces logs.
+
+00:29:48.863 --> 00:29:51.863
+he has some data, history, so…
+
+00:29:49.093 --> 00:29:52.093
+he has some data, history, so…
+
+00:29:52.366 --> 00:29:56.366
+It's stored in a database. If you want to store it in a database, how would you do it?
+
+00:29:52.505 --> 00:29:54.505
+It's a student database.
+
+00:29:54.722 --> 00:29:56.722
+If you want to store it in a database, how would you do it?
+
+00:29:57.372 --> 00:30:00.372
+Conceptually, like, what components do you need in order for this to work?
+
+00:29:57.664 --> 00:30:00.664
+What's it? Like, what confidence do you need in order for this to work?
+
+00:30:05.819 --> 00:30:10.819
+Okay, let's say I wouldn't define a database. Like, what do you think when I say database?
+
+00:30:06.101 --> 00:30:11.101
+Okay, let's accountabilities. Like, what do you think when you say database?
+
+00:30:11.333 --> 00:30:13.333
+What is a database, actually?
+
+00:30:13.466 --> 00:30:15.466
+information that I have breakthrough.
+
+00:30:13.847 --> 00:30:15.847
+information that I have, like…
+
+00:30:15.983 --> 00:30:19.983
+like, for example, for the calculated, you're gonna set your… you have the…
+
+00:30:17.288 --> 00:30:20.288
+like, for example, for the calculator, the numbers that you have done in general.
+
+00:30:20.685 --> 00:30:23.685
+calculations that they have done. Okay, like, uh…
+
+00:30:21.128 --> 00:30:23.128
+calculations that you have done.
+
+00:30:23.375 --> 00:30:28.375
+Like, uh… I am not asking for a specific definition, but what comes in your mind when people say,
+
+00:30:24.236 --> 00:30:28.236
+I am not asking for a specific definition, but what comes in your mind when people say,
+
+00:30:29.393 --> 00:30:36.393
+uh… how can you store the dictionary in the database, or how can you store data in the database? So, what comes in your mind? What is a database, then?
+
+00:30:29.720 --> 00:30:34.720
+How can you store the dictionary in the database, or how can you store data in the database?
+
+00:30:34.824 --> 00:30:36.824
+What comes in your mind? What is a database like?
+
+00:30:37.984 --> 00:30:44.984
+Information. Information… store information retrieval, like, what is… Store. Store, right? So, storage area, storage place.
+
+00:30:38.619 --> 00:30:42.619
+information. Information, smooth information to cable network. Store.
+
+00:30:43.461 --> 00:30:45.461
+Yeah, yeah.
+
+00:30:46.281 --> 00:30:48.281
+So, is your database…
+
+00:30:46.644 --> 00:30:48.644
+So, is your database…
+
+00:30:49.315 --> 00:30:53.315
+Uh, when you store it in a database, are you storing in your hardware store, or SSD?
+
+00:30:49.646 --> 00:30:53.646
+Uh, when you store it in a database, are you storing in your hardware store, SSD?
+
+00:30:54.733 --> 00:31:00.733
+No, no. It's not almost there, and I can if I want, but, like, here, it can be, like…
+
+00:30:54.801 --> 00:31:00.801
+It's not almost there, and I can if I want, but, like, here, it can be, like,
+
+00:31:01.956 --> 00:31:06.956
+in the laptop itself, like, in the cloud, or in the… Where is everything stored?
+
+00:31:02.268 --> 00:31:04.268
+Uh, in the… in the laptop itself, like…
+
+00:31:04.109 --> 00:31:07.109
+in the cloud or in the… Where is everything?
+
+00:31:07.933 --> 00:31:09.933
+We are not talking about the cloud, your computer, right?
+
+00:31:08.210 --> 00:31:10.210
+We're not talking about the cloud.
+
+00:31:10.062 --> 00:31:12.062
+So, let's say database is here.
+
+00:31:11.004 --> 00:31:13.004
+So let's say that this is you. Yeah.
+
+00:31:12.408 --> 00:31:14.408
+Yeah. So, where is databases stored?
+
+00:31:12.999 --> 00:31:14.999
+So this…
+
+00:31:18.820 --> 00:31:22.820
+is it stored in hard destroy for SSD, or not?
+
+00:31:19.003 --> 00:31:23.003
+Is it stored in our destroyed by SSD or not?
+
+00:31:22.925 --> 00:31:38.925
+Yeah. It's not everything stored in the SSD? But I mean, like, anything you have, you can store it in anywhere, you can… I mean, as long as you can transfer it to someplace to place. Okay, okay. Like, you're saying, like, in a hardcore USB owner and CPU, you can… you can transfer?
+
+00:31:23.951 --> 00:31:25.951
+Yeah. It's not everything's stupid.
+
+00:31:26.312 --> 00:31:34.312
+What I mean, like, anything you have, you can store it in anywhere, you can, Yanni, as long as you can transfer it to some place to place.
+
+00:31:35.527 --> 00:31:39.527
+Like, you're saying, like, in the hardest core USB owner and CD, you can… you can transfer.
+
+00:31:42.048 --> 00:31:48.048
+Let's forget that, because we are going way too deep, right?
+
+00:31:42.857 --> 00:31:47.857
+Yeah. No, let's forget about the hardware, right? Let's forget that, because we are going way too deep, right?
+
+00:31:48.325 --> 00:31:50.325
+Uh, let's say you have to store in the database, right?
+
+00:31:48.659 --> 00:31:50.659
+Uh, actually, you have to store in the database, right?
+
+00:31:51.325 --> 00:31:55.325
+So, what do you need to store in the database? What are the components? How would you just store
+
+00:31:51.754 --> 00:31:55.754
+So what do you need to be restoring the database? What are the components… how could you just destroy it?
+
+00:31:55.383 --> 00:31:58.383
+A dictionary into a database?
+
+00:31:55.829 --> 00:31:58.829
+a dictionary? Mm-hmm. Into a database?
+
+00:31:59.350 --> 00:32:01.350
+Let's say it's MySQL database, right?
+
+00:31:59.527 --> 00:32:01.527
+Let's say it's MySQL database.
+
+00:32:01.742 --> 00:32:04.742
+So how would you store it in the MySQL database server?
+
+00:32:02.363 --> 00:32:05.363
+So how would you store it in the MySQL database server?
+
+00:32:07.035 --> 00:32:11.035
+No, no, conceptual, conceptual.
+
+00:32:07.405 --> 00:32:11.405
+No, one sexual, conceptual.
+
+00:32:11.339 --> 00:32:16.339
+Not asking about the same protocol, okay, I will add this library, I will do that, right? Yeah, uh-huh.
+
+00:32:11.763 --> 00:32:16.763
+I'm asking about the same focus. No, I did, uh-huh.
+
+00:32:17.810 --> 00:32:20.810
+Because if you tell it conceptually, it's okay.
+
+00:32:21.014 --> 00:32:23.014
+But if it's a load, then…
+
+00:32:21.266 --> 00:32:24.266
+But if you say no, then… then there's a problem, so…
+
+00:32:23.205 --> 00:32:25.205
+I think there's a post-op City.
+
+00:32:24.762 --> 00:32:27.762
+That's why I want to give you a chance, right, to just share your thoughts.
+
+00:32:26.119 --> 00:32:28.119
+Yeah, exactly.
+
+00:32:29.194 --> 00:32:31.194
+Don't worry about it, like, be relaxed.
+
+00:32:29.417 --> 00:32:31.417
+Don't worry about, like, be relaxed.
+
+00:32:33.465 --> 00:32:35.465
+Remember, filing?
+
+00:32:33.712 --> 00:32:35.712
+Remember, Fireland?
+
+00:32:36.021 --> 00:32:43.021
+But I don't know what exactly, like, what is it exactly that we have done. Okay, maybe I… I know that we can't… we can't change, we can't transfer, we can…
+
+00:32:36.463 --> 00:32:43.463
+But I didn't know what exactly, like, what is it exactly that we have done. But I know that we can, we can say that we can transfer, but we can.
+
+00:32:43.775 --> 00:32:48.775
+Thanks for it. I know that we can… Let's say this is a string, right? Hello world.
+
+00:32:43.842 --> 00:32:48.842
+for it. I know that we can do this. Let's say this is stupid.
+
+00:32:49.367 --> 00:32:51.367
+Let's forget about Git also, GitHub also.
+
+00:32:49.483 --> 00:32:51.483
+Let's talk about great tools and data comes through.
+
+00:32:52.186 --> 00:32:54.186
+Just, hello world, this is a string, right? Spring.
+
+00:32:52.615 --> 00:32:54.615
+Just teleport?
+
+00:32:55.709 --> 00:32:57.709
+So I want to store this string in a database.
+
+00:32:55.980 --> 00:32:57.980
+So I want to store the string in a database.
+
+00:32:59.100 --> 00:33:01.100
+just simple text.
+
+00:32:59.403 --> 00:33:01.403
+Just simple text.
+
+00:33:01.484 --> 00:33:03.484
+So, what…
+
+00:33:01.841 --> 00:33:08.841
+So, what… uh, what are you thinking, like, how can you do it? I'm not asking about, like, specific names of libraries or everything.
+
+00:33:04.079 --> 00:33:07.079
+What are typical, and how can you do it? And what does the format?
+
+00:33:07.320 --> 00:33:09.320
+specific teams of, like, the news, or…
+
+00:33:09.947 --> 00:33:12.947
+Like, uh, how would it go out? What should be there?
+
+00:33:10.113 --> 00:33:13.113
+We did.
+
+00:33:12.994 --> 00:33:14.994
+like, where's this store, like…
+
+00:33:13.337 --> 00:33:15.337
+like, where's this tool, like…
+
+00:33:17.428 --> 00:33:20.428
+Like, just components that would allow you to store this word.
+
+00:33:17.807 --> 00:33:20.807
+practice components that would allow you to store this world.
+
+00:33:21.400 --> 00:33:23.400
+in the database.
+
+00:33:21.730 --> 00:33:23.730
+in the darkness.
+
+00:33:24.629 --> 00:33:27.629
+Okay, let's… I will help you operate. So, MySQL…
+
+00:33:25.094 --> 00:33:28.094
+Okay, that's… MySQL…
+
+00:33:28.017 --> 00:33:30.017
+server.
+
+00:33:28.383 --> 00:33:30.383
+So…
+
+00:33:30.989 --> 00:33:32.989
+This is a database server, right?
+
+00:33:33.999 --> 00:33:35.999
+And this is your .py file, right?
+
+00:33:34.494 --> 00:33:36.494
+And this is your dot privilege.
+
+00:33:37.093 --> 00:33:39.093
+Now, what would you do
+
+00:33:37.290 --> 00:33:39.290
+Now, what would you do?
+
+00:33:39.880 --> 00:33:41.880
+to store this word into the MySQL server.
+
+00:33:40.147 --> 00:33:42.147
+A strongly plugged into the MySQL server.
+
+00:33:42.056 --> 00:33:44.056
+through your Python script.
+
+00:33:42.428 --> 00:33:44.428
+to your Python script.
+
+00:33:44.803 --> 00:33:49.803
+through your Python script. It sounds like a change will be. Like, for example,
+
+00:33:45.861 --> 00:33:48.861
+through your Python structure. It's not like changing…
+
+00:33:49.739 --> 00:33:53.739
+Like, for example, when you change the folder from Python to, like, for example.
+
+00:33:50.342 --> 00:33:53.342
+When you change the folder into, like, for example.
+
+00:33:53.901 --> 00:33:56.901
+Okay. Jason Legacyiano, or something else?
+
+00:33:53.934 --> 00:33:56.934
+Jason, like, do you see any, or something else?
+
+00:33:57.624 --> 00:34:07.624
+Let's say, okay, if you want to talk about JSON, let's say there's a file data.json, right? Am I understanding the question right? Is this what you mean? Like…
+
+00:33:57.849 --> 00:34:03.849
+Let's say, if you want to talk about JSON, like, there's a file data? No, but…json.
+
+00:34:04.388 --> 00:34:09.388
+I'm gonna… am I understanding the question right? Is this what you mean? Like, changing it from
+
+00:34:07.558 --> 00:34:10.558
+changing it from a Python…
+
+00:34:10.657 --> 00:34:13.657
+a Python? No, um, not this applicant.
+
+00:34:11.098 --> 00:34:13.098
+No, no, no. Not this up.
+
+00:34:13.828 --> 00:34:18.828
+like, through your Python script, inside Python, what would you do inside Python?
+
+00:34:14.200 --> 00:34:18.200
+like, Google Python script. Yeah. It's like Python…
+
+00:34:19.579 --> 00:34:21.579
+Right? Like, what commands would you write?
+
+00:34:21.471 --> 00:34:23.471
+Like, what commands would you write?
+
+00:34:22.416 --> 00:34:26.416
+Uh, that will store this string to a database server.
+
+00:34:24.177 --> 00:34:27.177
+that can destroy the student to a database center.
+
+00:34:28.969 --> 00:34:33.969
+I'm not sure, Mr. Ray. No need to remember the commands specifically, but, like,
+
+00:34:29.872 --> 00:34:34.872
+I'm not sure if I just don't say… Sorry to remember the amounts specifically, but, like…
+
+00:34:34.765 --> 00:34:37.765
+Okay, uh, we will come back to it later. Alright.
+
+00:34:35.283 --> 00:34:38.283
+Okay, uh, we'll come back to it later. Alright.
+
+00:34:39.252 --> 00:34:43.252
+Uh, you know, an application can be a client application, can be a server application, right? Yeah.
+
+00:34:39.853 --> 00:34:42.853
+Uh, you know, this might be a client application can be a server application.
+
+00:34:43.551 --> 00:34:48.551
+So, what is the difference between a client application and a server application? Core difference?
+
+00:34:44.946 --> 00:34:48.946
+So, what is the difference between a client application and server application? Or difference?
+
+00:34:49.647 --> 00:34:54.647
+What makes client application a client application? What makes server application a server application?
+
+00:34:49.947 --> 00:34:54.947
+What makes client application a client application? What makes software application a server application?
+
+00:34:55.259 --> 00:34:57.259
+They're the technical, uh, any…
+
+00:34:55.872 --> 00:34:57.872
+There are the technical can A&E.
+
+00:34:57.641 --> 00:35:01.641
+can definitely change, add things like this, but the custody, the…
+
+00:34:58.006 --> 00:35:02.006
+can technically change, add things like this, but the…
+
+00:35:03.101 --> 00:35:08.101
+like, the way it shows to them, how can they use that website or that application, or whatever.
+
+00:35:03.364 --> 00:35:08.364
+like, the way it shows to them, how can they use that website or that application?
+
+00:35:08.707 --> 00:35:14.707
+But that one is, like, it's behind the scenes. Server. We do it, yeah, the server, so what… what it shows to them.
+
+00:35:09.876 --> 00:35:13.876
+But that one is, like, it's behind the scenes. What did we do? Yeah, the server, so what…
+
+00:35:13.861 --> 00:35:15.861
+what it shows to them.
+
+00:35:16.957 --> 00:35:18.957
+Okay, okay. Uh, so…
+
+00:35:18.980 --> 00:35:21.980
+Uh, so… is it possible, for example,
+
+00:35:19.299 --> 00:35:21.299
+Is it possible, for example,
+
+00:35:21.906 --> 00:35:23.906
+For the server.
+
+00:35:22.456 --> 00:35:24.456
+For the server. Hmm.
+
+00:35:24.295 --> 00:35:27.295
+to initiate the communication with the client.
+
+00:35:24.641 --> 00:35:27.641
+initiate the communication with the client.
+
+00:35:27.203 --> 00:35:29.203
+Or…
+
+00:35:27.771 --> 00:35:29.771
+Or…
+
+00:35:29.307 --> 00:35:31.307
+So, there are two scenarios, right?
+
+00:35:29.876 --> 00:35:31.876
+So, there's no understanding, right?
+
+00:35:32.879 --> 00:35:38.879
+Can the server initiate? I'm talking about, like, initial communication, right? Can the server initiate the communication with the client?
+
+00:35:33.552 --> 00:35:39.552
+Can the server initiate? I'm talking about, like, initial communication, right? Can the server initiate the communication with the client?
+
+00:35:39.883 --> 00:35:42.883
+Or should the client initiate the communication with the server?
+
+00:35:40.441 --> 00:35:43.441
+Or should the client kind of initiate the communication with the server?
+
+00:35:44.554 --> 00:35:46.554
+Uh, which statement is correct?
+
+00:35:45.099 --> 00:35:47.099
+Uh, which is still kind of correct.
+
+00:35:46.788 --> 00:35:48.788
+Server initiates the…
+
+00:35:47.265 --> 00:35:49.265
+Several initiatives start.
+
+00:35:49.992 --> 00:35:53.992
+Uh, communication, or clients initiates the communication.
+
+00:35:51.101 --> 00:35:54.101
+Uh, communication, or clients initiates the communication?
+
+00:35:54.335 --> 00:35:56.335
+From these two statements, what do you think is correct?
+
+00:35:54.645 --> 00:35:56.645
+From these two statements, we're not indescribed.
+
+00:35:57.168 --> 00:35:59.168
+Communication, you mean, like… Like, uh…
+
+00:35:57.453 --> 00:35:59.453
+Communication, you mean, like…
+
+00:35:59.646 --> 00:36:01.646
+initial communication, like, for example,
+
+00:35:59.926 --> 00:36:01.926
+initiate a communication bank, for example?
+
+00:36:01.978 --> 00:36:03.978
+sending something to someone.
+
+00:36:02.469 --> 00:36:04.469
+Sending something to someone.
+
+00:36:04.506 --> 00:36:07.506
+No, but… You're sending us…
+
+00:36:04.909 --> 00:36:07.909
+you know, because from…
+
+00:36:08.270 --> 00:36:11.270
+So starting a request, actually, let's say, right? From the client's server-to-server to…
+
+00:36:08.454 --> 00:36:11.454
+So, we had the question of James, even? From the clients, the server, server…
+
+00:36:12.045 --> 00:36:15.045
+to another… if it's to another, uh…
+
+00:36:12.162 --> 00:36:16.162
+If it's to another… Okay, so what you're saying is,
+
+00:36:15.698 --> 00:36:22.698
+So what you're seeing is, it'll always be client as we do to initiate the deployment with the server? Uh, because he ordered the thing.
+
+00:36:16.223 --> 00:36:22.223
+It will always be… client is going to initiate the communication with the server. Ah, because he ordered that thing.
+
+00:36:22.798 --> 00:36:24.798
+Oh, yeah.
+
+00:36:22.835 --> 00:36:24.835
+Okay, yeah, now we're going to trade.
+
+00:36:25.140 --> 00:36:28.140
+Think about, right? So, in this script,
+
+00:36:25.756 --> 00:36:28.756
+Think about it. So, in this instance…
+
+00:36:29.419 --> 00:36:31.419
+This PVY is a client.
+
+00:36:29.947 --> 00:36:31.947
+This pivot is a client.
+
+00:36:32.204 --> 00:36:34.204
+Right? Application.
+
+00:36:32.567 --> 00:36:34.567
+Application.
+
+00:36:35.556 --> 00:36:38.556
+And this is, of course, by the name it says, like, server addiction, right?
+
+00:36:36.225 --> 00:36:38.225
+And this is, of course, very interesting.
+
+00:36:39.477 --> 00:36:41.477
+So, can you order?
+
+00:36:39.926 --> 00:36:41.926
+So, can you order?
+
+00:36:42.768 --> 00:36:44.768
+Can you order MySQL Server to store?
+
+00:36:43.570 --> 00:36:45.570
+Can you order my SQL Server to store?
+
+00:36:46.563 --> 00:36:51.563
+But I didn't know, like, how… Yeah, how is not important. Yeah, it is possible.
+
+00:36:47.208 --> 00:36:52.208
+Yeah, it's just supposed to be… but I don't know, like, how. Yeah, it is possible.
+
+00:36:52.236 --> 00:36:58.236
+Yeah, right, so, yeah, I understand? Yeah, this is what I was saying, that it's possible, but I didn't know how Yani.
+
+00:36:53.243 --> 00:36:58.243
+Yeah, this is what I was saying, that it's possible, but I didn't know how, Yanni.
+
+00:36:58.600 --> 00:37:03.600
+Okay. Uh, what is the difference between an API endpoint versus a server application?
+
+00:36:59.967 --> 00:37:03.967
+What is the difference between an API endpoint versus a setup endpoint?
+
+00:37:03.841 --> 00:37:05.841
+How they are related.
+
+00:37:06.085 --> 00:37:10.085
+Server application versus an API endpoint.
+
+00:37:06.431 --> 00:37:09.431
+server application versus an EPA.
+
+00:37:10.625 --> 00:37:12.625
+Right?
+
+00:37:13.016 --> 00:37:16.016
+think about your first DK application, then you can come up with an answer.
+
+00:37:13.736 --> 00:37:16.736
+Think about your first year, you should then be comfortable.
+
+00:37:17.244 --> 00:37:20.244
+Server application, right?
+
+00:37:18.732 --> 00:37:20.732
+FBI end? Similar finish, right?
+
+00:37:20.478 --> 00:37:22.478
+Like, uh…
+
+00:37:22.665 --> 00:37:25.665
+how they are related, or is it the same thing? Like, what is going on?
+
+00:37:23.025 --> 00:37:26.025
+Is it the same thing? Like, what is going on?
+
+00:37:35.640 --> 00:37:40.640
+So, I'm not sure, but several locations, the one that you are working on it?
+
+00:37:36.010 --> 00:37:41.010
+So, but I'm not sure, but several locations is the one that you are working on it?
+
+00:37:41.212 --> 00:37:47.212
+Directly, but the API is the access that we get to another one.
+
+00:37:42.482 --> 00:37:47.482
+directly, but the API is the access that you can get to another one.
+
+00:37:47.545 --> 00:37:49.545
+like, for website and other…
+
+00:37:47.887 --> 00:37:49.887
+like for website and other…
+
+00:37:50.208 --> 00:37:54.208
+So, for example, uh, when you were building the calculator application for a client,
+
+00:37:50.527 --> 00:37:54.527
+So, for example, when you were building the calculator transcription from the bank.
+
+00:37:54.900 --> 00:37:56.900
+So that… you can call that a server application?
+
+00:37:54.964 --> 00:37:56.964
+So that… you can call that a certain application.
+
+00:37:57.487 --> 00:38:02.487
+Yeah. And API can be, for example, somewhere else, where people can actually reach out to it, right? Yeah.
+
+00:37:57.759 --> 00:38:02.759
+Yeah. An API can be, for example, somewhere else where people can actually reach out to it, right? Yeah.
+
+00:38:03.360 --> 00:38:05.360
+So…
+
+00:38:22.402 --> 00:38:26.402
+Uh, since we are talking about clients or whatnot, what is an IP address?
+
+00:38:22.435 --> 00:38:26.435
+Uh, since we are talking about clients, remember, what is an IP address?
+
+00:38:26.719 --> 00:38:28.719
+IP. IP address, yeah.
+
+00:38:27.101 --> 00:38:29.101
+Might be? Identus.
+
+00:38:29.462 --> 00:38:31.462
+a reasonable that has, uh, been…
+
+00:38:29.655 --> 00:38:31.655
+I've used in a book that has, uh, like,
+
+00:38:32.214 --> 00:38:35.214
+Is it the address of the client or the server?
+
+00:38:32.266 --> 00:38:35.266
+Isn't that interesting?
+
+00:38:37.251 --> 00:38:42.251
+Uh, okay, so does client applic… does the client and the server both have an IP address?
+
+00:38:37.723 --> 00:38:39.723
+Uh, okay, so it has climbed up, please?
+
+00:38:40.032 --> 00:38:45.032
+Does the client and server both have an IP address, or is it just the server that has an IP address?
+
+00:38:42.816 --> 00:38:44.816
+Or is it just the server that has the IP address?
+
+00:38:49.958 --> 00:38:56.958
+Let's say there are two machines, right? One is your laptop? Yeah. One is Google.com, right?
+
+00:38:50.189 --> 00:38:53.189
+like, has the number. No, it's only the server has it.
+
+00:38:53.293 --> 00:38:57.293
+Let's say… Yeah.
+
+00:38:57.317 --> 00:38:59.317
+Do both have an IP address?
+
+00:38:57.698 --> 00:38:59.698
+Do both have an IP address?
+
+00:38:59.709 --> 00:39:03.709
+Or is it only the server that has the IP address? They have it.
+
+00:38:59.978 --> 00:39:06.978
+Or is it only the server that has the IT process? They have it, but I can, like, ask for it.
+
+00:39:03.633 --> 00:39:06.633
+But I can, like, ask for it.
+
+00:39:07.227 --> 00:39:10.227
+But it cannot be sha… it's not shareable.
+
+00:39:07.712 --> 00:39:09.712
+But it cannot be… it's not shareable.
+
+00:39:10.353 --> 00:39:13.353
+IP address? Uh, let's see.
+
+00:39:11.600 --> 00:39:13.600
+I think… Oh, that's see.
+
+00:39:13.849 --> 00:39:17.849
+Adverse. No, only, sir.
+
+00:39:14.169 --> 00:39:18.169
+Okay, okay. No, only sir.
+
+00:39:18.117 --> 00:39:20.117
+Only server typewriter, right?
+
+00:39:18.538 --> 00:39:20.538
+How many servings?
+
+00:39:24.132 --> 00:39:29.132
+So when you… if you open your command prompt and write ipconfix, so you don't see any IP address, right?
+
+00:39:24.537 --> 00:39:29.537
+So then, if you open your command prompt and write IP template so you don't see any of it as well.
+
+00:39:30.279 --> 00:39:32.279
+Yeah. You don't see?
+
+00:39:30.820 --> 00:39:32.820
+Yeah. Oops.
+
+00:39:32.388 --> 00:39:34.388
+Any IP address?
+
+00:39:33.741 --> 00:39:35.741
+Where?
+
+00:39:34.848 --> 00:39:36.848
+Like, for example,
+
+00:39:36.824 --> 00:39:38.824
+Google and your laptop, right?
+
+00:39:38.204 --> 00:39:40.204
+Who are your laptop, right? Yeah. So…
+
+00:39:39.786 --> 00:39:43.786
+So, when you… if you open command prompt in your laptop and write IP,
+
+00:39:41.174 --> 00:39:44.174
+If you open to one front in your laptop, Android IP,
+
+00:39:43.778 --> 00:39:45.778
+IP config, or…
+
+00:39:44.151 --> 00:39:46.151
+If you can click on…
+
+00:39:46.191 --> 00:39:48.191
+So you see an IP address, right?
+
+00:39:46.631 --> 00:39:48.631
+So you see an IP address, right?
+
+00:39:49.943 --> 00:39:53.943
+In the command? Yes, like, for example, does your machine has an IP address?
+
+00:39:50.310 --> 00:39:54.310
+in the… in the command?
+
+00:39:54.877 --> 00:39:59.877
+Yeah. So, your machine is a client? No, you are smiling, Mr.
+
+00:39:55.251 --> 00:40:00.251
+Yeah. You are smiling instead.
+
+00:40:01.280 --> 00:40:08.280
+I'm just trying to figure out, uh, the projection, right? What's your reaction can change my answers then, so…
+
+00:40:01.754 --> 00:40:07.754
+I'm just trying to figure out, uh, the knowledge you have, right? Soyla? What's your reaction can change my answers, that's…
+
+00:40:08.888 --> 00:40:11.888
+Yeah, that's right. Because if you get confused, it means your concepts are not clear.
+
+00:40:09.339 --> 00:40:12.339
+Yeah, that's right. If you got confused with me to your concepts are not clear.
+
+00:40:12.062 --> 00:40:15.062
+But if you're confident, then it means it's great. So…
+
+00:40:12.367 --> 00:40:15.367
+But if you're confident, then…
+
+00:40:15.867 --> 00:40:17.867
+it's always about, like, if I say something,
+
+00:40:16.264 --> 00:40:18.264
+It's Amazon, like, I say something?
+
+00:40:17.877 --> 00:40:19.877
+You can guess the answer, that should not happen.
+
+00:40:18.272 --> 00:40:20.272
+You could guess it's awesome, but…
+
+00:40:19.858 --> 00:40:21.858
+Okay.
+
+00:40:20.233 --> 00:40:22.233
+Okay.
+
+00:40:22.773 --> 00:40:29.773
+But I can change the answer out of your reaction. No, no, totally. When I say, are you sure? Don't change, right? Because you say, I'm sure.
+
+00:40:22.967 --> 00:40:29.967
+But I can change the autopilot reaction, even if I was confident. Because you know what? I see, I'm sure I don't.
+
+00:40:32.736 --> 00:40:35.736
+But think about it, right? The server has the IP address,
+
+00:40:37.413 --> 00:40:42.413
+And your laptop also has the iPad as well, but otherwise, how would you, like, communicate with Google if there's no internet?
+
+00:40:37.960 --> 00:40:40.960
+And your laptop also has the iPad, but otherwise, how could you, like…
+
+00:40:40.845 --> 00:40:42.845
+What if there's no demand.
+
+00:40:42.786 --> 00:40:44.786
+If there's internet, you have the IP address, right?
+
+00:40:43.022 --> 00:40:45.022
+Is it tonight?
+
+00:40:44.762 --> 00:40:46.762
+Okay, so…
+
+00:40:45.023 --> 00:40:47.023
+Okay, so…
+
+00:40:47.378 --> 00:40:51.378
+What is the difference between a public IP address and private IP address? Do you know anything about it?
+
+00:40:47.491 --> 00:40:51.491
+What is the difference between a public IP address and private IP address? Do you know anything about it?
+
+00:40:51.577 --> 00:40:54.577
+Maybe the public one, anyone can access to it.
+
+00:40:52.034 --> 00:40:55.034
+move the public one, anyone can access to it.
+
+00:40:55.369 --> 00:41:05.369
+100% correct. Yeah, and by the other one, it's gonna be any… you don't want anyone to access it. Like, it's something you did for… Yeah, no, no, no, you're 100% right, yeah.
+
+00:40:56.257 --> 00:41:00.257
+100% correct. Yeah, but the other one, it cannot take any…
+
+00:41:00.155 --> 00:41:05.155
+You don't want anyone to access to it. Like, it's something you did for…
+
+00:41:06.262 --> 00:41:10.262
+Is it a B? Is there a way that I can actually access a private IP address?
+
+00:41:06.791 --> 00:41:10.791
+Is it a week? Is there a way that I can actually access a private IP address?
+
+00:41:10.345 --> 00:41:13.345
+From our site, is there a way? Yes or no?
+
+00:41:12.041 --> 00:41:14.041
+Actually, is there a bit? Yes or no?
+
+00:41:13.818 --> 00:41:15.818
+you know, the environment, yeah.
+
+00:41:14.385 --> 00:41:16.385
+If you know the area, yeah, you can.
+
+00:41:16.547 --> 00:41:21.547
+Uh, if you don't… if you know what… I would be so worth it. Like, the numbers you mean, Annie.
+
+00:41:17.402 --> 00:41:22.402
+I just didn't know if you saw with, like, the numbers, you mean, Yanni.
+
+00:41:23.248 --> 00:41:27.248
+Because as DevOps, we must know these things, right? So, for example,
+
+00:41:27.319 --> 00:41:34.319
+I can… from my node, I cannot reach out to you.
+
+00:41:27.810 --> 00:41:33.810
+Is there a way? Yes, let's say you have a private IP address, I can… from my home, I cannot reach out to you.
+
+00:41:34.822 --> 00:41:36.822
+Still, is there a way I can reach out? Yeah.
+
+00:41:35.314 --> 00:41:38.314
+Still, is there a way I can reach out? Yeah, you can reach out.
+
+00:41:38.573 --> 00:41:41.573
+Uh, is there something coming to mind? No, I was going.
+
+00:41:38.846 --> 00:41:41.846
+Is there some… Well, what's this going? I didn't know.
+
+00:41:42.473 --> 00:41:45.473
+So, you can reach out is correct, right? Yeah. But you don't know the way is…
+
+00:41:43.108 --> 00:41:46.108
+So you can do this correctly, right? Yeah. But you don't know the way it is.
+
+00:41:45.525 --> 00:41:48.525
+So I will consider partially correct.
+
+00:41:49.807 --> 00:41:51.807
+You can reach out. The report forwarding, I think.
+
+00:41:50.335 --> 00:41:56.335
+port forwarding, if you have that, that's pretty true.
+
+00:41:52.781 --> 00:41:55.781
+You can do port forwarding. You're behind that, and you can actually reach out.
+
+00:41:56.330 --> 00:42:01.330
+Which begs the question, what is the difference between IP address and port?
+
+00:41:56.910 --> 00:42:01.910
+Okay. What is the difference between packages and work?
+
+00:42:05.463 --> 00:42:07.463
+I think you said they're not addicted to watching.
+
+00:42:05.687 --> 00:42:08.687
+I could use today not to dig much. Sweet?
+
+00:42:07.544 --> 00:42:09.544
+Let's see.
+
+00:42:09.478 --> 00:42:13.478
+Again? These are basics.
+
+00:42:10.083 --> 00:42:13.083
+Again? This is basic. These are basics. Then I will go to advanced.
+
+00:42:13.872 --> 00:42:19.872
+For now, what I'm asking is basically. No, no. I'm asking some intermediate questions also.
+
+00:42:14.584 --> 00:42:17.584
+Okay. Yeah, good to know, good to know.
+
+00:42:17.693 --> 00:42:21.693
+I'm asking some intermediate. Okay. It's not just speaking.
+
+00:42:20.677 --> 00:42:23.677
+Okay. It's not just easy, intermediate also. Alright. So, um…
+
+00:42:21.723 --> 00:42:23.723
+Alright.
+
+00:42:24.012 --> 00:42:28.012
+You're not doing that bad. It's, uh… it's okay. I'm just, like…
+
+00:42:24.403 --> 00:42:26.403
+They're not being that bad, so…
+
+00:42:26.520 --> 00:42:28.520
+It's okay. I'm just, like…
+
+00:42:28.670 --> 00:42:34.670
+Alright, so for example, uh, IP address and ports, right? So…
+
+00:42:29.291 --> 00:42:34.291
+No issues. Okay, so for example, IP address and ports, right? So…
+
+00:42:35.281 --> 00:42:38.281
+The last question I asked you was about, uh…
+
+00:42:36.609 --> 00:42:38.609
+The last question I asked you was about, uh…
+
+00:42:39.396 --> 00:42:41.396
+Uh, port forwarding, right?
+
+00:42:39.793 --> 00:42:41.793
+Uh, portfolio, right?
+
+00:42:42.709 --> 00:42:47.709
+Ah, just writing straight, right? Okay, now, IP address and port.
+
+00:42:44.233 --> 00:42:48.233
+Okay, now, IP address and pool.
+
+00:42:49.006 --> 00:42:53.006
+Like, what is the benefit of having a port when you already have the address of the server?
+
+00:42:49.149 --> 00:42:53.149
+like, what is the benefit of having a port when you already have the address of the server?
+
+00:42:53.080 --> 00:42:55.080
+Like, for example?
+
+00:42:53.560 --> 00:42:55.560
+Take, for example…
+
+00:42:55.064 --> 00:42:57.064
+Sometimes you need a rick.
+
+00:42:55.432 --> 00:42:57.432
+Sometimes you need, uh, like,
+
+00:42:58.181 --> 00:43:00.181
+You want to access it, uh…
+
+00:42:58.297 --> 00:43:02.297
+You want to access it, uh, at that time, you don't have Blake, for example.
+
+00:43:00.511 --> 00:43:02.511
+at that time, you didn't have, like, for example.
+
+00:43:02.377 --> 00:43:07.377
+your laptop. Okay, uh, sorry, yes. No, like, if you are a team also…
+
+00:43:02.963 --> 00:43:04.963
+your laptop.
+
+00:43:05.961 --> 00:43:07.961
+No, like, if you are a team also.
+
+00:43:07.568 --> 00:43:10.568
+Sometimes you need to access it, like, you need another way.
+
+00:43:08.859 --> 00:43:10.859
+Sometimes you need to access it, like, you need another way.
+
+00:43:10.748 --> 00:43:15.748
+To access it, yeah. Okay, okay, I got it. No issues. Let's jump to…
+
+00:43:11.650 --> 00:43:13.650
+to access it, yeah. Okay.
+
+00:43:14.339 --> 00:43:16.339
+Now, let's jump to…
+
+00:43:18.066 --> 00:43:23.066
+get right, because we have covered get in the beginning a lot, right? So, let's talk about…
+
+00:43:18.250 --> 00:43:21.250
+get trait, because we have covered Git in the beginning a lot, right?
+
+00:43:21.598 --> 00:43:23.598
+So, let's talk about…
+
+00:43:25.253 --> 00:43:30.253
+Uh, so you know, if you know the branch, right? Main branch, you have been seeing main branch…
+
+00:43:25.595 --> 00:43:30.595
+Uh, so yeah, uh, you know about the branch, right? Main branch, you have been seeing main branch a lot, right?
+
+00:43:30.577 --> 00:43:33.577
+So, and you do know about the connector.
+
+00:43:30.692 --> 00:43:32.692
+So, and you know about the commit.
+
+00:43:33.718 --> 00:43:35.718
+Commentary. So, uh…
+
+00:43:34.149 --> 00:43:36.149
+Gotcha. So, uh…
+
+00:43:37.103 --> 00:43:40.103
+What is the, like, what is the relationship between
+
+00:43:38.642 --> 00:43:40.642
+What is, like, what is the relationship between…
+
+00:43:41.442 --> 00:43:43.442
+a branch under government. Is there any relationship? Like…
+
+00:43:41.989 --> 00:43:43.989
+a branch check. I mean, is there any relationship? Like…
+
+00:43:43.745 --> 00:43:46.745
+is… does commit has something to do with the brunch?
+
+00:43:44.468 --> 00:43:47.468
+is… does Connet has something to do with the branch?
+
+00:43:49.020 --> 00:43:54.020
+Comment? Uh-huh. The comet… does Commit has something to do with the branch? Yes or no? Simple.
+
+00:43:49.350 --> 00:43:52.350
+Comet? Uh-huh.
+
+00:43:52.471 --> 00:43:54.471
+Excuse me.
+
+00:43:55.102 --> 00:43:57.102
+But do think about it, right?
+
+00:43:57.874 --> 00:43:59.874
+Yes, it has. Okay, nice.
+
+00:43:59.047 --> 00:44:01.047
+Yes, it has.
+
+00:44:00.729 --> 00:44:10.729
+Uh, so, you're right. So, what, like, what does it have to do? It's different when you want to get back to it of that step that you have changed, for example.
+
+00:44:01.681 --> 00:44:05.681
+Uh, so, you're right. So, like, what does it do?
+
+00:44:06.273 --> 00:44:11.273
+It's the point when you want to get back to it, of that step that you have changed, for example.
+
+00:44:10.852 --> 00:44:14.852
+So, our commits saved inside the branch, or they are…
+
+00:44:11.527 --> 00:44:15.527
+to our commits safe inside the punch, or they're…
+
+00:44:14.848 --> 00:44:16.848
+They are saved somewhere else.
+
+00:44:15.643 --> 00:44:17.643
+see if somebody else's…
+
+00:44:18.548 --> 00:44:20.548
+Like, what I'm trying to say?
+
+00:44:19.178 --> 00:44:21.178
+Because I couldn't frequency?
+
+00:44:21.304 --> 00:44:25.304
+Are commit saved somewhere else, or other part of the branch, uh, which one is true?
+
+00:44:21.372 --> 00:44:24.372
+I finally received somebody else, but our Department of Crunch.
+
+00:44:24.739 --> 00:44:26.739
+Which one's true.
+
+00:44:28.169 --> 00:44:30.169
+First, uh, it goes to, uh…
+
+00:44:28.651 --> 00:44:30.651
+First, uh, it goes to, uh…
+
+00:44:31.042 --> 00:44:33.042
+With the name exactly, it goes…
+
+00:44:31.342 --> 00:44:33.342
+I forgot the name exactly. It goes…
+
+00:44:33.069 --> 00:44:37.069
+Uh, staging area? Yes, staging area, and then it goes to the front.
+
+00:44:33.473 --> 00:44:37.473
+Yeah, staging area, and then it goes to that one.
+
+00:44:38.240 --> 00:44:42.240
+Uh, and then it goes to the branch, 100% correct. Good. Nice.
+
+00:44:39.632 --> 00:44:41.632
+Uh, and then it goes to the ground. Yes.
+
+00:44:42.778 --> 00:44:44.778
+Right, so…
+
+00:44:52.242 --> 00:44:57.242
+if we, let's say, get GitHub, right? For example, uh, what do we use GitHub for?
+
+00:44:52.421 --> 00:44:57.421
+if we, let's say, hit up, right? What do you use data for?
+
+00:44:57.090 --> 00:44:59.090
+Generally speaking.
+
+00:44:57.533 --> 00:44:59.533
+Generally speaking.
+
+00:44:59.640 --> 00:45:06.640
+Uh, it's helping us not to lose them for the coding that we have done. Or, for example, if we are working on a team,
+
+00:44:59.826 --> 00:45:03.826
+Uh, it's helping us not to lose them for the good thing that we have done.
+
+00:45:04.432 --> 00:45:06.432
+Well, for example, if I'm working on engineering.
+
+00:45:06.488 --> 00:45:12.488
+Yeah, and both of us want to work, for example. We all need to access…
+
+00:45:07.519 --> 00:45:10.519
+Like, yeah, and both of us want to work, for example.
+
+00:45:10.602 --> 00:45:12.602
+We all need to access.
+
+00:45:13.300 --> 00:45:16.300
+If you don't have… imagine a world where there's legal. Yeah.
+
+00:45:13.530 --> 00:45:15.530
+If we don't have… imagine a world where there's no GitHub.
+
+00:45:16.116 --> 00:45:21.116
+Can we still create Git repos? Can we still do all of the branches, commits, and everything?
+
+00:45:16.406 --> 00:45:21.406
+Can we still give you a little bit of those? Can we still do more of a contrast, commits and everything?
+
+00:45:21.102 --> 00:45:23.102
+Just… hm?
+
+00:45:21.525 --> 00:45:23.525
+Just…
+
+00:45:24.088 --> 00:45:28.088
+just get things, right? Can we do that? It is possible, but it's complicated.
+
+00:45:24.470 --> 00:45:28.470
+It is possible, but it's complicated.
+
+00:45:28.450 --> 00:45:31.450
+You can do it, but you will lose a lot of things in the middle.
+
+00:45:28.702 --> 00:45:31.702
+You can do it, but you will lose a lot of things in the middle.
+
+00:45:32.467 --> 00:45:36.467
+Okay, so what… Especially if you are, like, more… more than one.
+
+00:45:33.673 --> 00:45:36.673
+So… Especially if you are, like, more… more than one.
+
+00:45:37.105 --> 00:45:41.105
+Yeah, I understand your point. So… so Git and GitHub, what is the difference?
+
+00:45:37.505 --> 00:45:41.505
+So, so Git and GitHub, what is the difference?
+
+00:45:41.893 --> 00:45:43.893
+Git and GitHub. GitHub is the bigger one.
+
+00:45:42.424 --> 00:45:44.424
+GitHub is the bigger one.
+
+00:45:46.193 --> 00:45:51.193
+like, a bigger good? Yeah, we're… yeah, I think you are not wrong, you're right.
+
+00:45:46.575 --> 00:45:51.575
+Yeah, we're…
+
+00:45:51.890 --> 00:45:55.890
+I was thinking something else with it. This is the way that I understood that.
+
+00:45:51.924 --> 00:45:55.924
+I was thinking something else. This is the way that I understood the recording.
+
+00:45:56.181 --> 00:45:59.181
+You're not… you're not wrong, like, if you're able to explain, it's, uh, yeah.
+
+00:45:59.349 --> 00:46:01.349
+Because GitHub also uses Git.
+
+00:45:59.774 --> 00:46:01.774
+It was internal to use a stitch.
+
+00:46:01.884 --> 00:46:04.884
+So, I will consider, okay, it's the bigger kit.
+
+00:46:02.014 --> 00:46:04.014
+Yeah.
+
+00:46:04.358 --> 00:46:09.358
+But, okay, if you don't have data, can you create a report?
+
+00:46:05.969 --> 00:46:08.969
+But, okay, if you don't have GitHub, can you create a repo?
+
+00:46:09.524 --> 00:46:13.524
+And can you create a branch and do some commits on that?
+
+00:46:10.048 --> 00:46:13.048
+Initialize the repo, and can you create a branch and do some commits or not?
+
+00:46:14.072 --> 00:46:16.072
+If there's no GitHub, just GitHub.
+
+00:46:14.123 --> 00:46:16.123
+If there's look at her. Yeah.
+
+00:46:15.924 --> 00:46:17.924
+Yeah. You can do it right away, nice.
+
+00:46:16.317 --> 00:46:18.317
+Yeah.
+
+00:46:19.832 --> 00:46:25.832
+feature branch workflow. Get feature branch workflow, right? So, what is the benefit of it?
+
+00:46:20.230 --> 00:46:26.230
+So, what is the benefit of it?
+
+00:46:26.269 --> 00:46:29.269
+The way you do tickets, what is the benefit of it?
+
+00:46:26.692 --> 00:46:29.692
+that the way you do tickets, what is the benefit of it?
+
+00:46:30.575 --> 00:46:32.575
+The way we do it tickets.
+
+00:46:30.885 --> 00:46:32.885
+the way we do tickets?
+
+00:46:32.666 --> 00:46:34.666
+creating a branch,
+
+00:46:33.151 --> 00:46:35.151
+creating a privilege.
+
+00:46:34.885 --> 00:46:36.885
+pull request, March…
+
+00:46:37.709 --> 00:46:40.709
+So, do you see any benefit? Yeah.
+
+00:46:38.032 --> 00:46:41.032
+Cool. So, do you see any benefit? Yeah.
+
+00:46:40.911 --> 00:46:42.911
+Like, uh…
+
+00:46:41.551 --> 00:46:43.551
+like, uh…
+
+00:46:44.087 --> 00:46:51.087
+As students, yeah, and here, uh, in Kwai. You are my team members, don't say students. Students sounds very bad. No, I mean anything.
+
+00:46:44.101 --> 00:46:49.101
+As students, yeah, and here, uh, in Quidline.
+
+00:46:49.473 --> 00:46:51.473
+Okay. No, I mean, Annie.
+
+00:46:52.261 --> 00:46:56.261
+He's like me, right? I'm elect for here, for example.
+
+00:46:52.342 --> 00:46:56.342
+You let me write, I'm elect for here, for example.
+
+00:46:56.609 --> 00:47:06.609
+Um, let's make you and the code owners make sure that… well, I mean, before we… I emerge, for example… Oh, I got your phone. Yeah, so checks and balances, right? For example?
+
+00:46:57.332 --> 00:47:03.332
+Um, it make you and the code owners make sure that what I mean, before we eye merge, for example,
+
+00:47:04.046 --> 00:47:06.046
+Yeah.
+
+00:47:06.432 --> 00:47:12.432
+Yeah. So there are checks. Yeah. It is a nice 20-minute point.
+
+00:47:07.322 --> 00:47:15.322
+So you don't merge directly to the main branch, so there are checks. Yeah. Which is a nice, very nice point, important point, right? Okay, let's jump to, uh, because time is short now.
+
+00:47:13.775 --> 00:47:15.775
+short-term.
+
+00:47:15.798 --> 00:47:18.798
+Right, let's jump to, uh, containerization, right?
+
+00:47:16.324 --> 00:47:19.324
+Alright, let's jump to, uh, containerization, right?
+
+00:47:19.494 --> 00:47:22.494
+So you have a virtual machine, and you have a container.
+
+00:47:19.498 --> 00:47:25.498
+So you have a virtual machine, and you have a container. Do you think there's a difference, or kind of the same thing?
+
+00:47:23.305 --> 00:47:25.305
+Do you think there's a difference, or kind of the same thing?
+
+00:47:25.491 --> 00:47:27.491
+a virtual machine and a container.
+
+00:47:25.947 --> 00:47:27.947
+Unfortunately, and a container.
+
+00:47:28.153 --> 00:47:33.153
+container where we can, uh, it's, like, similar to GitHub a little bit.
+
+00:47:28.486 --> 00:47:30.486
+Container where we can…
+
+00:47:30.784 --> 00:47:33.784
+It's, like, similar to GitHub, a little bit.
+
+00:47:33.229 --> 00:47:38.229
+Where you can save the work that you have done. And you can share its…
+
+00:47:34.182 --> 00:47:37.182
+Where you can see the work that you have done.
+
+00:47:37.717 --> 00:47:41.717
+And you can share its shareable for other users to use.
+
+00:47:38.527 --> 00:47:41.527
+shareable for other users to use.
+
+00:47:42.597 --> 00:47:46.597
+Okay, so… container, right? Container, you can… like, container, you can share.
+
+00:47:42.628 --> 00:47:46.628
+Continuation.
+
+00:47:47.191 --> 00:47:51.191
+In… yeah, like, you're skipping a lot of things, but yes, you can.
+
+00:47:47.565 --> 00:47:51.565
+Yeah. Yeah, like, you're skipping a lot of times, but yes, you can.
+
+00:47:51.157 --> 00:47:53.157
+Share images, actually, right?
+
+00:47:51.614 --> 00:47:53.614
+Share images at times, right?
+
+00:47:53.458 --> 00:47:56.458
+But it's fine, I'm trying to understand, right?
+
+00:47:54.062 --> 00:47:57.062
+It's fine, I'm trying to understand it.
+
+00:47:58.061 --> 00:48:00.061
+What is the difference between a Dockerfile?
+
+00:47:58.094 --> 00:48:02.094
+What is the difference between a Dockerfile, image, and a direct file?
+
+00:48:00.054 --> 00:48:02.054
+image and a container.
+
+00:48:03.595 --> 00:48:07.595
+Dockerfile image. And container. It's like, uh…
+
+00:48:03.770 --> 00:48:07.770
+Duker file image. It's like, uh…
+
+00:48:09.987 --> 00:48:12.987
+It's like… it's similar, similar to…
+
+00:48:10.349 --> 00:48:13.349
+It's like… it's similar, similar to…
+
+00:48:14.056 --> 00:48:16.056
+to FAI, where you can access…
+
+00:48:14.529 --> 00:48:16.529
+to API, where you can access…
+
+00:48:16.870 --> 00:48:24.870
+In other laptops, for example, or also it can save space, like, for example, not, like, 100 users can use.
+
+00:48:16.923 --> 00:48:26.923
+In other laptops, for example, or also it can save space, like, for example, not, like, 100 users can use. It can make you use, like,
+
+00:48:25.243 --> 00:48:28.243
+It can make you use, like, for example, it's, like, for…
+
+00:48:27.203 --> 00:48:30.203
+for example, it's, like, 4 computers, but from the same
+
+00:48:28.782 --> 00:48:30.782
+I'm the same that much.
+
+00:48:30.795 --> 00:48:32.795
+that image. Okay, can you…
+
+00:48:31.168 --> 00:48:36.168
+Okay, I understand. Maybe you're talking about something else, but what's a Docker image?
+
+00:48:33.058 --> 00:48:35.058
+You were posting on the bed?
+
+00:48:35.134 --> 00:48:37.134
+What's your look at communicating this?
+
+00:48:36.495 --> 00:48:43.495
+Just image. Yanni, like, what kind of does, like, it can run, it can deploy… Oh, yeah, yeah.
+
+00:48:37.029 --> 00:48:42.029
+does, like, it can run, it can deploy.
+
+00:48:42.120 --> 00:48:44.120
+Oh, negative.
+
+00:48:44.344 --> 00:48:51.344
+No, you're right. So, from the image, you can run a container, right? Yeah. From one image, can you run two containers?
+
+00:48:45.279 --> 00:48:48.279
+So, from the image, you can run a bacteria, right?
+
+00:48:49.068 --> 00:48:51.068
+Yeah. From bottom image, can you refer to condemnge?
+
+00:48:51.695 --> 00:48:53.695
+I mean, remember from 1 to 3.
+
+00:48:52.381 --> 00:48:56.381
+Remember, from one image, right? Can you run two containers, or three, or 30, from one?
+
+00:48:57.024 --> 00:48:59.024
+Yeah. You can? Yes.
+
+00:48:57.865 --> 00:48:59.865
+Yeah. Yeah? Yes.
+
+00:48:59.709 --> 00:49:01.709
+Hi, sure. Yes, I'm sure.
+
+00:49:00.343 --> 00:49:02.343
+Yes, I'm sure.
+
+00:49:03.242 --> 00:49:05.242
+Okay, so…
+
+00:49:03.866 --> 00:49:05.866
+Okay, so…
+
+00:49:06.609 --> 00:49:08.609
+Docker Compose, right? So…
+
+00:49:06.857 --> 00:49:08.857
+So…
+
+00:49:10.404 --> 00:49:13.404
+Have you seen any benefit of Docker Compose lately?
+
+00:49:10.615 --> 00:49:13.615
+Have you seen any benefit of program tools lately?
+
+00:49:19.031 --> 00:49:21.031
+a user per hour.
+
+00:49:19.385 --> 00:49:21.385
+A user pet, you mean? Oh.
+
+00:49:21.370 --> 00:49:26.370
+Docker Confuse. Yeah. Like, for example, why do we use Docker Compose when we already have Docker?
+
+00:49:21.834 --> 00:49:26.834
+When we already have Docker?
+
+00:49:26.754 --> 00:49:32.754
+And we can just simply run commands multiple times and have multiple containers. Then why use docker Confuse?
+
+00:49:27.162 --> 00:49:29.162
+And we can just simply go…
+
+00:49:29.581 --> 00:49:32.581
+I watched multiple times, I have multiple containers. Then why is that?
+
+00:49:34.773 --> 00:49:38.773
+I mean, it's like… I'm not sure, like, exactly, but…
+
+00:49:36.078 --> 00:49:39.078
+Maybe it's, like… I'm not sure, like, exactly what's…
+
+00:49:39.008 --> 00:49:44.008
+Sure. It can help people on higher, uh, or people who can use more.
+
+00:49:39.260 --> 00:49:44.260
+it's… it can help people on higher level, or people who can use more.
+
+00:49:44.519 --> 00:49:48.519
+have more files, you know, have more users involved, like this, like…
+
+00:49:44.976 --> 00:49:46.976
+have more files, not have more…
+
+00:49:46.982 --> 00:49:48.982
+users, lick this, lick.
+
+00:49:48.862 --> 00:49:50.862
+It's the same thing, but on a higher lift.
+
+00:49:49.324 --> 00:49:51.324
+It's the same thing, but on a higher level.
+
+00:49:52.778 --> 00:49:55.778
+Okay, 9, okay, I got it right.
+
+00:49:54.160 --> 00:49:56.160
+This is Jenna again.
+
+00:49:55.737 --> 00:49:57.737
+Let's go to…
+
+00:49:59.699 --> 00:50:02.699
+When we say deployment, right? So you have deployment.
+
+00:50:00.160 --> 00:50:03.160
+Yeah, when we say deployment first, so we have to deploy…
+
+00:50:02.903 --> 00:50:05.903
+So, let's say if I tell you, Swayra that
+
+00:50:03.209 --> 00:50:06.209
+So, let's say if I tell you, Florida that…
+
+00:50:06.641 --> 00:50:08.641
+You have built the calculator application. Can you please deploy it?
+
+00:50:07.007 --> 00:50:09.007
+You have built a calculator application. Can you please deploy it?
+
+00:50:08.807 --> 00:50:10.807
+It's like running it.
+
+00:50:09.180 --> 00:50:11.180
+It's like running it.
+
+00:50:11.225 --> 00:50:13.225
+running it.
+
+00:50:11.326 --> 00:50:13.326
+running it.
+
+00:50:13.682 --> 00:50:15.682
+So, then what is hosting?
+
+00:50:14.241 --> 00:50:16.241
+So then, what is boosting? Hmm?
+
+00:50:18.194 --> 00:50:21.194
+Because I thought hosting was running the application, right?
+
+00:50:18.572 --> 00:50:21.572
+Because I thought hosting was running the application great.
+
+00:50:21.253 --> 00:50:24.253
+It's like distribute…
+
+00:50:21.619 --> 00:50:25.619
+It's like distribut… not distributing.
+
+00:50:24.895 --> 00:50:29.895
+Yes, you are kind of, like, maybe you are… you cannot catch the word, but…
+
+00:50:26.306 --> 00:50:30.306
+Yes, you're kind of, like, maybe you are… you cannot catch the word, but…
+
+00:50:29.767 --> 00:50:31.767
+I mean…
+
+00:50:30.436 --> 00:50:33.436
+I mean, distributing…
+
+00:50:32.492 --> 00:50:39.492
+Distributing… maybe not exactly distributing, but something close. What's the meaning I mean? Yeah, yeah. Like, for example, if I say,
+
+00:50:33.811 --> 00:50:37.811
+maybe not exactly distributing, but something closer. What's the meaning, I mean?
+
+00:50:40.025 --> 00:50:43.025
+So, like, right now, your application is in your laptop, right?
+
+00:50:40.843 --> 00:50:43.843
+Sreenick, right now, the application is in your vector point.
+
+00:50:43.728 --> 00:50:45.728
+Can you please deploy your application?
+
+00:50:44.007 --> 00:50:46.007
+Can you please deploy your application?
+
+00:50:45.679 --> 00:50:48.679
+So, what would you do? What would you understand from this?
+
+00:50:46.213 --> 00:50:49.213
+So what should we do? What could we do understand from this?
+
+00:50:51.409 --> 00:50:53.409
+Next.
+
+00:50:51.546 --> 00:50:54.546
+Next… like, I want to let…
+
+00:50:53.852 --> 00:50:56.852
+Look, I want to let others, Yanni.
+
+00:50:55.256 --> 00:51:01.256
+Is there any? Others access it? Yeah. Then what would you do for that?
+
+00:50:57.876 --> 00:50:59.876
+Yeah, there's X, is it? Yeah.
+
+00:50:59.962 --> 00:51:01.962
+then what would we do for that?
+
+00:51:01.893 --> 00:51:05.893
+You want your application to be accessible by others, so what do you do?
+
+00:51:02.251 --> 00:51:06.251
+I deploy you. You want your application to be accessible by others, so what do you want?
+
+00:51:07.157 --> 00:51:11.157
+For that. Yes, deploy, like, then deploy means?
+
+00:51:07.452 --> 00:51:11.452
+for the… Yes, deploy, like, the deploy means?
+
+00:51:12.113 --> 00:51:17.113
+You run your application where? In others. Like some other computer, right? Yeah. That is deployment.
+
+00:51:12.474 --> 00:51:17.474
+you run your application bit. And others. Yeah.
+
+00:51:17.818 --> 00:51:23.818
+Right? So you move your application from one place to another. This is what I meant when I told you, like, more than one laptop.
+
+00:51:18.672 --> 00:51:24.672
+to move your application from one place to another. This is what I meant when I told you, like, it's more than one laptop, right?
+
+00:51:25.105 --> 00:51:27.105
+Okay, okay. Okay. So…
+
+00:51:26.295 --> 00:51:28.295
+So…
+
+00:51:30.059 --> 00:51:34.059
+let's just second last, sort of, two more questions to me, but…
+
+00:51:31.064 --> 00:51:34.064
+Let's just second ask, sort of, two more questions.
+
+00:51:34.667 --> 00:51:36.667
+It's actually… it's one hour already.
+
+00:51:35.172 --> 00:51:37.172
+It's actually a one hour already.
+
+00:51:36.913 --> 00:51:38.913
+Already? I am asking.
+
+00:51:37.362 --> 00:51:39.362
+I'm asking.
+
+00:51:39.404 --> 00:51:41.404
+Uh, no, there's this time left.
+
+00:51:39.717 --> 00:51:41.717
+Interesting.
+
+00:51:41.642 --> 00:51:44.642
+But anyways, so let's quickly do it, right?
+
+00:51:43.031 --> 00:51:45.031
+So, let's quickly do it quick.
+
+00:51:46.066 --> 00:51:55.066
+So, what are you doing? You are trying to evaluate yourself in our overall? Yeah, because we don't have much time, that's why I was asking. I think 5-10 minutes might be the minimum.
+
+00:51:46.443 --> 00:51:54.443
+So, what do you… you're trying to evaluate your son, if this man over? No, no, because you said we don't have much time, that's why… that's why I was asking.
+
+00:51:54.989 --> 00:51:56.989
+Okay.
+
+00:51:55.045 --> 00:51:57.045
+Then we have Muslim text.
+
+00:51:57.049 --> 00:51:59.049
+So, uh…
+
+00:51:57.306 --> 00:51:59.306
+So, um…
+
+00:51:59.977 --> 00:52:03.977
+I was actually trying to ask you about CICD actually.
+
+00:52:00.127 --> 00:52:04.127
+Uh, I was actually trying to ask you about CICT.
+
+00:52:04.858 --> 00:52:07.858
+Yeah. So recently, you have been hearing a lot about CICT,
+
+00:52:04.908 --> 00:52:07.908
+Yeah. So, you said that you have been hearing a lot about CIC.
+
+00:52:08.609 --> 00:52:10.609
+Jenkins, uh…
+
+00:52:11.928 --> 00:52:13.928
+You know how good to play it.
+
+00:52:11.959 --> 00:52:14.959
+you know how to deploy an application, I think, manually.
+
+00:52:14.140 --> 00:52:16.140
+application, I think.
+
+00:52:16.075 --> 00:52:18.075
+And CICD…
+
+00:52:16.902 --> 00:52:18.902
+NCICD.
+
+00:52:18.812 --> 00:52:24.812
+What does CIZ actually do with the deployment? It has something to do with the deployment, what's that? Uh, it's like…
+
+00:52:19.525 --> 00:52:21.525
+What does CSG?
+
+00:52:22.613 --> 00:52:25.613
+It has something to do with the development, what's that?
+
+00:52:25.712 --> 00:52:27.712
+It's like…
+
+00:52:26.324 --> 00:52:29.324
+If you want to change or to update something.
+
+00:52:28.762 --> 00:52:31.762
+If you want to change or to update something,
+
+00:52:29.824 --> 00:52:31.824
+This is the way.
+
+00:52:32.233 --> 00:52:34.233
+This is the way, like…
+
+00:52:32.268 --> 00:52:34.268
+change or updates sometime.
+
+00:52:35.050 --> 00:52:37.050
+Yeah. Um…
+
+00:52:38.344 --> 00:52:42.344
+Like, if you want to, like, update.
+
+00:52:40.733 --> 00:52:43.733
+No changes, don't change the way. Like, if you want to, like, update
+
+00:52:42.792 --> 00:52:45.792
+something… like, if you are using virgin…
+
+00:52:43.914 --> 00:52:46.914
+something… look, if you are using Virgin…
+
+00:52:46.721 --> 00:52:48.721
+Like, if it's… I understand your point. So, for example, if you want to…
+
+00:52:47.706 --> 00:52:49.706
+Like, if it's…
+
+00:52:49.609 --> 00:52:55.609
+release a new version of your application, right? Yeah. But that you can do without CICD also. I have done it in front of me many times. By CSD.
+
+00:52:50.450 --> 00:52:56.450
+Yeah. But that you can move without CAC.
+
+00:52:57.115 --> 00:53:01.115
+Because you are very smart. I'm not registered.
+
+00:52:57.416 --> 00:53:01.416
+Because you are very smart and stuff.
+
+00:53:01.415 --> 00:53:06.415
+What is the LCV? Believe me, you are more smarter than me, because, uh, when I was…
+
+00:53:01.985 --> 00:53:05.985
+YCICB? Believe me, you are more smarter than me, because, uh, when I was…
+
+00:53:06.965 --> 00:53:10.965
+At your place, I knew nothing. I wish I knew something, but I was…
+
+00:53:07.353 --> 00:53:11.353
+at your place, I didn't nothing. I wish I knew something, but I wasn't…
+
+00:53:11.797 --> 00:53:14.797
+That's it.
+
+00:53:12.227 --> 00:53:14.227
+I knew nothing. I was a good problem solver, that's it.
+
+00:53:15.033 --> 00:53:23.033
+Nothing else. Like, here, I can do something more, but, you know, no, I couldn't. Logic… logic is here, more. If you can do something here,
+
+00:53:15.381 --> 00:53:23.381
+Like, here, I can do something more with you, no, I cannot. Because here, logic is here, more. If you can do something here…
+
+00:53:23.193 --> 00:53:27.193
+There's only something holding you back, but you are capable of doing everything.
+
+00:53:23.498 --> 00:53:27.498
+There's only something we can go back, but you are capable of doing everything.
+
+00:53:27.354 --> 00:53:30.354
+So, it's all about capability. You are capable,
+
+00:53:27.811 --> 00:53:30.811
+Okay. It's all about capability. You are capable,
+
+00:53:31.291 --> 00:53:37.291
+But for some reason, you didn't spend that much time, so that's why. Otherwise, uh… Or maybe we have done…
+
+00:53:31.377 --> 00:53:34.377
+But for some reason, you… you didn't spend that much time, so that's why.
+
+00:53:34.746 --> 00:53:39.746
+Otherwise, uh… Or maybe we have done… we have not done more, uh, projects, so…
+
+00:53:38.334 --> 00:53:40.334
+We have not done more projects, so…
+
+00:53:40.789 --> 00:53:43.789
+practicing it would be… Yeah, but relatively…
+
+00:53:40.994 --> 00:53:43.994
+practicing it would make a difference.
+
+00:53:43.770 --> 00:53:48.770
+We can compare relatively, right? Like, for example, if someone is able to, like, do everything,
+
+00:53:44.678 --> 00:53:47.678
+We can update everything through. For example, if someone is able to…
+
+00:53:49.173 --> 00:53:56.173
+So, imagine there's another person who's not from a computer science background,
+
+00:53:49.756 --> 00:53:59.756
+And not even from the computer science background, you are not from computer science background, right? So, imagine there's another person who's not from computer science background, and is able to understand everything, which means you have not done something right.
+
+00:53:56.357 --> 00:54:00.357
+And it's even focused on everything, which means you have not done something right.
+
+00:54:00.251 --> 00:54:03.251
+Maybe. Or it's not your fault, maybe?
+
+00:54:00.753 --> 00:54:03.753
+But it's not your fault, maybe?
+
+00:54:04.013 --> 00:54:09.013
+Because every person has a different way of understanding, and they cannot understand… they have different styles of learning.
+
+00:54:04.460 --> 00:54:09.460
+Because every person has a different way of understanding, and they cannot understand. They have different styles of learning.
+
+00:54:09.970 --> 00:54:11.970
+Yeah. It's not personal. Yeah. I agree with you.
+
+00:54:10.248 --> 00:54:12.248
+I agree with you.
+
+00:54:12.233 --> 00:54:16.233
+But actually, what can we do? Unfortunately, we have limited resources, so we just
+
+00:54:12.656 --> 00:54:16.656
+But actually, what can we do? Unfortunately, we have limited resources, so we just…
+
+00:54:17.101 --> 00:54:19.101
+We judge everyone by, can you please climb the tree?
+
+00:54:17.453 --> 00:54:19.453
+We touch everyone by, can you please climb the tree?
+
+00:54:19.834 --> 00:54:24.834
+Right, so… they're false. Anyways, so, uh, CIC, right?
+
+00:54:19.897 --> 00:54:22.897
+Anyways…
+
+00:54:23.123 --> 00:54:30.123
+So, excuse me, right? What is the benefit? What you see? Releasing new versions can also fit in an automatic, right?
+
+00:54:24.669 --> 00:54:29.669
+Uh, what is… what is the benefit? What you say? Releasing new versions can also be done manually, right?
+
+00:54:30.249 --> 00:54:32.249
+So, what does CICD do for us?
+
+00:54:30.566 --> 00:54:32.566
+So what does CACD do for us?
+
+00:54:32.583 --> 00:54:34.583
+Continuous integration, continuous delivery.
+
+00:54:32.769 --> 00:54:34.769
+Then disintegration continuously.
+
+00:54:38.455 --> 00:54:40.455
+Is it, like, related? A deployment.
+
+00:54:38.844 --> 00:54:40.844
+Is it, like, related to… Department.
+
+00:54:41.790 --> 00:54:43.790
+You know, I mean, like, uh…
+
+00:54:41.961 --> 00:54:43.961
+Yeah, you know, I mean, like, uh…
+
+00:54:44.466 --> 00:54:51.466
+another languages like VS, like this, yeah? Not languages, that's general… generally, general deployment, actually.
+
+00:54:45.357 --> 00:54:48.357
+not the languages like BS, like this, Yanni. Okay.
+
+00:54:49.113 --> 00:54:51.113
+Generally to tender requirement.
+
+00:54:53.111 --> 00:54:55.111
+We're trying, okay, let's move to AI agents.
+
+00:54:54.255 --> 00:54:59.255
+Very exciting. Let's move to AI agents. Uh, what do you think when you hear the word AI agents?
+
+00:54:55.893 --> 00:54:58.893
+So, you know. Uh, what do you think when you hear the word AI agents?
+
+00:54:59.022 --> 00:55:01.022
+Versus large language models.
+
+00:54:59.566 --> 00:55:01.566
+Versus large magnet portals.
+
+00:55:01.160 --> 00:55:05.160
+Like, for example, I want to ask you, what is the difference between a chat GPT?
+
+00:55:02.348 --> 00:55:05.348
+What is the difference between a chat GPT?
+
+00:55:05.232 --> 00:55:07.232
+and an AI agent.
+
+00:55:07.735 --> 00:55:11.735
+Yeah, an AI agent is, like, for example, using ChatGPT.
+
+00:55:07.976 --> 00:55:17.976
+Yeah, our agent is, like, for example, using ChatGPT or RAN. Yeah, nice, yeah. Not 100% correct, yes, then. Yeah, something that… it depends on what are you doing.
+
+00:55:11.815 --> 00:55:13.815
+Hold on. Yeah?
+
+00:55:14.508 --> 00:55:21.508
+Yeah, so something that… it depends on what are you doing exactly. Let's say if you use a strategy, and then what…
+
+00:55:18.024 --> 00:55:22.024
+Let's say it uses ChatGPT, and then what can it do?
+
+00:55:21.750 --> 00:55:23.750
+After it uses charging.
+
+00:55:22.742 --> 00:55:28.742
+After it uses ChatGPT. You just tell him what exactly should he do, even the way he thinks, the way he did, uh, giving…
+
+00:55:23.998 --> 00:55:28.998
+you just tell him what exactly should he do, even the way he thinks, the way he did, uh, giving…
+
+00:55:29.741 --> 00:55:31.741
+Can AI Agent pull your APIs?
+
+00:55:30.070 --> 00:55:32.070
+just, uh…
+
+00:55:32.091 --> 00:55:34.091
+Hmm? Can AI agent call…
+
+00:55:32.514 --> 00:55:34.514
+NEA agent bought it.
+
+00:55:34.765 --> 00:55:36.765
+an API, or read a file, or…
+
+00:55:35.212 --> 00:55:37.212
+an idiot, or read a file, or…
+
+00:55:37.749 --> 00:55:39.749
+do something else.
+
+00:55:38.315 --> 00:55:40.315
+do something else.
+
+00:55:40.652 --> 00:55:43.652
+Yeah, it can do, but depends on what have you told them to do.
+
+00:55:41.077 --> 00:55:44.077
+Yeah, it's kind of both depends on what have you told him to do.
+
+00:55:43.652 --> 00:55:45.652
+No, you're right.
+
+00:55:49.250 --> 00:55:53.250
+That I will tell you later, right?
+
+00:55:50.255 --> 00:55:53.255
+why there are, uh…
+
+00:55:54.476 --> 00:55:58.476
+But red doesn't mean, like, completely wrong, right? Like, partially, okay.
+
+00:55:55.433 --> 00:55:57.433
+a little fresh.
+
+00:55:57.628 --> 00:56:00.628
+Like, partially, okay. But they're little frets. Yeah.
+
+00:55:58.843 --> 00:56:03.843
+But they're little friends. Yeah, but thank you, Sunila. So, I will just, uh, save the transcript.
+
