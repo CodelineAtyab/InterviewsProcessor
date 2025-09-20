@@ -37,12 +37,16 @@ if __name__ == "__main__":
         Provide the output in the following format:
         [time] Q: Question 1?
         [time] A: Answer 1.
+        Result: Based on the Question and the Answer select one of "Correct", "Partially Correct" or "Incorrect"
+
         [time] Q: Question 2?
         [time] A: Answer 2.
+        Result: <put result here>
         etc ...
 
+        Answers can be wrong so don't assume they are correct.
         Identify all questions and answers, and format them accordingly.
-        Question and Answers can be summarized without missing important information.
+        Question and Answers can be summarized without missing important information and without correcting the answers.
         Here is the transcription:
         {content}
         """
@@ -50,7 +54,7 @@ if __name__ == "__main__":
         client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
         response = client.responses.create(
-            model="gpt-5",
+            model="gpt-5-mini",
             input=input_prompt
         )
         
