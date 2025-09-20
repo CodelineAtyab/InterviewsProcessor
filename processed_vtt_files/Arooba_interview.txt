@@ -1,0 +1,67 @@
+[00:02:05.568] Q: Given a list of numbers with repeats (e.g., 2, 3, 3, 3, 1, 6, 10), how can you scan the array item by item and eliminate repeating numbers?  
+[00:03:05.794] A: Use a collection of unique items (for example a set). Iterate the list with a for-loop; for each number check if it's not already in the set, then add it. At the end print the set (or unique list).  
+Result: Correct
+
+[00:05:43.074] Q: You have numbers from 1 to 10 but one number is missing. How would you identify which number is missing using a for loop?  
+[00:07:08.026] A: Generate the expected sequence (e.g., range 1 to 10) and compare each generated value with the given list. For each i in the range, check whether that i exists in the list (or compare corresponding positions); when you find a value that's not present you report it (e.g., "4 is missing").  
+Result: Correct
+
+[00:11:20.329] Q: In your digital twin/web app, how do UI and APIs work together? Is UI part of the API or separate? If you design from scratch, what is the high-level process?  
+[00:12:50.891] A: First build the backend in Python (write Python code and expose APIs, e.g., using a library like FastAPI). Put the UI (HTML/JavaScript/CSS) in a separate frontend folder. The frontend consumes the API endpoints exposed by the backend; UI and API are separate components that interact over HTTP.  
+Result: Correct
+
+[00:13:26.289] Q: If you build an anonymous feedback API using FastAPI, high level: how would you create it and what endpoints would you provide?  
+[00:13:56.165] A: Create endpoints to create feedback (POST) and to view/delete feedback. Implement backend logic in Python (FastAPI). Keep code in a repo (share to GitHub). Provide endpoints for generating/storing feedback and exposing them to the frontend.  
+Result: Partially Correct
+
+[00:14:36.846] Q: For a feedback application, what will you do first (high level)?  
+[00:14:41.497] A: Design and implement the backend in Python and create the frontend using HTML, JavaScript and CSS (separate backend and frontend folders).  
+Result: Correct
+
+[00:15:00.108] Q: Where do you put the UI files—inside backend code or somewhere else?  
+[00:15:06.672] A: Put UI files in a frontend folder (separate from the backend Python folder).  
+Result: Correct
+
+[00:15:42.175] Q: How will you deploy the application and how will you test it?  
+[00:15:50.523] A: Test the app in the browser via a URL. For deployment, containerize with Docker for convenience/portability; publish images (Docker Hub) so you can pull and run elsewhere. (She also mentions manual running and that Docker makes it easier.)  
+Result: Partially Correct
+
+[00:16:48.322] Q: Will you push backend and frontend code to GitHub?  
+[00:16:56.785] A: Maybe not — I (initially) said we don't need to push backend and frontend to GitHub.  
+Result: Incorrect
+
+[00:17:18.011] Q: Why use GitHub instead of Google Drive for a team working on the same application?  
+[00:17:42.280] A: Use GitHub because team members can work in separate branches; it avoids conflicts when multiple people change code and facilitates collaboration (branches, merges). Google Drive is possible but GitHub supports proper version control.  
+Result: Correct
+
+[00:18:42.835] Q: The app is on GitHub and you have a 24/7 server/VM that's empty. How would you move/deploy the application from GitHub to that VM?  
+[00:19:30.309] A: Connect to the VM via SSH (or use SCP). Then either copy-paste files or run git clone on the VM to pull the repo from GitHub.  
+Result: Correct
+
+[00:20:38.201] Q: After you have the app files on the server and a terminal open, how do you run the Python application on the server?  
+[00:21:01.959] A: Activate a Python virtual environment (venv), install dependencies, then run the Python application (e.g., python <app>).  
+Result: Correct
+
+[00:22:00.720] Q: Why use Docker instead of setting up and running the app manually on the server? What are Docker's benefits?  
+[00:22:03.126] A: Docker provides images and containers; containers are lightweight and portable so you don't need to install Python/venv and dependencies from scratch. Docker enables moving the app easily between machines, and Docker Compose can run multiple containers together, saving time and automating startup.  
+Result: Correct
+
+[00:23:46.118] Q: What is the benefit of creating a Python virtual environment (venv)? Why not work without it?  
+[00:23:57.976] A: A virtual environment isolates project dependencies so different projects can use different package versions without conflict (avoids version clashes between projects).  
+Result: Correct
+
+[00:24:58.267] Q: If you build a Docker image from your app, can you push it to Docker Hub and then pull and run it on another machine?  
+[00:25:15.999] A: Yes — push the image to Docker Hub, then pull it from another machine and run the container there.  
+Result: Correct
+
+[00:25:24.502] Q: What are the benefits of CI/CD? What does CI/CD automate and when does it run?  
+[00:25:26.904] A: CI/CD (continuous integration) automatically builds/tests when developers push code to GitHub. It runs build checks (e.g., tests, building Docker images) on pushes or pull requests via tools like Jenkins. It automates the build/test/deploy pipeline so problems are detected earlier. She also notes code review/approvals are still required and CI alone doesn't replace human code review.  
+Result: Partially Correct
+
+[00:31:01.800] Q: What are webhooks? How does GitHub notify Jenkins when code is pushed?  
+[00:31:25.006] A: A webhook is an HTTP callback: when an event (e.g., push) happens on GitHub it sends an HTTP notification to another service (like Jenkins) to trigger actions (e.g., start a CI build).  
+Result: Correct
+
+[00:32:33.269] Q: What is an AI agent and what can it do that ChatGPT cannot?  
+[00:32:43.947] A: An AI agent is an application that can make decisions and perform actions automatically (take actions in the environment). ChatGPT is a language model that generates text and cannot directly perform external actions; agents can act, not just produce text.  
+Result: Correct

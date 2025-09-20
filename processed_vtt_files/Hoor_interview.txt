@@ -1,0 +1,75 @@
+[00:01:02.445] Q: I want you to walk through your logic to count how many times each unique character appears in a string — how would you do that?
+[00:03:39.372] A: Treat the input as a string of alphabets, scan it and use counting: identify the unique characters present and for each character count its occurrences (e.g., using count or incrementing a counter as you scan), then print the character and its count.
+Result: Correct
+
+[00:01:45.697] Q: Why does some character appear just one time (how do you determine that)?
+[00:01:50.179] A: By scanning and counting occurrences for each character; if its count is 1 then it appears once.
+Result: Correct
+
+[00:03:55.211] Q: Do you want it to list only characters that are present (i.e., count only characters that actually appear) or consider the whole alphabet?
+[00:04:05.041] A: Count only the characters that are present — identify unique characters in the string and report their repetition counts; print results.
+Result: Correct
+
+[00:05:05.449] Q: How do you find the characters that are repeated — what is the concrete logic to decide that A (for example) is repeated?
+[00:05:08.798] A: Scan the whole string: for each character (e.g., A, then B, then C...) search the string and increment a counter when you see matches; after scanning you know each character's count.
+Result: Correct
+
+[00:10:45.235] Q: Given a list containing numbers from 1 to 10 with exactly one number missing, what logic would you use to find the missing number (no built-in helpers)?
+[00:11:50.627] A: Generate the full range (1–10) and compare with the input; examine differences/subtractions between expected and actual sequence (or use counting/length-based checks) to detect the gap.
+Result: Partially Correct
+
+[00:17:25.293] Q: For the character-frequency problem the desired output is the unique characters present (e.g., E, B, C, X, Z) — what logic will you use to produce that output?
+[00:17:17.185] A: Use counting — determine which characters are present and their counts, then print the unique characters that appear (ignoring ones not present).
+Result: Correct
+
+[00:18:46.444] Q: Is there any difference between a Python list and a tuple?
+[00:19:02.080] A: Yes — a list is mutable (you can append/change), while a tuple is immutable (you cannot append/change its contents).
+Result: Correct
+
+[00:20:15.893] Q: If you receive many sensor readings (e.g., 1,000 reports/sec), would you store them in a list or a dictionary?
+[00:21:17.810] A: Use a dictionary — it's better organized with keys like name/ID and suited when you want to look up by ID; so store readings keyed by device ID.
+Result: Partially Correct
+
+[00:22:55.900] Q: If a record arrives without an ID and storing into a dictionary would crash, how do you make the application resilient (what to do in the except block)?
+[00:25:25.702] A: Handle the exception and generate or assign a temporary/anonymous unique ID (e.g., create a generated ID) so the record can be stored without crashing; keep the application running.
+Result: Correct
+
+[00:27:30.241] Q: What is the benefit of creating a Python virtual environment for a project?
+[00:27:36.333] A: (Answer given) The virtual environment creates a new operating-system-like environment that helps with heavier testing and server information.
+Result: Incorrect
+
+[00:28:29.537] Q: What is the difference between a virtual machine and a Docker container?
+[00:28:34.442] A: A virtual machine is like a full operating system that uses more resources and takes longer to start; a container is lighter-weight, uses fewer resources (less RAM), and is faster to run on different machines.
+Result: Partially Correct
+
+[00:30:20.129] Q: How would you move a Python application from a Windows laptop to an Ubuntu laptop (you can choose the approach)?
+[00:31:01.265] A: Use SSH/WinSCP or push the code to GitHub from Windows and then clone (git clone) on the Ubuntu machine; then run/install as needed.
+Result: Correct
+
+[00:33:54.178] Q: Using Docker to ease deployment — what's the workflow to move/run the app from Windows to Ubuntu with Docker (assuming Docker installed)?
+[00:35:15.268] A: Create a Dockerfile for the app, build it into an image on the source machine, push the image to a registry (e.g., Docker Hub), then on the target Ubuntu machine pull the image and run the container.
+Result: Correct
+
+[00:36:43.168] Q: What is the relationship between a Dockerfile and a Docker image?
+[00:36:53.213] A: A Dockerfile contains build instructions; running docker build on that Dockerfile produces a Docker image; running the image creates a container.
+Result: Correct
+
+[00:38:52.348] Q: How do you move an image from Windows to Ubuntu (assume Docker on both)?
+[00:38:56.291] A: Push the built image to Docker Hub (or a registry) from Windows, then on Ubuntu pull the image from the registry and run it.
+Result: Correct
+
+[00:40:10.008] Q: What are the benefits of CI/CD versus manual deployment?
+[00:41:03.151] A: CI/CD automates building, testing, and deployments, making deployments easier, faster, and more reliable versus manual, time-consuming steps.
+Result: Correct
+
+[00:41:27.858] Q: Is the Git staging area related to branches — e.g., if you git add files (staged) then switch to a new branch and commit, what happens?
+[00:42:28.044] A: Files added (git add) go to the staging area; you can create/switch to a new branch and then commit — the commit takes the staged snapshot onto the branch you're on.
+Result: Correct
+
+[00:43:51.056] Q: What are the benefits of using a feature-branch workflow?
+[00:43:58.350] A: It reduces the chance of conflicts during development by isolating work; although conflicts can still occur when merging, it helps organize work and lower conflicts during development.
+Result: Correct
+
+[00:44:49.316] Q: What can an AI agent do that a plain large language model cannot?
+[00:44:54.448] A: An LLM mainly analyzes/answers; an AI agent can take actions (carry out processes or actions) beyond pure text response — it can execute steps or workflows.
+Result: Correct

@@ -1,0 +1,126 @@
+[00:01:31] Q: You have the numbers 1..10 with one number missing (example shown). How would Python tell which number is missing?
+[00:01:31] A: “Four.” (identified the missing number)
+Result: Partially Correct
+
+[00:01:38] Q: Given a sorted list of consecutive numbers with one missing, what logic would you use to find the missing number?
+[00:01:49] A: Compare adjacent numbers (difference between each is 1); when a gap of 2 appears, that indicates the missing number — compute the difference and convert to positive to identify the missing value.
+Result: Correct
+
+[00:03:12] Q: Same problem but the list is not sorted (numbers 1..10 shuffled with one missing). What logic would you use to find the missing number?
+[00:03:31] A: Use sums — compute the expected total for 1..n (e.g., 1..10 = 55) and subtract the sum of the given numbers; the difference is the missing number.
+Result: Correct
+
+[00:05:10] Q: Given an unsorted list of arbitrary numbers, how would you find the maximum number (without using built-in max)?
+[00:05:58] A: Iterate/scan through the list, keep a variable (e.g., max), compare each element to it and update that variable if you find a larger value; at the end that variable holds the maximum.
+Result: Correct
+
+[00:18:31] Q: For a simple calculator app that must store history (operation, timestamp), would you use a list or a dictionary and why?
+[00:19:35] A: Use a dictionary — it's more descriptive (you can store keyed/descriptive entries, e.g., keyed by timestamp) which helps when retrieving specific records.
+Result: Partially Correct
+
+[00:20:42] Q: If the app stores hundreds/thousands of calculations per minute (high volume), is storing continuously in a list faster than in a dictionary?
+[00:20:51] A: Initially uncertain; commented that lists and dictionaries are different and implied performance characteristics vary — not a definitive claim that list is faster.
+Result: Partially Correct
+
+[00:22:03] Q: Conceptually, what is a Python dictionary and how does it look (compared to a list)?
+[00:23:00] A: Attempted to contrast with a list and described it as more “descriptive”; wording was unclear and not a full formal definition.
+Result: Partially Correct
+
+[00:23:10] Q: How does a tuple look, and what is the difference between a list and a tuple?
+[00:23:16] A: A tuple uses round brackets and cannot be changed once defined (immutable), whereas a list can be changed (mutable).
+Result: Correct
+
+[00:24:49] Q: If the calculator app stores history in memory (dictionary) and the user exits the application, do they lose all history when they reopen the app?
+[00:25:07] A: Initially answered “No, you don't lose it” (then discussion was unclear about persistence vs code storage).
+Result: Incorrect
+
+[00:27:02] Q: Can you store an in-memory dictionary to a file in Python (so data persists)? Conceptually, how would you do that?
+[00:27:11] A: Yes — you can write it out to a file (e.g., TXT/JSON); conceptually suggested serializing and saving to a file so you can load it later.
+Result: Correct
+
+[00:28:48] Q: If you want to store application data (calculator history) in a database (e.g., MySQL), conceptually what components or steps do you need before storing?
+[00:29:08] A: Described database conceptually as a place to store and retrieve information (storage area), mentioned backups; did not detail concrete components (schema, connection, driver).
+Result: Partially Correct
+
+[00:31:18] Q: Is a database stored on hardware (HDD/SSD) or can it be elsewhere (cloud/laptop)? Where does one typically store it?
+[00:31:22] A: Said data can be stored anywhere (laptop disk, cloud, transferable to other places); preferred not to dive into hardware specifics.
+Result: Partially Correct
+
+[00:31:59] Q: Conceptually, how would you store a string/dictionary value from a Python script into a MySQL server? (What would you do inside Python, at a conceptual level?)
+[00:32:59] A: Unsure of exact commands; did not provide the conceptual sequence (connect, prepare statement/table, insert); answer was non-specific.
+Result: Incorrect
+
+[00:34:39] Q: What is the core difference between a client application and a server application?
+[00:34:59] A: The client is what users see/interact with (front-end); the server runs behind the scenes, providing services/data to clients.
+Result: Correct
+
+[00:35:32] Q: Can the server initiate the initial communication with a client, or does the client have to initiate?
+[00:35:44] A: Stated that the client generally initiates communication (server responds); server initiating on its own is not the usual initial flow.
+Result: Correct
+
+[00:36:58] Q: What is the difference between an API endpoint and a server application — how are they related?
+[00:37:35] A: The server is the application behind the scenes; an API is the access point/interface through which others reach the server’s functionality.
+Result: Correct
+
+[00:38:22] Q: What is an IP address? Do both client and server have IP addresses or only the server?
+[00:38:37] A: Initially mixed/confused, but ultimately acknowledged both client and server have IP addresses; earlier answers suggested only servers, then corrected.
+Result: Partially Correct
+
+[00:40:47] Q: What is the difference between a public IP and a private IP?
+[00:40:55] A: Public IP is accessible by anyone (publicly routable); private IP is not publicly accessible and is intended for internal/private networks.
+Result: Correct
+
+[00:40:49] Q: Is there a way to access a private IP from outside (from the public Internet)?
+[00:41:16] A: Said yes — implied you can if you know the addressing/ports (port forwarding/NAT was hinted at but not named explicitly).
+Result: Partially Correct
+
+[00:41:56] Q: What is the difference between an IP address and a port?
+[00:41:56] A: Did not give a clear distinction; answer was not provided in concrete terms.
+Result: Incorrect
+
+[00:42:49] Q: If you already have a server IP address, what is the benefit of having ports?
+[00:42:49] A: Ports let you access different services/endpoints on the same machine (you might need different access paths to reach different services).
+Result: Partially Correct
+
+[00:43:25] Q: In Git: is there a relationship between branches and commits? How do commits relate to branches?
+[00:43:49] A: Yes — files go to the staging area, then commit, and commits are associated with branches (commit -> staging -> repository/branch).
+Result: Correct
+
+[00:44:52] Q: What do we use GitHub for, and what is the difference between Git and GitHub?
+[00:44:57] A: GitHub is used to avoid losing code, enable team collaboration and remote storage; Git is the version-control tool and GitHub is a remote hosting/service built on top of Git.
+Result: Correct
+
+[00:46:19] Q: What is the benefit of a feature-branch workflow (create a branch per ticket, pull requests, code review) vs committing directly to main?
+[00:46:44] A: It provides checks and balances (code review), prevents direct merges to main, and helps team collaboration and safety before merging.
+Result: Correct
+
+[00:47:19] Q: What is the difference between a virtual machine (VM) and a container (Docker)?
+[00:47:25] A: Described containers as shareable images that let others run work elsewhere; answer was high-level and compared container registries to GitHub conceptually.
+Result: Partially Correct
+
+[00:48:00] Q: What is the difference between a Dockerfile, a Docker image, and a Docker container?
+[00:48:03] A: Mentioned that an image can run as a container and that images are reusable; did not clearly define Dockerfile as the recipe/build instructions.
+Result: Partially Correct
+
+[00:48:59] Q: From one image, can you run multiple containers (e.g., run 2, 3, 30 containers from the same image)?
+[00:48:59] A: Yes — you can run many containers from the same image.
+Result: Correct
+
+[00:49:10] Q: Why use Docker Compose when you already have Docker (why not just run individual docker commands)?
+[00:49:34] A: Docker Compose is a higher-level tool useful when you have multiple services/containers and more complexity — it helps orchestrate multi-container setups.
+Result: Correct
+
+[00:50:02] Q: If I ask you to deploy your calculator application so others can access it, what do you understand by “deploy” and how is that different from “hosting”?
+[00:50:11] A: Deploy means run the application somewhere others can reach it (move it from a local laptop to another machine); hosting was described conceptually as making it accessible (distribution); answers were close but high-level.
+Result: Partially Correct
+
+[00:52:00] Q: What is CI/CD’s role in deployment? How does CI/CD relate to releasing new versions (vs manual deployment)?
+[00:52:18] A: CI/CD automates build/test/deploy workflows so updates and releases can be done automatically and reliably rather than always by manual steps.
+Result: Partially Correct
+
+[00:54:55] Q: What is an AI agent versus a large language model like ChatGPT — how are they different and related?
+[00:55:07] A: An AI agent can use an LLM (e.g., ChatGPT) as a component and be instructed to act (call APIs, read files, perform tasks) depending on the agent’s design; capability depends on what you program the agent to do.
+Result: Partially Correct
+
+Notes:
+- Answers are summarized from Sohaila’s responses in the transcript and are preserved without correction; the Result field indicates whether each answer, as given, is technically correct, partially correct, or incorrect.

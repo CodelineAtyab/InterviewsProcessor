@@ -1,0 +1,55 @@
+[00:01:15.608] Q: If you pass list L = [1, 2, 3, 3] into the shown function and then print the list after calling the function, what will the print statement output?
+[00:01:54.091] A: It will be the full list.
+Result: Partially Correct
+
+[00:03:17.280] Q: Given an array of numbers, how would you reverse the numbers — what logic would you use?
+[00:03:51.863] A: Rearrange the list starting from the end using negative indices (start at -1, then -2, etc.), i.e., access elements from the back to build the reversed list (swap elements from ends).
+Result: Correct
+
+[00:04:55.302] Q: Programmatically, given A = 5 and B = 1, how would you make A = 1 and B = 5 (swap two numbers)?
+[00:05:39.277] A: If you do A = B then B = A you lose the original value. You should save A first (use a temporary variable, e.g., V = A), then set A = B and B = V — that preserves values and swaps them.
+Result: Correct
+
+[00:12:24.451] Q: You built a REST API — how would you test the API endpoints? What tools or approaches would you use?
+[00:14:41.181] A: Use scripts with the Python requests library to send GET/POST to the URL; run the app locally (e.g., in VS Code) and inspect responses in the terminal or browser. Also use tools like Postman to send GET/POST/PUT/DELETE requests.
+Result: Correct
+
+[00:17:17.343] Q: The browser by default sends GET requests — how can you send a POST request? What tools can send POST?
+[00:18:29.409] A: Yes, the browser can send POST (not only GET). You can use Python requests or Postman to send POST requests; Postman supports GET/POST/PUT/DELETE.
+Result: Correct
+
+[00:19:10.005] Q: If you run three FastAPI applications on the same machine, can they all run together at the same time — must each application have a unique port or can more than one use the same port?
+[00:20:15.225] A: They can have the same port.
+Result: Incorrect
+
+[00:21:00.435] Q: When sending a request to an API (what goes in the URL), what do you need to know to reach the app?
+[00:21:03.900] A: You need to know the host and the port — the IP address (public vs private) and the port so you can access the app.
+Result: Correct
+
+[00:23:32.268] Q: Who assigns private IP addresses to your computers? Also, is it possible for a device to have both a public and a private IP address?
+[00:23:41.574] A: (Couldn't name the assigning device — "D and S? I don't know.") Later said it is possible for a device to have both public and private IPs and described public visible on the internet versus private inside a network.
+Result: Partially Correct
+
+[00:25:15.077] Q: What is a host (in the context of client/server)? Is a host a client or a server?
+[00:25:24.699] A: A host is like a computer (my computer). Client and server are applications that run on hosts; both client and server are located on hosts.
+Result: Correct
+
+[00:28:36.531] Q: In Git, can you create a new feature branch that contains only some of the commits from main (not the full commit history)? How would that be done conceptually?
+[00:30:16.968] A: It's possible. Suggested approaches like specifying what to pull or specifying the point in main before creating the branch (not a concrete command, but said you can select a specific state/commit before branching).
+Result: Partially Correct
+
+[00:33:38.218] Q: What is the HEAD pointer in Git — what is its purpose?
+[00:33:56.995] A: No clear explanation was provided (did not clearly define HEAD or its purpose).
+Result: Incorrect
+
+[00:35:40.320] Q: For a FastAPI Python app (source files, requirements.txt), what should the Dockerfile do step-by-step to containerize the application (workflow, not exact commands)?
+[00:37:55.569] A: Suggested getting the latest update from GitHub (confused with CI), mentioned image vs container vs volume, and that Dockerfile/Docker Compose are involved — but did not give the typical Dockerfile step sequence (base image, copy files, install deps, expose port, run).
+Result: Partially Correct
+
+[00:39:09.958] Q: After building a Docker image for your FastAPI app and pushing it somewhere, how would you run the application on another Ubuntu machine — what are the next steps (high-level)?
+[00:40:10.139] A: Build the image, push it to a registry, on the other machine pull/take the image and run it (deploy and check it's running). Explanation was high-level/vague.
+Result: Partially Correct
+
+[00:41:39.657] Q: Can an AI agent call your FastAPI application (i.e., perform actions like calling your API)? How about an LLM?
+[00:42:05.143] A: Said AI agents cannot call the API but an LLM can (LLMs can write code and provide processes); characterized agents as for basic chatbot tasks and LLMs for more complex code tasks.
+Result: Incorrect

@@ -1,0 +1,75 @@
+[00:00:34.862] Q: You are developing a contact book application (add/remove/view contacts). Would you use a dictionary or a list to store the contacts, and how would you structure it?
+[00:01:02.971] A: I'd probably start with a dictionary because it gives you a key and values. The key could be the person's name (first + last) and the value would be their phone number, address, etc.
+Result: Correct
+
+[00:01:23.780] Q: If you used a list (e.g., a list of tuples) to keep adding contacts, what's the problem with using a list here?
+[00:01:35.542] A: A list would be less organized; searching is slower than a dictionary. With a list of tuples you'd have to scan items (contact number, common name, etc.), so it's slower for lookups.
+Result: Correct
+
+[00:02:36.157] Q: Suppose you must add millions of records (5–20 million). You have two programs: one uses a list, the other a dictionary. Which will work better for adding/storing a very large number of records?
+[00:02:49.965] A: I think if you're just copying data (bulk appending), a list would be faster because it just appends everything to the top; dictionaries have keys and values and involve more structure.
+Result: Partially Correct
+
+[00:03:15.306] Q: Many Python scripts include if __name__ == "__main__": — what's the benefit of that?
+[00:03:50.780] A: It ensures code under that check runs only when the file is executed as the main program (uses the file's __name__), not when the file is imported by another file.
+Result: Correct
+
+[00:04:34.425] Q: If file A.py and B.py both have code under if __name__ == "__main__": and you import B.py into A.py and try to run that code, should the guarded code in B run or not?
+[00:04:59.544] A: It shouldn't run — when imported, the module's __name__ is the module name (B), not "__main__", so the guarded block in B will not execute on import.
+Result: Correct
+
+[00:05:26.465] Q: Why use a Python virtual environment for a project instead of installing Python globally?
+[00:06:08.770] A: Virtual environments isolate projects so their dependencies and Python versions don't overlap — one project might need Python 3.2, another 3.4; using venv prevents conflicts and compatibility issues.
+Result: Correct
+
+[00:06:30.070] Q: What's the difference / relationship between a server application and an API endpoint?
+[00:06:45.203] A: An API is an exposed endpoint (interface) that allows others to use certain functions. It's provided by the server-side application; the client typically requests/consumes API endpoints rather than providing them.
+Result: Correct
+
+[00:07:41.910] Q: Do you remember Type 1 vs Type 2 hypervisors (and examples)?
+[00:07:47.329] A: I don't fully remember the details. (Then:) Type 2 hypervisors include Oracle VirtualBox.
+Result: Partially Correct
+
+[00:07:56.945] Q: Using VirtualBox (a Type 2 hypervisor), what are the logical steps to create a virtual machine to run Ubuntu?
+[00:08:08.382] A: Download and install Oracle VirtualBox, then download the Ubuntu ISO file and use it to create the VM (attach ISO and install).
+Result: Correct
+
+[00:08:30.886] Q: On Ubuntu many use bash scripts rather than Python for simple tasks. Why do people prefer bash scripts there?
+[00:08:46.625] A: Bash is available by default on Linux, it interfaces directly with the system, is convenient for simple file and system tasks, and is often perceived as faster/easier for those cases.
+Result: Correct
+
+[00:11:39.154] Q: If Bash is available, can a bash script install Python when Python isn't present?
+[00:11:46.329] A: Yes — you can use a bash script to install Python (and skip installation if Python is already present).
+Result: Correct
+
+[00:12:05.055] Q: In Git, what's the difference between creating a branch, the staging area, and committing? How are these related?
+[00:12:19.015] A: When you create a branch, Git doesn't automatically track/snapshot file changes. Adding files to the staging area tells Git what changed (what to include), and commit records those staged changes as a checkpoint in the repository history.
+Result: Partially Correct
+
+[00:12:56.873] Q: Why use a service like GitHub — can't you perform commits and branches locally without GitHub?
+[00:13:16.223] A: You can do all Git operations locally, but GitHub (or similar) lets you access the repo from different devices and share/collaborate with colleagues or multiple contributors.
+Result: Correct
+
+[00:13:32.155] Q: How is a Dockerfile related to an image and a container? Can you run multiple containers from the same image?
+[00:13:52.319] A: A Dockerfile defines steps to build a Docker image (a snapshot / layered artifact of the app). To run the app you create a container from the image. Yes — you can run many containers from the same image simultaneously.
+Result: Correct
+
+[00:14:24.747] Q: Why use Docker Compose when you could run containers without it?
+[00:14:39.523] A: Docker Compose helps build and run setups across different environments/OSes (so it can work on Linux, Windows, macOS); without it sometimes setups won't work consistently.
+Result: Partially Correct
+
+[00:15:04.734] Q: What does "deployment" mean to you — if I ask you to deploy the app, what comes to mind?
+[00:15:17.098] A: Hosting the application somewhere so it runs 24/7 and is accessible (publicly or to intended users).
+Result: Correct
+
+[00:15:48.148] Q: Is using Docker required to deploy an application, or can you deploy without Docker?
+[00:15:52.493] A: You can deploy without Docker, but having a Docker image generally makes deployment easier and faster.
+Result: Correct
+
+[00:15:59.994] Q: What are the benefits of automating deployments with CI/CD?
+[00:16:13.247] A: When you push updates (e.g., to GitHub), the CI/CD pipeline automatically takes the latest code, builds (e.g., creates a Docker image), and updates the running containers — saving time and automating releases.
+Result: Correct
+
+[00:16:37.658] Q: Given an array of integers, how would you write an algorithm to move all even numbers to the left and odd numbers to the right (explain the logic)?
+[00:17:02.593] A: Iterate each number, use modulus (%) to detect even/odd. For evens keep or append them to the left; for odds append to the right. If deletion isn't allowed, swap elements using a temporary variable (or maintain separate lists and combine).
+Result: Partially Correct

@@ -1,0 +1,87 @@
+[00:00:51.306] Q: You want to write a Python script that takes a list of numbers as input where numbers may repeat, but repeats are always consecutive. The goal is to compress repeated consecutive numbers (consider repeated runs only once). What would be your logic?
+[00:01:38.263] A: Loop through the list one by one, keep a variable holding the previous (old) value, maintain a new empty list, and on each iteration compare current value with the old one: if it's different, append it to the new list and update the old value; if it's the same, skip it.
+Result: Correct
+
+[00:04:09.126] Q: For a high-throughput multiplayer tic‑tac‑toe score service (e.g., thousands of players, ~100 records/sec), would you store incoming score records in a list or a dictionary (in-memory), and why?
+[00:05:34.791] A: I would use a dictionary. Lists are faster for appending (good for adding), but if you need to look up a specific score/record by key then dictionary (hash) is better for finds.
+Result: Correct
+
+[00:07:09.726] Q: Suppose B.py has an if __name__ == "__main__": block that sets ID = ... inside that block. A.py imports B (import B) and then tries to read B.ID. Would that work? If not, why not?
+[00:07:14.268] A: The import line will work, but when you import B the if __name__ == "__main__": block in B won't run, so ID defined only under that block won't exist on import; you won't see that variable when B is imported.
+Result: Correct
+
+[00:07:55.860] Q: Why use a Python virtual environment instead of just the system Python installed on C:?
+[00:08:10.155] A: Use a virtual environment per app because each app can have different dependencies and versions; virtualenv isolates app-specific packages so different apps can work smoothly without clashing versions.
+Result: Correct
+
+[00:08:59.826] Q: What is the relationship between a server application and an API endpoint?
+[00:09:27.349] A: A server can act as (or expose) APIs — it receives requests at API endpoints and handles them; the API endpoint is how clients make requests to the server.
+Result: Correct
+
+[00:11:03.624] Q: If I have a small script that exposes an API endpoint and accepts requests, should I call that script a server application?
+[00:11:12.563] A: No — even if it accepts requests, I wouldn't call that a server application.
+Result: Incorrect
+
+[00:11:24.959] Q: What is the difference between a client application and a server application?
+[00:11:39.398] A: The client sends requests to the server; the server receives requests and returns responses.
+Result: Correct
+
+[00:12:31.960] Q: If you store scores in memory and the application exits, how would you make the data persistent so it's not lost on restart?
+[00:12:47.601] A: One option is saving to a file (e.g., JSON) using file writes; for larger scale use a database for persistence.
+Result: Correct
+
+[00:13:31.026] Q: If a client wants to send a request to a server, what does the client need to know?
+[00:13:39.754] A: The client needs to know the domain or IP address (and the port/address) of the server.
+Result: Correct
+
+[00:13:45.533] Q: What is the relationship between an IP address and a port?
+[00:13:49.427] A: The IP address identifies the host (machine) and the port is like a door on that host for a particular service; IP = host, port = service endpoint.
+Result: Correct
+
+[00:14:13.918] Q: Can a server have more than one IP address (or multiple addresses on the same machine)? How about different interfaces, NAT/gateway, public vs local addresses?
+[00:14:31.900] A: Yes — a machine can have multiple IPs (e.g., Ethernet and Wi‑Fi interfaces, VPN addresses). There is also local gateway/private addresses and public IPs (NAT), so the same device can appear to have multiple addresses.
+Result: Correct
+
+[00:15:57.189] Q: What's the difference between dynamic and static IP addresses and why might a server prefer static?
+[00:16:02.938] A: Dynamic IPs can change over time; static IPs do not. Servers often prefer static IPs so clients can reliably reach the same address; dynamic allocation is used when address space is limited.
+Result: Correct
+
+[00:16:52.293] Q: In networking terms, what is a host?
+[00:17:16.098] A: A host is the machine that runs or hosts the application — essentially the server/machine that serves the application.
+Result: Correct
+
+[00:17:36.284] Q: What is the difference between a virtual machine and a Docker container?
+[00:17:55.464] A: A virtual machine virtualizes hardware and runs a full OS (heavier, uses more CPU/memory); containers virtualize at the OS level and are lightweight (share the host kernel), so you can run many containers per host.
+Result: Correct
+
+[00:19:31.271] Q: What is a hypervisor?
+[00:19:35.477] A: A hypervisor is the software layer (e.g., VirtualBox, Hyper‑V) that sits between the host OS and guest OS instances and enables creation and running of virtual machines.
+Result: Correct
+
+[00:20:46.593] Q: In Git, how do unstaged files, the staging area, commits, and branches relate?
+[00:21:19.306] A: Files not added are unstaged; git add moves them to the staging area (Git now tracks them); git commit takes a snapshot of the staged changes and records it in the repository (saved on the current branch); git log shows those commits on that branch.
+Result: Correct
+
+[00:22:20.219] Q: What is the benefit of a feature-branch workflow (each ticket/feature gets its own branch, PR and merge) when a team works together?
+[00:23:36.917] A: It lets team members work in isolation concurrently without waiting on others; each person can commit to their branch and later create PRs to merge into main, reducing blocking and helping manage conflicts.
+Result: Correct
+
+[00:25:14.257] Q: What is the difference between a Dockerfile, Docker image, and Docker container, and can you run multiple containers from the same image?
+[00:25:19.651] A: Dockerfile describes how to build an image; the image is the built artifact containing app and environment; a container is a running instance of an image. You can run multiple containers from the same image (e.g., using different ports).
+Result: Correct
+
+[00:26:36.584] Q: What is the benefit of Docker Compose for running related containers?
+[00:26:49.077] A: Docker Compose allows bringing up multiple related containers with one command (docker‑compose up), defining how they relate (e.g., backend, DB, frontend). You could run each manually, but Compose makes it easier and reproducible.
+Result: Correct
+
+[00:27:41.637] Q: In a PR workflow, what does a "squash merge" do?
+[00:28:06.643] A: Squash merge combines (squashes) multiple commits from a branch into a single commit when merging into the target branch, so the many interim commits become one.
+Result: Correct
+
+[00:28:46.994] Q: What are the benefits of having a CI/CD pipeline versus manual deployment?
+[00:29:03.156] A: CI/CD automates steps, reduces human errors, speeds up the process and saves time; it makes building, testing and deploying more reliable and repeatable.
+Result: Correct
+
+[00:29:45.185] Q: What is the relationship between a large language model (LLM) and an AI agent? What can an AI agent do that an LLM cannot?
+[00:29:59.098] A: An AI agent can take actions (act in environments, call APIs, run tasks) beyond just generating text; LLMs generate language but agents perform actions using tools/controls.
+Result: Correct

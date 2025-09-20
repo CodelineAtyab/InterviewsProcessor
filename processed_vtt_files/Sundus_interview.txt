@@ -1,0 +1,76 @@
+[00:01:04.038] Q: What would be the output of the print statement for this Python snippet (function called with a list of three numbers, some operation inside the function, then printing)?
+[00:02:21.533] A: It would append 100 (i.e., the function appends 100 to the list). You think L will be changed by doing this? Because we are passing L, do a .append — A will not change because append is done on A, and L append would be 200 not 100. (candidate expresses uncertainty and the idea that the append affects different variables)
+Result: Partially Correct
+
+[00:03:42.501] Q: For this variant: you have L = [1,2,3] and a function that inside does L = [1,2,3,4,5] then returns but the caller doesn't capture the return and then prints L — what will be printed?
+[00:06:35.698] A: (Candidate initially thought it would change, then after discussion) The output is 1, 2, 3. (Interviewer explains that reassigning L inside the function makes the local L point to the new list; the outer L remains [1,2,3].)
+Result: Correct
+
+[00:05:00.390] Q: Do you remember the difference between shallow copy and deep copy (and related concept of pass-by-reference / pass-by-assignment)?
+[00:06:02.998] A: Candidate mentions pass-by-reference / pass-by-assignment notions, and that passing L makes the inner name point to same memory; reassigning inside creates a new list. (Explained that reassigning L inside function changes the local pointer; modifications like append would affect same object.)
+Result: Partially Correct
+
+[00:07:46.223] Q: Imagine you build a feedback application using FastAPI: how would you design APIs to capture user feedback, show feedback, and delete feedback — what is your thought process?
+[00:08:07.647] A: The API will connect with the website/client; client sends feedback to API endpoint. I would save feedback into a text (TXT) file or logs; then to show feedback the API would read that file and return entries. Candidate suggests storing username/email with the feedback so individual feedback can be identified.
+Result: Partially Correct
+
+[00:09:04.596] Q: Given feedbacks are stored in a TXT file, how would your endpoint implement "give me only my feedback" — what steps would the function take to find and return the user's feedback?
+[00:11:51.780] A: The API would read/analyze the text file line by line, look for the username or ID in each record, and return only matching feedback. Candidate suggests storing email/ID with each entry and parsing lines to separate user and message, possibly converting to a dictionary structure for lookup.
+Result: Partially Correct
+
+[00:13:00.003] Q: How should each feedback record look inside the TXT file so your code can separate user from message reliably? (e.g., "Atiya, this is my feedback" — how do you parse and identify the user uniquely?)
+[00:13:58.760] A: Candidate suggests including an ID or username field per record (e.g., id, message), storing records in a structured way (like a dictionary/list), and then loading/parsing those strings into Python structures to extract the message for a given ID.
+Result: Correct
+
+[00:18:51.689] Q: In Python, given a line in a file that contains "username, message" as text, how can you separate the user from the message when you read it as a string?
+[00:19:58.394] A: Parse/process the string (e.g., split on a delimiter like comma), or store structured data (ID and message) and convert / load into a dict to retrieve the message by key.
+Result: Correct
+
+[00:19:40.970] Q: What is the difference between a list, a tuple, and a dictionary (in terms of mutability and ordering)?
+[00:20:40.970] A: Candidate: tuple is ordered and immutable; list is (candidate said unordered / cannot change — confusing); dictionary is unordered (candidate initially said unordered but later alternates). Overall candidate shows confusion but knows tuples immutable.
+Result: Partially Correct
+
+[00:22:51.524] Q: Besides storing feedback in a file, what other options do you have to store data?
+[00:23:17.852] A: Use a database (e.g., SQL / MySQL) to store feedback and enable updates, deletes, etc.
+Result: Correct
+
+[00:23:41.122] Q: What is the difference between SQL and a database?
+[00:24:40.327] A: Candidate explains SQL is the language/tool to interact with the database — to create, insert, update, delete, and manage data; the database (server) is where data is stored (e.g., MySQL).
+Result: Correct
+
+[00:25:28.042] Q: How would you containerize this application? What would a Dockerfile look like at a high level (the instructions you would put in it)?
+[00:25:47.170] A: Candidate says use an image to create a container, use Dockerfile to configure and run code; mentions Dockerfile is used to run code in container and images are used to make containers. (Explanations are vague and mix concepts.)
+Result: Partially Correct
+
+[00:26:58.753] Q: What is the relationship between a Dockerfile and an image?
+[00:27:26.597] A: Candidate: Dockerfile "uses" an image / Dockerfile tells Docker to do things; images are used to run containers. (This is imprecise: Dockerfile is used to build an image by giving build instructions; candidate didn’t clearly state that.)
+Result: Partially Correct
+
+[00:28:42.049] Q: If you think of Dockerfile as instructions for a virtual machine, what should the Dockerfile tell Docker to do for this app?
+[00:28:43.533] A: Candidate says Dockerfile will tell Docker to save the feedback file and configure/run the app — generally to set up the environment and run the application. (High-level idea present, but not concrete steps like FROM, COPY, RUN, CMD/ENTRYPOINT.)
+Result: Partially Correct
+
+[00:29:06.308] Q: What is a commit in Git?
+[00:29:09.447] A: A commit is to save the changes.
+Result: Correct
+
+[00:29:15.945] Q: Why create a feature branch instead of pushing everything to main?
+[00:29:29.340] A: To isolate changes so you don't affect main — work on the feature without causing issues to the main branch.
+Result: Correct
+
+[00:30:38.604] Q: If you worked in one branch and accidentally merged two tickets (A and B) into it, but you need to create a pull request only for ticket A, how would you handle that?
+[00:30:44.966] A: Candidate suggests options like git reset or git revert, creating a new branch for B, creating branches from main or from A, and moving/removing commits so that one PR contains only A. The explanation is fragmented (mentions resetting loses work, reverting, creating new branch and reparenting commits).
+Result: Partially Correct
+
+[00:34:22.953] Q: What is the staging area in Git? If you git status and see many files in red, are they staged? What does git commit include?
+[00:34:35.410] A: Candidate: adding a file puts it in the staging area; git commit includes only files that were staged (the staged area content).
+Result: Correct
+
+[00:36:01.663] Q: Given you have built and tested a Docker image on one machine (Windows), how would you run the same application on another machine (Linux) — what are the steps to deploy without CI/CD? How can CI/CD help?
+[00:37:15.135] A: Candidate: You can SSH to the server, git clone, docker build and run the container on the target machine. CI/CD would automate building, testing, and deployment so you don't run manual commands each time. Candidate mentions CI automatically tests code; CD deploys. Explanation is general and somewhat vague but correct in concept.
+Result: Partially Correct
+
+[00:39:11.012] Q: What is SSH and why do we use it? What is the benefit of using SSH?
+[00:39:17.036] A: SSH is a secure protocol for remote connections; you use it to run commands on a remote machine securely (encrypted connection, remote management).
+Result: Correct
+

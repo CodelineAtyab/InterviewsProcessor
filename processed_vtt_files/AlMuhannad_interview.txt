@@ -1,0 +1,151 @@
+[00:01:31.532] Q: Given a list of numbers (3,7,9,5,10,6), what logic would you use to find the maximum number if you cannot use the built-in max?
+[00:01:39.068] A: First I could use a.max (built-in), but if not allowed I'd iterate with a for-loop, keep a variable holding the current maximum (start with first element like 3), compare each next element to it, and update that variable when a larger number is found (skip when not larger). 
+Result: Correct
+
+[00:02:35.702] Q: If you want to print all of the numbers in a list, how would you do that?
+[00:02:39.363] A: Use a for-loop to iterate and print each number; instead of printing you can compare successive elements to find maxima, etc.
+Result: Correct
+
+[00:03:57.644] Q: Do you remember what __name__ == '__main__' is for in Python?
+[00:04:18.832] A: Yes — it’s used to mark a file as the main script; code under that condition runs when the file is executed directly, so you use it to control what starts first in an application with multiple modules.
+Result: Correct
+
+[00:05:05.289] Q: If B.py has code under if __name__ == '__main__': (e.g., setting a variable there), and A.py imports B, then in A after import b, would accessing b.name work?
+[00:05:44.844] A: Yes — it will work because you import B (assuming same directory).
+Result: Incorrect
+
+[00:06:54.229] Q: If you run A.py directly and A.py contains if __name__ == '__main__':, will that condition be true?
+[00:07:04.259] A: Yes — running A.py directly makes that condition true.
+Result: Correct
+
+[00:07:21.919] Q: If you run only A.py and A.py imports B.py, will the if __name__ == '__main__' block inside B.py be true when imported by A.py?
+[00:07:45.901] A: Yes — I stick with that; it will work even though B.py wasn't run directly.
+Result: Incorrect
+
+[00:08:17.431] Q: What is the difference between a Python list and a tuple?
+[00:08:35.549] A: A list is immutable and a tuple is immutable (you can define a tuple once and can't change it; lists you can change).
+Result: Incorrect
+
+[00:08:57.837] Q: Is a Python dictionary mutable or immutable?
+[00:09:16.254] A: (Implicit in discussion) The interviewee implies dictionary can be modified and used to store values; later examples treat dictionaries as changeable.
+Result: Partially Correct
+
+[00:09:34.346] Q: If you loop over a dictionary (not printing keys explicitly), will it print items in order or can order be different compared to a list?
+[00:10:10.563] A: A list prints in order; a dictionary can print out of order (not guaranteed to be in sequence).
+Result: Incorrect
+
+[00:10:32.374] Q: For storing incoming complaints in-memory (no DB or files), would you prefer a list or a dictionary to store records (name + complaint)?
+[00:11:24.528] A: Prefer a dictionary because you can store name and complaint keyed by something (but recognizes name can repeat and cause override issues).
+Result: Partially Correct
+
+[00:11:40.858] Q: Is there a way to store complaints in a dictionary without overriding when the same name repeats?
+[00:11:52.782] A: Yes — use sets.
+Result: Incorrect
+
+[00:12:11.838] Q: Since name is not unique, what strategy can you use to make dictionary keys unique so complaints don't override?
+[00:13:40.560] A: Use a UUID (from Python's uuid library) to generate a unique string (e.g., uuid4) and use that as the key.
+Result: Correct
+
+[00:14:38.554] Q: If you use UUID as the key, how would you store the name and complaint (what would be the value)?
+[00:14:49.695] A: Make the UUID the key and store the name and complaint as the value (for example put name and message inside the dictionary value associated with that UUID).
+Result: Correct
+
+[00:15:18.773] Q: How would you define/insert a dictionary record that contains UUID, name and complaint — how to structure and add this record?
+[00:15:51.491] A: Use a dictionary, use the UUID as the key, and set the value to contain name and complaint; then add this entry to the dict (conceptually via an add/assignment).
+Result: Partially Correct
+
+[00:18:12.405] Q: Why do we create a Python virtual environment when Python is already installed system-wide?
+[00:19:20.997] A: Because different applications may need different library versions; virtual environments let you install specific versions and avoid messing up system/global libraries.
+Result: Correct
+
+[00:19:56.301] Q: If complaints are stored only in a list/dictionary in memory, what happens when the application exits and how do you ensure data is not lost?
+[00:20:30.724] A: Data in memory is lost on exit; to persist it you should write to a file (or otherwise persist) — preferably write immediately on each complaint so you don’t lose data.
+Result: Correct
+
+[00:21:30.553] Q: Can you give an example where code throws an exception and explain the benefit of handling exceptions?
+[00:21:40.458] A: Example: trying to access a folder that doesn't exist throws an exception; handling it lets you see the error and prevent application crash, and you can also take corrective action (e.g., create the folder) instead of crashing.
+Result: Correct
+
+[00:23:24.987] Q: If typing python in command prompt returns "command not found", how do you fix it?
+[00:23:41.262] A: Add Python's install folder to the system PATH environment variable (system environment variables) so the command prompt can find python.exe.
+Result: Correct
+
+[00:24:40.937] Q: If PATH is set but python still doesn't run, what else could be wrong?
+[00:25:13.222] A: Possibly the python.exe file isn't actually present in the specified folder (i.e., the executable isn't there).
+Result: Correct
+
+[00:25:34.504] Q: What is an IP address?
+[00:25:46.899] A: It's like a name for a device — a unique address for each device.
+Result: Correct
+
+[00:26:23.741] Q: What is the difference between a client application and a server application?
+[00:26:36.517] A: A client sends requests and the server responds to those requests.
+Result: Correct
+
+[00:26:40.466] Q: Do both client and server machines have IP addresses?
+[00:26:46.674] A: Yes — both need IP addresses.
+Result: Correct
+
+[00:27:01.536] Q: When a client wants to send a request to a server application, what information must the client know?
+[00:27:09.877] A: The client's must know the server IP address and the port (and the path/endpoint).
+Result: Correct
+
+[00:27:19.725] Q: How do ports help you reach the correct application on a server?
+[00:27:55.775] A: You configure the application to listen on a specific port (e.g., 8000); then the client uses ip:port and the endpoint path to reach that particular application/function.
+Result: Correct
+
+[00:28:21.152] Q: Is it possible for more than one application on the same machine to use the same port?
+[00:28:49.244] A: Yes — multiple applications on the same machine can use the same port; port uniqueness is not required.
+Result: Incorrect
+
+[00:30:12.060] Q: If you put an IP address in a URL but the request times out, name one possible reason.
+[00:30:22.954] A: Possibly the client and server are not on the same network (so they cannot reach each other).
+Result: Partially Correct
+
+[00:30:47.320] Q: What is the difference between a public IP address and a private IP address?
+[00:30:57.320] A: Private IPs are assigned within a local network (via DHCP) for devices; public IPs come from the ISP. You can't reach a private IP directly from the public internet without NAT/port-forwarding.
+Result: Partially Correct
+
+[00:32:00.814] Q: Is DHCP a single tool or is it a client/server mechanism — how does DHCP relate to DNS?
+[00:32:32.003] A: DHCP distributes IP addresses (DHCP is responsible for handing out IPs); DNS converts domain names to IP addresses — they are different functions.
+Result: Partially Correct
+
+[00:32:58.254] Q: How is a Docker container different from a virtual machine?
+[00:33:09.047] A: VMs virtualize hardware and provide full guest OS instances via a hypervisor; Docker containers are lightweight, virtualize the OS-level environment, use images and are faster and smaller.
+Result: Correct
+
+[00:33:44.613] Q: Can you run multiple containers from the same image?
+[00:33:46.941] A: Yes.
+Result: Correct
+
+[00:34:00.868] Q: Which virtualizes hardware and which virtualizes the operating system: virtual machines or containers?
+[00:34:03.940] A: Virtual machines virtualize the hardware; containers virtualize the operating system/environment.
+Result: Correct
+
+[00:34:51.851] Q: How does a branch relate to commits in Git — are commits dependent on branches or independent?
+[00:35:02.022] A: A branch is created (e.g., from main) and is a line of development; a commit is a save point; commits are tied to the branch (commit history is on the branch).
+Result: Correct
+
+[00:35:29.820] Q: What is the staging area in Git?
+[00:35:32.235] A: Files added with git add go to the staging area before committing.
+Result: Correct
+
+[00:36:03.695] Q: If you mistakenly made two tasks (T1 and T2) commits on feature branch F1 but they should be on separate branches (F1 and F2), how would you fix it (without losing work)?
+[00:36:40.286] A: One approach: copy the T2-related changes elsewhere, remove them from F1, commit and push F1; then create F2 and apply T2 there. A better approach: create a temporary branch from F1 (so you have both commits backed up), then remove T2 from F1 (or create F2 from a specific commit using git log and checkout a commit) so each branch contains only its intended commits.
+Result: Correct
+
+[00:39:59.104] Q: For manual deployment, how would you move/run the same complaint API from your Windows machine to a Linux machine (without Docker or with your chosen approach)?
+[00:40:23.741] A: Use SSH/WinSCP to copy files or git clone on the Linux machine; ensure Python is present or use Docker (build image, push to Docker Hub, pull and run on target) — these are viable options.
+Result: Correct
+
+[00:41:11.381] Q: What’s the difference between a large language model (LLM) and an AI agent?
+[00:41:29.007] A: An LLM is a generative text model (for producing text). An AI agent is an automation/workflow that can orchestrate LLMs (and other tools) to perform tasks within an application (multiple agents/workflows cooperating).
+Result: Correct
+
+[00:41:47.992] Q: Can an AI agent write to a file?
+[00:41:47.992] A: Yes — of course.
+Result: Correct
+
+[00:41:59.779] Q: Is there benefit to using CI/CD instead of manual SSH-based deployment?
+[00:42:14.390] A: Yes — CI/CD automates the manual deployment steps so you don't have to perform them by hand.
+Result: Correct

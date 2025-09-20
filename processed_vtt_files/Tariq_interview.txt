@@ -1,0 +1,51 @@
+[00:00:35.829] Q: Suppose there's an input string made of letters A–Z and underscores. Discuss a logic that processes the string and generates a list/sequence of numbers (example expected output shown as 1326). How would you approach this problem (explain concept; Python implementation optional)?
+[00:03:16.631] A: Clarifies the mapping idea (A=1, Z=26, underscore=0) but says it's not just a simple alphabetical mapping — there is a sequence/pattern to infer from examples. Proposes exploring chunking/adjacent-sum patterns and discusses that outputs like AA -> 1, AB -> 3 suggest a grouping/aggregation rule rather than direct per-character mapping. Suggests ignoring some characters and summing adjacent values in a variable way as a possible approach.
+Result: Partially Correct
+
+[00:06:44.065] Q: Given examples (AA -> 1; AB -> 3; BAB -> 3; longer examples including Z and underscores) can you reason out the underlying pattern and describe the rule that transforms the string into numbers?
+[00:08:49.121] A: Works through examples, proposes that the algorithm involves grouping characters: for characters with value n (e.g., B=2) you "keep" or group n characters together; underscores treated as 0 and Z as 26. Describes a variable-length chunking strategy where the amount of characters taken or skipped depends on character values, and demonstrates with several sample strings.
+Result: Partially Correct
+
+[00:10:51.825] Q: (Follow-up / clarification) If a character has value 2, do you keep two characters; if 1, keep one; and so on — can you formalize that chunking into a reproducible algorithm?
+[00:11:00.946] A: Confirms that idea: for a character with numeric value n you group/keep the next n characters; thus chunk sizes depend on the character value. Presents that as the working logic he would explain or implement.
+Result: Partially Correct
+
+[00:12:24.835] Q: Now shifting topic — given a simple note-taking application (users can sign up, create/read/update/delete notes; exposes an API) and a small team (2–3 people), how would you plan the project from planning through development, MVP release, and ensuring future feature additions are easy and the product remains stable and scalable (include CICD, deployment, monitoring thoughts)?
+[00:14:17.169] A: Start by clarifying requirements and target users (estimates 10–50). Choose a stack such as Python with FastAPI. Create a GitHub repo, set code owners and branch rules. Split features (create/read/update/delete) among team members and build an MVP with a limited feature set (e.g., create/delete/read). Test APIs with Postman. Containerize with Docker (Dockerfile / docker-compose) and include a database (SQL) if needed. Push images to Docker Hub. Set up CI/CD (Jenkins) to build and push images and deploy on merges to main. Use a branch workflow and semantic versioning to manage releases. For on-prem production VM, run Jenkins and use port-forwarding or a Cloudflare tunnel. Replicate pipelines in a staging/test environment. Add monitoring and AIOps ideas (log monitoring, agent-assisted rollbacks with human-in-the-loop). For accidental local merges to main, create a branch from current main to preserve commits and reset main to the previous commit.
+Result: Correct
+
+[00:19:41.216] Q: What is your strategy for building/pushing Docker images? When should developers push images and how do you handle versioning?
+[00:20:21.639] A: Push images depending on feature scope: small/patch changes can use patch/minor tags, major/backwards-incompatible changes bump major version. Use semantic versioning (e.g., 0.0.1 → 0.1.0 → 1.0.0) and include app name + version in image tags. Build/push images as part of CI when changes require a new image.
+Result: Correct
+
+[00:22:32.202] Q: The client provides a single Ubuntu machine on-prem for production. Is one machine sufficient? Do you need a similar machine for testing/staging or can developers use local VMs for testing?
+[00:22:46.434] A: For a small user base (~10 users), one machine is sufficient for production. Developers can use local VMs for testing. Request sample data types from the client (rather than real customer data) to do representative testing. If scale grows later, add more machines.
+Result: Correct
+
+[00:26:04.555] Q: You have images on Docker Hub and a VM for production — what are your next deployment steps? How do you perform CI and CD on the provided VM (no external cloud)?
+[00:26:21.669] A: Install Jenkins on the VM, create CI pipelines that clone the repo on merges to main, run builds/tests, build Docker images, push to Docker Hub, and then perform CD steps to pull and run updated images on the production VM. Expose Jenkins via port-forwarding or a Cloudflare tunnel if it must be accessed remotely.
+Result: Correct
+
+[00:28:46.900] Q: Should you replicate Jenkins and the deployment setup for staging/testing or is manual testing sufficient?
+[00:29:01.083] A: Recommends replicating the setup (a synced/staging Jenkins and environment) so failures can be caught before affecting production. Replication helps catch pipeline or deployment issues before they hit prod.
+Result: Correct
+
+[00:30:16.942] Q: A developer accidentally merged commits directly into main from their local machine (against rules). How can they fix this (preserve their work and restore main to the correct state)?
+[00:30:28.262] A: Advise creating a branch from the current main (to preserve the accidental commits), e.g., git checkout -b feature-branch, then reset main to the previous good commit (or restore from the appropriate commit), so main is cleaned while the preserved branch holds the changes for proper review/merge.
+Result: Correct
+
+[00:31:30.695] Q: Is HTTP secure compared to HTTPS? What is the core difference between HTTP and HTTPS and what does a certificate provide?
+[00:31:33.465] A: Says HTTP is plaintext/unsecured; HTTPS uses TLS certificates and public/private key cryptography. The server provides a certificate containing the public key; the private key is kept secret on the server. The public key is used in establishing encrypted communication.
+Result: Partially Correct
+
+[00:33:45.318] Q: How does SSH compare to HTTPS/TLS? Is SSH the same mechanism, and does SSH use certificates or something else (what is the fingerprint shown on first connection)?
+[00:34:11.389] A: Notes SSH uses key pairs and host keys. The fingerprint shown on first connection is a hash (fingerprint) of the host key (derived from the public key) used to verify the host. Explains you can verify the fingerprint manually; because SSH typically relies on host keys rather than CA-signed certificates, the fingerprint is how the client verifies the server identity on first contact.
+Result: Partially Correct
+
+[00:37:22.604] Q: Any ideas on using AI agents in this product or for operations (AIOps)? Can agents help beyond just logs?
+[00:37:52.170] A: Proposes multiple uses: an AI agent feature to fetch and surface notes (user-facing), and AIOps uses such as log monitoring, automated rollback to previous versions upon detecting failures (with a human-in-the-loop confirmation to avoid erroneous rollbacks). Also suggests agents can monitor uptime and suggest or perform remediation.
+Result: Correct
+
+[00:18:22.129] Q: (Testing detail) Will you write tests / how will you test the API (unit/integration/manual tools)?
+[00:18:27.190] A: Tests via Postman for API validation and manual testing; implies automated tests can be part of CI but emphasizes Postman for initial verification.
+Result: Partially Correct

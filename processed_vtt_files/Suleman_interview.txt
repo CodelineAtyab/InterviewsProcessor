@@ -1,0 +1,55 @@
+[00:00:04.972] Q: You already know the basics of everything that we have covered, right?
+[00:00:07.514] A: Do I? Yeah — Python, networking, Linux, Git, Docker deployment, whatnot. Conceptually, yes.
+Result: Correct
+
+[00:01:03.079] Q: Given a list of numbers, what's your logic to find the minimum number from this list?
+[00:01:07.019] A: Initialize a min variable to a very large value (or infinity), iterate through the list, and whenever you find a value smaller than the current min set min to that value; continue until the end and return the min (which would be 1 for the example).
+Result: Correct
+
+[00:04:41.190] Q: You have a compressed string format like "A2 2 1 B3 C1" and you need to convert it back to the original string — what's your logic to decompress it?
+[00:05:14.780] A: Iterate through the string taking pairs (character then number), check that the second char is numeric, convert that to a number, and repeat the character that many times to rebuild the original. (Noted ambiguity: this simple pair approach fails if counts are multi-digit, e.g., "A11".)
+Result: Partially Correct
+
+[00:08:07.357] Q: If you have to compress the list so it can later be decompressed easily (no spaces allowed), what encoding/logic would you use?
+[00:08:31.730] A: Encode as character and number using a delimiter (e.g., "char:number") and separate entries with another separator (commas). If the delimiter itself can appear in data, use escape sequences (backslash) to escape the delimiter so decompression is unambiguous.
+Result: Correct
+
+[00:16:45.558] Q: When opening a file that might not exist, is it better to pre-check file existence or to use try/except? Which approach and why?
+[00:16:55.397] A: Prefer try/except (EAFP). The code can still fail to read the file due to race conditions or external factors (antivirus, rename, move), so catching the exception and handling it is safer than pre-checking alone.
+Result: Correct
+
+[00:18:44.060] Q: What's the core difference between a virtual machine and a container (Docker)?
+[00:18:52.346] A: A VM is like running another full laptop inside your laptop (heavyweight, full OS). A Docker container is a lightweight way to package and deploy applications without the overhead of a full OS — fewer resources and less background services.
+Result: Correct
+
+[00:20:24.471] Q: If you mistakenly committed Task 2 on the feature branch F1 (which should have only Task 1 commits), how do you fix it so F1 has only T1?
+[00:20:49.479] A: Check git logs, find the commit hash of the last T1 commit, then use that commit hash to create a branch or reset appropriately. You can make a new branch from the correct commit hash so F1 ends up containing only the intended commits.
+Result: Correct
+
+[00:22:41.544] Q: After separating T1, how do you extract/push just the T2 commits so F2 has only T2 (without T1)?
+[00:23:26.399] A: Use the commit hashes/head pointers to select the correct range — you can create a new branch that points to the desired commit range, or manually merge/cherry-pick the three T2 commits onto a new branch (using head offsets or commit hashes).
+Result: Correct
+
+[00:24:43.401] Q: In Docker Compose, is it possible to run the same image multiple times under different services?
+[00:26:53.201] A: Yes. You can define multiple services that reference the same image (e.g., nginx) and run multiple containers; bind them to different host ports so they can run concurrently.
+Result: Correct
+
+[00:27:22.417] Q: What's the difference between using Docker Compose vs manually spinning up containers with multiple terminals?
+[00:27:40.062] A: Docker Compose lets you define and run multiple containers together in one configuration, automating startup and configuration. It also creates a network so containers can communicate internally; it's more convenient and reproducible than manual docker run commands in separate terminals.
+Result: Correct
+
+[00:28:31.240] Q: If you run three containers separately (not using Docker Compose), can they communicate with each other?
+[00:28:33.385] A: I believe they can — they should be able to communicate (e.g., via network/ports).
+Result: Partially Correct
+
+[00:29:45.270] Q: How are AI agents different from a large language model?
+[00:30:03.615] A: An AI agent can actually execute actions (perform tasks), not just generate text like an LLM.
+Result: Partially Correct
+
+[00:30:37.226] Q: How would you define a webhook?
+[00:31:04.959] A: A webhook is like a reverse API — the server sends requests to clients (server acts as client) to notify them or trigger actions.
+Result: Correct
+
+[00:31:29.424] Q: What is CI/CD and how does it benefit developers?
+[00:31:37.224] A: CI/CD stands for Continuous Integration and (he said) Continuous Development — it automates building and deploying new versions so you don't have to manually push to GitHub and Docker; tools like Jenkins automate the pipeline to update deployments.
+Result: Partially Correct

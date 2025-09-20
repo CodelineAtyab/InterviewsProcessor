@@ -1,71 +1,80 @@
-[00:01:38.167] Q: What would be your logic to generate this kind of sequence (0, 1, 1, 2, 3, 5, 8, 13, 21...) given that you already have 0 and 1?
-[00:01:50.796] A: Use a loop: keep two variables (A=0, B=1), generate the next as A+B, then shift (A becomes B, B becomes A+B), and repeat/print until you reach the required count.
+[00:00:07.700] Q: Are you surviving? The most important thing — how's your back / how are you doing?
+[00:00:09.500] A: Maybe I'm in an advantage; I just want to get done with it — I'm surviving.
 Result: Correct
 
-[00:05:59.735] Q: Given a list (e.g. [2,3,4,1,6,1,3]) and a target 5, what is your logic to figure out which two numbers you can add to get 5 and print them as soon as you find them?
-[00:08:53.668] A: Scan the list with an index i (for i in range(len(L)-1)), check if L[i] + L[i+1] == target, and when true print L[i] and L[i+1].
+[00:01:37.809] Q: When we show planning poker numbers (0, 1, 1, 2, 3, 5, 8, 13, 21…), given the first two numbers (0 and 1), what would be your logic to generate this sequence?
+[00:02:12.392] A: Use two starting variables (A = 0, B = 1). Run a loop for the desired number of terms; compute the next value as A + B, print it, then shift the variables forward (A becomes previous B, B becomes the newly computed value). Repeat until done.
+Result: Correct
+
+[00:05:59.435] Q: Given a list like [2, 3, 4, 1, 6, 1, 3] and target = 5, what logic would you use to find which two numbers add to 5 (and print them as soon as found)?
+[00:07:33.152] A: Scan the list with an index-based loop (for i in range(len(L)-1)), compare each element with the next (L[i] + L[i+1] == target). If they match, print L[i] and L[i+1].
 Result: Partially Correct
-Explanation: The candidate proposes checking adjacent pairs which will find adjacent matching pairs (and does match the given example pairs 2+3 and 4+1), but this approach misses non-adjacent pairs in the general two-sum problem.
+- Explanation: This finds adjacent pairs (works for the provided examples 2+3 and 4+1) but would miss non-adjacent pairs; a general two-sum requires checking all pairs or using a hash-set/map.
 
-[00:14:50.452] Q: If you store incoming feedbacks in a Python dictionary while the app runs and then exit the application and re-run it, will the dictionary data still be there?
-[00:17:32.642] A: No — the in-memory dictionary will disappear when the Python process exits; when you rerun the script the data will be gone unless persisted externally.
-Result: Correct
-
-[00:15:04.761] Q: For storing many feedback strings (and possibly username/email), would you choose a list or a dictionary and why?
-[00:15:57.148] A: Use a dictionary so you can store key–value pairs (e.g., username/email as key and feedback as value); it's more suitable for structured data.
-Result: Correct
-
-[00:20:39.368] Q: What can you do to make the feedback data persistent so it is not lost across application restarts? (Better than an in-memory dict)
-[00:22:03.214] A: Save to a file (serialize/load on startup) — persist the dictionary to disk and load it when the app starts; alternative is to use proper storage (database) or Docker volumes for containers.
-Result: Correct
-
-[00:22:40.218] Q: Is using a database a better solution than plain files for persistence (considering crashes/power outages)?
-[00:23:31.384] A: Yes — use a database (SQL or other). A database is a server application that runs separately and will persist and serve data to clients reliably.
-Result: Correct
-
-[00:24:24.238] Q: When we talk client vs server, what is the difference? And is it possible for a server to initiate a request to a client?
-[00:25:26.981] A: The client sends requests and the server fulfills them. By default servers respond to requests, but servers can also initiate outgoing interactions (e.g., via webhooks) — hybrid behaviors exist.
+[00:14:50.177] Q: For a high-traffic anonymous feedback app (feedbacks are strings, possibly with username/email), would you store incoming feedbacks in a list or a dictionary — which would you choose and why?
+[00:15:57.148] A: Use a dictionary so you can store key-value pairs (e.g., id → feedback, plus username/email), since you are storing structured data rather than only values.
 Result: Partially Correct
-Explanation: The candidate initially treats servers only as responders but correctly recognizes that servers can make outgoing requests/notifications (webhooks/other services) though the explanation was a bit inconsistent.
+- Explanation: Using a dictionary keyed by a unique id is reasonable; however, for high-throughput persistent storage a database or append-friendly store is typically appropriate. A list could suffice for simple append-only logs; choice depends on access patterns and persistence needs.
 
-[00:26:36.251] Q: What is a webhook and how is it different from a regular API endpoint?
-[00:26:49.405] A: An API endpoint is for clients to request data from a service; a webhook lets a service proactively send (POST) event notifications to another service — effectively a "reverse" API (server-to-server callbacks).
+[00:17:21.080] Q: If you store feedbacks in an in-memory dictionary and exit the Python application, then restart it, will the data still be there?
+[00:17:32.642] A: No — in-memory dictionary data disappears on exit. You need to persist the data (e.g., save to a file, use volumes when containerizing, or a database) to keep it across restarts.
 Result: Correct
 
-[00:29:35.355] Q: In Python you often see if __name__ == "__main__": — what does that do, when is it true/false?
-[00:30:12.003] A: (No substantive answer given / candidate did not explain; said they recognized it but did not provide the semantics.)
+[00:22:14.439] Q: Is there a better solution than writing to a file (to avoid corruption on power loss and ensure data is in a correct state)?
+[00:22:59.516] A: Use a database (e.g., SQL database) rather than just files; a DB is a server application that provides better durability and ACID-like guarantees.
+Result: Correct
+
+[00:25:17.274] Q: What is the difference between a client application and a server application? Is it possible for a server to initiate a request to a client?
+[00:25:26.981] A: The client makes requests and the server fulfills them. By nature servers usually respond, but a server can also initiate interactions in hybrid setups (e.g., using webhooks/notifications) — so server-initiated behavior is possible with the right mechanisms.
+Result: Partially Correct
+- Explanation: Good nuance — typically servers respond, but they can also make outbound requests (or push) via webhooks, sockets, push services, etc.
+
+[00:26:37.978] Q: What is a webhook (how does it differ conceptually from an API)?
+[00:26:55.277] A: A webhook is a way to let a server send an HTTP request (a callback) to another service when events happen — it enables the server to notify external systems (e.g., GitHub triggers Docker/CI on repo changes). It's effectively a reverse-style communication compared to the usual client-initiated API call.
+Result: Correct
+
+[00:29:37.867] Q: You see the Python idiom if __name__ == "__main__" often — what does it do; when is it true/false (e.g., if you run a.py)?
+[00:29:54.621] A: (No clear/complete answer given; discussion moved on.)
 Result: Incorrect
+- Explanation: There was no substantive answer provided. The correct behavior: __name__ == "__main__" is true when the module is executed as the main program; false when the module is imported.
 
-[00:30:30.773] Q: What is the relationship between an IP address and a port? Why do people specify IP:port (e.g., :8080 or :443)?
-[00:31:58.307] A: The IP identifies the machine/network endpoint; the port identifies which service/process on that machine. Many applications can run on one IP but use different ports to differentiate services.
+[00:30:30.773] Q: What is the relationship between an IP address and a port?
+[00:30:40.233] A: The IP address identifies a machine/network endpoint; the port identifies a specific service or application on that machine. A server can run multiple applications using different ports.
 Result: Correct
 
-[00:32:06.736] Q: Can multiple applications on the same machine use the same IP and the same port?
-[00:32:17.295] A: A machine can have multiple IPs (e.g., multiple NICs or VMs); multiple applications can share an IP but must use different ports — you cannot have two processes listening on the same port on the same IP.
+[00:31:14.908] Q: What's the difference between public and private networks/IPs?
+[00:31:21.503] A: Public addresses are accessible to everyone (on the public Internet); private addresses are not publicly routable (used inside private networks).
 Result: Correct
 
-[00:34:13.772] Q: What is Git vs GitHub; what is a version control system (VCS)?
-[00:34:40.519] A: Git is a version control system; GitHub is a hosted/cloud service for storing Git repositories and collaborating (push/pull, remote storage).
+[00:32:42.767] Q: Can a machine have more than one IP address (e.g., multiple interfaces, VMs)?
+[00:32:48.226] A: Yes — machines can have multiple IPs (multiple network interfaces, virtual machines/containers appear with separate addresses).
 Result: Correct
 
-[00:35:17.705] Q: If two team members work on the same branch and both try to push to main, how are conflicts handled?
-[00:35:26.174] A: The first push succeeds; the second pusher will see a conflict and needs to git pull to get the latest changes, resolve merge conflicts, then commit and push again.
+[00:34:13.772] Q: What is a version control system? Is Git a VCS? What about GitHub?
+[00:34:40.519] A: Git is a version control system. GitHub is a cloud hosting/service for Git repositories (stores code remotely).
+Result: Partially Correct
+- Explanation: The candidate initially conflated Git and GitHub but ultimately identified Git as the VCS and GitHub as cloud hosting — that is correct.
+
+[00:35:17.705] Q: If two team members work on the same branch and both try to push to main, how is the conflict handled?
+[00:35:26.174] A: The first push succeeds. The second pusher will get a conflict/error, must git pull to get the latest updates, resolve conflicts locally, then commit and push again.
 Result: Correct
 
-[00:36:30.332] Q: In Docker: how do Dockerfile, image, and container relate to each other? Can you run multiple containers from the same image?
-[00:36:42.110] A: Dockerfile defines build steps; the image is the built blueprint including dependencies and versions; a container is a running instance based on that image. Yes, you can run multiple containers from the same image.
+[00:36:30.332] Q: In Docker, what's the relationship between Dockerfile, image, and container?
+[00:36:48.243] A: A Dockerfile defines how to build an image (blueprint including base OS, language/runtime, dependencies, versions). The image is the built artifact; the container is a running instance of that image.
 Result: Correct
 
-[00:37:37.019] Q: Can you run two containers from the same image using the same host port mapping (i.e., hostPort:containerPort identical for both)?
-[00:38:16.320] A: You can run multiple containers from the same image, but host ports must be unique; map each container to a different host port (e.g., host:8080 -> container:8888 and host:8081 -> container:8888).
+[00:37:37.019] Q: Can you run more than one container from the same image, and can they use the same ports?
+[00:37:56.278] A: You can run multiple containers from the same image. Containers can have the same internal port, but when publishing to the host you must map to different host ports (host:container port mapping); thus multiple containers can run if host ports differ.
 Result: Correct
 
-[00:39:36.603] Q: Do you see any benefit of having a CI/CD pipeline?
-[00:39:39.678] A: Yes — CI/CD automates builds/tests/deployments; it automates project workflows so you don't manually run many commands.
+[00:39:36.603] Q: Do you see any benefit of having a CI/CD pipeline? What is the benefit?
+[00:39:39.678] A: Yes — CI/CD automates build, test, and deployment steps, reducing manual work and enabling reliable automated workflows.
 Result: Correct
 
-[00:40:08.142] Q: How is a large language model (LLM) different from an AI agent — what can an agent do that an LLM cannot?
-[00:40:28.483] A: An AI agent can perform actions (execute repetitive tasks, call APIs, interact with systems) whereas an LLM mainly generates text/instructions; agents can orchestrate and act using tools while LLMs alone don't perform external actions.
+[00:40:08.142] Q: How does a large language model (LLM) differ from an AI agent? What can an AI agent do that an LLM cannot?
+[00:40:28.483] A: AI agents can perform actions and repetitive tasks (execute workflows, call APIs, take side effects). An LLM mainly generates text/decisions/instructions but by itself doesn't carry out actions; agents combine LLM reasoning with executors to act.
 Result: Correct
 
-Note: I summarized each detected question by Atyab and Ahmed's corresponding responses. Some small clarifying back-and-forths and prompts (e.g., "Take your time", "Can you write that?") were not treated as formal Q/A.
+[00:40:59.276] Q: (Closing) Should I leave the meeting / stop recording?
+[00:41:05.025] A: Yes — stop the recording; save the transcript.
+Result: Correct

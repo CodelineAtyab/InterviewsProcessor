@@ -1,0 +1,39 @@
+[00:00:53] Q: Given a list/area of numbers, replace every number with its square (e.g., 5 → 25). How would you do that in Python?
+[00:01:05] A: You can use loops or lists or anything you like; discuss the logic or write some code — use loops/lists to process elements.
+Result: Partially Correct
+
+[00:02:56] Q: How would you use loops to process each element and replace it in the existing list (update in-place, not create a new list)?
+[00:03:17] A: (No concrete in-place method given — replied "No issues" and repeated willingness to proceed; earlier mentioned loops/lists but did not show an in-place index/assignment approach.)
+Result: Partially Correct
+
+[00:03:30] Q: You're building a student management system. To store students (ID, name, age, etc.), would you prefer a dictionary or a list, and why?
+[00:04:10] A: Initially said "dictionary," then discussed alternatives (list of tuples) and ultimately said they prefer using a list for details because "we can change the list."
+Result: Partially Correct
+
+[00:05:23] Q: If you store student records in memory (a list) and then rerun the application, the data is lost. How would you make the data persistent so that it remains after restarting the app? What strategy to save/load (save on exit vs save on each insert)?
+[00:06:29] A: You need to save the data to storage (suggested saving to a file or table/DataFrame). Recommended saving step-by-step (save after each add). To reload, open the saved file and call a function to read the data back into the program.
+Result: Partially Correct
+
+[00:10:59] Q: Concretely, how do you write a string (e.g., "Hello World") to a file in Python? What does the code look like?
+[00:11:56] A: Described opening the file manually or via CMD / editor (open code) and editing it; did not describe programmatic file open/write functions or the open(..., 'w')/write() pattern.
+Result: Incorrect
+
+[00:12:56] Q: What is the difference between a client application and a server application? Can a server (e.g., Google) initiate a request to a client, or does the client always initiate?
+[00:13:09] A: A server serves clients (example: Google is a server, you are a client). The client initiates the request to the server. Stated the server cannot initiate a request to the client; was unsure about webhooks.
+Result: Partially Correct
+
+[00:14:20] Q: What is an IP address? What is the relationship between an IP address and a port? Can more than one application on the same machine use the same port?
+[00:14:31] A: Described an IP as an address/identifier for each device (like a serial number). Said the port differentiates services and that two systems can have the same IP while ports differ. Also stated more than one application on the same machine can use the same port.
+Result: Partially Correct
+
+[00:16:18] Q: What is a virtual machine and how does it differ from a Docker container?
+[00:16:29] A: Described using VirtualBox/VMs to run full OS images (Windows/Linux). Said containers run projects without downloading a whole OS image, are lighter and faster; Docker (Dockerfile, Compose) is easier/quicker than installing full OS images.
+Result: Correct
+
+[00:18:36] Q: What is a branch in Git and how does a branch relate to commits?
+[00:18:46] A: Said branches are multiple working lines (with one main branch). Stated that a commit is like the staging area (implying commit and staging are the same).
+Result: Incorrect
+
+[00:19:29] Q: What is an AI agent versus an LLM (e.g., difference between an AI agent and ChatGPT / an LLM)?
+[00:19:52] A: Gave an unclear/fragmented reply (suggested you can create an AI-agent like ChatGPT but did not define differences or explain agent orchestration vs LLM).
+Result: Incorrect

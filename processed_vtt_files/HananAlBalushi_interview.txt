@@ -1,0 +1,95 @@
+[00:00:33.829] Q: This is a list of numbers — I want to find the minimum number from this list. What would be your logic for that?
+[00:01:00.423] A: Assume the first element is the minimum, loop through the list comparing each element; when you find a smaller value reassign the minimum variable; continue until the end of the list.
+Result: Correct
+
+[00:01:30.121] Q: For example, will you start from here (the first element) and then update as you find smaller values?
+[00:01:35.746] A: Yes — you start assuming the first is min, then see 3 becomes min, then later 1 becomes the min, and so on.
+Result: Correct
+
+[00:01:57.183] Q: Designing a student management system in Python to store ~500 students: would you store students in a list or a dictionary, and why?
+[00:02:31.238] A: Better to use a dictionary — assign each student a unique ID and access that student by key; it will be easier to access.
+Result: Correct
+
+[00:02:58.256] Q: Changed scenario — attendance records from many sensors added daily (many inserts). Would you keep attendance records in a list or a dictionary? Which data structure would you prefer for fast insertion and frequent records?
+[00:05:11.189] A: Maybe a dictionary or maybe a list — dictionaries make access by key easy, but if inserting super fast sometimes a list could be considered; with a dictionary you need to check/insert by key, whereas with a list you might need to search from start to end for lookups. (Discusses trade-offs between list append and dictionary key checks.)
+Result: Partially Correct
+
+[00:06:34.814] Q: What is the difference between a client application and a server application?
+[00:07:10.792] A: Client application is what the user uses (e.g., on their laptop); the server is the backend that the client talks to — communication can be client-to-server and server-to-client roles.
+Result: Correct
+
+[00:07:44.725] Q: Can a server initiate communication, or does the client always initiate? (Which one initiates?)
+[00:07:34.746] A: It can be client-to-server; also server-to-client roles exist — communication can be initiated in either direction depending on the setup.
+Result: Partially Correct
+
+[00:08:11.225] Q: What is the connection between a server application and an API endpoint?
+[00:08:22.496] A: An API endpoint is where requests reach the server (e.g., login endpoint). The client calls an endpoint and the server handles that endpoint.
+Result: Correct
+
+[00:08:49.272] Q: Can we have more than one API endpoint on a server, or just one?
+[00:09:07.931] A: Yes — you can have more than one API endpoint.
+Result: Correct
+
+[00:09:14.865] Q: If there are no API endpoints, would you still call it a server application?
+[00:09:47.115] A: I think there should be an endpoint — implying a server application typically exposes endpoints.
+Result: Partially Correct
+
+[00:10:01.314] Q: Do you see benefits of using environment variables when deploying applications (e.g., to handle differences between Windows and Linux)?
+[00:10:46.314] A: Yes — changing environments is possible because we have environment variables; they help with environment-specific configuration when deploying.
+Result: Correct
+
+[00:11:42.003] Q: If I set an environment variable like JAVA_HOME on Windows where three apps (Python, Java, C#) run, can all three applications access that same environment variable?
+[00:12:37.874] A: Yes — if they read the environment they can access that variable.
+Result: Correct
+
+[00:12:51.108] Q: What is the benefit of having a Python virtual environment?
+[00:13:10.108] A: Virtual environments isolate dependencies per project (e.g., different projects can use different versions); you can install packages per-virtualenv.
+Result: Correct
+
+[00:13:30.969] Q: If you already have Windows and want to install Ubuntu, how would you do that (conceptually)?
+[00:13:33.410] A: Use a virtual machine / VirtualBox and download the Ubuntu ISO, create a VM and install from the ISO.
+Result: Correct
+
+[00:14:13.032] Q: When you create a virtual machine, are you virtualizing hardware or the operating system? What is the difference between a Docker container and a virtual machine?
+[00:15:36.592] A: A virtual machine virtualizes hardware (you allocate RAM, virtual network, etc.); Docker containers do not virtualize hardware — they are more OS-dependent and share the host OS.
+Result: Correct
+
+[00:15:54.266] Q: What is the relationship between a Dockerfile, a Docker image, and a Docker container?
+[00:16:13.312] A: Dockerfile contains instructions to build an image; building the Dockerfile produces a Docker image (a blueprint with code and dependencies); a container is used to run that image.
+Result: Correct
+
+[00:16:52.712] Q: Can you run more than one container from the same image, or is it one-to-one?
+[00:17:28.164] A: Yes — you can run multiple containers from the same image (e.g., run docker run multiple times for the same image).
+Result: Correct
+
+[00:18:08.474] Q: What is the purpose of Docker Compose?
+[00:18:12.617] A: Docker Compose runs multiple containers together (e.g., app and database), sets up connections/networks between them and manages their configuration so they work as a group.
+Result: Correct
+
+[00:19:33.717] Q: If I run containers separately with docker run and set ports, can containers still talk to each other without Docker Compose?
+[00:19:42.072] A: Yes, but you will need extra work — Compose automates creating networks and linking containers; without it you must configure networking manually.
+Result: Correct
+
+[00:20:14.291] Q: What is a branch in Git, and how is the branch related to the staging area and a commit?
+[00:20:44.208] A: A branch isolates work (so changes won't conflict with main). The staging area holds files you've modified and added (git add) — snapshots to include in the next commit. A commit captures the staged changes; commits belong to the branch.
+Result: Correct
+
+[00:21:35.828] Q: When you modify files, do they automatically go to the staging area?
+[00:22:00.560] A: No — changes do not go to the staging area automatically; you must use git add to place changes into staging.
+Result: Correct
+
+[00:22:11.476] Q: If I run git commit, does the commit capture all changes or only the staging area?
+[00:22:23.553] A: Git commit captures the changes that are in the staging area (the ones you added).
+Result: Correct
+
+[00:23:26.263] Q: What is deployment (conceptually), and what does it mean to deploy an application?
+[00:23:32.427] A: Deployment is making your application accessible to others — moving it from development to a production environment where it can be accessed.
+Result: Correct
+
+[00:25:22.829] Q: What does CI/CD (continuous integration/continuous delivery) do?
+[00:25:29.213] A: CI/CD tests changes — it gives confidence/trust that when changes are integrated the project still works properly (automated testing and integration).
+Result: Partially Correct
+
+[00:26:56.033] Q: What is an AI agent and how is it different from a Large Language Model (LLM)?
+[00:27:30.691] A: An AI agent is a customized AI that is built using models (LLMs) to do a specific task; agents can act (e.g., call APIs or functions) while an LLM alone just generates text — agents add tooling and autonomy on top of LLMs.
+Result: Partially Correct

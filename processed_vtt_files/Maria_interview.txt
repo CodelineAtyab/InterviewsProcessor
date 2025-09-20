@@ -1,0 +1,95 @@
+[00:02:36.794] Q: Think about the logic with the dictionary to count unique characters and how many times each character appears in a string. How would you store it and update the counts?  
+[00:05:11.794] A: Use a dictionary where each character is a key and its count is the value. Start counts at 0 when you first see a character; on subsequent occurrences check "if character in dictionary" and increment the stored value (e.g., value = value + 1).  
+Result: Correct
+
+[00:09:59.488] Q: Reverse the string (so last char appears first, etc.) without using Python slicing (e.g., s[::-1]). How would you do it programmatically?  
+[00:13:32.412] A: Create a new container (list or string) and iterate from the last index to the first (using negative indexes or a reversed range), appending each character into the new container (or building a new string) so the last character becomes first, etc.  
+Result: Partially Correct
+
+[00:20:16.020] Q: Scenario: you made three commits for a task but accidentally pushed them to main. Without losing the work, how do you move those commits into a feature branch and create a pull request?  
+[00:21:44.746] A: Identify the commits belonging to the task, create a new branch from main (or create temporary branches from each commit), preserve those commits on branches (e.g., create branches like temp1/temp2/temp3 from the commits), reset main (e.g., git reset --hard) to remove the commits from main, then merge/assemble the task commits into the correct feature branch and push that branch to create a PR. Also suggested creating a new feature branch from main that contains the desired commits and push that.  
+Result: Partially Correct
+
+[00:25:43.910] Q: Scenario: on a feature branch you accidentally committed two separate tasks (T1 and T2) but haven't pushed. How do you fix this so each task is in its own branch / PR?  
+[00:26:40.301] A: Copy out the code for the second task to another location (or rename files), create a new branch for task 2, add/commit the task-2 files there and push; on the original branch remove/rename the task-2 files (git rm or rename + git add/commit) so the original branch only contains task 1.  
+Result: Partially Correct
+
+[00:29:42.798] Q: Why do people use databases instead of plain files for storing data? What are your thoughts?  
+[00:29:57.920] A: Databases are on a server with a fixed address so anyone can access them remotely; databases allow shared access from anywhere, while a file in a project is only visible to those who have the file. Databases can store more and are managed; files are local.  
+Result: Partially Correct
+
+[00:33:38.211] Q: If you have game score data stored in a file (e.g., CSV/TXT) and a client asks “How many times did user X win?”, how would you find that information (high-level, in Python)?  
+[00:34:07.802] A: Read the file and write a script to parse each record, filter for the user, and count occurrences or sum scores—i.e., process the file line by line and calculate the required metric.  
+Result: Correct
+
+[00:34:50.137] Q: If the same data is stored in a database, can you retrieve the required info with SQL instead of custom code? For example, select count/score with a WHERE clause?  
+[00:35:46.492] A: Yes — use SQL queries like SELECT COUNT(...) or other aggregations with WHERE to get the required results. (Also mentioned using SQLite or pandas depending on context.)  
+Result: Correct
+
+[00:36:14.677] Q: If data is stored in a file/CSV and you want only the last two columns displayed in Python (high level), how would you do that?  
+[00:36:43.561] A: Load the file into a data frame (e.g., pandas) and select the last two columns, or read and parse each line and pick the appropriate fields.  
+Result: Correct
+
+[00:40:12.826] Q: What is the difference between a server application and a client application?  
+[00:40:21.093] A: A client sends requests and the server responds.  
+Result: Correct
+
+[00:41:24.420] Q: Can a server send a request (i.e., is it possible for a server to initiate requests)?  
+[00:41:32.062] A: Yes — servers can send requests; they can act as initiators in some contexts.  
+Result: Partially Correct
+
+[00:41:41.642] Q: What is a host? How does host differ from server/client? If a laptop is disconnected from the internet, is it still a host?  
+[00:42:06.609] A: A host is any device connected to a network with an IP; if a laptop is disconnected it’s not a host on that network. Hosting an application means running the application (the host runs services).  
+Result: Partially Correct
+
+[00:44:02.241] Q: For a client to send a request to a server, must the client know the server's IP address?  
+[00:44:39.464] A: Yes — the client needs the server's address (IP) to direct the request; clients also have IPs.  
+Result: Correct
+
+[00:45:29.395] Q: Do you know regular expressions? For example, how could you validate an email address?  
+[00:45:55.953] A: Use a template/pattern: check for presence of '@', ensure something exists after '@', check for a dot and that the domain part has at least two characters; use a regex-like pattern to validate.  
+Result: Partially Correct
+
+[00:46:29.226] Q: What is the difference between HTTP and HTTPS?  
+[00:46:44.375] A: HTTPS is more secure than HTTP; HTTPS involves added security (public/private keys, encryption).  
+Result: Correct
+
+[00:47:15.722] Q: What is the difference between a public key and a private key (in the context of HTTPS/SSH)?  
+[00:47:58.068] A: The public key is accessible to anyone; the private key is kept secret and only accessible to specific parties. They work together to secure communications.  
+Result: Partially Correct
+
+[00:49:13.160] Q: In asymmetric encryption, what roles do the public key and private key play? (High level, not memorized definitions.)  
+[00:49:23.682] A: Public and private keys are used together to make communication secure; asymmetric means different keys for encryption and decryption (not the same key).  
+Result: Partially Correct
+
+[00:50:31.233] Q: What is a digital certificate (high-level idea)?  
+[00:50:54.487] A: (Maria: uncertain / brief) Referred to it as a “sub-certificate” and noted certificates shown in the browser — didn't give a clear definition.  
+Result: Incorrect
+
+[00:51:08.444] Q: What is the purpose/benefit of hashing algorithms (e.g., SHA, MD5)?  
+[00:51:55.108] A: (Maria: vague) Said hashing is “like an easy communication to the computer” and referenced hex-like outputs; did not give a clear purpose.  
+Result: Incorrect
+
+[00:52:37.121] Q: How would you containerize a simple FastAPI (Python) application—what steps/instructions go into a Dockerfile (high level)?  
+[00:53:41.648] A: Use FROM to pick a base image (e.g., Python image), COPY application files and requirements, install dependencies (requirements.txt), and specify the CMD/entrypoint to run the app. Dockerfile provides instructions to create the image.  
+Result: Correct
+
+[00:56:07.920] Q: Once you have an image, what do you do next? How do you run it?  
+[00:56:21.501] A: Run the image to create a container (e.g., docker run or docker-compose). The image is a template; running it spawns a container process.  
+Result: Correct
+
+[00:57:49.251] Q: Why use containers instead of just installing Python and running the app on a host (what benefits do you see)?  
+[00:58:48.569] A: Containers ensure consistent environment/behavior across machines (portability); packaging and publishing images (e.g., Docker Hub) makes deployment easier and avoids differences across OS setups.  
+Result: Correct
+
+[00:59:59.453] Q: What are the benefits of CI/CD compared to manual deployment?  
+[01:00:03.424] A: CI/CD saves time by automating testing, building, and deployment; pipelines can run tests and deployments automatically. (Also mentioned some confusion about whether pipelines replace code reviews — noted pipelines can automate tests but approvals may still be required.)  
+Result: Partially Correct
+
+[01:02:02.004] Q: Can an AI agent (built using large language models and agent orchestration) perform actions like printing a document using a code-driven printer (i.e., integrate to execute external actions)?  
+[01:02:30.776] A: Yes — AI agents can be composed/integrated with other services/tools (ChatGPT + connectors, etc.) so they can trigger actions like printing via integrated components.  
+Result: Correct
+
+[01:03:11.527] Q: (Closing/soft) Did I pass? / How did I do?  
+[01:03:13.783] A: You're fine — you passed but need more preparation; performance was okay but not great.  
+Result: N/A (evaluative/feedback question — not a technical correctness check)
