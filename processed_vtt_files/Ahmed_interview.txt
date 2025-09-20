@@ -1,0 +1,50 @@
+[00:01:50] Q: Given the planning poker sequence (0, 1, 1, 2, 3, 5, 8, 13, 21…), with A=0 and B=1 provided, what logic would you use (loops allowed) to generate it up to a limit?
+[00:02:09] A: Loop for the desired count; keep two variables prev=0 and curr=1, print curr each iteration, compute next=prev+curr, then update prev=curr and curr=next; stop at the limit.
+
+[00:06:10] Q: Given a list like [2, 3, 4, 1, 6, 1, 3] and a target 5, how would you find and immediately print pairs that sum to 5?
+[00:11:35] A: Iterate by index and check neighbors: if L[i] + L[i+1] == 5, print L[i], L[i+1]. (Focused on adjacent pairs and printing as soon as a match is found.)
+
+[00:15:00] Q: For a high-traffic anonymous feedback app, would you store feedback in a list or a dictionary?
+[00:15:57] A: A dictionary, using key-value (e.g., username/email as key, feedback string as value).
+
+[00:17:21] Q: If the app exits and restarts, will the data stored in a dictionary still be there?
+[00:18:59] A: No. It’s in memory and will be lost on process exit.
+
+[00:21:33] Q: What would you do in Python to make the feedback persist across restarts?
+[00:22:03] A: Save it to a file before exit and load it back on startup to rebuild the dictionary.
+
+[00:23:14] Q: Is there a more robust option than plain files (e.g., against power loss)?
+[00:24:02] A: Use a database (e.g., SQL) to reliably persist data.
+
+[00:24:17] Q: Is a database a server or client application, and who executes queries and returns results?
+[00:24:40] A: It’s a server application; the database server executes queries and returns results to clients.
+
+[00:25:26] Q: What’s the difference between a client and a server? Can a server initiate requests?
+[00:25:26] A: The client sends requests; the server fulfills them. Servers don’t typically initiate client requests, but via webhooks a server can send outgoing HTTP requests to other services.
+
+[00:27:52] Q: What are APIs versus webhooks?
+[00:29:04] A: APIs expose endpoints clients (or other servers) call. Webhooks are event-driven callbacks—when an event occurs, a service sends an HTTP request to a configured URL (e.g., GitHub push triggering a Docker/CI action).
+
+[00:30:30] Q: What’s the relationship between an IP address and a port, and why specify ports like 80/443?
+[00:32:58] A: The IP identifies the host; the port identifies a specific service on that host. Multiple apps share one IP by using different ports; two apps can’t listen on the same IP:port at once. A machine can have multiple IPs (e.g., multiple interfaces).
+
+[00:34:25] Q: What is a version control system? Is Git one? What about GitHub?
+[00:34:47] A: Git is a version control system. GitHub hosts Git repositories in the cloud to enable collaboration.
+
+[00:35:06] Q: If two teammates push to main at the same time, what happens and how do you resolve it?
+[00:35:17] A: The first push succeeds; the second sees a conflict, must pull the latest, resolve conflicts, commit, and push again.
+
+[00:36:30] Q: In Docker, how do a Dockerfile, an image, and a container relate?
+[00:36:36] A: The Dockerfile defines how to build an image (blueprint with dependencies). A container is a running instance created from that image.
+
+[00:37:13] Q: Can you run more than one container from the same image?
+[00:37:23] A: Yes.
+
+[00:37:37] Q: Can two containers from the same image run on the same host port?
+[00:39:16] A: Not on the same host port. Each container must map to a unique host port (they can expose the same internal container port).
+
+[00:39:36] Q: What’s the benefit of having a CI/CD pipeline?
+[00:39:45] A: Automation—reduces manual steps and commands, standardizing and speeding up build, test, and deployment.
+
+[00:40:08] Q: How is a large language model different from an AI agent—what can an agent do that an LLM cannot?
+[00:40:52] A: Agents can take actions (e.g., make API calls, execute tasks). An LLM generates responses/instructions but doesn’t perform actions by itself.
